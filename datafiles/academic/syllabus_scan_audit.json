@@ -1,0 +1,28 @@
+{
+  "duplicate_pages": [
+    {
+      "pages": [
+        73,
+        74
+      ],
+      "duplicate_of": [
+        68,
+        69
+      ],
+      "source_code": "EC-343",
+      "title": "Embedded System Design"
+    }
+  ],
+  "visually_transcribed_pages": [
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "source": {
+    "path": "data/btech_ec_syll_22.pdf",
+    "sha256": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+    "published_at": null
+  }
+}

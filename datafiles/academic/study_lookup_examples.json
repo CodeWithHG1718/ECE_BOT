@@ -1,0 +1,1039 @@
+[
+  {
+    "query": "convolution",
+    "course": "ECC-106",
+    "method": "lexical_preview_not_embedding_similarity",
+    "status": "matches_found",
+    "books": [
+      {
+        "score": 3.5729,
+        "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 2: Linear Time-Invariant Systems. Contents topics: Discrete-Time LTI Systems: The Convolution Sum.; Continuous-Time LTI Systems: The Convolution Integral.; Properties of Linear Time-Invariant Systems.; Causal LTI Systems Described by Differential and Difference Equations.; Singularity Functions. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "lecture_url": null,
+        "chapter": 2,
+        "edition": "2nd edition",
+        "entity_id": "oppenheim-signals-2:chapter:2",
+        "evidence": [
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[2]",
+            "quote": "2. Linear Time-Invariant Systems"
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[1]",
+            "quote": "Discrete-Time LTI Systems: The Convolution Sum."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[2]",
+            "quote": "Continuous-Time LTI Systems: The Convolution Integral."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[3]",
+            "quote": "Properties of Linear Time-Invariant Systems."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[4]",
+            "quote": "Causal LTI Systems Described by Differential and Difference Equations."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[5]",
+            "quote": "Singularity Functions."
+          }
+        ]
+      },
+      {
+        "score": 2.1102,
+        "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "lecture_url": null,
+        "chapter": 4,
+        "edition": "2nd edition",
+        "entity_id": "oppenheim-signals-2:chapter:4",
+        "evidence": [
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[4]",
+            "quote": "4. The Continuous-Time Fourier Transform"
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[1]",
+            "quote": "Representation of Aperiodic Signals: The Continuous-Time Fourier Transform."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[2]",
+            "quote": "The Fourier Transform for Periodic Signals."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[3]",
+            "quote": "Properties of the Continuous-Time Fourier Transform."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[4]",
+            "quote": "The Convolution Property."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[5]",
+            "quote": "The Multiplication Property."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[6]",
+            "quote": "Tables of Fourier Properties and Basic Fourier Transform Pairs."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[7]",
+            "quote": "Systems Characterized by Linear Constant-Coefficient Differential Equations"
+          }
+        ]
+      },
+      {
+        "score": 2.1102,
+        "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 5: The Discrete-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Discrete-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.; Duality.; Systems Characterized by Linear Constant-Coefficient Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "lecture_url": null,
+        "chapter": 5,
+        "edition": "2nd edition",
+        "entity_id": "oppenheim-signals-2:chapter:5",
+        "evidence": [
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[5]",
+            "quote": "5. The Discrete-Time Fourier Transform."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[1]",
+            "quote": "Representation of Aperiodic Signals: The Discrete-Time Fourier Transform."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[2]",
+            "quote": "The Fourier Transform for Periodic Signals."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[3]",
+            "quote": "Properties of the Discrete-Time Fourier Transform."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[4]",
+            "quote": "The Convolution Property."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[5]",
+            "quote": "The Multiplication Property."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[6]",
+            "quote": "Tables of Fourier Transform Properties and Basic Fourier Transform Pairs."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[7]",
+            "quote": "Duality."
+          },
+          {
+            "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+            "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[8]",
+            "quote": "Systems Characterized by Linear Constant-Coefficient Difference Equations."
+          }
+        ]
+      }
+    ],
+    "lectures": [
+      {
+        "score": 3.5729,
+        "text": "Principles of Signals and Systems — Prof. Aditya Jagannatham (IIT Kanpur)\nWeek-3 Examples on Properties of Linear Systems. Lecture-14-Example Problems LTI Systems-I . Lecture 14: In this lecture Prof Aditya K. Jagannatham of IIT Kanpur explains the following concepts in Principles of Signals and Systems Example Problems LTI Systems â€“ 1. Convolution 2. Periodic Convolution 3. BIBO Stability Watch: https://www.youtube.com/watch?v=vMUbw25Look",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108104100",
+        "lecture_url": "https://www.youtube.com/watch?v=vMUbw25Look",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108104100:3:14",
+        "evidence": [
+          {
+            "source_version_id": "64ad56e93429afc9ef3819bf57b10cfa3a4b3a89d2f05a63bef7198cea97d15a",
+            "url": "https://nptel.ac.in/courses/108104100",
+            "retrieved_at": "2026-10-11T08:07:33.186700+00:00",
+            "locator": "courseOutline.units[id=3].lessons[id=14]",
+            "quote": "Lecture-14-Example Problems LTI Systems-I  "
+          }
+        ]
+      },
+      {
+        "score": 3.5729,
+        "text": "Principles of Signals and Systems — Prof. Aditya Jagannatham (IIT Kanpur)\nWeek-10 Discrete Time Fourier Transform[DTFT] and Discrete Fourier Transform [DFT]. Lecture-58-Discrete Time Fourier Transform: Properties of DTFT - Differentiation in Frequency, Difference in Time, Convolution, Multiplication, Parseval's Relation . Lecture 58: In this lecture Prof Aditya K. Jagannatham of IIT Kanpur explains the following concepts in Principles of Signals and Systems Discrete Time Fourier Transform Properties: 1. Differentiation in Frequency 2. Difference in Time 3. Convolution 4. Multiplication 5. Parsevalâ€™s Relation Watch: https://www.youtube.com/watch?v=iXNyn8MJBlU",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108104100",
+        "lecture_url": "https://www.youtube.com/watch?v=iXNyn8MJBlU",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108104100:10:58",
+        "evidence": [
+          {
+            "source_version_id": "64ad56e93429afc9ef3819bf57b10cfa3a4b3a89d2f05a63bef7198cea97d15a",
+            "url": "https://nptel.ac.in/courses/108104100",
+            "retrieved_at": "2026-10-11T08:07:33.186700+00:00",
+            "locator": "courseOutline.units[id=10].lessons[id=58]",
+            "quote": "Lecture-58-Discrete Time Fourier Transform: Properties of DTFT - Differentiation in Frequency, Difference in Time, Convolution, Multiplication, Parseval's Relation "
+          }
+        ]
+      },
+      {
+        "score": 3.5729,
+        "text": "Principles of Signals and Systems — Prof. Aditya Jagannatham (IIT Kanpur)\nWeek-10 Discrete Time Fourier Transform[DTFT] and Discrete Fourier Transform [DFT]. Lecture-61-Discrete Fourier Transform: Properties - Conjugation, Frequency Shift, Duality, Circular Convolution, Multiplication, Parseval's Relation, Example Problems for Fourier Analysis of Discrete Time Signals. Lecture 61: In this lecture Prof Aditya K. Jagannatham of IIT Kanpur explains the following concepts in Principles of Signals and Systems Discrete Fourier Transform: Properties â€“ 1. Conjugation 2. Frequency Shift 3. Duality 4. Circular Convolution 5. Multiplication 6. Parsevalâ€™s Relation 7. Example Problems for Fourier Analysis of Discrete Time Signals Watch: https://www.youtube.com/watch?v=W7-PmVeKCMg",
+        "matched_terms": [
+          "convolution"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108104100",
+        "lecture_url": "https://www.youtube.com/watch?v=W7-PmVeKCMg",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108104100:10:61",
+        "evidence": [
+          {
+            "source_version_id": "64ad56e93429afc9ef3819bf57b10cfa3a4b3a89d2f05a63bef7198cea97d15a",
+            "url": "https://nptel.ac.in/courses/108104100",
+            "retrieved_at": "2026-10-11T08:07:33.186700+00:00",
+            "locator": "courseOutline.units[id=10].lessons[id=61]",
+            "quote": "Lecture-61-Discrete Fourier Transform: Properties - Conjugation, Frequency Shift, Duality, Circular Convolution, Multiplication, Parseval's Relation, Example Problems for Fourier Analysis of Discrete Time Signals"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Boolean algebra",
+    "course": "ECC-104",
+    "method": "lexical_preview_not_embedding_similarity",
+    "status": "matches_found",
+    "books": [
+      {
+        "score": 13.6902,
+        "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 2: Boolean Algebra and Logic Gates. Contents topics: 2.1 Introduction; 2.2 Basic Definitions; 2.3 Axiomatic Definition of Boolean Algebra; 2.4 Basic Theorems and Properties of Boolean Algebra; 2.5 Boolean Functions; 2.6 Canonical and Standard Forms; 2.7 Other Logic Operations; 2.8 Digital Logic Gates; 2.9 Integrated Circuits Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+        "matched_terms": [
+          "algebra",
+          "boolean"
+        ],
+        "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "lecture_url": null,
+        "chapter": 2,
+        "edition": "6th edition",
+        "entity_id": "mano-digital-6:chapter:2",
+        "evidence": [
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[13]",
+            "quote": "2 Boolean Algebra and Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[14]",
+            "quote": "2.1 Introduction"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[15]",
+            "quote": "2.2 Basic Definitions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[16]",
+            "quote": "2.3 Axiomatic Definition of Boolean Algebra"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[17]",
+            "quote": "2.4 Basic Theorems and Properties of Boolean Algebra"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[18]",
+            "quote": "2.5 Boolean Functions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[19]",
+            "quote": "2.6 Canonical and Standard Forms"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[20]",
+            "quote": "2.7 Other Logic Operations"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[21]",
+            "quote": "2.8 Digital Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[22]",
+            "quote": "2.9 Integrated Circuits"
+          }
+        ]
+      },
+      {
+        "score": 1.4358,
+        "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 9: Laboratory Experiments with Standard ICs and FPGAs. Contents topics: 9.1 Introduction to Experiments; 9.2 Experiment 1: Binary and Decimal Numbers; 9.3 Experiment 2: Digital Logic Gates; 9.4 Experiment 3: Simplification of Boolean Functions; 9.5 Experiment 4: Combinational Circuits; 9.6 Experiment 5: Code Converters; 9.7 Experiment 6: Design with Multiplexers; 9.8 Experiment 7: Adders and Subtractors; 9.9 Experiment 8: FlipFlops; 9.10 Experiment 9: Sequential Circuits; 9.11 Experiment 10: Counters; 9.12 Experiment 11: Shift Registers; 9.13 Experiment 12: Serial Addition; 9.14 Experiment 13: Memory Unit; 9.15 Experiment 14: Lamp Handball; 9.16 Experiment 15: ClockPulse Generator; 9.17 Experiment 16: Parallel Adder and Accumulator; 9.18 Experiment 17: Binary Multiplier; 9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+        "matched_terms": [
+          "boolean"
+        ],
+        "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "lecture_url": null,
+        "chapter": 9,
+        "edition": "6th edition",
+        "entity_id": "mano-digital-6:chapter:9",
+        "evidence": [
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[92]",
+            "quote": "9 Laboratory Experiments with Standard ICs and FPGAs"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[93]",
+            "quote": "9.1 Introduction to Experiments"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[94]",
+            "quote": "9.2 Experiment 1: Binary and Decimal Numbers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[95]",
+            "quote": "9.3 Experiment 2: Digital Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[96]",
+            "quote": "9.4 Experiment 3: Simplification of Boolean Functions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[97]",
+            "quote": "9.5 Experiment 4: Combinational Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[98]",
+            "quote": "9.6 Experiment 5: Code Converters"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[99]",
+            "quote": "9.7 Experiment 6: Design with Multiplexers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[100]",
+            "quote": "9.8 Experiment 7: Adders and Subtractors"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[101]",
+            "quote": "9.9 Experiment 8: FlipFlops"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[102]",
+            "quote": "9.10 Experiment 9: Sequential Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[103]",
+            "quote": "9.11 Experiment 10: Counters"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[104]",
+            "quote": "9.12 Experiment 11: Shift Registers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[105]",
+            "quote": "9.13 Experiment 12: Serial Addition"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[106]",
+            "quote": "9.14 Experiment 13: Memory Unit"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[107]",
+            "quote": "9.15 Experiment 14: Lamp Handball"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[108]",
+            "quote": "9.16 Experiment 15: ClockPulse Generator"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[109]",
+            "quote": "9.17 Experiment 16: Parallel Adder and Accumulator"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[110]",
+            "quote": "9.18 Experiment 17: Binary Multiplier"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[111]",
+            "quote": "9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs"
+          }
+        ]
+      }
+    ],
+    "lectures": []
+  },
+  {
+    "query": "combinational logic",
+    "course": "ECC-104",
+    "method": "lexical_preview_not_embedding_similarity",
+    "status": "matches_found",
+    "books": [
+      {
+        "score": 6.8498,
+        "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 4: Combinational Logic. Contents topics: 4.1 Introduction; 4.2 Combinational Circuits; 4.3 Analysis of Combinational Circuits; 4.4 Design Procedure; 4.5 Binary Adder—Subtractor; 4.6 Decimal Adder; 4.7 Binary Multiplier; 4.8 Magnitude Comparator; 4.9 Decoders; 4.10 Encoders; 4.11 Multiplexers; 4.12 HDL Models of Combinational Circuits Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+        "matched_terms": [
+          "combinational",
+          "logic"
+        ],
+        "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "lecture_url": null,
+        "chapter": 4,
+        "edition": "6th edition",
+        "entity_id": "mano-digital-6:chapter:4",
+        "evidence": [
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[35]",
+            "quote": "4 Combinational Logic"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[36]",
+            "quote": "4.1 Introduction"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[37]",
+            "quote": "4.2 Combinational Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[38]",
+            "quote": "4.3 Analysis of Combinational Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[39]",
+            "quote": "4.4 Design Procedure"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[40]",
+            "quote": "4.5 Binary Adder—Subtractor"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[41]",
+            "quote": "4.6 Decimal Adder"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[42]",
+            "quote": "4.7 Binary Multiplier"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[43]",
+            "quote": "4.8 Magnitude Comparator"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[44]",
+            "quote": "4.9 Decoders"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[45]",
+            "quote": "4.10 Encoders"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[46]",
+            "quote": "4.11 Multiplexers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[47]",
+            "quote": "4.12 HDL Models of Combinational Circuits"
+          }
+        ]
+      },
+      {
+        "score": 3.7534,
+        "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 9: Laboratory Experiments with Standard ICs and FPGAs. Contents topics: 9.1 Introduction to Experiments; 9.2 Experiment 1: Binary and Decimal Numbers; 9.3 Experiment 2: Digital Logic Gates; 9.4 Experiment 3: Simplification of Boolean Functions; 9.5 Experiment 4: Combinational Circuits; 9.6 Experiment 5: Code Converters; 9.7 Experiment 6: Design with Multiplexers; 9.8 Experiment 7: Adders and Subtractors; 9.9 Experiment 8: FlipFlops; 9.10 Experiment 9: Sequential Circuits; 9.11 Experiment 10: Counters; 9.12 Experiment 11: Shift Registers; 9.13 Experiment 12: Serial Addition; 9.14 Experiment 13: Memory Unit; 9.15 Experiment 14: Lamp Handball; 9.16 Experiment 15: ClockPulse Generator; 9.17 Experiment 16: Parallel Adder and Accumulator; 9.18 Experiment 17: Binary Multiplier; 9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+        "matched_terms": [
+          "combinational",
+          "logic"
+        ],
+        "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "lecture_url": null,
+        "chapter": 9,
+        "edition": "6th edition",
+        "entity_id": "mano-digital-6:chapter:9",
+        "evidence": [
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[92]",
+            "quote": "9 Laboratory Experiments with Standard ICs and FPGAs"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[93]",
+            "quote": "9.1 Introduction to Experiments"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[94]",
+            "quote": "9.2 Experiment 1: Binary and Decimal Numbers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[95]",
+            "quote": "9.3 Experiment 2: Digital Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[96]",
+            "quote": "9.4 Experiment 3: Simplification of Boolean Functions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[97]",
+            "quote": "9.5 Experiment 4: Combinational Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[98]",
+            "quote": "9.6 Experiment 5: Code Converters"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[99]",
+            "quote": "9.7 Experiment 6: Design with Multiplexers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[100]",
+            "quote": "9.8 Experiment 7: Adders and Subtractors"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[101]",
+            "quote": "9.9 Experiment 8: FlipFlops"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[102]",
+            "quote": "9.10 Experiment 9: Sequential Circuits"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[103]",
+            "quote": "9.11 Experiment 10: Counters"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[104]",
+            "quote": "9.12 Experiment 11: Shift Registers"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[105]",
+            "quote": "9.13 Experiment 12: Serial Addition"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[106]",
+            "quote": "9.14 Experiment 13: Memory Unit"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[107]",
+            "quote": "9.15 Experiment 14: Lamp Handball"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[108]",
+            "quote": "9.16 Experiment 15: ClockPulse Generator"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[109]",
+            "quote": "9.17 Experiment 16: Parallel Adder and Accumulator"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[110]",
+            "quote": "9.18 Experiment 17: Binary Multiplier"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[111]",
+            "quote": "9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs"
+          }
+        ]
+      },
+      {
+        "score": 1.5948,
+        "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 2: Boolean Algebra and Logic Gates. Contents topics: 2.1 Introduction; 2.2 Basic Definitions; 2.3 Axiomatic Definition of Boolean Algebra; 2.4 Basic Theorems and Properties of Boolean Algebra; 2.5 Boolean Functions; 2.6 Canonical and Standard Forms; 2.7 Other Logic Operations; 2.8 Digital Logic Gates; 2.9 Integrated Circuits Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+        "matched_terms": [
+          "logic"
+        ],
+        "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "lecture_url": null,
+        "chapter": 2,
+        "edition": "6th edition",
+        "entity_id": "mano-digital-6:chapter:2",
+        "evidence": [
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[13]",
+            "quote": "2 Boolean Algebra and Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[14]",
+            "quote": "2.1 Introduction"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[15]",
+            "quote": "2.2 Basic Definitions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[16]",
+            "quote": "2.3 Axiomatic Definition of Boolean Algebra"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[17]",
+            "quote": "2.4 Basic Theorems and Properties of Boolean Algebra"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[18]",
+            "quote": "2.5 Boolean Functions"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[19]",
+            "quote": "2.6 Canonical and Standard Forms"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[20]",
+            "quote": "2.7 Other Logic Operations"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[21]",
+            "quote": "2.8 Digital Logic Gates"
+          },
+          {
+            "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+            "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+            "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[22]",
+            "quote": "2.9 Integrated Circuits"
+          }
+        ]
+      }
+    ],
+    "lectures": [
+      {
+        "score": 3.7534,
+        "text": "Digital Circuits and Systems — Prof. S. Srinivasan (IIT Madras)\nDigital Circuits and Systems. Combinational Logic Basics. Watch: https://www.youtube.com/watch?v=sUutDs7FFeA",
+        "matched_terms": [
+          "combinational",
+          "logic"
+        ],
+        "source_url": "https://nptel.ac.in/courses/117106086",
+        "lecture_url": "https://www.youtube.com/watch?v=sUutDs7FFeA",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-117106086:1:3",
+        "evidence": [
+          {
+            "source_version_id": "7ced8914b72f9ee97e7581934e3ebefe6cea098e0c253c46ed5795b147f783d6",
+            "url": "https://nptel.ac.in/courses/117106086",
+            "retrieved_at": "2026-10-11T08:07:34.694897+00:00",
+            "locator": "courseOutline.units[id=1].lessons[id=3]",
+            "quote": "Combinational Logic Basics"
+          }
+        ]
+      },
+      {
+        "score": 1.1168,
+        "text": "Digital Circuits and Systems — Prof. S. Srinivasan (IIT Madras)\nDigital Circuits and Systems. Combinational Circuits. Watch: https://www.youtube.com/watch?v=XCiLHOZsQl8",
+        "matched_terms": [
+          "combinational"
+        ],
+        "source_url": "https://nptel.ac.in/courses/117106086",
+        "lecture_url": "https://www.youtube.com/watch?v=XCiLHOZsQl8",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-117106086:1:4",
+        "evidence": [
+          {
+            "source_version_id": "7ced8914b72f9ee97e7581934e3ebefe6cea098e0c253c46ed5795b147f783d6",
+            "url": "https://nptel.ac.in/courses/117106086",
+            "retrieved_at": "2026-10-11T08:07:34.694897+00:00",
+            "locator": "courseOutline.units[id=1].lessons[id=4]",
+            "quote": "Combinational Circuits"
+          }
+        ]
+      },
+      {
+        "score": 0.7599,
+        "text": "Digital Circuits and Systems — Prof. S. Srinivasan (IIT Madras)\nDigital Circuits and Systems. Logic Simplification. Watch: https://www.youtube.com/watch?v=FwJalVfvn50",
+        "matched_terms": [
+          "logic"
+        ],
+        "source_url": "https://nptel.ac.in/courses/117106086",
+        "lecture_url": "https://www.youtube.com/watch?v=FwJalVfvn50",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-117106086:1:5",
+        "evidence": [
+          {
+            "source_version_id": "7ced8914b72f9ee97e7581934e3ebefe6cea098e0c253c46ed5795b147f783d6",
+            "url": "https://nptel.ac.in/courses/117106086",
+            "retrieved_at": "2026-10-11T08:07:34.694897+00:00",
+            "locator": "courseOutline.units[id=1].lessons[id=5]",
+            "quote": "Logic Simplification"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "waveguides",
+    "course": "ECC-303",
+    "method": "lexical_preview_not_embedding_similarity",
+    "status": "matches_found",
+    "books": [
+      {
+        "score": 2.3979,
+        "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 3: Transmission Lines and Waveguides.",
+        "matched_terms": [
+          "waveguides"
+        ],
+        "source_url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10490",
+        "lecture_url": null,
+        "chapter": 3,
+        "edition": "3rd edition",
+        "entity_id": "pozar-microwave-3:chapter:3",
+        "evidence": [
+          {
+            "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+            "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+            "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+            "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+            "quote": "Chapter 3: Transmission Lines and Waveguides"
+          }
+        ]
+      }
+    ],
+    "lectures": [
+      {
+        "score": 5.0323,
+        "text": "Microwave Engineering — Prof. Ratnajit Bhattacharjee (IIT Guwahati)\nWeek 2: Rectangular and Circular waveguides. Lec 1: Introduction to waveguides, te and tm modes in rectangular waveguides. Watch: https://www.youtube.com/watch?v=k-zeCttEYVQ",
+        "matched_terms": [
+          "waveguides"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108103141",
+        "lecture_url": "https://www.youtube.com/watch?v=k-zeCttEYVQ",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108103141:2:5",
+        "evidence": [
+          {
+            "source_version_id": "32de60022ced48726a932e3d49b0e1543626c8231be233d751bd0d6bf1e3ce10",
+            "url": "https://nptel.ac.in/courses/108103141",
+            "retrieved_at": "2026-10-11T08:15:23.838882+00:00",
+            "locator": "courseOutline.units[id=2].lessons[id=5]",
+            "quote": "Lec 1: Introduction to waveguides, te and tm modes in rectangular waveguides"
+          }
+        ]
+      },
+      {
+        "score": 4.06,
+        "text": "Microwave Engineering — Prof. Ratnajit Bhattacharjee (IIT Guwahati)\nWeek 2: Rectangular and Circular waveguides. Lec 2: Te and Tm modes in circular waveguides. Watch: https://www.youtube.com/watch?v=d0wWbgqkwJc",
+        "matched_terms": [
+          "waveguides"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108103141",
+        "lecture_url": "https://www.youtube.com/watch?v=d0wWbgqkwJc",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108103141:2:6",
+        "evidence": [
+          {
+            "source_version_id": "32de60022ced48726a932e3d49b0e1543626c8231be233d751bd0d6bf1e3ce10",
+            "url": "https://nptel.ac.in/courses/108103141",
+            "retrieved_at": "2026-10-11T08:15:23.838882+00:00",
+            "locator": "courseOutline.units[id=2].lessons[id=6]",
+            "quote": "Lec 2: Te and Tm modes in circular waveguides"
+          }
+        ]
+      },
+      {
+        "score": 4.06,
+        "text": "Microwave Engineering — Prof. Ratnajit Bhattacharjee (IIT Guwahati)\nWeek 2: Rectangular and Circular waveguides. Lec 3: Attenuation in rectangular and circular waveguides. Watch: https://www.youtube.com/watch?v=LfpeoJqkBwI",
+        "matched_terms": [
+          "waveguides"
+        ],
+        "source_url": "https://nptel.ac.in/courses/108103141",
+        "lecture_url": "https://www.youtube.com/watch?v=LfpeoJqkBwI",
+        "chapter": null,
+        "edition": null,
+        "entity_id": "nptel-108103141:2:7",
+        "evidence": [
+          {
+            "source_version_id": "32de60022ced48726a932e3d49b0e1543626c8231be233d751bd0d6bf1e3ce10",
+            "url": "https://nptel.ac.in/courses/108103141",
+            "retrieved_at": "2026-10-11T08:15:23.838882+00:00",
+            "locator": "courseOutline.units[id=2].lessons[id=7]",
+            "quote": "Lec 3: Attenuation in rectangular and circular waveguides"
+          }
+        ]
+      }
+    ]
+  }
+]

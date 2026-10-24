@@ -1,0 +1,90 @@
+{
+  "source": "data/btech_ec_syll_22.pdf",
+  "method": "visual_transcription_from_rendered_source_pages",
+  "duplicate_pages": [{"pages": [73, 74], "duplicate_of": [68, 69], "source_code": "EC-343", "title": "Embedded System Design"}],
+  "courses": [
+    {
+      "source_code": "ECN-347",
+      "title": "Introduction to Microwave Semiconductor Device Modelling Techniques",
+      "pages": [75, 76],
+      "credits_raw": "4",
+      "contact_hours_raw": "L: 3; T: 1; P: 0",
+      "semester_raw": "Both",
+      "subject_area": "PEC",
+      "assessment_raw": "CWS: 20-35; PRS: 0; MTE: 20-30; ETE: 40-50; PRE: 0",
+      "prerequisites_raw": "Knowledge of operating principles of Electronic Devices.",
+      "objectives": "To introduce methods for modelling of semiconductor devices for RF/Microwave applications.",
+      "topics": [
+        ["Introduction: General RF circuit terminology and operations, Noise, diode and transistor based RF circuits - Switches, attenuators, amplifiers, frequency multipliers and phase shifter circuits, Device parasitic, thermal behavior and device nonlinearities.", "7"],
+        ["Device parameter extraction technique: Extrinsic and intrinsic parameter extraction - Open, short, thru, open-short-thru, Multiport de-embedding, examples of de-embedding, Load pull techniques.", "6"],
+        ["Modelling of Diodes: Conventional PN junction diode modelling, PIN diode modelling - lumped element modelling, equivalent circuit models, integral based model, reverse bias modelling, forward and reverse bias distortions, time domain models, modelling of varactor and schottkey diodes, modelling of Tunnel diode, modelling of Gunn diode.", "6"],
+        ["Modelling of MESFET/MOSFET and HEMT Devices: Bulk MESFET/MOSFET technology, MESFET/MOSFET capacitance characteristics, HEMT technology, MESFET/MOSFET and HEMT device characteristics, HBT device characteristics, SPICE modelling, Angelov and ASM HEMT models, HBT noise model, MESFET/MOSFET and HEMT noise model.", "8"],
+        ["Switched RF Circuits: Basic Transmit/receive (T/R) switches, Specific T/R switches - two device SPDT switch, 4 device SPDT switches, tunes λ/4 transmission line SPDT T/R switches, switched passive elements for tuning and matching, RF attenuators, RF limiters and phase shifters.", "8"],
+        ["Transistor based RF Circuits: Small and large signal transistor based circuits, design of single stage amplifier using HBT/MESFET/HEMT/MOSFET, Frequency multipliers.", "7"]
+      ],
+      "books": [
+        ["R. H. Caverly, Microwave and RF Semiconductor Control Device Modelling, Artech House", "2016"],
+        ["S. M. Sze and K. K. Ng, Physics of Semiconductor Devices, John Wiley & Sons", "2007"],
+        ["K. Chang, I. Bahl and V. Nair, RF and Microwave Circuit and Component Design for Wireless Systems, John Wiley & Sons", "2002"],
+        ["G. D. Vendelin, A. M. Pavio and U. L. Rohde, Microwave Circuit Design using Linear and Nonlinear Techniques, John Wiley & Sons", "2005"],
+        ["E. Camargo, Design of FET Frequency Multipliers and Harmonic Oscillators, Artech House", "1998"]
+      ]
+    },
+    {
+      "source_code": "ECN-357",
+      "title": "Electronic Sub-Systems",
+      "pages": [77, 78],
+      "credits_raw": "4",
+      "contact_hours_raw": "L: 3; T: 1; P: 0",
+      "semester_raw": "Both",
+      "subject_area": "PEC",
+      "assessment_raw": "CWS: 20-35; PRS: 0; MTE: 20-30; ETE: 40-50; PRE: 0",
+      "prerequisites_raw": "Knowledge of Network theory, signals and systems and digital logic.",
+      "objectives": "To understand the operation, design and analysis of important electronic sub-systems.",
+      "topics": [
+        ["Synthesis of Passive Networks: RC, RL, RLC networks. Preliminaries of Passive Network Synthesis: Foster Form, Cauer Form, Brune, Bot-Duffin, Darlington. Biquadratic Synthesis of One-Port RLC Networks, Synthesis of n-Port Resistive Networks: Basic notations and Realizations.", "7"],
+        ["Active filters: Review of Operational Amplifier (Op-Amp), transfer functions, first/second order active filters, types of active filters: low-pass active filter, high-pass active filter, band-pass active filter, band-reject (Notch) active filter, all-pass active filter, biquad filter, sensitivity, filter approximation introduction to switched capacitor filters.", "10"],
+        ["Digital Sub-Systems: Review of adders, subtraction, overflow, ripple carry adders, high-speed adders; Sequential Multiplication: Add-and-shift approach, booth's algorithm; parallel multiplication: Wallace trees; sequential division, shift registers, decoder/multiplexers, Memories: Organization, types of memories, operation of memory.", "8"],
+        ["Noise in Electronic Sub-Systems: Power spectral density, Circuit noise: Input referred noise, noise equivalent bandwidth, thermal noise, noise figure, noise temperature, shot noise, flicker noise, other noise sources, correlation, noise and feedback, jitter and transients.", "9"],
+        ["Mixed-Signal Systems: ADC/DAC: Nyquist-rate converters, oversampling converters, ideal A/D converter, Quantization noise, Resolution, offset and gain error, Integral non-linearity (INL) error, Differential non-linearity (DNL) error, ideal D/A converter, Nyquist-rate D/A converters, Nyquist-rate A/D converters, oversampling converter. PLL: Block-diagram of PLL, order of PLL system, PLL Frequency Synthesizers, higher-order PLLs, Computer-Aided-Design of PLLs.", "8"]
+      ],
+      "books": [
+        ["Network Analysis and Synthesis, by Franklin F. Kuo, Wiley", "2006"],
+        ["Principles of Active Network Synthesis and Design, by Gobin Daryanani, Wiley", "2003"],
+        ["CMOS: Circuit Design, Layout and Simulation, R. Jacob Baker, Wiley", "2017"],
+        ["Arithmetic and Logic in Computer Systems, by Mi Lu, Wiley", "2004"],
+        ["Digital Electronics: Sequential and Arithmetic Logic Circuits, by Tertulien Ndjountche, Wiley", "2016"]
+      ]
+    },
+    {
+      "source_code": "ECN-358",
+      "title": "Machine Learning in Semiconductor Manufacturing",
+      "pages": [79],
+      "credits_raw": "4",
+      "contact_hours_raw": "L: 3; T: 1; P: 0",
+      "semester_raw": "Both",
+      "subject_area": "PEC",
+      "assessment_raw": "CWS: 20-35; PRS: 0; MTE: 20-30; ETE: 40-50; PRE: 0",
+      "prerequisites_raw": "None",
+      "objectives": "To understand machine learning and its application in semiconductor manufacturing by enhancing statistical process control (SPC).",
+      "topics": [
+        ["Semiconductor Manufacturing: Manufacturing and quality control, semiconductor manufacturing unit processes and process organization.", "4"],
+        ["Process Monitoring: Process flow, wafer state measurements, equipment state measurements.", "2"],
+        ["Statistical Process Control (SPC): Probability distributions, sampling, estimation, hypothesis testing, Control charts: single and multivariate.", "6"],
+        ["Machine Learning: Introduction to the machine learning paradigm, difference from SPC.", "4"],
+        ["Regression: Linear regression, regularization, K-nearest neighbors (KNN), resampling techniques, subset selection. Non-linear regression: Polynomial, generalized additive models (GAMs).", "8"],
+        ["Classification: Logistic regression, application in defect detection in semiconductors.", "4"],
+        ["Unsupervised Learning: Clustering, PCA, anomaly detection in semiconductor manufacturing using unsupervised learning.", "4"],
+        ["Support Vector Machines: Maximal margin classifier, support vector classifier. Application to improving yield in semiconductor manufacturing.", "4"],
+        ["Early Detection and Remediation: Fault detection using SPC vs machine learning. Beyond detection: Early remediation with machine learning.", "4"],
+        ["Extension to other industries: Electronics Component manufacturing, etc.", "2"]
+      ],
+      "books": [
+        ["Gary S. May, Costas J. Spanos, Fundamentals of Semiconductor Manufacturing and Process Control, Wiley", "2006"],
+        ["Douglas Montgomery, George Runger, Applied Statistics and Probability for Engineers, 7th edition, Wiley", "2018"],
+        ["Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, An Introduction to Statistical Learning, Springer", "2013"],
+        ["Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep learning, MIT Press", "2016"]
+      ]
+    }
+  ]
+}

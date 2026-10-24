@@ -1,0 +1,815 @@
+{
+  "policy": "Use the supplied curriculum as the project course catalogue. Reuse syllabus content by title and topic, as requested by the user. Preserve original codes and academic metadata. These are project content associations, not institute-issued equivalence certificates.",
+  "mappings": [
+    {
+      "curriculum_code": "HSI-101",
+      "syllabus_codes": [
+        "HS-001A",
+        "HS-001B"
+      ],
+      "coverage": "partial",
+      "reason": "Communication skills and presentation content supports the Soft Skills course; does not cover every possible soft-skill topic.",
+      "syllabus_ids": [
+        "234413e878c29b5a9939fd87",
+        "83350f5482068aedc5c274cd"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 4",
+          "quote": "1 | HSI-101 | Soft Skills | HSSC | 3 |  | 2 | 0 | 2 | 2 | 0 | 10-25 | 25 | 15-25 | 30-40 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 41,
+          "locator": "course header",
+          "quote": "Subject Code: HS-001A Course Title: Communication Skills (Basic)"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 43,
+          "locator": "course header",
+          "quote": "Subject Code: HS-001B Course Title: Communication Skills\n(Advanced)"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "MAI-101",
+      "syllabus_codes": [
+        "MAN-001"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Mathematics I: calculus and foundational mathematical methods.",
+      "syllabus_ids": [
+        "b3fc0ea695fc216c48fedf20"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 5",
+          "quote": "2 | MAI-101 | Mathematics-I | BSC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 47,
+          "locator": "course header",
+          "quote": "Subject Code: MAN-001 Course Title: Mathematics I"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "PHI-101",
+      "syllabus_codes": [
+        "PHN-005"
+      ],
+      "coverage": "partial",
+      "reason": "Electrodynamics and optics provide Physics-I study material; the newer Physics-I syllabus is not supplied.",
+      "syllabus_ids": [
+        "b57b6468d663a8bde6a398f6"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 6",
+          "quote": "3 | PHI-101 | Physics-I | BSC | 4 |  | 3 | 1 | 2/2 | 3 | 0 | 15-30 | 20 | 15-25 | 30-40 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 49,
+          "locator": "course header",
+          "quote": "Subject Code: PHN-005 Course Title: Electrodynamics and Optics"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-101",
+      "syllabus_codes": [
+        "CSN-103"
+      ],
+      "coverage": "partial",
+      "reason": "Programming foundations and object-oriented programming. Legacy examples use Java; the current course language is not established.",
+      "syllabus_ids": [
+        "17d92e7e5fcbcbde91a58e1c"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 7",
+          "quote": "4 | ECC-101 | Introduction to Programming | PCC | 4 |  | 3 | 0 | 2/2 | 3 | 0 | 15-30 | 20 | 15-25 | 30-40 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 5,
+          "locator": "course header",
+          "quote": "Subject Code: CSN-103 Course Title: Fundamentals of Object Oriented\nProgramming"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "CSE-101",
+      "syllabus_codes": [
+        "CSN-102"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Data structures and algorithms: lists, stacks, queues, trees, graphs and complexity.",
+      "syllabus_ids": [
+        "bee7d629bc3679e38ce05c68"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 10",
+          "quote": "6 | CSE-101 | Data Structures and Algorithms | ESC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 3,
+          "locator": "course header",
+          "quote": "Subject Code: CSN-102 Course Title: Data Structures"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ESS-102",
+      "syllabus_codes": [
+        "CEN-105"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Environmental science, sustainability, pollution, ecosystems and resources.",
+      "syllabus_ids": [
+        "a97217ea85a4fa1f6a3ffc0c"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 4,
+          "locator": "table 1 row 15",
+          "quote": "3 | ESS-102 | Environmental Science and Sustainability | ESSC | 3 |  | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 39,
+          "locator": "course header",
+          "quote": "Subject code: CEN-105 Course Title: Introduction to Environmental Studies"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-102",
+      "syllabus_codes": [
+        "ECN-142"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Semiconductor devices: junctions, diodes, transistors and operating principles.",
+      "syllabus_ids": [
+        "cb4b0fbe8c2ad14e1bda37d7"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 2",
+          "quote": "1 | ECC-102 | Semiconductor Devices and Applications | Spring | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 15,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-142 Course Title: Semiconductor Devices"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-104",
+      "syllabus_codes": [
+        "ECN-104"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Digital logic: Boolean algebra, combinational and sequential circuits.",
+      "syllabus_ids": [
+        "34be0dc6681596152910cd6c"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 3",
+          "quote": "2 | ECC-104 | Digital Logic and Systems | Spring | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 13,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-104 Course Title: Digital Logic Design"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-106",
+      "syllabus_codes": [
+        "ECN-203"
+      ],
+      "coverage": "same_title",
+      "reason": "Both are Signals and Systems; match is based on title and content, not course-number similarity.",
+      "syllabus_ids": [
+        "217d704e6146f5da18c23bb8"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 4",
+          "quote": "3 | ECC-106 | Signals and Systems | Autumn | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 17,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-203 Course Title: Signals and Systems"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-201",
+      "syllabus_codes": [
+        "ECN-311"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Communication systems and techniques provide communication-system foundations.",
+      "syllabus_ids": [
+        "336be5647874fe716c5ddcfb"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 5",
+          "quote": "4 | ECC-201 | Fundamentals of Communication System | Autumn | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 53,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-311 Course Title: Communication Systems and Techniques"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-203",
+      "syllabus_codes": [
+        "ECN-232",
+        "ECN-331"
+      ],
+      "coverage": "combined_topic_match",
+      "reason": "Combine Engineering Electromagnetics and Antenna Theory for electromagnetics and radiating systems.",
+      "syllabus_ids": [
+        "6059f012c2ae6bd0dbe3f51e",
+        "ff4b68e14b013b0951e3d052"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 6",
+          "quote": "5 | ECC-203 | Electromagnetics and Radiating Systems | Spring | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 23,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-232 Course Title: Engineering Electromagnetics"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 57,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-331 Course Title: Antenna Theory"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-205",
+      "syllabus_codes": [
+        "ECN-291"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Electronic Network Theory supplies network analysis content.",
+      "syllabus_ids": [
+        "fdff70a5cccbf5ec7ff225b1"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 5,
+          "locator": "table 1 row 8",
+          "quote": "5 | ECC-205 | Network Theory | PCC | 2 | 2 | 0 | 0 | 2 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 27,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-291 Course Title: Electronic Network Theory"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "PHB-102",
+      "syllabus_codes": [
+        "PHN-006"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Quantum mechanics and statistical mechanics match the curriculum subject.",
+      "syllabus_ids": [
+        "c4c39b4e85b652a930d42821"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 5,
+          "locator": "table 1 row 14",
+          "quote": "2 | PHB-102 | Quantum and Statistical Mechanics | BSC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 37,
+          "locator": "course header",
+          "quote": "Subject Code: PHN-006 Course Title: Quantum Mechanics and Statistical\nMechanics"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "EEE-101",
+      "syllabus_codes": [
+        "ECN-222"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Automatic Control Systems provides modelling, stability and control-system design.",
+      "syllabus_ids": [
+        "441cfb1a490c8687e02efc4b"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 5,
+          "locator": "table 1 row 15",
+          "quote": "3 | EEE-101 | Control System Engineering | ESC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 51,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-222 Course Title: Automatic Control Systems"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-202",
+      "syllabus_codes": [
+        "ECN-212"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Principles of Digital Communication supplies digital communication content.",
+      "syllabus_ids": [
+        "7ff4df8898ec637f06846631"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 7",
+          "quote": "6 | ECC-202 | Digital Communications | Spring | 3"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 21,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-212 Course Title: Principles of Digital Communication"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-204",
+      "syllabus_codes": [
+        "ECN-205"
+      ],
+      "coverage": "same_title",
+      "reason": "Both are Analog Circuits.",
+      "syllabus_ids": [
+        "733385ed09ea93931ab5d07b"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 8",
+          "quote": "7 | ECC-204 | Analog Circuits | Autumn | 3"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 19,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-205 Course Title: Analog Circuits"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-301",
+      "syllabus_codes": [
+        "ECN-312"
+      ],
+      "coverage": "same_title",
+      "reason": "Both are Digital Signal Processing.",
+      "syllabus_ids": [
+        "394ac997c6221b626aef03a7"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 10",
+          "quote": "9 | ECC-301 | Digital Signal Processing | Autumn | 3"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 55,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-312 Course Title: Digital Signal Processing"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-303",
+      "syllabus_codes": [
+        "ECN-333"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Microwave Techniques covers microwave engineering topics and components.",
+      "syllabus_ids": [
+        "3fed6ef8f769a5d2b27a4b04"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 1 row 9",
+          "quote": "8 | ECC-303 | Microwave Engineering | Autumn | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 59,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-333 Course Title: Microwave Techniques"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-305",
+      "syllabus_codes": [
+        "ECN-252",
+        "ECN-351"
+      ],
+      "coverage": "combined_topic_match",
+      "reason": "Digital Electronic Circuits Laboratory plus IC Applications Laboratory cover the two named lab areas.",
+      "syllabus_ids": [
+        "7185e7df39e3a3aca2ef92bd",
+        "ea8ea357c0a425ed788a5111"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 6,
+          "locator": "table 1 row 7",
+          "quote": "4 | ECC-305 | Digital Electronics and Linear IC Lab | PCC | 2 | 0 | 0 | 3 | - |  | - | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 25,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-252 Course Title: Digital Electronic Circuits Laboratory"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 63,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-351 Course Title: IC Applications Laboratory"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-302",
+      "syllabus_codes": [
+        "ECN-354"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Microwave Lab and Microwave Laboratory.",
+      "syllabus_ids": [
+        "c66ca27c8cdaae0756348fb4"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 6,
+          "locator": "table 1 row 17",
+          "quote": "4 | ECC-302 | Microwave Laboratory | PCC | 2 | 0 | 0 | 4 | - | - |  | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 67,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-354 Course Title: Microwave Lab"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECC-304",
+      "syllabus_codes": [
+        "ECN-352"
+      ],
+      "coverage": "same_title",
+      "reason": "Both are Communication Systems Lab.",
+      "syllabus_ids": [
+        "245b8ebc828b4996d990dffc"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 6,
+          "locator": "table 1 row 18",
+          "quote": "5 | ECC-304 | Communication Systems Lab | PCC | 2 | 0 | 0 | 4 | - | - |  | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 65,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-352 Course Title: Communication Systems Lab"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECL-347",
+      "syllabus_codes": [
+        "ECN-347"
+      ],
+      "coverage": "same_title",
+      "reason": "Same microwave semiconductor device modelling course title; appendix pages 75-76.",
+      "syllabus_ids": [
+        "06fc9de17dd42c883918a47b"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 5",
+          "quote": "3. | ECL-347 |  |  | Introduction to Microwave Semiconductor Device Modelling Techniques |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 75,
+          "locator": "course header",
+          "quote": "ECN-347 Introduction to Microwave Semiconductor Device Modelling Techniques"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECL-316",
+      "syllabus_codes": [
+        "ECN-316"
+      ],
+      "coverage": "same_title",
+      "reason": "Both are Digital Image Processing.",
+      "syllabus_ids": [
+        "7864aad9523bb3d6a37087bf"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 6",
+          "quote": "4. | ECL-316 |  |  | Digital Image processing |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 72,
+          "locator": "course header",
+          "quote": "Subject Code: ECN-316 Course Title: Digital Image Processing"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECL-357",
+      "syllabus_codes": [
+        "ECN-357"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Electronics Subsystems and Electronic Sub-Systems; appendix pages 77-78.",
+      "syllabus_ids": [
+        "ccb178de27ec00e312fd73c0"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 7",
+          "quote": "5. | ECL-357 |  |  | Electronics Subsystems |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 77,
+          "locator": "course header",
+          "quote": "ECN-357 Electronic Sub-Systems"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECL-358",
+      "syllabus_codes": [
+        "ECN-358"
+      ],
+      "coverage": "same_title",
+      "reason": "Same Machine Learning in Semiconductor Manufacturing title; appendix page 79.",
+      "syllabus_ids": [
+        "05674021878d79092ad85147"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 8",
+          "quote": "6. | ECL-358 |  |  | Machine Learning in Semiconductor Manufacturing |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 79,
+          "locator": "course header",
+          "quote": "ECN-358 Machine Learning in Semiconductor Manufacturing"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECL-584",
+      "syllabus_codes": [
+        "ECN-342"
+      ],
+      "coverage": "partial",
+      "reason": "RF and Mixed Signal Circuits provides mixed-signal material, plus RF topics that may exceed the newer course.",
+      "syllabus_ids": [
+        "7e710f178d4b597746670ee2"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 12,
+          "locator": "table 2 row 6",
+          "quote": "5 | ECL-584 |  |  | Mixed Signal Circuits |  |  |  | Spring | 4"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 61,
+          "locator": "course header",
+          "quote": "Subject Code: ECN- 342 Course Title: RF and Mixed Signal Circuits"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECT-104",
+      "syllabus_codes": [
+        "CS-341"
+      ],
+      "coverage": "partial",
+      "reason": "Computer Networks provides communication-network foundations; not a verified replacement for talent-enhancement exercises.",
+      "syllabus_ids": [
+        "15d9ffd52734eec8f5cb9002"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 10,
+          "locator": "table 1 row 8",
+          "quote": "1 | ECT-104 | Communication Networks | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 70,
+          "locator": "course header",
+          "quote": "Subject Code: CS - 341 Course Title: Computer Networks"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECT-119",
+      "syllabus_codes": [
+        "CSN-221"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Computer Architecture and Microprocessors matches Microprocessor and Computer Architecture topics.",
+      "syllabus_ids": [
+        "87c029f7276d891d4cf8d60e"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 11,
+          "locator": "table 1 row 6",
+          "quote": "1 | ECT-119 | Microprocessor and Computer Architecture | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 7,
+          "locator": "course header",
+          "quote": "Subject Code: CSN-221 Course Title: Computer Architecture and\nMicroprocessors"
+        }
+      ]
+    },
+    {
+      "curriculum_code": "ECT-121",
+      "syllabus_codes": [
+        "EC-343"
+      ],
+      "coverage": "title_topic_match",
+      "reason": "Embedded System Design supplies embedded-system study content.",
+      "syllabus_ids": [
+        "69a36ee8f1966ebacb74fb13"
+      ],
+      "evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 11,
+          "locator": "table 1 row 8",
+          "quote": "3 | ECT-121 | Embedded Systems | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+        },
+        {
+          "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+          "path": "data/btech_ec_syll_22.pdf",
+          "page": 68,
+          "locator": "course header",
+          "quote": "Subject Code : . EC-343 Course Title: Embedded System Design"
+        }
+      ]
+    }
+  ]
+}

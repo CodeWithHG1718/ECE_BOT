@@ -1,0 +1,917 @@
+[
+  {
+    "curriculum_code": "HSI-101",
+    "title": "Soft Skills",
+    "book_reference_count": 11,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "MAI-101",
+    "title": "Mathematics-I",
+    "book_reference_count": 3,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "PHI-101",
+    "title": "Physics-I",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECC-101",
+    "title": "Introduction to Programming",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "TMI-101",
+    "title": "Tinkering and Mentoring",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "CSE-101",
+    "title": "Data Structures and Algorithms",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "HSI-102",
+    "title": "Indian Knowledge System",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MAI-102",
+    "title": "Mathematics-II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ESS-102",
+    "title": "Environmental Science and Sustainability",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECC-102",
+    "title": "Semiconductor Devices and Applications",
+    "book_reference_count": 4,
+    "books_with_contents": [
+      "razavi-fundamentals-2"
+    ],
+    "nptel_courses": [
+      "nptel-108107142"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-104",
+    "title": "Digital Logic and Systems",
+    "book_reference_count": 6,
+    "books_with_contents": [
+      "mano-digital-6"
+    ],
+    "nptel_courses": [
+      "nptel-117106086"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-106",
+    "title": "Signals and Systems",
+    "book_reference_count": 5,
+    "books_with_contents": [
+      "oppenheim-signals-2"
+    ],
+    "nptel_courses": [
+      "nptel-108104100"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "MSI-101",
+    "title": "Fundamentals of Management",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MAB-103",
+    "title": "Numerical Methods",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-201",
+    "title": "Fundamentals of Communication System",
+    "book_reference_count": 5,
+    "books_with_contents": [
+      "haykin-intro-communications-2"
+    ],
+    "nptel_courses": [
+      "nptel-117105143"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-203",
+    "title": "Electromagnetics and Radiating Systems",
+    "book_reference_count": 10,
+    "books_with_contents": [
+      "balanis-antennas-3"
+    ],
+    "nptel_courses": [
+      "nptel-108104130",
+      "nptel-108105114"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-205",
+    "title": "Network Theory",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [
+      "nptel-108106172"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "HSSEC-I",
+    "title": "HSS Elective Course-I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "OEC-I",
+    "title": "Open Elective Course-I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "DAI-101",
+    "title": "Data Science",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "PHB-102",
+    "title": "Quantum and Statistical Mechanics",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "EEE-101",
+    "title": "Control System Engineering",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [
+      "nptel-108101037"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-I",
+    "title": "Talent Enhancement Course-I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-202",
+    "title": "Digital Communications",
+    "book_reference_count": 8,
+    "books_with_contents": [
+      "haykin-intro-communications-2",
+      "haykin-digital-communications-1"
+    ],
+    "nptel_courses": [
+      "nptel-117101051"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-204",
+    "title": "Analog Circuits",
+    "book_reference_count": 4,
+    "books_with_contents": [
+      "razavi-fundamentals-2"
+    ],
+    "nptel_courses": [
+      "nptel-108107142"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "OEC-II",
+    "title": "Open Elective Course-II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-351",
+    "title": "Fundamentals of AI/ML",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-301",
+    "title": "Digital Signal Processing",
+    "book_reference_count": 5,
+    "books_with_contents": [
+      "oppenheim-dsp-3"
+    ],
+    "nptel_courses": [
+      "nptel-108106151"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-303",
+    "title": "Microwave Engineering",
+    "book_reference_count": 6,
+    "books_with_contents": [
+      "pozar-microwave-3"
+    ],
+    "nptel_courses": [
+      "nptel-108103141"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-305",
+    "title": "Digital Electronics and Linear IC Lab",
+    "book_reference_count": 8,
+    "books_with_contents": [
+      "razavi-fundamentals-2",
+      "mano-digital-6"
+    ],
+    "nptel_courses": [],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-399",
+    "title": "Community Outreach",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-II",
+    "title": "Talent Enhancement Course-II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "HSSEC-II",
+    "title": "HSS Elective Course-II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "OEC-III",
+    "title": "Open Elective Course-III",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-I",
+    "title": "Program Elective Course - I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-II",
+    "title": "Program Elective Course - II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-300",
+    "title": "Lab Based Project/Industry oriented problem solving",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-302",
+    "title": "Microwave Laboratory",
+    "book_reference_count": 4,
+    "books_with_contents": [
+      "pozar-microwave-3"
+    ],
+    "nptel_courses": [
+      "nptel-108103141"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-304",
+    "title": "Communication Systems Lab",
+    "book_reference_count": 5,
+    "books_with_contents": [
+      "haykin-intro-communications-2"
+    ],
+    "nptel_courses": [
+      "nptel-117105143"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECC-306",
+    "title": "Technical Communication",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-III",
+    "title": "Talent Enhancement Course-III",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC-I",
+    "title": "Minor Specialization Course - I / Departmental Honours Course - I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECP-400A/ECL",
+    "title": "BTP/Project/Internship/Entrepreneurship/PEC *",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-III",
+    "title": "Program Elective Course -III",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-IV",
+    "title": "Program Elective Course -IV",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC-II",
+    "title": "Minor Specialization Course -II /Departmental Honours Course - II",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC-III",
+    "title": "Minor Specialization Course -III /Departmental Honours Course - III",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECP-400B/ECL",
+    "title": "BTP/Project/Internship/Entrepreneurship/PEC *",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-V",
+    "title": "Program Elective Course -V",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-VI",
+    "title": "Program Elective Course -VI",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC-IV",
+    "title": "Minor Specialization Course -IV /Departmental Honours Course – IV",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC-V",
+    "title": "Minor Specialization Course - IV/Departmental Honours Course - IV",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-343",
+    "title": "Fundamentals of Microelectronics",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "razavi-fundamentals-2"
+    ],
+    "nptel_courses": [
+      "nptel-108107142"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECL-360",
+    "title": "Introduction to Information and Communication Theory",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-347",
+    "title": "Introduction to Microwave Semiconductor Device Modelling Techniques",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECL-316",
+    "title": "Digital Image processing",
+    "book_reference_count": 1,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECL-357",
+    "title": "Electronics Subsystems",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECL-358",
+    "title": "Machine Learning in Semiconductor Manufacturing",
+    "book_reference_count": 4,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECL-514",
+    "title": "Detection and Estimation Theory",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-614",
+    "title": "Adaptive Signal Processing Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-618",
+    "title": "Wireless Technologies: 5G and Beyond",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-619",
+    "title": "Introduction to Compressed Sensing",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-620",
+    "title": "Advanced Wireless Communication",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-577",
+    "title": "VLSI Technology",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-584",
+    "title": "Mixed Signal Circuits",
+    "book_reference_count": 6,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECL-587",
+    "title": "Nanoscale Devices",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-591",
+    "title": "VLSI Physical Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-561",
+    "title": "Compact Modelling of Semiconductor Devices",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-526",
+    "title": "Statistical Machine Learning for Variation- Aware Electronic Device and Circuit Simulation",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-635",
+    "title": "Magnetic Random Access Memory",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-550",
+    "title": "Radar Signal Processing",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-631",
+    "title": "RF Receiver Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-515",
+    "title": "Information and Coding Theory",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "haykin-digital-communications-1"
+    ],
+    "nptel_courses": [
+      "nptel-117101051"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECL-519",
+    "title": "Wireless Communication Systems",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-525",
+    "title": "Hardware Architecture for deep- learning",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-573",
+    "title": "Digital VLSI Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [
+      "nptel-108107129"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECL-579",
+    "title": "Foundations of Semiconductor Device Physics",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-581",
+    "title": "Analog VLSI Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-542",
+    "title": "MicrowaveIntegratedCircuits",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-544",
+    "title": "AdvancedRadarEngineering",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-101",
+    "title": "RF Simulation Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "pozar-microwave-3"
+    ],
+    "nptel_courses": [
+      "nptel-108103141"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-102",
+    "title": "Design of Passive Microwave Components",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "pozar-microwave-3"
+    ],
+    "nptel_courses": [
+      "nptel-108103141"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-103",
+    "title": "Microwave Measurement Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "pozar-microwave-3"
+    ],
+    "nptel_courses": [
+      "nptel-108103141"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-104",
+    "title": "Communication Networks",
+    "book_reference_count": 5,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECT-105",
+    "title": "Optical Communication Technologies",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-106",
+    "title": "Software Defined Radios",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-107",
+    "title": "Introduction to Bio-Signal and Image Analysis",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-108",
+    "title": "Principles and Techniques of FMCW Radar Systems",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-109",
+    "title": "Advanced DSP",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "oppenheim-dsp-3"
+    ],
+    "nptel_courses": [
+      "nptel-108106151"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-110",
+    "title": "Digital System Design Using High Level Language",
+    "book_reference_count": 0,
+    "books_with_contents": [
+      "mano-digital-6"
+    ],
+    "nptel_courses": [],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-111",
+    "title": "VLSI Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [
+      "nptel-108107129"
+    ],
+    "resource_status": "linked_resources_available"
+  },
+  {
+    "curriculum_code": "ECT-112",
+    "title": "Physical Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-113",
+    "title": "Analog Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-114",
+    "title": "Mixed Signal System Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-115",
+    "title": "Measurement Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-116",
+    "title": "Fabrication Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-117",
+    "title": "Semiconductor Characterization",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-118",
+    "title": "Device Modeling",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-119",
+    "title": "Microprocessor and Computer Architecture",
+    "book_reference_count": 6,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECT-120",
+    "title": "VLSI DSP",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-121",
+    "title": "Embedded Systems",
+    "book_reference_count": 6,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "bibliography_only"
+  },
+  {
+    "curriculum_code": "ECT-122",
+    "title": "Emerging Materials and Devices",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-123",
+    "title": "Memories",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECT-124",
+    "title": "Emerging Computing Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  }
+]

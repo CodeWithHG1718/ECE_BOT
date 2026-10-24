@@ -1,0 +1,295 @@
+{
+  "validation_type": "extraction_integrity_and_coverage",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "Every recorded source hash matches its saved bytes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Local PDF matches current official linked download: data/btech_ec_str_24.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local PDF matches current official linked download: data/btech_ec_syll_22.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All 122 source curriculum rows, including elective options and minor/honours lists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Eight semester tables have total rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Semester credit totals reconcile with optional minor/honours alternatives",
+      "passed": true,
+      "detail": [
+        {
+          "semester": 1,
+          "main_curriculum_range": [
+            23,
+            23
+          ],
+          "including_optional_minor_honours_range": [
+            23,
+            23
+          ],
+          "printed_total": "23",
+          "reconciled": true
+        },
+        {
+          "semester": 2,
+          "main_curriculum_range": [
+            21,
+            21
+          ],
+          "including_optional_minor_honours_range": [
+            21,
+            21
+          ],
+          "printed_total": "21",
+          "reconciled": true
+        },
+        {
+          "semester": 3,
+          "main_curriculum_range": [
+            23,
+            24
+          ],
+          "including_optional_minor_honours_range": [
+            23,
+            24
+          ],
+          "printed_total": "23/24",
+          "reconciled": true
+        },
+        {
+          "semester": 4,
+          "main_curriculum_range": [
+            23,
+            24
+          ],
+          "including_optional_minor_honours_range": [
+            23,
+            24
+          ],
+          "printed_total": "23/24",
+          "reconciled": true
+        },
+        {
+          "semester": 5,
+          "main_curriculum_range": [
+            21,
+            22
+          ],
+          "including_optional_minor_honours_range": [
+            21,
+            22
+          ],
+          "printed_total": "21/22",
+          "reconciled": true
+        },
+        {
+          "semester": 6,
+          "main_curriculum_range": [
+            18,
+            18
+          ],
+          "including_optional_minor_honours_range": [
+            21,
+            22
+          ],
+          "printed_total": "18/21-22",
+          "reconciled": true
+        },
+        {
+          "semester": 7,
+          "main_curriculum_range": [
+            12,
+            12
+          ],
+          "including_optional_minor_honours_range": [
+            18,
+            20
+          ],
+          "printed_total": "12/18-20",
+          "reconciled": true
+        },
+        {
+          "semester": 8,
+          "main_curriculum_range": [
+            14,
+            14
+          ],
+          "including_optional_minor_honours_range": [
+            20,
+            22
+          ],
+          "printed_total": "14/20-22",
+          "reconciled": true
+        }
+      ]
+    },
+    {
+      "check": "Curriculum continuation titles retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every syllabus page accounted for (index, course content, duplicate scan)",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "39 distinct full course blocks including three scanned appendices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every substantive PDF table body retained in topic/book records",
+      "passed": true,
+      "detail": {
+        "cells_checked": 459,
+        "missing": []
+      }
+    },
+    {
+      "check": "All labs retain their experimental topics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Signals uses ECN-203 under ECC-106; electromagnetics uses ECN-232/331 under ECC-203",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every faculty directory card has an extracted profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every faculty member has sourced research interests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every faculty profile content block and heading retained",
+      "passed": true,
+      "detail": {
+        "source_headings": 510,
+        "omitted_blocks": []
+      }
+    },
+    {
+      "check": "Embedding IDs are unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every embedding has source evidence resolving to saved sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "API input text and metadata stay in exact ID alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Twelve selected official NPTEL outlines and all 693 lesson references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NPTEL lessons retain course citations and concrete video URLs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Eight selected publisher contents pages yield 100 chapter references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every chapter citation resolves to the exact saved publisher contents element",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Ambiguous publisher chapter label is excluded from embeddings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced chapter: convolution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced lecture: convolution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced chapter: Boolean algebra",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Missing Boolean algebra title match remains explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced chapter: combinational logic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced lecture: combinational logic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced chapter: waveguides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Study lookup finds sourced lecture: waveguides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown topic abstains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Wrong course filter does not leak unrelated chapters",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "not_certified": [
+    "cohort applicability",
+    "official cross-code equivalence",
+    "current project availability",
+    "human approval for publication"
+  ],
+  "known_gaps": [
+    "Unmatched curriculum courses have no detailed syllabus in the supplied file.",
+    "Book contents cover eight selected books, not all 194 bibliography entries. Alternate editions are explicitly labelled.",
+    "NPTEL collection covers twelve selected courses; coverage of every curriculum entry is listed in resource_coverage.json.",
+    "The site homepage advertises 40/41 faculty while its linked directory lists 38. Coverage here is the linked directory.",
+    "Public profiles can omit projects or contain outdated entries; absent information is not inferred."
+  ]
+}

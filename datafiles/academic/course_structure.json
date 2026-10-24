@@ -1,0 +1,7250 @@
+{
+  "source": {
+    "path": "data/btech_ec_str_24.pdf",
+    "sha256": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+    "published_at": null
+  },
+  "entries": [
+    {
+      "entry_id": "325124f2b43759484290c306",
+      "course_id": "curriculum-HSI-101",
+      "code": "HSI-101",
+      "title": "Soft Skills",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "HSSC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "2",
+        "T": "0",
+        "P": "2"
+      },
+      "examination_hours_raw": {
+        "theory": "2",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "10-25",
+        "PRS": "25",
+        "MTE": "15-25",
+        "ETE": "30-40",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "HSI-101",
+        "Soft Skills",
+        "HSSC",
+        "3",
+        "",
+        "2",
+        "0",
+        "2",
+        "2",
+        "0",
+        "10-25",
+        "25",
+        "15-25",
+        "30-40",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 4",
+        "quote": "1 | HSI-101 | Soft Skills | HSSC | 3 |  | 2 | 0 | 2 | 2 | 0 | 10-25 | 25 | 15-25 | 30-40 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "0924d933c12297c8f3eb9a07",
+      "course_id": "curriculum-MAI-101",
+      "code": "MAI-101",
+      "title": "Mathematics-I",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "BSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "MAI-101",
+        "Mathematics-I",
+        "BSC",
+        "4",
+        "",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 5",
+        "quote": "2 | MAI-101 | Mathematics-I | BSC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "5fe2d1f610f226b66f6cd75c",
+      "course_id": "curriculum-PHI-101",
+      "code": "PHI-101",
+      "title": "Physics-I",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "BSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "2/2"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "15-30",
+        "PRS": "20",
+        "MTE": "15-25",
+        "ETE": "30-40",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "PHI-101",
+        "Physics-I",
+        "BSC",
+        "4",
+        "",
+        "3",
+        "1",
+        "2/2",
+        "3",
+        "0",
+        "15-30",
+        "20",
+        "15-25",
+        "30-40",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 6",
+        "quote": "3 | PHI-101 | Physics-I | BSC | 4 |  | 3 | 1 | 2/2 | 3 | 0 | 15-30 | 20 | 15-25 | 30-40 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "e2667bfe3d38076f4706fa72",
+      "course_id": "curriculum-ECC-101",
+      "code": "ECC-101",
+      "title": "Introduction to Programming",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "2/2"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "15-30",
+        "PRS": "20",
+        "MTE": "15-25",
+        "ETE": "30-40",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-101",
+        "Introduction to Programming",
+        "PCC",
+        "4",
+        "",
+        "3",
+        "0",
+        "2/2",
+        "3",
+        "0",
+        "15-30",
+        "20",
+        "15-25",
+        "30-40",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 7",
+        "quote": "4 | ECC-101 | Introduction to Programming | PCC | 4 |  | 3 | 0 | 2/2 | 3 | 0 | 15-30 | 20 | 15-25 | 30-40 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b5835b1b17080b4e5a70c76f",
+      "course_id": "curriculum-TMI-101",
+      "code": "TMI-101",
+      "title": "Tinkering and Mentoring",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "TMI",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "-",
+        "T": "-",
+        "P": "-"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "70",
+        "PRS": "30",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "-"
+      },
+      "component_rows": [
+        [
+          "5",
+          "TMI-101",
+          "Tinkering and Mentoring",
+          "TMI",
+          "4",
+          "T-2",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "70",
+          "30",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M-2",
+          "2",
+          "0",
+          "0",
+          "2",
+          "-",
+          "50",
+          "-",
+          "-",
+          "50",
+          "-"
+        ]
+      ],
+      "raw_cells": [
+        "5",
+        "TMI-101",
+        "Tinkering and Mentoring",
+        "TMI",
+        "4",
+        "T-2",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "70",
+        "30",
+        "-",
+        "-",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 8",
+        "quote": "5 | TMI-101 | Tinkering and Mentoring | TMI | 4 | T-2 | - | - | - | - | - | 70 | 30 | - | - | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "8b3185e1f8b14e8bf90a835e",
+      "course_id": "curriculum-CSE-101",
+      "code": "CSE-101",
+      "title": "Data Structures and Algorithms",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 1,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "ESC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "CSE-101",
+        "Data Structures and Algorithms",
+        "ESC",
+        "4",
+        "",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 10",
+        "quote": "6 | CSE-101 | Data Structures and Algorithms | ESC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b38f7b779a7d1144ad14b99a",
+      "course_id": "curriculum-HSI-102",
+      "code": "HSI-102",
+      "title": "Indian Knowledge System",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "HSSC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "2",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "2",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "HSI-102",
+        "Indian Knowledge System",
+        "HSSC",
+        "2",
+        "",
+        "2",
+        "0",
+        "0",
+        "2",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 13",
+        "quote": "1 | HSI-102 | Indian Knowledge System | HSSC | 2 |  | 2 | 0 | 0 | 2 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "0e01ac9ac4d278eeade5030b",
+      "course_id": "curriculum-MAI-102",
+      "code": "MAI-102",
+      "title": "Mathematics-II",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "BSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "MAI-102",
+        "Mathematics-II",
+        "BSC",
+        "4",
+        "",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 14",
+        "quote": "2 | MAI-102 | Mathematics-II | BSC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "8dc68cde0da410c1c01b4c45",
+      "course_id": "curriculum-ESS-102",
+      "code": "ESS-102",
+      "title": "Environmental Science and Sustainability",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "ESSC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ESS-102",
+        "Environmental Science and Sustainability",
+        "ESSC",
+        "3",
+        "",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 15",
+        "quote": "3 | ESS-102 | Environmental Science and Sustainability | ESSC | 3 |  | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a5c8b95dc8841129d7f3c75d",
+      "course_id": "curriculum-ECC-102",
+      "code": "ECC-102",
+      "title": "Semiconductor Devices and Applications",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "2/2"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "15-30",
+        "PRS": "20",
+        "MTE": "15-25",
+        "ETE": "30-40",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-102",
+        "Semiconductor Devices and Applications",
+        "PCC",
+        "4",
+        "",
+        "3",
+        "0",
+        "2/2",
+        "3",
+        "0",
+        "15-30",
+        "20",
+        "15-25",
+        "30-40",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 16",
+        "quote": "4 | ECC-102 | Semiconductor Devices and Applications | PCC | 4 |  | 3 | 0 | 2/2 | 3 | 0 | 15-30 | 20 | 15-25 | 30-40 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7f4c08d0e88926df637c126b",
+      "course_id": "curriculum-ECC-104",
+      "code": "ECC-104",
+      "title": "Digital Logic and Systems",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-104",
+        "Digital Logic and Systems",
+        "PCC",
+        "4",
+        "",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 17",
+        "quote": "5 | ECC-104 | Digital Logic and Systems | PCC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "d239b79cdc6519a84f7ece2c",
+      "course_id": "curriculum-ECC-106",
+      "code": "ECC-106",
+      "title": "Signals and Systems",
+      "entry_type": "course",
+      "year": 1,
+      "semester": 2,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECC-106",
+        "Signals and Systems",
+        "PCC",
+        "4",
+        "",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 18",
+        "quote": "6 | ECC-106 | Signals and Systems | PCC | 4 |  | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "679634251ed07b5571015668",
+      "course_id": "curriculum-MSI-101",
+      "code": "MSI-101",
+      "title": "Fundamentals of Management",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "MC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "MSI-101",
+        "Fundamentals of Management",
+        "MC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 4",
+        "quote": "1 | MSI-101 | Fundamentals of Management | MC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "17c540b64c8100f5c921a26a",
+      "course_id": "curriculum-MAB-103",
+      "code": "MAB-103",
+      "title": "Numerical Methods",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "BSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "MAB-103",
+        "Numerical Methods",
+        "BSC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 5",
+        "quote": "2 | MAB-103 | Numerical Methods | BSC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "3140ffd7f63a27119fdce4b1",
+      "course_id": "curriculum-ECC-201",
+      "code": "ECC-201",
+      "title": "Fundamentals of Communication System",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECC-201",
+        "Fundamentals of Communication System",
+        "PCC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 6",
+        "quote": "3 | ECC-201 | Fundamentals of Communication System | PCC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "81c2d08f0ee9c701a8fc19ff",
+      "course_id": "curriculum-ECC-203",
+      "code": "ECC-203",
+      "title": "Electromagnetics and Radiating Systems",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-203",
+        "Electromagnetics and Radiating Systems",
+        "PCC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 7",
+        "quote": "4 | ECC-203 | Electromagnetics and Radiating Systems | PCC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ff7af4766a50cfb252ffd8f4",
+      "course_id": "curriculum-ECC-205",
+      "code": "ECC-205",
+      "title": "Network Theory",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "2",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "2",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-205",
+        "Network Theory",
+        "PCC",
+        "2",
+        "2",
+        "0",
+        "0",
+        "2",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 8",
+        "quote": "5 | ECC-205 | Network Theory | PCC | 2 | 2 | 0 | 0 | 2 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ae505f85090d5864109a1ea6",
+      "course_id": "curriculum-HSSEC-I",
+      "code": "HSSEC-I",
+      "title": "HSS Elective Course-I",
+      "entry_type": "elective_or_project_slot",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "HSSEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "HSSEC-I",
+        "HSS Elective Course-I",
+        "HSSEC",
+        "3",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 9",
+        "quote": "6 | HSSEC-I | HSS Elective Course-I | HSSEC | 3 |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "854486a9929d866199a87114",
+      "course_id": "curriculum-OEC-I",
+      "code": "OEC-I",
+      "title": "Open Elective Course-I",
+      "entry_type": "elective_or_project_slot",
+      "year": 2,
+      "semester": 3,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "OEC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "OEC-I",
+        "Open Elective Course-I",
+        "OEC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 10",
+        "quote": "7 | OEC-I | Open Elective Course-I | OEC | 3/4 |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "45e965c710e7bc27de2d0b3c",
+      "course_id": "curriculum-DAI-101",
+      "code": "DAI-101",
+      "title": "Data Science",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "DSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "DAI-101",
+        "Data Science",
+        "DSC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 13",
+        "quote": "1 | DAI-101 | Data Science | DSC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "c6f339abf1acf297e13a343f",
+      "course_id": "curriculum-PHB-102",
+      "code": "PHB-102",
+      "title": "Quantum and Statistical Mechanics",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "BSC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "PHB-102",
+        "Quantum and Statistical Mechanics",
+        "BSC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 14",
+        "quote": "2 | PHB-102 | Quantum and Statistical Mechanics | BSC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "be20574fcfc385e65fcbda2e",
+      "course_id": "curriculum-EEE-101",
+      "code": "EEE-101",
+      "title": "Control System Engineering",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "ESC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "EEE-101",
+        "Control System Engineering",
+        "ESC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 15",
+        "quote": "3 | EEE-101 | Control System Engineering | ESC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a9d7a26cef7972fe61dba9ff",
+      "course_id": "curriculum-ECT-I",
+      "code": "ECT-I",
+      "title": "Talent Enhancement Course-I",
+      "entry_type": "elective_or_project_slot",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECT-I",
+        "Talent Enhancement Course-I",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 16",
+        "quote": "4 | ECT-I | Talent Enhancement Course-I | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "057ea9d697add038cb2c925d",
+      "course_id": "curriculum-ECC-202",
+      "code": "ECC-202",
+      "title": "Digital Communications",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-202",
+        "Digital Communications",
+        "PCC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 17",
+        "quote": "5 | ECC-202 | Digital Communications | PCC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "6cbc45cba23abc4cb2b6217d",
+      "course_id": "curriculum-ECC-204",
+      "code": "ECC-204",
+      "title": "Analog Circuits",
+      "entry_type": "course",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECC-204",
+        "Analog Circuits",
+        "PCC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 18",
+        "quote": "6 | ECC-204 | Analog Circuits | PCC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "edf10f98f65e07314d8f24cb",
+      "course_id": "curriculum-OEC-II",
+      "code": "OEC-II",
+      "title": "Open Elective Course-II",
+      "entry_type": "elective_or_project_slot",
+      "year": 2,
+      "semester": 4,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "OEC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "OEC-II",
+        "Open Elective Course-II",
+        "OEC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 19",
+        "quote": "7 | OEC-II | Open Elective Course-II | OEC | 3/4 |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "45942752d395c48fab6102e6",
+      "course_id": "curriculum-ECC-351",
+      "code": "ECC-351",
+      "title": "Fundamentals of AI/ML",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "2",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "2",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECC-351",
+        "Fundamentals of AI/ML",
+        "PCC",
+        "2",
+        "2",
+        "0",
+        "0",
+        "2",
+        "",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 4",
+        "quote": "1 | ECC-351 | Fundamentals of AI/ML | PCC | 2 | 2 | 0 | 0 | 2 |  | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a7e0954ca2f95827393175f3",
+      "course_id": "curriculum-ECC-301",
+      "code": "ECC-301",
+      "title": "Digital Signal Processing",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECC-301",
+        "Digital Signal Processing",
+        "PCC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 5",
+        "quote": "2 | ECC-301 | Digital Signal Processing | PCC | 3 | 3 | 0 | 0 | 3 |  | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ae039dd706715a6b262e54a7",
+      "course_id": "curriculum-ECC-303",
+      "code": "ECC-303",
+      "title": "Microwave Engineering",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECC-303",
+        "Microwave Engineering",
+        "PCC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 6",
+        "quote": "3 | ECC-303 | Microwave Engineering | PCC | 4 | 3 | 1 | 0 | 3 |  | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "744ff67d5ac69590c9f3716b",
+      "course_id": "curriculum-ECC-305",
+      "code": "ECC-305",
+      "title": "Digital Electronics and Linear IC Lab",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "3"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-305",
+        "Digital Electronics and Linear IC Lab",
+        "PCC",
+        "2",
+        "0",
+        "0",
+        "3",
+        "-",
+        "",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 7",
+        "quote": "4 | ECC-305 | Digital Electronics and Linear IC Lab | PCC | 2 | 0 | 0 | 3 | - |  | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "d2b3e6e494ac71e5e7aee691",
+      "course_id": "curriculum-ECC-399",
+      "code": "ECC-399",
+      "title": "Community Outreach",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "CORE",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "3"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "100",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-399",
+        "Community Outreach",
+        "CORE",
+        "2",
+        "0",
+        "0",
+        "3",
+        "-",
+        "",
+        "-",
+        "100",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 8",
+        "quote": "5 | ECC-399 | Community Outreach | CORE | 2 | 0 | 0 | 3 | - |  | - | 100 |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "64742cc067f2d4b05592d914",
+      "course_id": "curriculum-ECT-II",
+      "code": "ECT-II",
+      "title": "Talent Enhancement Course-II",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECT-II",
+        "Talent Enhancement Course-II",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 9",
+        "quote": "6 | ECT-II | Talent Enhancement Course-II | TEB | 2 | 0 | 0 | 4 | - |  | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fca95a001f8afd41d5c70927",
+      "course_id": "curriculum-HSSEC-II",
+      "code": "HSSEC-II",
+      "title": "HSS Elective Course-II",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "HSSEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "HSSEC-II",
+        "HSS Elective Course-II",
+        "HSSEC",
+        "3",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 10",
+        "quote": "7 | HSSEC-II | HSS Elective Course-II | HSSEC | 3 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "26a47c42721c2071cb39a050",
+      "course_id": "curriculum-OEC-III",
+      "code": "OEC-III",
+      "title": "Open Elective Course-III",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 5,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "OEC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "8",
+        "OEC-III",
+        "Open Elective Course-III",
+        "OEC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 11",
+        "quote": "8 | OEC-III | Open Elective Course-III | OEC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b9087f2087199baff0f391d0",
+      "course_id": "curriculum-ECL-I",
+      "code": "ECL-I",
+      "title": "Program Elective Course - I",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECL-I",
+        "Program Elective Course - I",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 14",
+        "quote": "1 | ECL-I | Program Elective Course - I | PEC | 3 | 3 | 0 | 0 | 3 | 0 |  | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7f7a01bef78f483b1669a1c6",
+      "course_id": "curriculum-ECL-II",
+      "code": "ECL-II",
+      "title": "Program Elective Course - II",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECL-II",
+        "Program Elective Course - II",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 15",
+        "quote": "2 | ECL-II | Program Elective Course - II | PEC | 3 | 3 | 0 | 0 | 3 | 0 |  | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7f267eda9212c6d809999c28",
+      "course_id": "curriculum-ECC-300",
+      "code": "ECC-300",
+      "title": "Lab Based Project/Industry oriented problem solving",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "1",
+        "P": "6"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECC-300",
+        "Lab Based Project/Industry oriented problem solving",
+        "PCC",
+        "4",
+        "0",
+        "1",
+        "6",
+        "-",
+        "-",
+        "",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 16",
+        "quote": "3 | ECC-300 | Lab Based Project/Industry oriented problem solving | PCC | 4 | 0 | 1 | 6 | - | - |  | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "08e9697f5efdb751cfabc956",
+      "course_id": "curriculum-ECC-302",
+      "code": "ECC-302",
+      "title": "Microwave Laboratory",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-302",
+        "Microwave Laboratory",
+        "PCC",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 17",
+        "quote": "4 | ECC-302 | Microwave Laboratory | PCC | 2 | 0 | 0 | 4 | - | - |  | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b2bcea2ef12e4e79e2614723",
+      "course_id": "curriculum-ECC-304",
+      "code": "ECC-304",
+      "title": "Communication Systems Lab",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-304",
+        "Communication Systems Lab",
+        "PCC",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 18",
+        "quote": "5 | ECC-304 | Communication Systems Lab | PCC | 2 | 0 | 0 | 4 | - | - |  | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fe084e076ef60ad50fe45e3a",
+      "course_id": "curriculum-ECC-306",
+      "code": "ECC-306",
+      "title": "Technical Communication",
+      "entry_type": "course",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "2",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "100",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECC-306",
+        "Technical Communication",
+        "PCC",
+        "2",
+        "0",
+        "2",
+        "0",
+        "",
+        "",
+        "",
+        "",
+        "100",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 19",
+        "quote": "6 | ECC-306 | Technical Communication | PCC | 2 | 0 | 2 | 0 |  |  |  |  | 100 |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a56ab790562302a266eb55a7",
+      "course_id": "curriculum-ECT-III",
+      "code": "ECT-III",
+      "title": "Talent Enhancement Course-III",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "ECT-III",
+        "Talent Enhancement Course-III",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 20",
+        "quote": "7 | ECT-III | Talent Enhancement Course-III | TEB | 2 | 0 | 0 | 4 | - | - |  | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7e15f5ddf80dbed35e438740",
+      "course_id": "curriculum-MSC/DHC-I",
+      "code": "MSC/DHC-I",
+      "title": "Minor Specialization Course - I / Departmental Honours Course - I",
+      "entry_type": "elective_or_project_slot",
+      "year": 3,
+      "semester": 6,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "MSC/ DHC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "8",
+        "MSC/DHC - I",
+        "Minor Specialization Course - I / Departmental Honours Course - I",
+        "MSC/ DHC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 21",
+        "quote": "8 | MSC/DHC - I | Minor Specialization Course - I / Departmental Honours Course - I | MSC/ DHC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fc9d95f515f34f5167638ede",
+      "course_id": "curriculum-ECP-400A/ECL",
+      "code": "ECP-400A/ECL",
+      "title": "BTP/Project/Internship/Entrepreneurship/PEC *",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 7,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PCC/PEC*",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "100",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECP-400A/ ECL",
+        "BTP/Project/Internship/Entrepreneurship/PEC *",
+        "PCC/PEC*",
+        "4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "100",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 4",
+        "quote": "1 | ECP-400A/ ECL | BTP/Project/Internship/Entrepreneurship/PEC * | PCC/PEC* | 4 |  |  |  |  |  |  | 100 |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "02922b9a1371882486943b25",
+      "course_id": "curriculum-ECL-III",
+      "code": "ECL-III",
+      "title": "Program Elective Course -III",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 7,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECL-III",
+        "Program Elective Course -III",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 5",
+        "quote": "2 | ECL-III | Program Elective Course -III | PEC | 4 | 3 | 1 | 0 | 3 |  | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7feb6d4510ae1d5b1ad78eed",
+      "course_id": "curriculum-ECL-IV",
+      "code": "ECL-IV",
+      "title": "Program Elective Course -IV",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 7,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECL-IV",
+        "Program Elective Course -IV",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 6",
+        "quote": "3 | ECL-IV | Program Elective Course -IV | PEC | 4 | 3 | 1 | 0 | 3 |  | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "66f1e9261b4ccb3276b7d5b7",
+      "course_id": "curriculum-MSC/DHC-II",
+      "code": "MSC/DHC-II",
+      "title": "Minor Specialization Course -II /Departmental Honours Course - II",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 7,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "MSC/ DHC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "MSC/DHC-II",
+        "Minor Specialization Course -II /Departmental Honours Course - II",
+        "MSC/ DHC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 7",
+        "quote": "4 | MSC/DHC-II | Minor Specialization Course -II /Departmental Honours Course - II | MSC/ DHC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b1383e6c51d2fb2eb522f8da",
+      "course_id": "curriculum-MSC/DHC-III",
+      "code": "MSC/DHC-III",
+      "title": "Minor Specialization Course -III /Departmental Honours Course - III",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 7,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": "MSC/ DHC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "MSC/DHC-III",
+        "Minor Specialization Course -III /Departmental Honours Course - III",
+        "MSC/ DHC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 8",
+        "quote": "5 | MSC/DHC-III | Minor Specialization Course -III /Departmental Honours Course - III | MSC/ DHC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "81bffb567f3e191406478857",
+      "course_id": "curriculum-ECP-400B/ECL",
+      "code": "ECP-400B/ECL",
+      "title": "BTP/Project/Internship/Entrepreneurship/PEC *",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 8,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PCC/PEC*",
+      "credits_raw": "6",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "100",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECP- 400B/ECL",
+        "BTP/Project/Internship/Entrepreneurship/PEC *",
+        "PCC/PEC*",
+        "6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "100",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 11",
+        "quote": "1 | ECP- 400B/ECL | BTP/Project/Internship/Entrepreneurship/PEC * | PCC/PEC* | 6 |  |  |  |  |  |  | 100 |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "25b7ce71e478260dce962d34",
+      "course_id": "curriculum-ECL-V",
+      "code": "ECL-V",
+      "title": "Program Elective Course -V",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 8,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECL-V",
+        "Program Elective Course -V",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 12",
+        "quote": "2 | ECL-V | Program Elective Course -V | PEC | 4 | 3 | 1 | 0 | 3 | 0 |  | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "5a99d5910b7259dd4550110c",
+      "course_id": "curriculum-ECL-VI",
+      "code": "ECL-VI",
+      "title": "Program Elective Course -VI",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 8,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECL-VI",
+        "Program Elective Course -VI",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 13",
+        "quote": "3 | ECL-VI | Program Elective Course -VI | PEC | 4 | 3 | 1 | 0 | 3 | 0 |  | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "6b6fdccc5e3bd28d76eab7a4",
+      "course_id": "curriculum-MSC/DHC-IV",
+      "code": "MSC/DHC-IV",
+      "title": "Minor Specialization Course -IV /Departmental Honours Course – IV",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 8,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "MSC/ DHC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "MSC/DHC-IV",
+        "Minor Specialization Course -IV /Departmental Honours Course – IV",
+        "MSC/ DHC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 14",
+        "quote": "4 | MSC/DHC-IV | Minor Specialization Course -IV /Departmental Honours Course – IV | MSC/ DHC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "5ae1816a02ba9128be85bd91",
+      "course_id": "curriculum-MSC/DHC-V",
+      "code": "MSC/DHC-V",
+      "title": "Minor Specialization Course - IV/Departmental Honours Course - IV",
+      "entry_type": "elective_or_project_slot",
+      "year": 4,
+      "semester": 8,
+      "term": "Spring",
+      "group": null,
+      "subject_area": "MSC/ DHC",
+      "credits_raw": "3/4",
+      "contact_hours_raw": {
+        "L": "",
+        "T": "",
+        "P": ""
+      },
+      "examination_hours_raw": {
+        "theory": "",
+        "practical": ""
+      },
+      "assessment_raw": {
+        "CWS": "",
+        "PRS": "",
+        "MTE": "",
+        "ETE": "",
+        "PRE": ""
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "MSC/DHC-V",
+        "Minor Specialization Course - IV/Departmental Honours Course - IV",
+        "MSC/ DHC",
+        "3/4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 15",
+        "quote": "5 | MSC/DHC-V | Minor Specialization Course - IV/Departmental Honours Course - IV | MSC/ DHC | 3/4 |  |  |  |  |  |  |  |  |  |  | "
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "bc8b3bf6dd135fb991bb9bc9",
+      "course_id": "curriculum-ECL-343",
+      "code": "ECL-343",
+      "title": "Fundamentals of Microelectronics",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1.",
+        "ECL-343",
+        "",
+        "",
+        "Fundamentals of Microelectronics",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 3",
+        "quote": "1. | ECL-343 |  |  | Fundamentals of Microelectronics |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "8f0baca07182a4d581751b28",
+      "course_id": "curriculum-ECL-360",
+      "code": "ECL-360",
+      "title": "Introduction to Information and Communication Theory",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2.",
+        "ECL-360",
+        "",
+        "",
+        "Introduction to Information and Communication Theory",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 4",
+        "quote": "2. | ECL-360 |  |  | Introduction to Information and Communication Theory |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "803f8a206799ab76415ad46c",
+      "course_id": "curriculum-ECL-347",
+      "code": "ECL-347",
+      "title": "Introduction to Microwave Semiconductor Device Modelling Techniques",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3.",
+        "ECL-347",
+        "",
+        "",
+        "Introduction to Microwave Semiconductor Device Modelling Techniques",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 5",
+        "quote": "3. | ECL-347 |  |  | Introduction to Microwave Semiconductor Device Modelling Techniques |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "24b0819ed2ef364edded58d8",
+      "course_id": "curriculum-ECL-316",
+      "code": "ECL-316",
+      "title": "Digital Image processing",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "4.",
+        "ECL-316",
+        "",
+        "",
+        "Digital Image processing",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 6",
+        "quote": "4. | ECL-316 |  |  | Digital Image processing |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "18d0eb7e83c6b8654147304b",
+      "course_id": "curriculum-ECL-357",
+      "code": "ECL-357",
+      "title": "Electronics Subsystems",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "5.",
+        "ECL-357",
+        "",
+        "",
+        "Electronics Subsystems",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 7",
+        "quote": "5. | ECL-357 |  |  | Electronics Subsystems |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7ca1617df2aefa5405c6e472",
+      "course_id": "curriculum-ECL-358",
+      "code": "ECL-358",
+      "title": "Machine Learning in Semiconductor Manufacturing",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "3",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "0",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "6.",
+        "ECL-358",
+        "",
+        "",
+        "Machine Learning in Semiconductor Manufacturing",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "3",
+        "3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 8",
+        "quote": "6. | ECL-358 |  |  | Machine Learning in Semiconductor Manufacturing |  |  |  |  |  |  | PEC | 3 | 3 | 0 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "dd1fb87d2dd5e71d78e2aff8",
+      "course_id": "curriculum-ECL-514",
+      "code": "ECL-514",
+      "title": "Detection and Estimation Theory",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "7.",
+        "ECL-514",
+        "",
+        "",
+        "Detection and Estimation",
+        "",
+        "",
+        "Theory",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 9",
+        "quote": "7. | ECL-514 |  |  | Detection and Estimation |  |  | Theory |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "79a42821419acb35b8d8c5cb",
+      "course_id": "curriculum-ECL-614",
+      "code": "ECL-614",
+      "title": "Adaptive Signal Processing Techniques",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "8.",
+        "ECL-",
+        "614",
+        "",
+        "Adaptive Signal Processing Techniques",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 10",
+        "quote": "8. | ECL- | 614 |  | Adaptive Signal Processing Techniques |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "83a03e56e834dfe17d1d8afd",
+      "course_id": "curriculum-ECL-618",
+      "code": "ECL-618",
+      "title": "Wireless Technologies: 5G and Beyond",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "9.",
+        "ECL-",
+        "618",
+        "",
+        "Wireless Technologies: 5G and Beyond",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 11",
+        "quote": "9. | ECL- | 618 |  | Wireless Technologies: 5G and Beyond |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "67602710cb29d15e9d6fecde",
+      "course_id": "curriculum-ECL-619",
+      "code": "ECL-619",
+      "title": "Introduction to Compressed Sensing",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "10.",
+        "ECL-",
+        "619",
+        "",
+        "Introduction to Compressed Sensing",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 12",
+        "quote": "10. | ECL- | 619 |  | Introduction to Compressed Sensing |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "1f568dbb0defc61bca3bf9ae",
+      "course_id": "curriculum-ECL-620",
+      "code": "ECL-620",
+      "title": "Advanced Wireless Communication",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "11.",
+        "ECL-620",
+        "",
+        "",
+        "Advanced Wireless Communication",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 13",
+        "quote": "11. | ECL-620 |  |  | Advanced Wireless Communication |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ecdc573773ff41943eee0bc7",
+      "course_id": "curriculum-ECL-577",
+      "code": "ECL-577",
+      "title": "VLSI Technology",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "12.",
+        "ECL-577",
+        "",
+        "",
+        "VLSI Technology",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 14",
+        "quote": "12. | ECL-577 |  |  | VLSI Technology |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "85c7374ea776c3008490a0e4",
+      "course_id": "curriculum-ECL-584",
+      "code": "ECL-584",
+      "title": "Mixed Signal Circuits",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "13.",
+        "ECL-584",
+        "",
+        "",
+        "Mixed Signal Circuits",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 15",
+        "quote": "13. | ECL-584 |  |  | Mixed Signal Circuits |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "c8ee41d748a296eae78eb711",
+      "course_id": "curriculum-ECL-587",
+      "code": "ECL-587",
+      "title": "Nanoscale Devices",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "14.",
+        "ECL-587",
+        "",
+        "",
+        "Nanoscale Devices",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 16",
+        "quote": "14. | ECL-587 |  |  | Nanoscale Devices |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fc6b4a1a1964fc0ddd1aa041",
+      "course_id": "curriculum-ECL-591",
+      "code": "ECL-591",
+      "title": "VLSI Physical Design",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "15.",
+        "ECL-591",
+        "",
+        "",
+        "VLSI Physical Design",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 17",
+        "quote": "15. | ECL-591 |  |  | VLSI Physical Design |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "c30149db6d1327958145a22b",
+      "course_id": "curriculum-ECL-561",
+      "code": "ECL-561",
+      "title": "Compact Modelling of Semiconductor Devices",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "16.",
+        "ECL-561",
+        "",
+        "",
+        "Compact Modelling of Semiconductor",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 18",
+        "quote": "16. | ECL-561 |  |  | Compact Modelling of Semiconductor |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user",
+      "continuation_evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 19",
+          "quote": " |  |  |  | Devices |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | "
+        }
+      ]
+    },
+    {
+      "entry_id": "d38865006a3fd1cff78fafd1",
+      "course_id": "curriculum-ECL-526",
+      "code": "ECL-526",
+      "title": "Statistical Machine Learning for Variation- Aware Electronic Device and Circuit Simulation",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "17.",
+        "ECL-526",
+        "",
+        "",
+        "Statistical Machine Learning for Variation-",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 20",
+        "quote": "17. | ECL-526 |  |  | Statistical Machine Learning for Variation- |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user",
+      "continuation_evidence": [
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 21",
+          "quote": " |  |  |  | Aware Electronic Device and Circuit |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | "
+        },
+        {
+          "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+          "path": "data/btech_ec_str_24.pdf",
+          "page": 8,
+          "locator": "table 1 row 22",
+          "quote": " |  |  |  | Simulation |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | "
+        }
+      ]
+    },
+    {
+      "entry_id": "23f450208c8fe5331d56a8f5",
+      "course_id": "curriculum-ECL-635",
+      "code": "ECL-635",
+      "title": "Magnetic Random Access Memory",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "18.",
+        "ECL-635",
+        "",
+        "",
+        "Magnetic Random Access Memory",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 23",
+        "quote": "18. | ECL-635 |  |  | Magnetic Random Access Memory |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "503606e42a18eb723b07eb4c",
+      "course_id": "curriculum-ECL-550",
+      "code": "ECL-550",
+      "title": "Radar Signal Processing",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "19.",
+        "ECL-",
+        "550",
+        "",
+        "Radar Signal Processing",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 24",
+        "quote": "19. | ECL- | 550 |  | Radar Signal Processing |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "b89044c740ff1bc04c95db5d",
+      "course_id": "curriculum-ECL-631",
+      "code": "ECL-631",
+      "title": "RF Receiver Design",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "20.",
+        "ECL-",
+        "631",
+        "",
+        "RF Receiver Design",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 25",
+        "quote": "20. | ECL- | 631 |  | RF Receiver Design |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "44f8ac4cbbd6522d3b7761f5",
+      "course_id": "curriculum-ECL-515",
+      "code": "ECL-515",
+      "title": "Information and Coding Theory",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "21.",
+        "ECL-515",
+        "",
+        "",
+        "Information and Coding Theory",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 26",
+        "quote": "21. | ECL-515 |  |  | Information and Coding Theory |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ffecdad3e41e01a2536a120a",
+      "course_id": "curriculum-ECL-519",
+      "code": "ECL-519",
+      "title": "Wireless Communication Systems",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "22.",
+        "ECL-519",
+        "",
+        "",
+        "Wireless Communication Systems",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 8,
+        "locator": "table 1 row 27",
+        "quote": "22. | ECL-519 |  |  | Wireless Communication Systems |  |  |  |  |  |  | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "8d7b304633494494c6503c74",
+      "course_id": "curriculum-ECL-525",
+      "code": "ECL-525",
+      "title": "Hardware Architecture for deep- learning",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "23.",
+        "ECL-525",
+        "Hardware Architecture for deep- learning",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 1",
+        "quote": "23. | ECL-525 | Hardware Architecture for deep- learning | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "46d9d2567d51dc3c5c946f80",
+      "course_id": "curriculum-ECL-573",
+      "code": "ECL-573",
+      "title": "Digital VLSI Circuit Design",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "24.",
+        "ECL-573",
+        "Digital VLSI Circuit Design",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 2",
+        "quote": "24. | ECL-573 | Digital VLSI Circuit Design | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fb283239151972ae3bdabbff",
+      "course_id": "curriculum-ECL-579",
+      "code": "ECL-579",
+      "title": "Foundations of Semiconductor Device Physics",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "25.",
+        "ECL-579",
+        "Foundations of Semiconductor Device Physics",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 3",
+        "quote": "25. | ECL-579 | Foundations of Semiconductor Device Physics | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "1551e8d70282fc41ffb546a7",
+      "course_id": "curriculum-ECL-581",
+      "code": "ECL-581",
+      "title": "Analog VLSI Circuit Design",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "26.",
+        "ECL-581",
+        "Analog VLSI Circuit Design",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 4",
+        "quote": "26. | ECL-581 | Analog VLSI Circuit Design | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "1850f491f591d96f4101d249",
+      "course_id": "curriculum-ECL-542",
+      "code": "ECL-542",
+      "title": "MicrowaveIntegratedCircuits",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "27.",
+        "ECL-542",
+        "MicrowaveIntegratedCircuits",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 5",
+        "quote": "27. | ECL-542 | MicrowaveIntegratedCircuits | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "80241990ee465154f176148e",
+      "course_id": "curriculum-ECL-544",
+      "code": "ECL-544",
+      "title": "AdvancedRadarEngineering",
+      "entry_type": "program_elective_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": null,
+      "subject_area": "PEC",
+      "credits_raw": "4",
+      "contact_hours_raw": {
+        "L": "3",
+        "T": "1",
+        "P": "0"
+      },
+      "examination_hours_raw": {
+        "theory": "3",
+        "practical": "0"
+      },
+      "assessment_raw": {
+        "CWS": "20-35",
+        "PRS": "-",
+        "MTE": "20-30",
+        "ETE": "40-50",
+        "PRE": "-"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "28.",
+        "ECL-544",
+        "AdvancedRadarEngineering",
+        "PEC",
+        "4",
+        "3",
+        "1",
+        "0",
+        "3",
+        "0",
+        "20-35",
+        "-",
+        "20-30",
+        "40-50",
+        "-"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 9,
+        "locator": "table 1 row 6",
+        "quote": "28. | ECL-544 | AdvancedRadarEngineering | PEC | 4 | 3 | 1 | 0 | 3 | 0 | 20-35 | - | 20-30 | 40-50 | -"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "640e04b1b0f20a2883907bad",
+      "course_id": "curriculum-ECT-101",
+      "code": "ECT-101",
+      "title": "RF Simulation Techniques",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "RFM-1 (TEB-A)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-101",
+        "RF Simulation Techniques",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 4",
+        "quote": "1 | ECT-101 | RF Simulation Techniques | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "1fdae0a4207c49e281f3cb88",
+      "course_id": "curriculum-ECT-102",
+      "code": "ECT-102",
+      "title": "Design of Passive Microwave Components",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "RFM-1 (TEB-A)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-102",
+        "Design of Passive Microwave Components",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 5",
+        "quote": "2 | ECT-102 | Design of Passive Microwave Components | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "f7e7c7ee786fd5272c8c5915",
+      "course_id": "curriculum-ECT-103",
+      "code": "ECT-103",
+      "title": "Microwave Measurement Techniques",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "RFM-1 (TEB-A)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-103",
+        "Microwave Measurement Techniques",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 6",
+        "quote": "3 | ECT-103 | Microwave Measurement Techniques | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "d9058f3460edfc889a696421",
+      "course_id": "curriculum-ECT-104",
+      "code": "ECT-104",
+      "title": "Communication Networks",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-1 (TEB-B)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-104",
+        "Communication Networks",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 8",
+        "quote": "1 | ECT-104 | Communication Networks | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "d83c96053893c92c69c02f52",
+      "course_id": "curriculum-ECT-105",
+      "code": "ECT-105",
+      "title": "Optical Communication Technologies",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-1 (TEB-B)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-105",
+        "Optical Communication Technologies",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 9",
+        "quote": "2 | ECT-105 | Optical Communication Technologies | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "4700917378c3f0e9702dcd2d",
+      "course_id": "curriculum-ECT-106",
+      "code": "ECT-106",
+      "title": "Software Defined Radios",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-1 (TEB-B)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-106",
+        "Software Defined Radios",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 10",
+        "quote": "3 | ECT-106 | Software Defined Radios | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "28e9a0a72efe21305b1eb390",
+      "course_id": "curriculum-ECT-107",
+      "code": "ECT-107",
+      "title": "Introduction to Bio-Signal and Image Analysis",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-2 (TEB-C)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-107",
+        "Introduction to Bio-Signal and Image Analysis",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 12",
+        "quote": "1 | ECT-107 | Introduction to Bio-Signal and Image Analysis | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "5b73f3cd2d60cee5dbe7d6ac",
+      "course_id": "curriculum-ECT-108",
+      "code": "ECT-108",
+      "title": "Principles and Techniques of FMCW Radar Systems",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-2 (TEB-C)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-108",
+        "Principles and Techniques of FMCW Radar Systems",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 13",
+        "quote": "2 | ECT-108 | Principles and Techniques of FMCW Radar Systems | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "c01ec4d5028eb6c2b5e4982a",
+      "course_id": "curriculum-ECT-109",
+      "code": "ECT-109",
+      "title": "Advanced DSP",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "CNSP-2 (TEB-C)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-109",
+        "Advanced DSP",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 14",
+        "quote": "3 | ECT-109 | Advanced DSP | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "347d9b4c77c796bd31e0a3cd",
+      "course_id": "curriculum-ECT-110",
+      "code": "ECT-110",
+      "title": "Digital System Design Using High Level Language",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-1 (TEB-D)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-110",
+        "Digital System Design Using High Level Language",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 16",
+        "quote": "1 | ECT-110 | Digital System Design Using High Level Language | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ab7848709836006c9c7e2599",
+      "course_id": "curriculum-ECT-111",
+      "code": "ECT-111",
+      "title": "VLSI Circuit Design",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-1 (TEB-D)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-111",
+        "VLSI Circuit Design",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 17",
+        "quote": "2 | ECT-111 | VLSI Circuit Design | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "1edd5eef13a033c80c1fcea8",
+      "course_id": "curriculum-ECT-112",
+      "code": "ECT-112",
+      "title": "Physical Design",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-1 (TEB-D)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-112",
+        "Physical Design",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 18",
+        "quote": "3 | ECT-112 | Physical Design | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "79b09705dfcdb7bb57584f97",
+      "course_id": "curriculum-ECT-113",
+      "code": "ECT-113",
+      "title": "Analog Circuit Design",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-2 (TEB-E)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-113",
+        "Analog Circuit Design",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 20",
+        "quote": "1 | ECT-113 | Analog Circuit Design | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "fa3e6f0fa3654a7eb57e2f61",
+      "course_id": "curriculum-ECT-114",
+      "code": "ECT-114",
+      "title": "Mixed Signal System Design",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-2 (TEB-E)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-114",
+        "Mixed Signal System Design",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 21",
+        "quote": "2 | ECT-114 | Mixed Signal System Design | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "f08da83e0208305a83b56553",
+      "course_id": "curriculum-ECT-115",
+      "code": "ECT-115",
+      "title": "Measurement Techniques",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-2 (TEB-E)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-115",
+        "Measurement Techniques",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 10,
+        "locator": "table 1 row 22",
+        "quote": "3 | ECT-115 | Measurement Techniques | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "0213ce0978921b639fb30e92",
+      "course_id": "curriculum-ECT-116",
+      "code": "ECT-116",
+      "title": "Fabrication Techniques",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-3 (TEB-F)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-116",
+        "Fabrication Techniques",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 2",
+        "quote": "1 | ECT-116 | Fabrication Techniques | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "23b4dcb09d8e73bb1729152c",
+      "course_id": "curriculum-ECT-117",
+      "code": "ECT-117",
+      "title": "Semiconductor Characterization",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-3 (TEB-F)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-117",
+        "Semiconductor Characterization",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 3",
+        "quote": "2 | ECT-117 | Semiconductor Characterization | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a7bfa2117e1822b188162ca9",
+      "course_id": "curriculum-ECT-118",
+      "code": "ECT-118",
+      "title": "Device Modeling",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-3 (TEB-F)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-118",
+        "Device Modeling",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 4",
+        "quote": "3 | ECT-118 | Device Modeling | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "3ec085a9b2a32bfcf4b4bad2",
+      "course_id": "curriculum-ECT-119",
+      "code": "ECT-119",
+      "title": "Microprocessor and Computer Architecture",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-4 (TEB-G)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-119",
+        "Microprocessor and Computer Architecture",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 6",
+        "quote": "1 | ECT-119 | Microprocessor and Computer Architecture | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "3c035f3ab6b4ff88c393eed2",
+      "course_id": "curriculum-ECT-120",
+      "code": "ECT-120",
+      "title": "VLSI DSP",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-4 (TEB-G)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-120",
+        "VLSI DSP",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 7",
+        "quote": "2 | ECT-120 | VLSI DSP | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "74296ced86c3aaf71af9520d",
+      "course_id": "curriculum-ECT-121",
+      "code": "ECT-121",
+      "title": "Embedded Systems",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-4 (TEB-G)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-121",
+        "Embedded Systems",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 8",
+        "quote": "3 | ECT-121 | Embedded Systems | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ea8667ce56919c369e9bc355",
+      "course_id": "curriculum-ECT-122",
+      "code": "ECT-122",
+      "title": "Emerging Materials and Devices",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-5 (TEB-H)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECT-122",
+        "Emerging Materials and Devices",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 10",
+        "quote": "1 | ECT-122 | Emerging Materials and Devices | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "e707b762949346aec27b003a",
+      "course_id": "curriculum-ECT-123",
+      "code": "ECT-123",
+      "title": "Memories",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-5 (TEB-H)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECT-123",
+        "Memories",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 11",
+        "quote": "2 | ECT-123 | Memories | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ba27d482b15495f19b0d1c35",
+      "course_id": "curriculum-ECT-124",
+      "code": "ECT-124",
+      "title": "Emerging Computing Techniques",
+      "entry_type": "talent_enhancement_option",
+      "year": null,
+      "semester": null,
+      "term": null,
+      "group": "MVLSI-5 (TEB-H)",
+      "subject_area": "TEB",
+      "credits_raw": "2",
+      "contact_hours_raw": {
+        "L": "0",
+        "T": "0",
+        "P": "4"
+      },
+      "examination_hours_raw": {
+        "theory": "-",
+        "practical": "-"
+      },
+      "assessment_raw": {
+        "CWS": "-",
+        "PRS": "50",
+        "MTE": "-",
+        "ETE": "-",
+        "PRE": "50"
+      },
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECT-124",
+        "Emerging Computing Techniques",
+        "TEB",
+        "2",
+        "0",
+        "0",
+        "4",
+        "-",
+        "-",
+        "-",
+        "50",
+        "-",
+        "-",
+        "50"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 11,
+        "locator": "table 1 row 12",
+        "quote": "3 | ECT-124 | Emerging Computing Techniques | TEB | 2 | 0 | 0 | 4 | - | - | - | 50 | - | - | 50"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "ebaaa5a7917c176b4b52cd3e",
+      "course_id": "curriculum-ECC-102",
+      "code": "ECC-102",
+      "title": "Semiconductor Devices and Applications",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECC-102",
+        "Semiconductor Devices and Applications",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 2",
+        "quote": "1 | ECC-102 | Semiconductor Devices and Applications | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a9124808edda203632b76a86",
+      "course_id": "curriculum-ECC-104",
+      "code": "ECC-104",
+      "title": "Digital Logic and Systems",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECC-104",
+        "Digital Logic and Systems",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 3",
+        "quote": "2 | ECC-104 | Digital Logic and Systems | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "7ce0f6c98d1505482974b0dc",
+      "course_id": "curriculum-ECC-106",
+      "code": "ECC-106",
+      "title": "Signals and Systems",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECC-106",
+        "Signals and Systems",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 4",
+        "quote": "3 | ECC-106 | Signals and Systems | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "9548ce6a09a312c33c26614e",
+      "course_id": "curriculum-ECC-201",
+      "code": "ECC-201",
+      "title": "Fundamentals of Communication System",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECC-201",
+        "Fundamentals of Communication System",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 5",
+        "quote": "4 | ECC-201 | Fundamentals of Communication System | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "5bebb0b5040fd99bd34c55ca",
+      "course_id": "curriculum-ECC-203",
+      "code": "ECC-203",
+      "title": "Electromagnetics and Radiating Systems",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECC-203",
+        "Electromagnetics and Radiating Systems",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 6",
+        "quote": "5 | ECC-203 | Electromagnetics and Radiating Systems | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "85eb4c9afce048b0b90e6f4b",
+      "course_id": "curriculum-ECC-202",
+      "code": "ECC-202",
+      "title": "Digital Communications",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "3",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECC-202",
+        "Digital Communications",
+        "Spring",
+        "3"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 7",
+        "quote": "6 | ECC-202 | Digital Communications | Spring | 3"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "9151009ec76e918f100f8930",
+      "course_id": "curriculum-ECC-204",
+      "code": "ECC-204",
+      "title": "Analog Circuits",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "3",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "ECC-204",
+        "Analog Circuits",
+        "Autumn",
+        "3"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 8",
+        "quote": "7 | ECC-204 | Analog Circuits | Autumn | 3"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a2fd6a26822c7787af4a7b49",
+      "course_id": "curriculum-ECC-303",
+      "code": "ECC-303",
+      "title": "Microwave Engineering",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "8",
+        "ECC-303",
+        "Microwave Engineering",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 9",
+        "quote": "8 | ECC-303 | Microwave Engineering | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "549a9db60825571b8d7b7909",
+      "course_id": "curriculum-ECC-301",
+      "code": "ECC-301",
+      "title": "Digital Signal Processing",
+      "entry_type": "minor_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "3",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "9",
+        "ECC-301",
+        "Digital Signal Processing",
+        "Autumn",
+        "3"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 1 row 10",
+        "quote": "9 | ECC-301 | Digital Signal Processing | Autumn | 3"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "01fdc0d039543b66c7cc3c4e",
+      "course_id": "curriculum-ECL-614",
+      "code": "ECL-614",
+      "title": "Adaptive Signal Processing Techniques",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "1",
+        "ECL-",
+        "614",
+        "",
+        "Adaptive Signal Processing Techniques",
+        "",
+        "",
+        "",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 2",
+        "quote": "1 | ECL- | 614 |  | Adaptive Signal Processing Techniques |  |  |  | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "a8a9dd90a3ffc280c95e68c2",
+      "course_id": "curriculum-ECL-618",
+      "code": "ECL-618",
+      "title": "Wireless Technologies: 5G and Beyond",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "2",
+        "ECL-",
+        "618",
+        "",
+        "Wireless Technologies: 5G and Beyond",
+        "",
+        "",
+        "",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 3",
+        "quote": "2 | ECL- | 618 |  | Wireless Technologies: 5G and Beyond |  |  |  | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "28632d2360d1fc50358b2f1b",
+      "course_id": "curriculum-ECL-620",
+      "code": "ECL-620",
+      "title": "Advanced Wireless Communication",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "3",
+        "ECL-",
+        "620",
+        "",
+        "Advanced Wireless Communication",
+        "",
+        "",
+        "",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 4",
+        "quote": "3 | ECL- | 620 |  | Advanced Wireless Communication |  |  |  | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "94181ea739ec638ce175e4e7",
+      "course_id": "curriculum-ECL-577",
+      "code": "ECL-577",
+      "title": "VLSI Technology",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "4",
+        "ECL-577",
+        "",
+        "",
+        "VLSI Technology",
+        "",
+        "",
+        "",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 5",
+        "quote": "4 | ECL-577 |  |  | VLSI Technology |  |  |  | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "0e0580b7f9b7a4a064f388db",
+      "course_id": "curriculum-ECL-584",
+      "code": "ECL-584",
+      "title": "Mixed Signal Circuits",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "5",
+        "ECL-584",
+        "",
+        "",
+        "Mixed Signal Circuits",
+        "",
+        "",
+        "",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 6",
+        "quote": "5 | ECL-584 |  |  | Mixed Signal Circuits |  |  |  | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "4d71065d2cf56a6d73107435",
+      "course_id": "curriculum-ECL-573",
+      "code": "ECL-573",
+      "title": "Digital VLSI Circuit Design",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Spring",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "6",
+        "ECL-573",
+        "",
+        "",
+        "Digital VLSI Circuit Design",
+        "",
+        "",
+        "",
+        "Spring",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 7",
+        "quote": "6 | ECL-573 |  |  | Digital VLSI Circuit Design |  |  |  | Spring | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "9aee834ff5c971ca693fb1f2",
+      "course_id": "curriculum-ECL-542",
+      "code": "ECL-542",
+      "title": "Microwave Integrated Circuits",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "7",
+        "ECL-542",
+        "",
+        "",
+        "Microwave Integrated Circuits",
+        "",
+        "",
+        "",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 8",
+        "quote": "7 | ECL-542 |  |  | Microwave Integrated Circuits |  |  |  | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "75823c6b7f82fef6de18ba24",
+      "course_id": "curriculum-ECL-544",
+      "code": "ECL-544",
+      "title": "Advanced Radar Engineering",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "8",
+        "ECL-544",
+        "",
+        "",
+        "Advanced Radar Engineering",
+        "",
+        "",
+        "",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 9",
+        "quote": "8 | ECL-544 |  |  | Advanced Radar Engineering |  |  |  | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    },
+    {
+      "entry_id": "22ebb8c824d8ce7162c899b2",
+      "course_id": "curriculum-ECL-631",
+      "code": "ECL-631",
+      "title": "RF Receiver Design",
+      "entry_type": "honours_option",
+      "year": null,
+      "semester": null,
+      "term": "Autumn",
+      "group": null,
+      "subject_area": null,
+      "credits_raw": "4",
+      "contact_hours_raw": {},
+      "examination_hours_raw": {},
+      "assessment_raw": {},
+      "component_rows": [],
+      "raw_cells": [
+        "9",
+        "ECL-",
+        "631",
+        "",
+        "RF Receiver Design",
+        "",
+        "",
+        "",
+        "Autumn",
+        "4"
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 12,
+        "locator": "table 2 row 10",
+        "quote": "9 | ECL- | 631 |  | RF Receiver Design |  |  |  | Autumn | 4"
+      },
+      "review_status": "extracted",
+      "applicability": "project_primary_curriculum_per_user"
+    }
+  ],
+  "semester_totals": [
+    {
+      "year": 1,
+      "term": "Autumn",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "23",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 11",
+        "quote": " |  | Total |  | 23 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 1,
+      "term": "Spring",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "21",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 4,
+        "locator": "table 1 row 19",
+        "quote": " |  | Total |  | 21 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 2,
+      "term": "Autumn",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "23/24",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 11",
+        "quote": " |  | Total |  | 23/24 |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 2,
+      "term": "Spring",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "23/24",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 5,
+        "locator": "table 1 row 20",
+        "quote": " |  | Total |  | 23/24 |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 3,
+      "term": "Autumn",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "21/22",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 12",
+        "quote": " |  | Total |  | 21/22 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 3,
+      "term": "Spring",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "18/21-22",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 6,
+        "locator": "table 1 row 22",
+        "quote": " |  | Total |  | 18/21-22 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 4,
+      "term": "Autumn",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "12/18-20",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 9",
+        "quote": " |  | Total |  | 12/18-20 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    },
+    {
+      "year": 4,
+      "term": "Spring",
+      "raw_cells": [
+        "",
+        "",
+        "Total",
+        "",
+        "14/20-22",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 7,
+        "locator": "table 1 row 16",
+        "quote": " |  | Total |  | 14/20-22 |  |  |  |  |  |  |  |  |  |  | "
+      }
+    }
+  ],
+  "curriculum_rules": [
+    {
+      "page": 1,
+      "text": "7-B.TECH. (ELECTRONICS & COMMUNICATION ENGINEERING)\nCOMPONENT WISE DISTRIBUTION\nMain Curriculum Approved Credits Approved Proposed Credits for Proposed Credits\nSub Components\nComponents for B.Tech. Credits Range B.Tech. by Department Range\nHSSC 5 5\nHSSEC 6 6\nMC 3 3\nInstitute Core BSC 12-20 20\n52-58 53\nCourse ESC 8-20 8\nDSC 4 4\nESSC 3 3\nTM 4 4\nCCCC 40-48 45\nAI/ML 2 2\nEngg. Analysis and design (design\nthinking based project)/Industry Oriented\n4 4\nProblem Solving/ Lab based Project/\nProgram Core\nPractical Problem/ Case study 87-91 91\nCourse\nTechnical Communication 2 2\nBTP/Entrepreneurship/ Project-based\n6-10 10\ninternship/PEC\nPEC 22-26 22\nTEB 6-8 6\nOEC 9-12 9-12 9-12 9-12\nCORE 2 2 2 2\nTotal 150-160 155-158\nMSC/DHC 18/20 18/20\nGrand Total 173/178\n-93-",
+      "tables": [
+        {
+          "bbox": [
+            54.599999999999994,
+            99.36000000000001,
+            737.52,
+            465.06
+          ],
+          "rows": [
+            [
+              "Main Curriculum\nComponents",
+              "Sub Components",
+              "Approved Credits\nfor B.Tech.",
+              "Approved\nCredits Range",
+              "Proposed Credits for\nB.Tech. by Department",
+              "Proposed Credits\nRange"
+            ],
+            [
+              "Institute Core\nCourse",
+              "HSSC",
+              "5",
+              "52-58",
+              "5",
+              "53"
+            ],
+            [
+              null,
+              "HSSEC",
+              "6",
+              null,
+              "6",
+              null
+            ],
+            [
+              null,
+              "MC",
+              "3",
+              null,
+              "3",
+              null
+            ],
+            [
+              null,
+              "BSC",
+              "12-20",
+              null,
+              "20",
+              null
+            ],
+            [
+              null,
+              "ESC",
+              "8-20",
+              null,
+              "8",
+              null
+            ],
+            [
+              null,
+              "DSC",
+              "4",
+              null,
+              "4",
+              null
+            ],
+            [
+              null,
+              "ESSC",
+              "3",
+              null,
+              "3",
+              null
+            ],
+            [
+              null,
+              "TM",
+              "4",
+              null,
+              "4",
+              null
+            ],
+            [
+              "Program Core\nCourse",
+              "CCCC",
+              "40-48",
+              "87-91",
+              "45",
+              "91"
+            ],
+            [
+              null,
+              "AI/ML",
+              "2",
+              null,
+              "2",
+              null
+            ],
+            [
+              null,
+              "Engg. Analysis and design (design\nthinking based project)/Industry Oriented\nProblem Solving/ Lab based Project/\nPractical Problem/ Case study",
+              "4",
+              null,
+              "4",
+              null
+            ],
+            [
+              null,
+              "Technical Communication",
+              "2",
+              null,
+              "2",
+              null
+            ],
+            [
+              null,
+              "BTP/Entrepreneurship/ Project-based\ninternship/PEC",
+              "6-10",
+              null,
+              "10",
+              null
+            ],
+            [
+              null,
+              "PEC",
+              "22-26",
+              null,
+              "22",
+              null
+            ],
+            [
+              null,
+              "TEB",
+              "6-8",
+              null,
+              "6",
+              null
+            ],
+            [
+              "",
+              "OEC",
+              "9-12",
+              "9-12",
+              "9-12",
+              "9-12"
+            ],
+            [
+              "",
+              "CORE",
+              "2",
+              "2",
+              "2",
+              "2"
+            ],
+            [
+              "",
+              "Total",
+              "150-160",
+              null,
+              "155-158",
+              null
+            ],
+            [
+              "",
+              "MSC/DHC",
+              "18/20",
+              null,
+              "18/20",
+              null
+            ],
+            [
+              "",
+              "Grand Total",
+              "",
+              null,
+              "173/178",
+              null
+            ]
+          ]
+        }
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 1,
+        "locator": "whole page",
+        "quote": "7-B.TECH. (ELECTRONICS & COMMUNICATION ENGINEERING)\nCOMPONENT WISE DISTRIBUTION\nMain Curriculum Approved Credits Approved Proposed Credits for Proposed Credits\nSub Components\nComponents for B.Tech. Credits Range B.Tech. by Department Range\nHSSC 5 5\nHSSEC 6 6\nMC 3 3\nInstitute Core BSC 12-20 20\n52-58 53\nCourse ESC 8-20 8\nDSC 4 4\nESSC 3 3\nTM 4 4\nCCCC 40-48 45\nAI/ML 2 2\nEngg. Analysis and design (design\nthinking based project)/Industry Oriented\n4 4\nProblem Solving/ Lab based Project/\nProgram Core\nPractical Problem/ Case study 87-91 91\nCourse\nTechnical Communication 2 2\nBTP/Entrepreneurship/ Project-based\n6-10 10\ninternship/PEC\nPEC 22-26 22\nTEB 6-8 6\nOEC 9-12 9-12 9-12 9-12\nCORE 2 2 2 2\nTotal 150-160 155-158\nMSC/DHC 18/20 18/20\nGrand Total 173/178\n-93-"
+      }
+    },
+    {
+      "page": 2,
+      "text": "DEPARTMENT OF ELECTRONICS & COMMUNICATION ENGINEERING\nINDIAN INSTITUTE OF TECHNOLOGY ROORKEE\nProgram Code : 116 B.Tech. (Electronics & Communication Engineering)\nDepartment : ECE Electronics & Communication Engineering\nTeaching Scheme\nYear Credits in Autumn Semester Credits in Spring Semester Credits (Year – wise)\n1 23 21 44\n2 23/24 23/24 46/48\n3 21/22 18/22 39/44\n4 12/20 14/22 26/42\nGrand Total 155/178\nTotal with MSC/DHC With addition 18-20 credits 173/198\n-94-",
+      "tables": [
+        {
+          "bbox": [
+            62.67,
+            196.46999999999997,
+            729.51,
+            295.53000000000003
+          ],
+          "rows": [
+            [
+              "Year",
+              "Credits in Autumn Semester",
+              "Credits in Spring Semester",
+              "Credits (Year – wise)"
+            ],
+            [
+              "1",
+              "23",
+              "21",
+              "44"
+            ],
+            [
+              "2",
+              "23/24",
+              "23/24",
+              "46/48"
+            ],
+            [
+              "3",
+              "21/22",
+              "18/22",
+              "39/44"
+            ],
+            [
+              "4",
+              "12/20",
+              "14/22",
+              "26/42"
+            ],
+            [
+              "Grand Total",
+              "",
+              "",
+              "155/178"
+            ],
+            [
+              "Total with MSC/DHC",
+              "With addition 18-20 credits",
+              null,
+              "173/198"
+            ]
+          ]
+        }
+      ],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 2,
+        "locator": "whole page",
+        "quote": "DEPARTMENT OF ELECTRONICS & COMMUNICATION ENGINEERING\nINDIAN INSTITUTE OF TECHNOLOGY ROORKEE\nProgram Code : 116 B.Tech. (Electronics & Communication Engineering)\nDepartment : ECE Electronics & Communication Engineering\nTeaching Scheme\nYear Credits in Autumn Semester Credits in Spring Semester Credits (Year – wise)\n1 23 21 44\n2 23/24 23/24 46/48\n3 21/22 18/22 39/44\n4 12/20 14/22 26/42\nGrand Total 155/178\nTotal with MSC/DHC With addition 18-20 credits 173/198\n-94-"
+      }
+    },
+    {
+      "page": 3,
+      "text": "Components Maximum Units Minimum Comments\nNon-Credit Units\nElements Discipline (DIS) 16 8 To be evaluated by DoSW\n(NCE)\nNCC/NSS/NSO 8 4 To be evaluated by DoSW\nInternship (INT) 24 8 1-week internship= 1 unit\n(to be coordinated by the deptt. /Centres/School)\nParticipation in 8 4 To be coordinated by the departments/Centres/school\nprofessional (2nd& 3rd Years)\ndevelopment\nprograms by Industry\nexperts/ field experts\n(PPD-1 & PPD-2)\nMinimum non-credit units to be earned: 24\n-95-",
+      "tables": [],
+      "evidence": {
+        "source_version_id": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+        "path": "data/btech_ec_str_24.pdf",
+        "page": 3,
+        "locator": "whole page",
+        "quote": "Components Maximum Units Minimum Comments\nNon-Credit Units\nElements Discipline (DIS) 16 8 To be evaluated by DoSW\n(NCE)\nNCC/NSS/NSO 8 4 To be evaluated by DoSW\nInternship (INT) 24 8 1-week internship= 1 unit\n(to be coordinated by the deptt. /Centres/School)\nParticipation in 8 4 To be coordinated by the departments/Centres/school\nprofessional (2nd& 3rd Years)\ndevelopment\nprograms by Industry\nexperts/ field experts\n(PPD-1 & PPD-2)\nMinimum non-credit units to be earned: 24\n-95-"
+      }
+    }
+  ]
+}

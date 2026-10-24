@@ -1,0 +1,106 @@
+[
+  {
+    "semester": 1,
+    "main_curriculum_range": [
+      23,
+      23
+    ],
+    "including_optional_minor_honours_range": [
+      23,
+      23
+    ],
+    "printed_total": "23",
+    "reconciled": true
+  },
+  {
+    "semester": 2,
+    "main_curriculum_range": [
+      21,
+      21
+    ],
+    "including_optional_minor_honours_range": [
+      21,
+      21
+    ],
+    "printed_total": "21",
+    "reconciled": true
+  },
+  {
+    "semester": 3,
+    "main_curriculum_range": [
+      23,
+      24
+    ],
+    "including_optional_minor_honours_range": [
+      23,
+      24
+    ],
+    "printed_total": "23/24",
+    "reconciled": true
+  },
+  {
+    "semester": 4,
+    "main_curriculum_range": [
+      23,
+      24
+    ],
+    "including_optional_minor_honours_range": [
+      23,
+      24
+    ],
+    "printed_total": "23/24",
+    "reconciled": true
+  },
+  {
+    "semester": 5,
+    "main_curriculum_range": [
+      21,
+      22
+    ],
+    "including_optional_minor_honours_range": [
+      21,
+      22
+    ],
+    "printed_total": "21/22",
+    "reconciled": true
+  },
+  {
+    "semester": 6,
+    "main_curriculum_range": [
+      18,
+      18
+    ],
+    "including_optional_minor_honours_range": [
+      21,
+      22
+    ],
+    "printed_total": "18/21-22",
+    "reconciled": true
+  },
+  {
+    "semester": 7,
+    "main_curriculum_range": [
+      12,
+      12
+    ],
+    "including_optional_minor_honours_range": [
+      18,
+      20
+    ],
+    "printed_total": "12/18-20",
+    "reconciled": true
+  },
+  {
+    "semester": 8,
+    "main_curriculum_range": [
+      14,
+      14
+    ],
+    "including_optional_minor_honours_range": [
+      20,
+      22
+    ],
+    "printed_total": "14/20-22",
+    "reconciled": true
+  }
+]

@@ -1,0 +1,4847 @@
+[
+  {
+    "resource_id": "ed5db25c-5633-58b0-bb40-c4afc5934bc1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sahni, S., “Data Structures, Algorithms, and Applications in C++”, WCB/McGraw-Hill.",
+    "title_candidate": "Data Structures, Algorithms, and Applications in C++",
+    "year_raw": "2001",
+    "source_code": "CSN-102",
+    "curriculum_codes": [
+      "CSE-101"
+    ],
+    "syllabus_id": "bee7d629bc3679e38ce05c68",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 4,
+        "locator": "table 2 row 2",
+        "quote": "1. | Sahni, S., “Data Structures, Algorithms, and Applications in C++”, WCB/McGraw-Hill. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "52487e2a-1c16-53ab-83d8-25da53ef423c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sahni, S., “Data Structures, Algorithms, and Applications in Java”, WCB/McGraw-Hill.",
+    "title_candidate": "Data Structures, Algorithms, and Applications in Java",
+    "year_raw": "2001",
+    "source_code": "CSN-102",
+    "curriculum_codes": [
+      "CSE-101"
+    ],
+    "syllabus_id": "bee7d629bc3679e38ce05c68",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 4,
+        "locator": "table 2 row 3",
+        "quote": "2. | Sahni, S., “Data Structures, Algorithms, and Applications in Java”, WCB/McGraw-Hill. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "cbfc3f46-b3df-51c7-a7c0-eef2a7cd3bab",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Drozdek, A ., “ Data S tructures a nd Algorithms i n C ++”, V ikas Publishing House.",
+    "title_candidate": " Data S tructures a nd Algorithms i n C ++",
+    "year_raw": "2002",
+    "source_code": "CSN-102",
+    "curriculum_codes": [
+      "CSE-101"
+    ],
+    "syllabus_id": "bee7d629bc3679e38ce05c68",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 4,
+        "locator": "table 2 row 4",
+        "quote": "3. | Drozdek, A ., “ Data S tructures a nd Algorithms i n C ++”, V ikas Publishing House. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "dd18a62b-d53b-5b13-949a-9a78ec5153ac",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Wirth, N ., “ Algorithms a nd D ata S tructures”, P rentice-Hall of India.",
+    "title_candidate": " Algorithms a nd D ata S tructures",
+    "year_raw": "1985",
+    "source_code": "CSN-102",
+    "curriculum_codes": [
+      "CSE-101"
+    ],
+    "syllabus_id": "bee7d629bc3679e38ce05c68",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 4,
+        "locator": "table 2 row 5",
+        "quote": "4. | Wirth, N ., “ Algorithms a nd D ata S tructures”, P rentice-Hall of India. | 1985"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "fc6a096e-a2a2-5f5a-b12d-bf132b022671",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Lafore, R ., “ Data S tructures a nd A lgorithms i n J ava”, 2 nd Ed., Dorling Kindersley.",
+    "title_candidate": " Data S tructures a nd A lgorithms i n J ava",
+    "year_raw": "2007",
+    "source_code": "CSN-102",
+    "curriculum_codes": [
+      "CSE-101"
+    ],
+    "syllabus_id": "bee7d629bc3679e38ce05c68",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 4,
+        "locator": "table 2 row 6",
+        "quote": "5. | Lafore, R ., “ Data S tructures a nd A lgorithms i n J ava”, 2 nd Ed., Dorling Kindersley. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a1c28054-30b1-5406-ac64-6aa0bd937737",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Dietel H.M., Dietel P.J., “Java: How to Program”, Prentice-Hall, 7th Edition.",
+    "title_candidate": "Java: How to Program",
+    "year_raw": "2006",
+    "source_code": "CSN-103",
+    "curriculum_codes": [
+      "ECC-101"
+    ],
+    "syllabus_id": "17d92e7e5fcbcbde91a58e1c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 6,
+        "locator": "table 2 row 2",
+        "quote": "1. | Dietel H.M., Dietel P.J., “Java: How to Program”, Prentice-Hall, 7th Edition. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "361902ef-11c4-5c10-a041-25e72e699460",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Flanagan D., “Java in a Nutshell”, O’Reilly Media, Inc., 5th Edition.",
+    "title_candidate": "Java in a Nutshell",
+    "year_raw": "2005",
+    "source_code": "CSN-103",
+    "curriculum_codes": [
+      "ECC-101"
+    ],
+    "syllabus_id": "17d92e7e5fcbcbde91a58e1c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 6,
+        "locator": "table 2 row 3",
+        "quote": "2. | Flanagan D., “Java in a Nutshell”, O’Reilly Media, Inc., 5th Edition. | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2c0807f8-998a-5d6e-b75c-00b78be5121b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Eckel B., “Thinking in Java”, Prentice-Hall.",
+    "title_candidate": "Thinking in Java",
+    "year_raw": "1998",
+    "source_code": "CSN-103",
+    "curriculum_codes": [
+      "ECC-101"
+    ],
+    "syllabus_id": "17d92e7e5fcbcbde91a58e1c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 6,
+        "locator": "table 2 row 4",
+        "quote": "3. | Eckel B., “Thinking in Java”, Prentice-Hall. | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "55a56aa1-e46d-53b7-aa7e-877576ef3892",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gosling J., Joy B., Steele G., Bracha G., “The Java Language Specification”, Prentice-Hall, 2nd Edition.",
+    "title_candidate": "The Java Language Specification",
+    "year_raw": "2000",
+    "source_code": "CSN-103",
+    "curriculum_codes": [
+      "ECC-101"
+    ],
+    "syllabus_id": "17d92e7e5fcbcbde91a58e1c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 6,
+        "locator": "table 2 row 5",
+        "quote": "4. | Gosling J., Joy B., Steele G., Bracha G., “The Java Language Specification”, Prentice-Hall, 2nd Edition. | 2000"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b016bebc-7a89-50de-ae34-7892b1bb5df9",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Xavier C., “Java Programming – A Practical Approach”, Tata McGraw-Hill.",
+    "title_candidate": "Java Programming – A Practical Approach",
+    "year_raw": "2011",
+    "source_code": "CSN-103",
+    "curriculum_codes": [
+      "ECC-101"
+    ],
+    "syllabus_id": "17d92e7e5fcbcbde91a58e1c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 6,
+        "locator": "table 2 row 6",
+        "quote": "5. | Xavier C., “Java Programming – A Practical Approach”, Tata McGraw-Hill. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "47eae428-b273-5208-85fa-d014258b6789",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mano, M.M., “Computer System Architecture” 3rd Ed., Prentice-Hall of India.",
+    "title_candidate": "Computer System Architecture",
+    "year_raw": "2004",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 2",
+        "quote": "1. | Mano, M.M., “Computer System Architecture” 3rd Ed., Prentice-Hall of India. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "8988fdde-df18-5869-a4b1-3a43498b75b4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Rajaraman, V. and Radhakrishnan, T., “Computer Organization and Architecture”, Prentice-Hall of India.",
+    "title_candidate": "Computer Organization and Architecture",
+    "year_raw": "2007",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 3",
+        "quote": "2. | Rajaraman, V. and Radhakrishnan, T., “Computer Organization and Architecture”, Prentice-Hall of India. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "97783233-c61d-5168-b23c-58f1fa70f4ba",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Govindrajalu, B., “Computer Architecture and Organization”, Tata McGraw-Hill.",
+    "title_candidate": "Computer Architecture and Organization",
+    "year_raw": "2004",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 4",
+        "quote": "3. | Govindrajalu, B., “Computer Architecture and Organization”, Tata McGraw-Hill. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "96ef2ed4-ed19-54fa-b755-eadd49fe9399",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Stallings, W., “Computer Organization and Architecture”, 5th Ed., Pearson Education.",
+    "title_candidate": "Computer Organization and Architecture",
+    "year_raw": "2001",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 5",
+        "quote": "4. | Stallings, W., “Computer Organization and Architecture”, 5th Ed., Pearson Education. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c866d886-472a-5bc2-a2c8-ecf3eee00914",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hall, D.V., “Microprocessors and Interfacing”, 2nd Ed., Tata McGraw- Hill.",
+    "title_candidate": "Microprocessors and Interfacing",
+    "year_raw": "2006",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 6",
+        "quote": "5. | Hall, D.V., “Microprocessors and Interfacing”, 2nd Ed., Tata McGraw- Hill. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "fbda727f-6357-544d-9659-d47ec7bcab4d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Brey, B.B., “The Intel Microprocessors”, 6th Ed., Pearson Education.",
+    "title_candidate": "The Intel Microprocessors",
+    "year_raw": "2003",
+    "source_code": "CSN-221",
+    "curriculum_codes": [
+      "ECT-119"
+    ],
+    "syllabus_id": "87c029f7276d891d4cf8d60e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 8,
+        "locator": "table 1 row 7",
+        "quote": "6. | Brey, B.B., “The Intel Microprocessors”, 6th Ed., Pearson Education. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "53e373ca-2d85-5e54-b528-665d893c92e4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Boylstead R.L., Nashelsky L., “Electronic Devices and Circuit Theory”, Pearson, 10th Edition.",
+    "title_candidate": "Electronic Devices and Circuit Theory",
+    "year_raw": "2009",
+    "source_code": "ECN-101",
+    "curriculum_codes": [],
+    "syllabus_id": "9088967a7a5b179e90490f25",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 2",
+        "quote": "1. | Boylstead R.L., Nashelsky L., “Electronic Devices and Circuit Theory”, Pearson, 10th Edition. |  |  |  | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "674a5107-0234-5347-a9c9-f9798e0e9441",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Millman J., Halkias C.C., Jit S., “Electronic Devices and Circuits”, Tata McGraw-Hill, 2nd Edition.",
+    "title_candidate": "Electronic Devices and Circuits",
+    "year_raw": "2007",
+    "source_code": "ECN-101",
+    "curriculum_codes": [],
+    "syllabus_id": "9088967a7a5b179e90490f25",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 3",
+        "quote": "2. | Millman J., Halkias C.C., Jit S., “Electronic Devices and Circuits”, Tata McGraw-Hill, 2nd Edition. |  |  |  | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "285d32a6-08a5-5aa7-8593-21a7ce207ad8",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mano M.M., “Digital Design”, Prentice-Hall, 3rd Edition.",
+    "title_candidate": "Digital Design",
+    "year_raw": "2002",
+    "source_code": "ECN-101",
+    "curriculum_codes": [],
+    "syllabus_id": "9088967a7a5b179e90490f25",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 4",
+        "quote": "3. | Mano M.M., “Digital Design”, Prentice-Hall, 3rd Edition. |  |  |  | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "mano-digital-6"
+    ]
+  },
+  {
+    "resource_id": "2350868e-5b75-5e5f-acc0-556baeb9ebdc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kennedy G., Davis B., “Electronic Communication Systems”, Tata McGraw-Hill, 4th Edition.",
+    "title_candidate": "Electronic Communication Systems",
+    "year_raw": "2008",
+    "source_code": "ECN-101",
+    "curriculum_codes": [],
+    "syllabus_id": "9088967a7a5b179e90490f25",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 5",
+        "quote": "4. | Kennedy G., Davis B., “Electronic Communication Systems”, |  | Tata |  | 2008"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 6",
+        "quote": " | McGraw-Hill, 4th Edition. |  |  |  | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "5e8425e2-d434-5fc3-96d8-e3e62cec41f5",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Tomasi W., “Advanced Electronic Communication Systems”, Pearson/Prentice-Hall, 6th Edition. Pearson/Prentice-Hall, 6th Edition.",
+    "title_candidate": "Advanced Electronic Communication Systems",
+    "year_raw": "2004",
+    "source_code": "ECN-101",
+    "curriculum_codes": [],
+    "syllabus_id": "9088967a7a5b179e90490f25",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 7",
+        "quote": "5. | Tomasi W., “Advanced Electronic Communication Systems”, Pearson/Prentice-Hall, 6th Edition. |  |  |  | 2004"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 10,
+        "locator": "table 2 row 8",
+        "quote": " | Pearson/Prentice-Hall, 6th Edition. |  |  |  | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "834eb586-c2b3-5ca3-9836-1cb71e076761",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Boylstead R.L., Nashelsky L., “Electronic Devices and Circuit Theory”, Pearson, 10th Edition.",
+    "title_candidate": "Electronic Devices and Circuit Theory",
+    "year_raw": "2009",
+    "source_code": "ECN-102",
+    "curriculum_codes": [],
+    "syllabus_id": "77071be4a77e553915679dc1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 12,
+        "locator": "table 1 row 2",
+        "quote": "1. | Boylstead R.L., Nashelsky L., “Electronic Devices and Circuit Theory”, Pearson, 10th Edition. |  | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "249bc55b-5719-5a20-a9f8-3ae3e932b464",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Floyd T.L., Buchla D.L., “Electronics Fundamentals: Circuits, Devices and Applications”, 8th Edition",
+    "title_candidate": "Electronics Fundamentals: Circuits, Devices and Applications",
+    "year_raw": "2010",
+    "source_code": "ECN-102",
+    "curriculum_codes": [],
+    "syllabus_id": "77071be4a77e553915679dc1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 12,
+        "locator": "table 1 row 3",
+        "quote": "2. | Floyd T.L., Buchla D.L., “Electronics Fundamentals: Circuits, Devices and Applications”, 8th Edition |  | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "4146a32c-07d5-5411-bd90-e183a980d614",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Millman J., Halkias C.C., Jit S., “Electronic Devices and Circuits”, Tata McGraw-Hill, 2nd Edition.",
+    "title_candidate": "Electronic Devices and Circuits",
+    "year_raw": "2007",
+    "source_code": "ECN-102",
+    "curriculum_codes": [],
+    "syllabus_id": "77071be4a77e553915679dc1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 12,
+        "locator": "table 1 row 4",
+        "quote": "3. |  | Millman J., Halkias C.C., Jit S., “Electronic Devices and Circuits”, | 2007"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 12,
+        "locator": "table 1 row 5",
+        "quote": " |  | Tata McGraw-Hill, 2nd Edition. | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "dc6f4131-e726-5972-8382-2e79b7acdd85",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Dorf R.C., Smith R.J., “Circuits, Devices and Systems: A First Course in Electrical Engineering”, 5th Edition",
+    "title_candidate": "Circuits, Devices and Systems: A First Course in Electrical Engineering",
+    "year_raw": "1991",
+    "source_code": "ECN-102",
+    "curriculum_codes": [],
+    "syllabus_id": "77071be4a77e553915679dc1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 12,
+        "locator": "table 1 row 6",
+        "quote": "4. | Dorf R.C., Smith R.J., “Circuits, Devices and Systems: A First Course in Electrical Engineering”, 5th Edition |  | 1991"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1701cca0-0dee-5440-80f1-951bffdbc536",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mano M.M., Ciletti M.D., “Digital Design”, Pearson India, 4th Edition.",
+    "title_candidate": "Digital Design",
+    "year_raw": "2006",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 2",
+        "quote": "1. | Mano M.M., Ciletti M.D., “Digital Design”, Pearson India, 4th Edition. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "mano-digital-6"
+    ]
+  },
+  {
+    "resource_id": "dd7fbc8b-a5ad-5036-acd0-404233d61a9e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Katz R.H., Borriello G., “Contemporary Logic Desing”, Prentice Hall India, 2nd Edition.",
+    "title_candidate": "Contemporary Logic Desing",
+    "year_raw": "2008",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 3",
+        "quote": "2. | Katz R.H., Borriello G., “Contemporary Logic Desing”, Prentice Hall India, 2nd Edition. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e294fc53-bdf4-509f-83d4-e8d04b54b505",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kohavi Z., Jha N.K., “Switching and Finite Automata Theory”, Cambridge University Press, India, 2nd Edition.",
+    "title_candidate": "Switching and Finite Automata Theory",
+    "year_raw": "2011",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 4",
+        "quote": "3. | Kohavi Z., Jha N.K., “Switching and Finite Automata Theory”, Cambridge University Press, India, 2nd Edition. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "19efe68b-655b-57f8-a2a7-7519a2148c0d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Wakerly J.F., “Digital Design: Principles and Practices,” Pearson India, 4th Edition.",
+    "title_candidate": "Digital Design: Principles and Practices,",
+    "year_raw": "2008",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 5",
+        "quote": "4. | Wakerly J.F., “Digital Design: Principles and Practices,” Pearson India, 4th Edition. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e56d5b47-02c0-544e-acf0-e8d0d1317760",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Harris D., Harris S., “Digital Design and Computer Architecture”, Elsevier Publications, 2nd Edition.",
+    "title_candidate": "Digital Design and Computer Architecture",
+    "year_raw": "2007",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 6",
+        "quote": "5. | Harris D., Harris S., “Digital Design and Computer Architecture”, Elsevier Publications, 2nd Edition. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1b801660-761f-5d24-91de-51fb8fe8a9fe",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Pedroni V.A., “Digital Circuit Design with VHDL”, Prentice Hall India, 2nd Edition.",
+    "title_candidate": "Digital Circuit Design with VHDL",
+    "year_raw": "2001",
+    "source_code": "ECN-104",
+    "curriculum_codes": [
+      "ECC-104"
+    ],
+    "syllabus_id": "34be0dc6681596152910cd6c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 14,
+        "locator": "table 2 row 7",
+        "quote": "6. | Pedroni V.A., “Digital Circuit Design with VHDL”, Prentice Hall India, 2nd Edition. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "64de40ff-6ca8-56b7-a9a5-c1bbd2a7a70e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Streetman B.G., Banerjee, S.K, “Solid State Electronic Devices”, Pearson Education, 6th Edition.",
+    "title_candidate": "Solid State Electronic Devices",
+    "year_raw": "2006",
+    "source_code": "ECN-142",
+    "curriculum_codes": [
+      "ECC-102"
+    ],
+    "syllabus_id": "cb4b0fbe8c2ad14e1bda37d7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 16,
+        "locator": "table 1 row 2",
+        "quote": "1. | Streetman B.G., Banerjee, S.K, “Solid State Electronic Devices”, Pearson Education, 6th Edition. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "892e1dec-07d2-54e4-a2a3-ff07b55d5c57",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Tyagi M.S., “Introduction to Semiconductor Materials and Devices”, John Wiley & Sons.",
+    "title_candidate": "Introduction to Semiconductor Materials and Devices",
+    "year_raw": "1993",
+    "source_code": "ECN-142",
+    "curriculum_codes": [
+      "ECC-102"
+    ],
+    "syllabus_id": "cb4b0fbe8c2ad14e1bda37d7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 16,
+        "locator": "table 1 row 3",
+        "quote": "2. | Tyagi M.S., “Introduction to Semiconductor Materials and Devices”, John Wiley & Sons. | 1993"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7ac1c65f-db5e-5457-94ff-c37174664805",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sze S.M., “Semiconductor Devices Physics and Technology” John Wiley & Sons, 2nd Edition.",
+    "title_candidate": "Semiconductor Devices Physics and Technology",
+    "year_raw": "2002",
+    "source_code": "ECN-142",
+    "curriculum_codes": [
+      "ECC-102"
+    ],
+    "syllabus_id": "cb4b0fbe8c2ad14e1bda37d7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 16,
+        "locator": "table 1 row 4",
+        "quote": "3. | Sze S.M., “Semiconductor Devices Physics and Technology” John Wiley & Sons, 2nd Edition. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "afa45846-b061-5ac2-a013-1d52fe9b30bb",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "“Advanced Semiconductor Fundamentals,” Prentice Hall India, 2nd Edition.",
+    "title_candidate": "Advanced Semiconductor Fundamentals,",
+    "year_raw": "2002",
+    "source_code": "ECN-142",
+    "curriculum_codes": [
+      "ECC-102"
+    ],
+    "syllabus_id": "cb4b0fbe8c2ad14e1bda37d7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 16,
+        "locator": "table 1 row 5",
+        "quote": "4. | “Advanced Semiconductor Fundamentals,” Prentice Hall India, 2nd Edition. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0091a919-3817-57c0-ac9e-ca4a8f4be6eb",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Oppenheim, A.V., Willsky, A.S. and Nawab, S.H., “Signals & Systems”, 2nd Ed., Prentice-Hall of India.",
+    "title_candidate": "Signals & Systems",
+    "year_raw": "1997",
+    "source_code": "ECN-203",
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "syllabus_id": "217d704e6146f5da18c23bb8",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 18,
+        "locator": "table 1 row 2",
+        "quote": "1. | Oppenheim, A.V., Willsky, A.S. and Nawab, S.H., “Signals & Systems”, 2nd Ed., Prentice-Hall of India. | 1997"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "oppenheim-signals-2"
+    ]
+  },
+  {
+    "resource_id": "143150e8-bdd0-5716-b2bf-819c122e6268",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Haykin, S. and Van Been, B., “Signals and Systems” 2nd Ed., John Wiley & Sons.",
+    "title_candidate": "Signals and Systems",
+    "year_raw": "2003",
+    "source_code": "ECN-203",
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "syllabus_id": "217d704e6146f5da18c23bb8",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 18,
+        "locator": "table 1 row 3",
+        "quote": "2. | Haykin, S. and Van Been, B., “Signals and Systems” 2nd Ed., John Wiley & Sons. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "67d68ec5-6dbf-5c75-b79b-9ebb10f5c616",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Roberts, M.J., “Fundamentals of Signals & Systems”, Tata McGraw- Hill.",
+    "title_candidate": "Fundamentals of Signals & Systems",
+    "year_raw": "2007",
+    "source_code": "ECN-203",
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "syllabus_id": "217d704e6146f5da18c23bb8",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 18,
+        "locator": "table 1 row 4",
+        "quote": "3. | Roberts, M.J., “Fundamentals of Signals & Systems”, Tata McGraw- Hill. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1fb86d58-0ac3-540f-bb77-5a8c6f79726a",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ziemer, R.E., Tranter, W.H. and Fannin, D.R., “Signals and Systems: Continuous and Discrete”, 4th Ed., Pearson Education.",
+    "title_candidate": "Signals and Systems: Continuous and Discrete",
+    "year_raw": "2001",
+    "source_code": "ECN-203",
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "syllabus_id": "217d704e6146f5da18c23bb8",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 18,
+        "locator": "table 1 row 5",
+        "quote": "4. | Ziemer, R.E., Tranter, W.H. and Fannin, D.R., “Signals and Systems: Continuous and Discrete”, 4th Ed., Pearson Education. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "bea6f73c-d17e-54c9-a85b-026bf6a9dedf",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Lathi, B. P., “Linear Systems and Signals”, 2nd Ed., Oxford University Press.",
+    "title_candidate": "Linear Systems and Signals",
+    "year_raw": "2006",
+    "source_code": "ECN-203",
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "syllabus_id": "217d704e6146f5da18c23bb8",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 18,
+        "locator": "table 1 row 6",
+        "quote": "5. | Lathi, B. P., “Linear Systems and Signals”, 2nd Ed., Oxford University Press. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0c1860a3-cdfe-52b9-a9f8-3eea445ce73e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Behzad Razavi, “Fundamentals of Microelectronics”, 2nd Ed., Wiley India.",
+    "title_candidate": "Fundamentals of Microelectronics",
+    "year_raw": "2013",
+    "source_code": "ECN-205",
+    "curriculum_codes": [
+      "ECC-204"
+    ],
+    "syllabus_id": "733385ed09ea93931ab5d07b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 20,
+        "locator": "table 2 row 2",
+        "quote": "1. | Behzad Razavi, “Fundamentals of Microelectronics”, 2nd Ed., Wiley India. | 2013"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "razavi-fundamentals-2"
+    ]
+  },
+  {
+    "resource_id": "a6f44489-1b78-5d82-9246-8fcc7d0474e7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Paul R. Gray, P. J. Hurst, S. H. Lewis and R. G. Meyer, “Analysis and Design of Analog Integrated Circuits,” 5th Ed, Wiley India.",
+    "title_candidate": "Analysis and Design of Analog Integrated Circuits,",
+    "year_raw": "2009",
+    "source_code": "ECN-205",
+    "curriculum_codes": [
+      "ECC-204"
+    ],
+    "syllabus_id": "733385ed09ea93931ab5d07b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 20,
+        "locator": "table 2 row 3",
+        "quote": "2. | Paul R. Gray, P. J. Hurst, S. H. Lewis and R. G. Meyer, “Analysis and Design of Analog Integrated Circuits,” 5th Ed, Wiley India. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7480b910-f3d4-5cd8-9694-b50eb90433d0",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Adel S. Sedra and K. C. Smith, “Microelectronic Circuits,” 6th Ed. Oxford University Press India.",
+    "title_candidate": "Microelectronic Circuits,",
+    "year_raw": "2010",
+    "source_code": "ECN-205",
+    "curriculum_codes": [
+      "ECC-204"
+    ],
+    "syllabus_id": "733385ed09ea93931ab5d07b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 20,
+        "locator": "table 2 row 4",
+        "quote": "3. | Adel S. Sedra and K. C. Smith, “Microelectronic Circuits,” 6th Ed. Oxford University Press India. | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c04bd8d7-8f07-52c5-bfb8-b10b2f072c0e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Behzad Razavi, “Design of Analog CMOS Integrated Circuits”, Tata McGraw-Hill.",
+    "title_candidate": "Design of Analog CMOS Integrated Circuits",
+    "year_raw": "2002",
+    "source_code": "ECN-205",
+    "curriculum_codes": [
+      "ECC-204"
+    ],
+    "syllabus_id": "733385ed09ea93931ab5d07b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 20,
+        "locator": "table 2 row 5",
+        "quote": "4. | Behzad Razavi, “Design of Analog CMOS Integrated Circuits”, Tata McGraw-Hill. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "87b7ed14-eee6-5327-aa03-a79385da32a5",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Haykin, S., “Communication Systems”, 4th Ed., John Wiley & Sons.",
+    "title_candidate": "Communication Systems",
+    "year_raw": "2001",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 2",
+        "quote": "1. | Haykin, S., “Communication Systems”, 4th Ed., John Wiley & Sons. |  |  | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b81cd892-12a2-5140-9e2b-ffe2380e48b4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Lathi, B.P., “Modern Digital and Analog Communication Systems”, 3rd Ed., Oxford University Press.",
+    "title_candidate": "Modern Digital and Analog Communication Systems",
+    "year_raw": "1998",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 3",
+        "quote": "2. | Lathi, B.P., “Modern Digital and Analog Communication Systems”, 3rd Ed., Oxford University Press. |  |  | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "05309c22-71de-5d78-9310-8581261e0730",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Proakis, J.G., Salehi, M., “Digital Communications”, 5th Ed., McGraw-Hill International.",
+    "title_candidate": "Digital Communications",
+    "year_raw": "2008",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 4",
+        "quote": "3. |  | Proakis, J.G., Salehi, M., “Digital Communications”, 5th Ed., |  | 2008"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 5",
+        "quote": " |  | McGraw-Hill International. |  | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "dc748f19-5d26-5405-8182-5cb9d59794dc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Roden, M.S., “Analog and Digital Communication Systems”, 5th Ed., Discovery Press.",
+    "title_candidate": "Analog and Digital Communication Systems",
+    "year_raw": "2005",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 6",
+        "quote": "4. | Roden, M.S., “Analog and Digital Communication Systems”, 5th Ed., Discovery Press. |  |  | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "ad789f64-d08c-5ef5-b7e8-d29538fd36fb",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Couch II, L.W., “Modern Communication Systems: Principles and Applications”, Prentice-Hall.",
+    "title_candidate": "Modern Communication Systems: Principles and Applications",
+    "year_raw": "1998",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 7",
+        "quote": "5. | Couch II, L.W., “Modern Communication Systems: Principles and Applications”, Prentice-Hall. |  |  | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f0cab8d7-00d1-5eab-a045-a699bd73cffd",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Couch II, L.W., “Digital and Analog Communication Systems”, 7th Ed., Pearson.",
+    "title_candidate": "Digital and Analog Communication Systems",
+    "year_raw": "2009",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 8",
+        "quote": "6. | Couch II, L.W., “Digital and Analog Communication Systems”, 7th Ed., Pearson. |  |  | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "bc7742a4-ba09-590e-bd60-1d386f8a8551",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Carlson, A.B., Crilly, P.B. and Rutledge, J.C., “Communication Systems: An Introduction to Signals and Noise in Electrical Communication”, 4th Ed., McGraw-Hill.",
+    "title_candidate": "Communication Systems: An Introduction to Signals and Noise in Electrical Communication",
+    "year_raw": "2002",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 9",
+        "quote": "7. | Carlson, A.B., Crilly, P.B. and Rutledge, J.C., “Communication Systems: An Introduction to Signals and Noise in Electrical Communication”, 4th Ed., McGraw-Hill. |  |  | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "da079036-782c-571d-a0b1-e0d124b4d951",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sklar, B., “Digital Communications”, 2nd Ed., Pearson.",
+    "title_candidate": "Digital Communications",
+    "year_raw": "2001",
+    "source_code": "ECN-212",
+    "curriculum_codes": [
+      "ECC-202"
+    ],
+    "syllabus_id": "7ff4df8898ec637f06846631",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 22,
+        "locator": "table 2 row 10",
+        "quote": "8. | Sklar, B., “Digital Communications”, 2nd Ed., Pearson. |  |  | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e902c4e1-1659-5e2d-853e-e531d326c871",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Narayana Rao, N., “Elements of Engineering Electromagnetics”, 5th Ed., Prentice-Hall of India.",
+    "title_candidate": "Elements of Engineering Electromagnetics",
+    "year_raw": "2002",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 2",
+        "quote": "1. | Narayana Rao, N., “Elements of Engineering Electromagnetics”, 5th Ed., Prentice-Hall of India. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "36512ef2-eacd-5af0-b8ee-3d57c83751b6",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sadiku, M .N.O., “ Elements of E lectromagnetics”, 3 rd Ed., O xford University Press.",
+    "title_candidate": " Elements of E lectromagnetics",
+    "year_raw": "2001",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 3",
+        "quote": "2. | Sadiku, M .N.O., “ Elements of E lectromagnetics”, 3 rd Ed., O xford University Press. | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "961384ce-c652-5b78-9670-421cecd7b4ad",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Jordan, E .C. a nd B almain, K .G., “ Electromagnetic W aves a nd Radiating Systems”, 2nd Ed., Prentice-Hall of India.",
+    "title_candidate": " Electromagnetic W aves a nd Radiating Systems",
+    "year_raw": "1993",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 4",
+        "quote": "3. | Jordan, E .C. a nd B almain, K .G., “ Electromagnetic W aves a nd Radiating Systems”, 2nd Ed., Prentice-Hall of India. | 1993"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "425868bb-ea4f-534e-9e64-744c3af07aeb",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hayt, W.H. and Buck, J.A., “Engineering Electromagnetics”, 7th Ed., Tata McGraw-Hill.",
+    "title_candidate": "Engineering Electromagnetics",
+    "year_raw": "2006",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 5",
+        "quote": "4. | Hayt, W.H. and Buck, J.A., “Engineering Electromagnetics”, 7th Ed., Tata McGraw-Hill. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "9ab79b3d-274c-52ed-a783-5635d141717a",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Shen L. C., Kong J. A., Patniak A., “Engineering Electromagnetics”, Cengage Learning.",
+    "title_candidate": "Engineering Electromagnetics",
+    "year_raw": "2011",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 6",
+        "quote": "5. | Shen L. C., Kong J. A., Patniak A., “Engineering Electromagnetics”, Cengage Learning. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2b185943-a4f0-589b-98a9-d406f8d2463e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ramo, S.A., Whinnery, J.R. and Van Duzer, T., “Fields and Waves in Communication Electronics”, 3rd Ed., John Wiley & Sons.",
+    "title_candidate": "Fields and Waves in Communication Electronics",
+    "year_raw": "1994",
+    "source_code": "ECN-232",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "6059f012c2ae6bd0dbe3f51e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 24,
+        "locator": "table 1 row 7",
+        "quote": "6. | Ramo, S.A., Whinnery, J.R. and Van Duzer, T., “Fields and Waves in Communication Electronics”, 3rd Ed., John Wiley & Sons. | 1994"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "cfc8882b-0f03-563a-80df-4279250b153c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mano, M.M. and Ciletti, M.D., “Digital Design”, 4th Ed., Prentice- Hall.",
+    "title_candidate": "Digital Design",
+    "year_raw": "2006",
+    "source_code": "ECN-252",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "7185e7df39e3a3aca2ef92bd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 26,
+        "locator": "table 1 row 2",
+        "quote": "1. | Mano, M.M. and Ciletti, M.D., “Digital Design”, 4th Ed., Prentice- Hall. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "mano-digital-6"
+    ]
+  },
+  {
+    "resource_id": "c28f2529-e0e2-5abe-9085-fa091739a5b6",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gaonkar, R.S., “Microprocessor Architecture, Programming and Applications”, 5th Ed., Penram International.",
+    "title_candidate": "Microprocessor Architecture, Programming and Applications",
+    "year_raw": "2007",
+    "source_code": "ECN-252",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "7185e7df39e3a3aca2ef92bd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 26,
+        "locator": "table 1 row 3",
+        "quote": "2. | Gaonkar, R.S., “Microprocessor Architecture, Programming and Applications”, 5th Ed., Penram International. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "31947e49-22fa-52da-98b7-ee7af867406d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Pong P. Chu, “FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version” Wiley.",
+    "title_candidate": "FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version",
+    "year_raw": "2008",
+    "source_code": "ECN-252",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "7185e7df39e3a3aca2ef92bd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 26,
+        "locator": "table 1 row 4",
+        "quote": "3. | Pong P. Chu, “FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version” Wiley. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "94403859-5855-570e-8487-d8acf6e21f03",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Bhasker, J., “A VHDL Primer,” Pearson India.",
+    "title_candidate": "A VHDL Primer,",
+    "year_raw": "2005",
+    "source_code": "ECN-252",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "7185e7df39e3a3aca2ef92bd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 26,
+        "locator": "table 1 row 5",
+        "quote": "4. | Bhasker, J., “A VHDL Primer,” Pearson India. | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b2da5a4f-07ce-515e-9f57-495d1846322d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Volnei A. Pedroni , “Circuit Design and Simulation with VHDL,” 2nd Ed. PHI India",
+    "title_candidate": "Circuit Design and Simulation with VHDL,",
+    "year_raw": "2008",
+    "source_code": "ECN-252",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "7185e7df39e3a3aca2ef92bd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 26,
+        "locator": "table 1 row 6",
+        "quote": "5. | Volnei A. Pedroni , “Circuit Design and Simulation with VHDL,” 2nd Ed. PHI India | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "78c8490e-faae-5c47-ae1c-92a716511539",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hayt, Kemmerley and Durbin, “Engineering Circuit Analysis”, 8th Ed., Tata McGraw-Hill",
+    "title_candidate": "Engineering Circuit Analysis",
+    "year_raw": "2012",
+    "source_code": "ECN-291",
+    "curriculum_codes": [
+      "ECC-205"
+    ],
+    "syllabus_id": "fdff70a5cccbf5ec7ff225b1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 28,
+        "locator": "table 1 row 2",
+        "quote": "1. | Hayt, Kemmerley and Durbin, “Engineering Circuit Analysis”, 8th Ed., Tata McGraw-Hill | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b1596811-5e85-5023-aa91-07081a9ec6c3",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "DeCarlo, R.A. and Lin, P.M., “Linear Circuit Analysis: Time Domain, Phasor and Laplace Transform Approaches”, Oxford University Press.",
+    "title_candidate": "Linear Circuit Analysis: Time Domain, Phasor and Laplace Transform Approaches",
+    "year_raw": "2003",
+    "source_code": "ECN-291",
+    "curriculum_codes": [
+      "ECC-205"
+    ],
+    "syllabus_id": "fdff70a5cccbf5ec7ff225b1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 28,
+        "locator": "table 1 row 3",
+        "quote": "2. | DeCarlo, R.A. and Lin, P.M., “Linear Circuit Analysis: Time Domain, Phasor and Laplace Transform Approaches”, Oxford University Press. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "9576df73-dc89-5f72-a1d7-1ffcb9ad9dc1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "M.E. Van Valkenburg, “Network Analysis”, 3rd ed., Pearson",
+    "title_candidate": "Network Analysis",
+    "year_raw": "2006",
+    "source_code": "ECN-291",
+    "curriculum_codes": [
+      "ECC-205"
+    ],
+    "syllabus_id": "fdff70a5cccbf5ec7ff225b1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 28,
+        "locator": "table 1 row 4",
+        "quote": "3. | M.E. Van Valkenburg, “Network Analysis”, 3rd ed., Pearson | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e9696d70-5eac-5a38-b0fa-6f38e50fdfed",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "M.E. Van Valkenburg, “Network Synthesis,” PHI",
+    "title_candidate": "Network Synthesis,",
+    "year_raw": "2007",
+    "source_code": "ECN-291",
+    "curriculum_codes": [
+      "ECC-205"
+    ],
+    "syllabus_id": "fdff70a5cccbf5ec7ff225b1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 28,
+        "locator": "table 1 row 5",
+        "quote": "4. | M.E. Van Valkenburg, “Network Synthesis,” PHI | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "43813055-9558-51fa-b5a0-9688acb7c180",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kuo, F.F., “ Network Analysis and Synthesis”, 2nd Ed., Wiley India.",
+    "title_candidate": " Network Analysis and Synthesis",
+    "year_raw": "2008",
+    "source_code": "ECN-291",
+    "curriculum_codes": [
+      "ECC-205"
+    ],
+    "syllabus_id": "fdff70a5cccbf5ec7ff225b1",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 28,
+        "locator": "table 1 row 6",
+        "quote": "5. | Kuo, F.F., “ Network Analysis and Synthesis”, 2nd Ed., Wiley India. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "09f6cd2c-6f36-5008-82eb-c90216b9b5e1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mukhopadhyaya P., Pant A.K., Kumar V. and Chittore D.S., “Elements of Electrical Science”, M/s Nem Chand & Brothers.",
+    "title_candidate": "Elements of Electrical Science",
+    "year_raw": "1997",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 2",
+        "quote": "1. | Mukhopadhyaya P., Pant A.K., Kumar V. and Chittore D.S., “Elements of Electrical Science”, M/s Nem Chand & Brothers. | 1997"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "5c7adfcb-da24-533b-b919-5865ec04b3ef",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Vincent Del Toro, “Electrical Engineering Fundamentals”, Prentice Hall of India.",
+    "title_candidate": "Electrical Engineering Fundamentals",
+    "year_raw": "2002",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 3",
+        "quote": "2. | Vincent Del Toro, “Electrical Engineering Fundamentals”, Prentice Hall of India. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "81830b7c-d1f5-5d61-880a-94240436834c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Dubey G. K., “Fundamentals of Electric Drives”, 2nd Ed., Narosa Publishing House.",
+    "title_candidate": "Fundamentals of Electric Drives",
+    "year_raw": "2007",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 4",
+        "quote": "3. | Dubey G. K., “Fundamentals of Electric Drives”, 2nd Ed., Narosa Publishing House. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "05c1013c-5896-59c5-82fc-ed1e56cad2c3",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Alexander C.K., Sadiku M.N.O., “Fundamentals of Electric Circuits”, McGraw Hill, 5th Edition.",
+    "title_candidate": "Fundamentals of Electric Circuits",
+    "year_raw": "2012",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 5",
+        "quote": "4. | Alexander C.K., Sadiku M.N.O., “Fundamentals of Electric Circuits”, McGraw Hill, 5th Edition. | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "d0b558b3-ae67-52ed-b4e1-f9fe4f55586e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Chapman, Stephen, J., “Electric Machinery Fundamentals”, McGraw Hill Book Company.",
+    "title_candidate": "Electric Machinery Fundamentals",
+    "year_raw": "1985",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 6",
+        "quote": "5. | Chapman, Stephen, J., “Electric Machinery Fundamentals”, McGraw Hill Book Company. | 1985"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "6493989e-9fc1-5c6b-9626-f11efbfcca7f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hughes Edward, “Electrical & Electronic Technology”, Pearson Publishing, 8th edition.",
+    "title_candidate": "Electrical & Electronic Technology",
+    "year_raw": "2002",
+    "source_code": "EEN-112",
+    "curriculum_codes": [],
+    "syllabus_id": "971d761d665ab7e296eafb95",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 30,
+        "locator": "table 2 row 7",
+        "quote": "6. | Hughes Edward, “Electrical & Electronic Technology”, Pearson Publishing, 8th edition. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "998d9077-8f7f-5df3-b024-ac61a9ad5a3e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Rohatgi, V K. and Saleh , A. K. Md. Ehsanes, \"An Introduction to Probability and Statistics\", (John Wiley and Sons) , (2nd edition)",
+    "title_candidate": "An Introduction to Probability and Statistics",
+    "year_raw": "2000",
+    "source_code": "MAN-006",
+    "curriculum_codes": [],
+    "syllabus_id": "a33e3c9f8861bfe102947054",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 31,
+        "locator": "table 2 row 2",
+        "quote": "1. | Rohatgi, V K. and Saleh , A. K. Md. Ehsanes, \"An Introduction to Probability and Statistics\", (John Wiley and Sons) , (2nd edition) | 2000"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "726e869e-d7fb-532c-8b27-3afdb19084ef",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hogg, R. V. and Craig, A., \"Probability and Statistical Inference\", (Pearson Education), (6th Edition)",
+    "title_candidate": "Probability and Statistical Inference",
+    "year_raw": "2006",
+    "source_code": "MAN-006",
+    "curriculum_codes": [],
+    "syllabus_id": "a33e3c9f8861bfe102947054",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 31,
+        "locator": "table 2 row 3",
+        "quote": "2. | Hogg, R. V. and Craig, A., \"Probability and Statistical Inference\", (Pearson Education), (6th Edition) | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "06f72883-3a12-5e82-95d3-7f9a907dbd49",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Johnson, R. A., Miller, I. and Freund, J. E., \"Miller & Freund’s probability and statistics for engineers\", (Prentice Hall PTR), (8th edition)",
+    "title_candidate": "Miller & Freund’s probability and statistics for engineers",
+    "year_raw": "2011",
+    "source_code": "MAN-006",
+    "curriculum_codes": [],
+    "syllabus_id": "a33e3c9f8861bfe102947054",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 31,
+        "locator": "table 2 row 4",
+        "quote": "3. | Johnson, R. A., Miller, I. and Freund, J. E., \"Miller & Freund’s probability and statistics for engineers\", (Prentice Hall PTR), (8th edition) | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f3cf1cff-d55b-54ab-9a28-8c9bacbf88fc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hines, W. W., Montgomery, D. C., Goldsman, D. M. and Borror, C. M., \"Probability and Statistics in Engineering\", (John Wiley & sons), (4th Edition)",
+    "title_candidate": "Probability and Statistics in Engineering",
+    "year_raw": "2003",
+    "source_code": "MAN-006",
+    "curriculum_codes": [],
+    "syllabus_id": "a33e3c9f8861bfe102947054",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 31,
+        "locator": "table 2 row 5",
+        "quote": "4. | Hines, W. W., Montgomery, D. C., Goldsman, D. M. and Borror, C. M., | 2003"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 32,
+        "locator": "table 1 row 1",
+        "quote": " | \"Probability and Statistics in Engineering\", (John Wiley & sons), (4th Edition) | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "bf885fc9-45e8-5c34-8965-1af528c858ad",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Papoulis, A. and Pillai, S. U., \"Probability, Random Variables and Stochastic Processes\", (Tata McGraw-Hill), (4th edition)",
+    "title_candidate": "Probability, Random Variables and Stochastic Processes",
+    "year_raw": "2002",
+    "source_code": "MAN-006",
+    "curriculum_codes": [],
+    "syllabus_id": "a33e3c9f8861bfe102947054",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 32,
+        "locator": "table 1 row 2",
+        "quote": "5. | Papoulis, A. and Pillai, S. U., \"Probability, Random Variables and Stochastic Processes\", (Tata McGraw-Hill), (4th edition) | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e0508ac5-beba-51e2-88dc-4a5ce9c09c54",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Taha, H.A., “Operations Research: An Introduction”, MacMillan Pub Co., NY, Ninth Edition (Reprint).",
+    "title_candidate": "Operations Research: An Introduction",
+    "year_raw": "2013",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 2",
+        "quote": "1 | Taha, H.A., “Operations Research: An Introduction”, MacMillan Pub Co., NY, Ninth Edition (Reprint). | 2013"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "30e83ba4-16d4-55bf-afd3-64231f24473c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ravindran, A., Phillips, D.T. and Solberg, J.J., “Operations Research: Principles and Practice”, John Wiley and Sons, NY, Second Edition (Reprint).",
+    "title_candidate": "Operations Research: Principles and Practice",
+    "year_raw": "2012",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 3",
+        "quote": "2. | Ravindran, A., Phillips, D.T. and Solberg, J.J., “Operations Research: Principles and Practice”, John Wiley and Sons, NY, Second Edition (Reprint). | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1a0e359f-761e-56f1-b601-0992da377913",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Pant, J.C., “Introduction to Optimization”, Jain Brothers,",
+    "title_candidate": "Introduction to Optimization",
+    "year_raw": "2012",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 4",
+        "quote": "3. | Pant, J.C., “Introduction to Optimization”, Jain Brothers, | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "5622be05-b61b-5624-a69c-4791598726e4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hillier, F. S. and Lieberman, G. J., \"Introduction to Operations Research,\" 9th Edition, McGraw-Hill",
+    "title_candidate": "Introduction to Operations Research,",
+    "year_raw": "2009",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 5",
+        "quote": "4. | Hillier, F. S. and Lieberman, G. J., \"Introduction to Operations Research,\" 9th Edition, McGraw-Hill | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f4b2238d-292c-52ec-9193-87c0e9a4dd77",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mittal, K.V. and Mohan, C., “Optimization Methods in System Analysis and Operations Research”",
+    "title_candidate": "Optimization Methods in System Analysis and Operations Research",
+    "year_raw": "1996",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 6",
+        "quote": "5. | Mittal, K.V. and Mohan, C., “Optimization Methods in System Analysis and Operations Research” | 1996"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0ec16dd7-ca8f-54d1-8ff3-1ca18a755edc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mohan C. and Deep K., “Optimization Techniques”",
+    "title_candidate": "Optimization Techniques",
+    "year_raw": "2009",
+    "source_code": "MAN-010",
+    "curriculum_codes": [],
+    "syllabus_id": "09fb9963826566caee3c045e",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 34,
+        "locator": "table 1 row 7",
+        "quote": "6. | Mohan C. and Deep K., “Optimization Techniques” | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2efec3de-da84-5241-9a0c-58f62460ee2c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Technical Drawing, Giesecke, Mitchell, Spencer, Hill, Dygdon and Novak, Macmillan Publishing Company",
+    "title_candidate": null,
+    "year_raw": "2003",
+    "source_code": "MIN-108",
+    "curriculum_codes": [],
+    "syllabus_id": "d13f2325b1070432cf727d45",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 36,
+        "locator": "table 3 row 2",
+        "quote": "1. | Technical Drawing, Giesecke, Mitchell, Spencer, Hill, Dygdon and Novak, Macmillan Publishing Company | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7fae4375-bf76-5625-911b-3cc94eac3bfd",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Engineering Graphics, A. M. Chandra and Satish Chandra, Narosa Publishing House, New Delhi",
+    "title_candidate": null,
+    "year_raw": "2003",
+    "source_code": "MIN-108",
+    "curriculum_codes": [],
+    "syllabus_id": "d13f2325b1070432cf727d45",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 36,
+        "locator": "table 3 row 3",
+        "quote": "2. | Engineering Graphics, A. M. Chandra and Satish Chandra, Narosa Publishing House, New Delhi | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "4a30f4e4-0cdb-5b4d-bb8f-67d1eddabe41",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Engineering Drawing and Graphics Technology, T.E. French, C.J. Vierck and R.J. Foster, McGraw-Hill Inc",
+    "title_candidate": null,
+    "year_raw": "1993",
+    "source_code": "MIN-108",
+    "curriculum_codes": [],
+    "syllabus_id": "d13f2325b1070432cf727d45",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 36,
+        "locator": "table 3 row 4",
+        "quote": "3. | Engineering Drawing and Graphics Technology, T.E. French, C.J. Vierck and R.J. Foster, McGraw-Hill Inc | 1993"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "837fb5c9-1f0a-5916-a902-ef8c27eecab0",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Fundamentals of Engineering Drawing, W.J. Luzadder, J. Warren and J.M. Duff, Prentice Hall International Editions",
+    "title_candidate": null,
+    "year_raw": "1989",
+    "source_code": "MIN-108",
+    "curriculum_codes": [],
+    "syllabus_id": "d13f2325b1070432cf727d45",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 36,
+        "locator": "table 3 row 5",
+        "quote": "4. | Fundamentals of Engineering Drawing, W.J. Luzadder, J. Warren and J.M. Duff, Prentice Hall International Editions | 1989"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1bf49528-bd78-5cc6-8dfe-2b957ab6e8aa",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "SP 46:1988 Engineering Drawing Practice for Schools and Colleges, Bureau of Indian standards",
+    "title_candidate": null,
+    "year_raw": "-------",
+    "source_code": "MIN-108",
+    "curriculum_codes": [],
+    "syllabus_id": "d13f2325b1070432cf727d45",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 36,
+        "locator": "table 3 row 6",
+        "quote": "5. | SP 46:1988 Engineering Drawing Practice for Schools and Colleges, Bureau of Indian standards | -------"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1228bd77-9cb5-5011-84c2-a8efa6042902",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "A. Beiser, “Concepts of Modern Physics”, Tata McGraw Hill",
+    "title_candidate": "Concepts of Modern Physics",
+    "year_raw": "2009",
+    "source_code": "PHN-006",
+    "curriculum_codes": [
+      "PHB-102"
+    ],
+    "syllabus_id": "c4c39b4e85b652a930d42821",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 38,
+        "locator": "table 2 row 2",
+        "quote": "1. | A. Beiser, “Concepts of Modern Physics”, Tata McGraw Hill | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a73ec494-fed7-5c1f-a89c-f0a224a086cd",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "F. Reif,” Fundamentals of Statistical and Thermal Physics”, Sarat",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "PHN-006",
+    "curriculum_codes": [
+      "PHB-102"
+    ],
+    "syllabus_id": "c4c39b4e85b652a930d42821",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 38,
+        "locator": "table 2 row 3",
+        "quote": "2. | F. Reif,” Fundamentals of Statistical and Thermal Physics”, Sarat | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a618da6b-4f7a-55ef-bd43-908beddb7c52",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R.P. Feynman, “The Feynman Lectures On Physics (Vol. 1-3)”, Narosa",
+    "title_candidate": "The Feynman Lectures On Physics (Vol. 1-3)",
+    "year_raw": "2008",
+    "source_code": "PHN-006",
+    "curriculum_codes": [
+      "PHB-102"
+    ],
+    "syllabus_id": "c4c39b4e85b652a930d42821",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 38,
+        "locator": "table 2 row 4",
+        "quote": "3. | R.P. Feynman, “The Feynman Lectures On Physics (Vol. 1-3)”, Narosa | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1b4cc5bf-ce2e-5e7b-904e-b8d7eb89fa49",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "I.S. Tyagi, “Principles of Quantum Mechanics”, Pearson Education",
+    "title_candidate": "Principles of Quantum Mechanics",
+    "year_raw": "2013",
+    "source_code": "PHN-006",
+    "curriculum_codes": [
+      "PHB-102"
+    ],
+    "syllabus_id": "c4c39b4e85b652a930d42821",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 38,
+        "locator": "table 2 row 5",
+        "quote": "4. | I.S. Tyagi, “Principles of Quantum Mechanics”, Pearson Education | 2013"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a5960ab3-2ad2-53ab-a134-627d3849a21e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "D.J. Griffiths,” Introduction to Quantum Mechanics”, Pearson Education",
+    "title_candidate": null,
+    "year_raw": "2005",
+    "source_code": "PHN-006",
+    "curriculum_codes": [
+      "PHB-102"
+    ],
+    "syllabus_id": "c4c39b4e85b652a930d42821",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 38,
+        "locator": "table 2 row 6",
+        "quote": "5. | D.J. Griffiths,” Introduction to Quantum Mechanics”, Pearson Education | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "561c28a2-e929-5769-8567-ab5a226b24e8",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Davis M. L. and Cornwell D. A., “Introduction to Environmental Engineering”, McGraw Hill, New York 4/e",
+    "title_candidate": "Introduction to Environmental Engineering",
+    "year_raw": "2008",
+    "source_code": "CEN-105",
+    "curriculum_codes": [
+      "ESS-102"
+    ],
+    "syllabus_id": "a97217ea85a4fa1f6a3ffc0c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 40,
+        "locator": "table 1 row 2",
+        "quote": "1. | Davis M. L. and Cornwell D. A., “Introduction to Environmental Engineering”, McGraw Hill, New York 4/e | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c1e415b9-578b-5726-9bb2-125b19e2053c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Masters G . M., Joseph K . a nd N agendran R . “Introduction t o Environmental Engineering and Science”, Pearson Education, New Delhi. 2/e",
+    "title_candidate": "Introduction t o Environmental Engineering and Science",
+    "year_raw": "2007",
+    "source_code": "CEN-105",
+    "curriculum_codes": [
+      "ESS-102"
+    ],
+    "syllabus_id": "a97217ea85a4fa1f6a3ffc0c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 40,
+        "locator": "table 1 row 3",
+        "quote": "2. | Masters G . M., Joseph K . a nd N agendran R . “Introduction t o Environmental Engineering and Science”, Pearson Education, New Delhi. 2/e | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2b4f19ad-e776-563d-afae-021fe87217be",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Peavy H. S., Rowe D.R. and Tchobanoglous G., “Environmental Engineering”, McGraw Hill, New York",
+    "title_candidate": "Environmental Engineering",
+    "year_raw": "1986",
+    "source_code": "CEN-105",
+    "curriculum_codes": [
+      "ESS-102"
+    ],
+    "syllabus_id": "a97217ea85a4fa1f6a3ffc0c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 40,
+        "locator": "table 1 row 4",
+        "quote": "3. | Peavy H. S., Rowe D.R. and Tchobanoglous G., “Environmental Engineering”, McGraw Hill, New York | 1986"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "adf1df50-ac46-57c6-bcda-703c9619b6ac",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mines R. O. and Lackey L. W. ““Introduction to Environmental Engineering”, Prentice Hall, New Yark",
+    "title_candidate": "“Introduction to Environmental Engineering",
+    "year_raw": "2009",
+    "source_code": "CEN-105",
+    "curriculum_codes": [
+      "ESS-102"
+    ],
+    "syllabus_id": "a97217ea85a4fa1f6a3ffc0c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 40,
+        "locator": "table 1 row 5",
+        "quote": "4. | Mines R. O. and Lackey L. W. ““Introduction to Environmental Engineering”, Prentice Hall, New Yark | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "09a787c8-3521-5c17-a51f-f9535c71bcef",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Miheicic J. R. and Zimmerman J. B. “ Environmental Engineering: Fundamentals, Sustainability, Design” John Wiley and Sons, Inc.",
+    "title_candidate": " Environmental Engineering: Fundamentals, Sustainability, Design",
+    "year_raw": "2010",
+    "source_code": "CEN-105",
+    "curriculum_codes": [
+      "ESS-102"
+    ],
+    "syllabus_id": "a97217ea85a4fa1f6a3ffc0c",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 40,
+        "locator": "table 1 row 6",
+        "quote": "5. | Miheicic J. R. and Zimmerman J. B. “ Environmental Engineering: Fundamentals, Sustainability, Design” John Wiley and Sons, Inc. | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f0bf38d2-c795-52b6-aeb8-222ffb2a7a91",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Murphy, Raymond. Intermediate English Grammar, New Delhi, Cambridge University Press.",
+    "title_candidate": null,
+    "year_raw": "2009",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 2",
+        "quote": "1. | Murphy, Raymond. Intermediate English Grammar, New Delhi, Cambridge University Press. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7051a1c5-c3d1-5dfe-b753-b3b1dd5cae32",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Quirk, Randolph & Sidney Greenbaum. A University Grammar of English, New Delhi, Pearson.",
+    "title_candidate": null,
+    "year_raw": "2009",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 3",
+        "quote": "2. | Quirk, Randolph & Sidney Greenbaum. A University Grammar of English, New Delhi, Pearson. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c92aa586-01ce-5fef-a2ab-8402f631ea14",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "McCarthy, Michael & Felicity O’ Dell. English Vocabulary in Use, New Delhi, Cambridge University Press",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 4",
+        "quote": "3. | McCarthy, Michael & Felicity O’ Dell. English Vocabulary in Use, New Delhi, Cambridge University Press | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "fc64dcab-12b2-5d9b-9cff-df030054a94b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Jones, Daniel. The Pronunciation of English, New Delhi, Universal Book Stall.",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 5",
+        "quote": "4. | Jones, Daniel. The Pronunciation of English, New Delhi, Universal Book Stall. | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7f6c11f0-42e7-58b7-9bbf-579219fbb2b6",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Birchfield, Susan M. Fowler’s Modern English Usage, New Delhi, OUP.",
+    "title_candidate": null,
+    "year_raw": "2004",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 6",
+        "quote": "5. | Birchfield, Susan M. Fowler’s Modern English Usage, New Delhi, OUP. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "23d3c938-20eb-5152-9afd-d5d5bda202d2",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Llyod, Susan M. Roget’s Thesaurus of English Words and Phrases. New Delhi: Penguin.",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "HS-001A",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "234413e878c29b5a9939fd87",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 42,
+        "locator": "table 2 row 7",
+        "quote": "6. | Llyod, Susan M. Roget’s Thesaurus of English Words and Phrases. New Delhi: Penguin. | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "57714150-cc7c-5748-889d-fa04b158c2f8",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Rentz, Kathryn, Marie E. Flatley & Paula Lentz. Lesikar’s Business Communication CONNECTING IH A DIGITAL WORLD, McGraw-Hill, Irwin",
+    "title_candidate": null,
+    "year_raw": "2012",
+    "source_code": "HS-001B",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "83350f5482068aedc5c274cd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 44,
+        "locator": "table 1 row 2",
+        "quote": "1. | Rentz, Kathryn, Marie E. Flatley & Paula Lentz. Lesikar’s Business Communication CONNECTING IH A DIGITAL WORLD, McGraw-Hill, Irwin | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "630daf87-3910-5836-9532-4deea1f7f258",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Bovee, Courtland L & John V. Thill. Business Communication Today. New Delhi, Pearson Education",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "HS-001B",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "83350f5482068aedc5c274cd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 44,
+        "locator": "table 1 row 3",
+        "quote": "2. | Bovee, Courtland L & John V. Thill. Business Communication Today. New Delhi, Pearson Education | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "96132f03-8321-5d88-b7d4-789ad1ad2901",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "McMurrey, David A. & Joanne Buckley. Handbook for Technical Writing, New Delhi, Cengage Learning.",
+    "title_candidate": null,
+    "year_raw": "2009",
+    "source_code": "HS-001B",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "83350f5482068aedc5c274cd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 44,
+        "locator": "table 1 row 4",
+        "quote": "3. | McMurrey, David A. & Joanne Buckley. Handbook for Technical Writing, New Delhi, Cengage Learning. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "ca9db35d-7695-5e0e-8639-5f046853e833",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Jones, Daniel. The Pronunciation of English, New Delhi, Universal Book Stall.",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "HS-001B",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "83350f5482068aedc5c274cd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 44,
+        "locator": "table 1 row 5",
+        "quote": "4. | Jones, Daniel. The Pronunciation of English, New Delhi, Universal Book Stall. | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f2ac018c-ed17-573b-9447-df493825784c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Allan & Barbara Pease. The Definitive Book of Body Language, New York, Bantam",
+    "title_candidate": null,
+    "year_raw": "2004",
+    "source_code": "HS-001B",
+    "curriculum_codes": [
+      "HSI-101"
+    ],
+    "syllabus_id": "83350f5482068aedc5c274cd",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 44,
+        "locator": "table 1 row 6",
+        "quote": "5. | Allan & Barbara Pease. The Definitive Book of Body Language, New York, Bantam | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2b82c918-c434-5947-b3a4-586b9ae7b6fc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Hall, C alvin S ., L indzey, D ardner., & C ambell, John B.,“Theories of Personality”,Hamilton Printing Company.",
+    "title_candidate": "Theories of Personality",
+    "year_raw": "1998",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 2",
+        "quote": "1. | Hall, C alvin S ., L indzey, D ardner., & C ambell, John B.,“Theories of Personality”,Hamilton Printing Company. | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "3dd00cc2-238a-577a-8ab9-4122617bd6f1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Car Alan, “Positive Psychology: The Science of Happiness and Human Strengths”, Brunner-Routledge.",
+    "title_candidate": "Positive Psychology: The Science of Happiness and Human Strengths",
+    "year_raw": "2004",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 3",
+        "quote": "2. | Car Alan, “Positive Psychology: The Science of Happiness and Human Strengths”, Brunner-Routledge. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "dd0e86d8-5153-5a69-91f9-f2be2009e5c4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Leary M.R., “The Curse of Self: Self-awareness, Egotism and the Quality of Human Life”, Oxford University Press.",
+    "title_candidate": "The Curse of Self: Self-awareness, Egotism and the Quality of Human Life",
+    "year_raw": "2004",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 4",
+        "quote": "3. | Leary M.R., “The Curse of Self: Self-awareness, Egotism and the Quality of Human Life”, Oxford University Press. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "ce15c936-9f76-578d-953a-51dd519aa3b1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Louis P. P., “The Moral Life: An Introductory Reader in Ethics and Literature”, Oxford University Press.",
+    "title_candidate": "The Moral Life: An Introductory Reader in Ethics and Literature",
+    "year_raw": "2007",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 5",
+        "quote": "4. | Louis P. P., “The Moral Life: An Introductory Reader in Ethics and Literature”, Oxford University Press. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "d0647c94-81c5-5922-a733-32b4c66497bf",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Corey, G., Schneider Corey, M., & Callanan, P., “Issues and Ethics in the Helping Professions”, Brooks/Cole.",
+    "title_candidate": "Issues and Ethics in the Helping Professions",
+    "year_raw": "2011",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 6",
+        "quote": "5. | Corey, G., Schneider Corey, M., & Callanan, P., “Issues and Ethics in the Helping Professions”, Brooks/Cole. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c6902842-d5ad-5b32-ab89-adfd2adc2cb4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Snyder, C.R., Lopez, Shane, J., & Pedrotti, J.T., “Positive Psychology” Sage, 2nd edition.",
+    "title_candidate": "Positive Psychology",
+    "year_raw": "2011",
+    "source_code": "HSN-002",
+    "curriculum_codes": [],
+    "syllabus_id": "8635a6a88e3e1c62b298249f",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 46,
+        "locator": "table 1 row 7",
+        "quote": "6. | Snyder, C.R., Lopez, Shane, J., & Pedrotti, J.T., “Positive Psychology” Sage, 2nd edition. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e1631662-f195-5222-b869-273a834ee763",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "E. Kreyszig, Advanced Engineering Mathematics, 9th edition, John Wiley and Sons, Inc., U.K.",
+    "title_candidate": null,
+    "year_raw": "2011",
+    "source_code": "MAN-001",
+    "curriculum_codes": [
+      "MAI-101"
+    ],
+    "syllabus_id": "b3fc0ea695fc216c48fedf20",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 48,
+        "locator": "table 1 row 2",
+        "quote": "1. | E. Kreyszig, Advanced Engineering Mathematics, 9th edition, John Wiley and Sons, Inc., U.K. | 2011"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "75a202ae-8e26-5d96-8c99-89c9a38d507b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R.K. Jain and S.R.K. Iyenger, Advanced Engineering Mathematics, 2nd Edition, Narosa Publishing House.",
+    "title_candidate": null,
+    "year_raw": "2005",
+    "source_code": "MAN-001",
+    "curriculum_codes": [
+      "MAI-101"
+    ],
+    "syllabus_id": "b3fc0ea695fc216c48fedf20",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 48,
+        "locator": "table 1 row 3",
+        "quote": "2. | R.K. Jain and S.R.K. Iyenger, Advanced Engineering Mathematics, 2nd Edition, Narosa Publishing House. | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "ef03c334-f7f0-59ee-8f50-3b3f914ef4d8",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "M.D. Weir, J. Hass, F.R. Giordano, Thomas’ Calculus, 11th Edition, Pearson Education.",
+    "title_candidate": null,
+    "year_raw": "2008",
+    "source_code": "MAN-001",
+    "curriculum_codes": [
+      "MAI-101"
+    ],
+    "syllabus_id": "b3fc0ea695fc216c48fedf20",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 48,
+        "locator": "table 1 row 4",
+        "quote": "3. | M.D. Weir, J. Hass, F.R. Giordano, Thomas’ Calculus, 11th Edition, Pearson Education. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0453a720-fcae-56ec-b577-dada29396822",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "D. J. Griffiths, “Introduction of Electrodynamics,” PHI Learning Pvt. Ltd.",
+    "title_candidate": "Introduction of Electrodynamics,",
+    "year_raw": "2009",
+    "source_code": "PHN-005",
+    "curriculum_codes": [
+      "PHI-101"
+    ],
+    "syllabus_id": "b57b6468d663a8bde6a398f6",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 50,
+        "locator": "table 2 row 2",
+        "quote": "1. | D. J. Griffiths, “Introduction of Electrodynamics,” PHI Learning Pvt. Ltd. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2bb23446-fb07-56bc-9420-a0cbd1b0f5d0",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "M. N. O. Sadiku, “ Elements of Electromagnetics,” Oxford Univ. Press",
+    "title_candidate": " Elements of Electromagnetics,",
+    "year_raw": "2009",
+    "source_code": "PHN-005",
+    "curriculum_codes": [
+      "PHI-101"
+    ],
+    "syllabus_id": "b57b6468d663a8bde6a398f6",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 50,
+        "locator": "table 2 row 3",
+        "quote": "2. | M. N. O. Sadiku, “ Elements of Electromagnetics,” Oxford Univ. Press | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "533e545e-ea4a-5063-826b-973a57926899",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "A. Ghatak, “Optics,” 6th Ed., Tata McGraw-Hill Publishing Co. Ltd.",
+    "title_candidate": "Optics,",
+    "year_raw": "2012",
+    "source_code": "PHN-005",
+    "curriculum_codes": [
+      "PHI-101"
+    ],
+    "syllabus_id": "b57b6468d663a8bde6a398f6",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 50,
+        "locator": "table 2 row 4",
+        "quote": "3. | A. Ghatak, “Optics,” 6th Ed., Tata McGraw-Hill Publishing Co. Ltd. | 2012"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "64b8bd69-67b5-5228-a8b5-f927d5cffec5",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "E. Hecht, “Optics,” 4th Ed., Pearson Education Pvt. Ltd.",
+    "title_candidate": "Optics,",
+    "year_raw": "2003",
+    "source_code": "PHN-005",
+    "curriculum_codes": [
+      "PHI-101"
+    ],
+    "syllabus_id": "b57b6468d663a8bde6a398f6",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 50,
+        "locator": "table 2 row 5",
+        "quote": "4. | E. Hecht, “Optics,” 4th Ed., Pearson Education Pvt. Ltd. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1a7ff962-525d-5ac9-b10b-a7dccf91169b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "F. Jenkins and H. White, “Fundamentals of Optics,” 4th Ed. McGraw Hill",
+    "title_candidate": "Fundamentals of Optics,",
+    "year_raw": "2001",
+    "source_code": "PHN-005",
+    "curriculum_codes": [
+      "PHI-101"
+    ],
+    "syllabus_id": "b57b6468d663a8bde6a398f6",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 50,
+        "locator": "table 2 row 6",
+        "quote": "5. | F. Jenkins and H. White, “Fundamentals of Optics,” 4th Ed. McGraw Hill | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0602134a-de90-528c-af73-39caba9d236e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gopal, M., “Control Systems: Principle and Design”, 2nd Ed., Tata McGraw-Hill.",
+    "title_candidate": "Control Systems: Principle and Design",
+    "year_raw": "2002",
+    "source_code": "ECN-222",
+    "curriculum_codes": [
+      "EEE-101"
+    ],
+    "syllabus_id": "441cfb1a490c8687e02efc4b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 52,
+        "locator": "table 1 row 2",
+        "quote": "1. | Gopal, M., “Control Systems: Principle and Design”, 2nd Ed., Tata McGraw-Hill. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c3013267-0f91-5618-9719-08a1d6cb6ec5",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kuo, B.C., “Automatic Control Systems”, 8th Ed., Wiley India.",
+    "title_candidate": "Automatic Control Systems",
+    "year_raw": "2008",
+    "source_code": "ECN-222",
+    "curriculum_codes": [
+      "EEE-101"
+    ],
+    "syllabus_id": "441cfb1a490c8687e02efc4b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 52,
+        "locator": "table 1 row 3",
+        "quote": "2. | Kuo, B.C., “Automatic Control Systems”, 8th Ed., Wiley India. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "6c5cfe6a-143e-560f-9da4-5b479f2ea2b1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ogata, K., “Modern Control Engineering”, 4th Ed., Pearson Education.",
+    "title_candidate": "Modern Control Engineering",
+    "year_raw": "2008",
+    "source_code": "ECN-222",
+    "curriculum_codes": [
+      "EEE-101"
+    ],
+    "syllabus_id": "441cfb1a490c8687e02efc4b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 52,
+        "locator": "table 1 row 4",
+        "quote": "3. | Ogata, K., “Modern Control Engineering”, 4th Ed., Pearson Education. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b6ef3c4d-8917-59a0-b802-59d9cdf8887a",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Dorf, R.C. and Bishop, R.H., “Modern Control Systems”, 11th Ed., Prentice-Hall of India.",
+    "title_candidate": "Modern Control Systems",
+    "year_raw": "2007",
+    "source_code": "ECN-222",
+    "curriculum_codes": [
+      "EEE-101"
+    ],
+    "syllabus_id": "441cfb1a490c8687e02efc4b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 52,
+        "locator": "table 1 row 5",
+        "quote": "4. | Dorf, R.C. and Bishop, R.H., “Modern Control Systems”, 11th Ed., Prentice-Hall of India. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1354836c-273e-561f-9ee0-f01d95b20cc7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Nise, N. S., “Control Systems Engineering”, 4th Ed., Wiley India.",
+    "title_candidate": "Control Systems Engineering",
+    "year_raw": "2008",
+    "source_code": "ECN-222",
+    "curriculum_codes": [
+      "EEE-101"
+    ],
+    "syllabus_id": "441cfb1a490c8687e02efc4b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 52,
+        "locator": "table 1 row 6",
+        "quote": "5. | Nise, N. S., “Control Systems Engineering”, 4th Ed., Wiley India. | 2008"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "981fc1ca-00da-594b-8af5-f384912bf86c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Haykin, S., “Communication Systems”, 4th Edition, John Wiley & Sons.",
+    "title_candidate": "Communication Systems",
+    "year_raw": "2001",
+    "source_code": "ECN-311",
+    "curriculum_codes": [
+      "ECC-201"
+    ],
+    "syllabus_id": "336be5647874fe716c5ddcfb",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 2",
+        "quote": "1. | Haykin, S., “Communication Systems”, 4th Edition, John Wiley & Sons. |  |  |  |  | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "50ae7964-7fdf-5c4a-8659-9e6de93815c9",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kennedy G., Davis B., “Electronic Communication Systems”, Tata McGraw-Hill, 4th Edition.",
+    "title_candidate": "Electronic Communication Systems",
+    "year_raw": "2008",
+    "source_code": "ECN-311",
+    "curriculum_codes": [
+      "ECC-201"
+    ],
+    "syllabus_id": "336be5647874fe716c5ddcfb",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 3",
+        "quote": "2. |  | Kennedy G., Davis B., “Electronic Communication Systems”, |  | Tata |  | 2008"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 4",
+        "quote": " |  | McGraw-Hill, 4th Edition. |  |  |  | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0fe029af-9539-53a1-95aa-c1772f582a36",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Tomasi W., “Advanced Electronic Communication Systems”, Pearson/Prentice-Hall, 6th Edition.",
+    "title_candidate": "Advanced Electronic Communication Systems",
+    "year_raw": "2004",
+    "source_code": "ECN-311",
+    "curriculum_codes": [
+      "ECC-201"
+    ],
+    "syllabus_id": "336be5647874fe716c5ddcfb",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 5",
+        "quote": "3. | Tomasi W., “Advanced Electronic Communication Systems”, Pearson/Prentice-Hall, 6th Edition. |  |  |  |  | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "38cba38a-5132-5748-aa08-b62f6ee9d016",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Proakias, J.G., and Salehi, M., “Communication Systems Engineering”, 2nd Edition, Pearson Education.",
+    "title_candidate": "Communication Systems Engineering",
+    "year_raw": "2002",
+    "source_code": "ECN-311",
+    "curriculum_codes": [
+      "ECC-201"
+    ],
+    "syllabus_id": "336be5647874fe716c5ddcfb",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 6",
+        "quote": "4. | Proakias, J.G., and Salehi, M., “Communication Systems Engineering”, 2nd Edition, Pearson Education. |  |  |  |  | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "bf22a341-ad25-54c2-8e88-d9a8761d8571",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Roddy, D. and Coolen, V., “Electronic Communications”, 4th Edition, Prentice-Hall of India",
+    "title_candidate": "Electronic Communications",
+    "year_raw": "1997",
+    "source_code": "ECN-311",
+    "curriculum_codes": [
+      "ECC-201"
+    ],
+    "syllabus_id": "336be5647874fe716c5ddcfb",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 54,
+        "locator": "table 1 row 7",
+        "quote": "5. | Roddy, D. and Coolen, V., “Electronic Communications”, 4th Edition, Prentice-Hall of India |  |  |  |  | 1997"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "b25bb2c2-9a1b-52d1-965e-5807fa1717d4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Mitra, S.K., “Digital Signal Processing-A Computer Based Appraoach”, 3rd Ed., Tata Mcgraw-Hill.",
+    "title_candidate": "Digital Signal Processing-A Computer Based Appraoach",
+    "year_raw": "2005",
+    "source_code": "ECN-312",
+    "curriculum_codes": [
+      "ECC-301"
+    ],
+    "syllabus_id": "394ac997c6221b626aef03a7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 56,
+        "locator": "table 1 row 2",
+        "quote": "1. | Mitra, S.K., “Digital Signal Processing-A Computer Based Appraoach”, 3rd Ed., Tata Mcgraw-Hill. | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "671538f9-3f5e-5f55-b436-c7daf6826599",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Oppenheim, A.V. and Schafer, R.W. with Buck, J.R., “Discrete Time Signal Processing”, 2nd Ed., Prentice-Hall of India.",
+    "title_candidate": "Discrete Time Signal Processing",
+    "year_raw": "2002",
+    "source_code": "ECN-312",
+    "curriculum_codes": [
+      "ECC-301"
+    ],
+    "syllabus_id": "394ac997c6221b626aef03a7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 56,
+        "locator": "table 1 row 3",
+        "quote": "2. | Oppenheim, A.V. and Schafer, R.W. with Buck, J.R., “Discrete Time Signal Processing”, 2nd Ed., Prentice-Hall of India. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "oppenheim-dsp-3"
+    ]
+  },
+  {
+    "resource_id": "e62a527f-07ec-5412-808c-be0944820c94",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Proakis, J.G. and Manolakis, D.G., “Digital Signal Processing: Principles, Algorithm and Applications”, 4th Ed., Pearson Education.",
+    "title_candidate": "Digital Signal Processing: Principles, Algorithm and Applications",
+    "year_raw": "2007",
+    "source_code": "ECN-312",
+    "curriculum_codes": [
+      "ECC-301"
+    ],
+    "syllabus_id": "394ac997c6221b626aef03a7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 56,
+        "locator": "table 1 row 4",
+        "quote": "3. | Proakis, J.G. and Manolakis, D.G., “Digital Signal Processing: Principles, Algorithm and Applications”, 4th Ed., Pearson Education. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e12824a3-e074-5281-ab99-09a9c8201ada",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Vaidyanathan, P.P., “Multirate Systems and Filter Banks”, Pearson Education.",
+    "title_candidate": "Multirate Systems and Filter Banks",
+    "year_raw": "1993",
+    "source_code": "ECN-312",
+    "curriculum_codes": [
+      "ECC-301"
+    ],
+    "syllabus_id": "394ac997c6221b626aef03a7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 56,
+        "locator": "table 1 row 5",
+        "quote": "4. | Vaidyanathan, P.P., “Multirate Systems and Filter Banks”, Pearson Education. | 1993"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "12ea48b3-acc4-58e1-ac9c-4f9eabe0ab82",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ifeachor, E.C. and Jervis, B.W., “Digital Signal Processing: A Practical Approach”, 2nd Ed., Pearson Education.",
+    "title_candidate": "Digital Signal Processing: A Practical Approach",
+    "year_raw": "2002",
+    "source_code": "ECN-312",
+    "curriculum_codes": [
+      "ECC-301"
+    ],
+    "syllabus_id": "394ac997c6221b626aef03a7",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 56,
+        "locator": "table 1 row 6",
+        "quote": "5. | Ifeachor, E.C. and Jervis, B.W., “Digital Signal Processing: A Practical Approach”, 2nd Ed., Pearson Education. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "4ca60df2-1fe2-5611-b1e2-b1d3529223c3",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Balanis, C.A., “Antenna Theory and Design”, 3rd Ed., John Wiley & Sons.",
+    "title_candidate": "Antenna Theory and Design",
+    "year_raw": "2005",
+    "source_code": "ECN-331",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "ff4b68e14b013b0951e3d052",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 58,
+        "locator": "table 1 row 2",
+        "quote": "1. | Balanis, C.A., “Antenna Theory and Design”, 3rd Ed., John Wiley & Sons. | 2005"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "balanis-antennas-3"
+    ]
+  },
+  {
+    "resource_id": "201e2047-8e41-565f-b75a-24252ada75f1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kraus, J.D. and Fleisch, D.A., “Electromagnetics with Applications”, McGraw-Hill.",
+    "title_candidate": "Electromagnetics with Applications",
+    "year_raw": "1999",
+    "source_code": "ECN-331",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "ff4b68e14b013b0951e3d052",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 58,
+        "locator": "table 1 row 3",
+        "quote": "2. | Kraus, J.D. and Fleisch, D.A., “Electromagnetics with Applications”, McGraw-Hill. | 1999"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "47890fb0-1624-5fb1-8b79-908597726502",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Stutzman, W.L. and Thiele, H.A., “Antenna Theory and Design”, 2nd Ed., John Wiley & Sons.",
+    "title_candidate": "Antenna Theory and Design",
+    "year_raw": "1998",
+    "source_code": "ECN-331",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "ff4b68e14b013b0951e3d052",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 58,
+        "locator": "table 1 row 4",
+        "quote": "3. | Stutzman, W.L. and Thiele, H.A., “Antenna Theory and Design”, 2nd Ed., John Wiley & Sons. | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f5002a37-bf24-5f99-aeae-f8f07bd6c206",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Elliot, R.S., “Antenna Theory and Design”, Revised edition, Wiley- IEEE Press.",
+    "title_candidate": "Antenna Theory and Design",
+    "year_raw": "2003",
+    "source_code": "ECN-331",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "syllabus_id": "ff4b68e14b013b0951e3d052",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 58,
+        "locator": "table 1 row 5",
+        "quote": "4. | Elliot, R.S., “Antenna Theory and Design”, Revised edition, Wiley- IEEE Press. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "e7c3a984-6538-5df5-9b8e-d78198f68455",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Pozar, D.M., “Microwave Engineering”, 3rd Ed., John Wiley & Sons.",
+    "title_candidate": "Microwave Engineering",
+    "year_raw": "2004",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 2",
+        "quote": "1. | Pozar, D.M., “Microwave Engineering”, 3rd Ed., John Wiley & Sons. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "pozar-microwave-3"
+    ]
+  },
+  {
+    "resource_id": "7cdc1392-5275-53e9-befb-4a2eda2ee65e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Liao, S.Y., “Microwave Devices and Circuits”, Prentice-Hall of India.",
+    "title_candidate": "Microwave Devices and Circuits",
+    "year_raw": "1991",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 3",
+        "quote": "2. | Liao, S.Y., “Microwave Devices and Circuits”, Prentice-Hall of India. | 1991"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "73f019a6-aa80-5c1d-987c-4254abea20b4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Collin, R.E., “Foundations for Microwave Engineering”, 2nd Ed., John Wiley & Sons.",
+    "title_candidate": "Foundations for Microwave Engineering",
+    "year_raw": "2000",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 4",
+        "quote": "3. | Collin, R.E., “Foundations for Microwave Engineering”, 2nd Ed., John Wiley & Sons. | 2000"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "d0f0407f-9717-5394-98f6-4431ba33961f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Streetman, B.G. and Banerjee, S.K., “Solid-state Electronic Devices”, 6th Ed., Prentice-Hall of India.",
+    "title_candidate": "Solid-state Electronic Devices",
+    "year_raw": "2006",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 5",
+        "quote": "4. | Streetman, B.G. and Banerjee, S.K., “Solid-state Electronic Devices”, 6th Ed., Prentice-Hall of India. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "dc5a9e7c-dea0-5c45-a7c7-b2affb0196d6",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Sze, S.M. and Ng, K.K., “Physics of Semiconductor Devices”, 3rd Ed., John Wiley & Sons.",
+    "title_candidate": "Physics of Semiconductor Devices",
+    "year_raw": "2006",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 6",
+        "quote": "5. | Sze, S.M. and Ng, K.K., “Physics of Semiconductor Devices”, 3rd Ed., John Wiley & Sons. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "cb70eab4-35cf-54af-a898-762a7110e1b7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Bahl, I. and Bhartia, P., “Microwave Solid State Circuit Design”, 2nd Ed., John Wiley & Sons.",
+    "title_candidate": "Microwave Solid State Circuit Design",
+    "year_raw": "2003",
+    "source_code": "ECN-333",
+    "curriculum_codes": [
+      "ECC-303"
+    ],
+    "syllabus_id": "3fed6ef8f769a5d2b27a4b04",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 60,
+        "locator": "table 1 row 7",
+        "quote": "6. | Bahl, I. and Bhartia, P., “Microwave Solid State Circuit Design”, 2nd Ed., John Wiley & Sons. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "cb49405a-9f1c-58fb-9c06-b77234ff5847",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Behzad Razavi, “Design of Analog CMOS Integrated Circuits”, Tata McGraw-Hill.",
+    "title_candidate": "Design of Analog CMOS Integrated Circuits",
+    "year_raw": "2002",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 2",
+        "quote": "1. | Behzad Razavi, “Design of Analog CMOS Integrated Circuits”, Tata McGraw-Hill. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "db2bed9e-3a4b-5728-8999-110d57e3c1bc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R. Caverly, \"CMOS RFIC Design Principles\", Artech House",
+    "title_candidate": "CMOS RFIC Design Principles",
+    "year_raw": "2007",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 3",
+        "quote": "2 | R. Caverly, \"CMOS RFIC Design Principles\", Artech House | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a2a6fc19-2bfe-503e-b7f7-128dc95235a1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "B. Razavi, \"RF Microelectronics\", 2nd Edition, Prentice Hall",
+    "title_candidate": "RF Microelectronics",
+    "year_raw": "2014",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 4",
+        "quote": "3. | B. Razavi, \"RF Microelectronics\", 2nd Edition, Prentice Hall | 2014"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1ba5cdf0-5bbe-59f1-98a8-38ecd1a7b395",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "J. Rogers and C. Plett, \"Radio Frequency Integrated Circuit Design\", 2nd Edition, Artech House",
+    "title_candidate": "Radio Frequency Integrated Circuit Design",
+    "year_raw": "2010",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 5",
+        "quote": "4. | J. Rogers and C. Plett, \"Radio Frequency Integrated Circuit Design\", 2nd Edition, Artech House | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "a009c991-fdfe-538c-82b7-91e1f59c299d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R. Chi-His Li, \"RF Circuit Design\", John Wiley & Sons",
+    "title_candidate": "RF Circuit Design",
+    "year_raw": "2009",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 6",
+        "quote": "5. | R. Chi-His Li, \"RF Circuit Design\", John Wiley & Sons | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "536d359e-d0ae-585b-aeeb-e4fb5bf50012",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R. Jacob Baker, “CMOS Mixed-Signal Circuit Design,” Wiley India Pvt. Ltd.",
+    "title_candidate": "CMOS Mixed-Signal Circuit Design,",
+    "year_raw": "2009",
+    "source_code": "ECN-342",
+    "curriculum_codes": [
+      "ECL-584"
+    ],
+    "syllabus_id": "7e710f178d4b597746670ee2",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 62,
+        "locator": "table 1 row 7",
+        "quote": "6. | R. Jacob Baker, “CMOS Mixed-Signal Circuit Design,” Wiley India Pvt. Ltd. | 2009"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "9e8c4df7-f1cc-5953-9c6a-d32879c59a43",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Paul Horowitz, “Art of Electronics”, 2nd Ed., Cambridge University Press.",
+    "title_candidate": "Art of Electronics",
+    "year_raw": "1989",
+    "source_code": "ECN-351",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "ea8ea357c0a425ed788a5111",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 64,
+        "locator": "table 1 row 2",
+        "quote": "1. | Paul Horowitz, “Art of Electronics”, 2nd Ed., Cambridge University Press. | 1989"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f754ffce-7974-5e1b-bd3e-cd687fb67b54",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Bruce Carter, “Op Amps for Everyone,” 4th Ed., Elsevier.",
+    "title_candidate": "Op Amps for Everyone,",
+    "year_raw": "2013",
+    "source_code": "ECN-351",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "ea8ea357c0a425ed788a5111",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 64,
+        "locator": "table 1 row 3",
+        "quote": "2. | Bruce Carter, “Op Amps for Everyone,” 4th Ed., Elsevier. | 2013"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "0d3a40e9-462d-5f0e-b90d-e820fd27db14",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "BehzadRazavi, “Fundamentals of Microelectronics”, 2nd Ed., Wiley India.",
+    "title_candidate": "Fundamentals of Microelectronics",
+    "year_raw": "2013",
+    "source_code": "ECN-351",
+    "curriculum_codes": [
+      "ECC-305"
+    ],
+    "syllabus_id": "ea8ea357c0a425ed788a5111",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 64,
+        "locator": "table 1 row 4",
+        "quote": "3. | BehzadRazavi, “Fundamentals of Microelectronics”, 2nd Ed., Wiley India. | 2013"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "razavi-fundamentals-2"
+    ]
+  },
+  {
+    "resource_id": "a2db6fa3-7a21-54d2-90cb-8c037cb23b1f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gayakwad, R.A., “Op-Amps and Linear Integrated Circuits”, 3rd Ed., Prentice-Hall of India.",
+    "title_candidate": "Op-Amps and Linear Integrated Circuits",
+    "year_raw": "2002",
+    "source_code": "ECN-352",
+    "curriculum_codes": [
+      "ECC-304"
+    ],
+    "syllabus_id": "245b8ebc828b4996d990dffc",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 66,
+        "locator": "table 1 row 2",
+        "quote": "1. | Gayakwad, R.A., “Op-Amps and Linear Integrated Circuits”, 3rd Ed., Prentice-Hall of India. | 2002"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "21e4fc21-6329-55c1-86d5-361045d19f3a",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Lathi, B.P., “Modern Digital and Analog Communication Systems”, 3rd Ed., Oxford University Press.",
+    "title_candidate": "Modern Digital and Analog Communication Systems",
+    "year_raw": "1998",
+    "source_code": "ECN-352",
+    "curriculum_codes": [
+      "ECC-304"
+    ],
+    "syllabus_id": "245b8ebc828b4996d990dffc",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 66,
+        "locator": "table 1 row 3",
+        "quote": "2. | Lathi, B.P., “Modern Digital and Analog Communication Systems”, 3rd Ed., Oxford University Press. | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "6cfdb54d-ed6e-5e00-aeba-1dfd1c9870bc",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Soclof, S., “Applications of Analog Integrated Circuits”, Prentice- Hall of India.",
+    "title_candidate": "Applications of Analog Integrated Circuits",
+    "year_raw": "1990",
+    "source_code": "ECN-352",
+    "curriculum_codes": [
+      "ECC-304"
+    ],
+    "syllabus_id": "245b8ebc828b4996d990dffc",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 66,
+        "locator": "table 1 row 4",
+        "quote": "3. | Soclof, S., “Applications of Analog Integrated Circuits”, Prentice- Hall of India. | 1990"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "7bf64a92-8a8c-5a6d-bef8-cfc490dd80ea",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Smith, J.R., “Modern Communication Circuits”, McGraw-Hill.",
+    "title_candidate": "Modern Communication Circuits",
+    "year_raw": "1998",
+    "source_code": "ECN-352",
+    "curriculum_codes": [
+      "ECC-304"
+    ],
+    "syllabus_id": "245b8ebc828b4996d990dffc",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 66,
+        "locator": "table 1 row 5",
+        "quote": "4. | Smith, J.R., “Modern Communication Circuits”, McGraw-Hill. | 1998"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "316b8a1a-a177-5dc5-890c-21317525528c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Roddy, D. and Coolen, V., “Electronic Communications”, 4th Ed., Prentice-Hall of India.",
+    "title_candidate": "Electronic Communications",
+    "year_raw": "1997",
+    "source_code": "ECN-352",
+    "curriculum_codes": [
+      "ECC-304"
+    ],
+    "syllabus_id": "245b8ebc828b4996d990dffc",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 66,
+        "locator": "table 1 row 6",
+        "quote": "5. | Roddy, D. and Coolen, V., “Electronic Communications”, 4th Ed., Prentice-Hall of India. | 1997"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "3b80f097-a086-554e-8eac-aed304bcb5a0",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Pozar, D.M., “Microwave Engineering”, 3rd Ed., John Wiley & Sons.",
+    "title_candidate": "Microwave Engineering",
+    "year_raw": "2004",
+    "source_code": "ECN-354",
+    "curriculum_codes": [
+      "ECC-302"
+    ],
+    "syllabus_id": "c66ca27c8cdaae0756348fb4",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 67,
+        "locator": "table 2 row 2",
+        "quote": "1. | Pozar, D.M., “Microwave Engineering”, 3rd Ed., John Wiley & Sons. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "related_contents_available_verify_edition",
+    "full_text_ingested": false,
+    "related_contents_ids": [
+      "pozar-microwave-3"
+    ]
+  },
+  {
+    "resource_id": "75ad214e-7433-5fe5-bb87-8ea5b7a485ac",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Collin, R.E., “Foundations for Microwave Engineering”, 2nd Ed., John Wiley & Sons.",
+    "title_candidate": "Foundations for Microwave Engineering",
+    "year_raw": "2000",
+    "source_code": "ECN-354",
+    "curriculum_codes": [
+      "ECC-302"
+    ],
+    "syllabus_id": "c66ca27c8cdaae0756348fb4",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 67,
+        "locator": "table 2 row 3",
+        "quote": "2. | Collin, R.E., “Foundations for Microwave Engineering”, 2nd Ed., John Wiley & Sons. | 2000"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "17b0129d-aa6b-5bed-96a6-5f327d1e4225",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Laverghetta, T.S., \"Microwave Measurements and Techniques\", Artech House.",
+    "title_candidate": "Microwave Measurements and Techniques",
+    "year_raw": "1984",
+    "source_code": "ECN-354",
+    "curriculum_codes": [
+      "ECC-302"
+    ],
+    "syllabus_id": "c66ca27c8cdaae0756348fb4",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 67,
+        "locator": "table 2 row 4",
+        "quote": "3. | Laverghetta, T.S., \"Microwave Measurements and Techniques\", Artech House. | 1984"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "6671ba95-de1f-58b7-9d98-2c0a87022282",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Laverghetta, T.S., \"Practical Microwaves\", H.W. Sams & Co.",
+    "title_candidate": "Practical Microwaves",
+    "year_raw": "1984",
+    "source_code": "ECN-354",
+    "curriculum_codes": [
+      "ECC-302"
+    ],
+    "syllabus_id": "c66ca27c8cdaae0756348fb4",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 67,
+        "locator": "table 2 row 5",
+        "quote": "4. | Laverghetta, T.S., \"Practical Microwaves\", H.W. Sams & Co. | 1984"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f7d2e61b-5712-5a14-a5e5-53d7b262d817",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Embedded System Design: Embedded Systems Foundations of Cyber- Physical Systems by Peter Marwedel, Springer",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 2",
+        "quote": "1. | Embedded System Design: Embedded Systems Foundations of Cyber- Physical Systems by Peter Marwedel, Springer |  |  | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "ade961ec-0059-533d-8425-cc3a40b4ecc8",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Embedded System Design: A Unified Hardware/Software Introduction by Frank Vahid, Tony Givargis”, John Wiley & Sons, Inc",
+    "title_candidate": null,
+    "year_raw": "2001",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 3",
+        "quote": "2. | Embedded System Design: A Unified Hardware/Software Introduction by Frank Vahid, Tony Givargis”, John Wiley & Sons, Inc |  |  | 2001"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "3309c02a-e79a-5d18-b181-61a95d93550b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Fundamentals of Logic Design – Charles H. Roth, and Larry L. Kinney, Brooks/Cole Inc",
+    "title_candidate": null,
+    "year_raw": "2014",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 4",
+        "quote": "3. | Fundamentals of Logic Design – Charles H. Roth, and Larry L. Kinney, Brooks/Cole Inc |  |  | 2014"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "3f31523f-b930-5a4e-8bff-5723560d1db1",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Digital Systems Testing and Testable Design – Miron Abramovici, Melvin A. Breuer and Arthur D. Friedman- John Wiley & Sons Inc.",
+    "title_candidate": null,
+    "year_raw": "1994",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 5",
+        "quote": "4. |  | Digital Systems Testing and Testable Design – Miron Abramovici, Melvin A. |  | 1994"
+      },
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 6",
+        "quote": " |  | Breuer and Arthur D. Friedman- John Wiley & Sons Inc. |  | "
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "4cfb7c4f-f54f-58a5-bd10-8f743b1b03e0",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Switching and Finite Automata Theory – Z. Kohavi and Niraj K Jha Cambridge University Press",
+    "title_candidate": null,
+    "year_raw": "2010",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 7",
+        "quote": "5. | Switching and Finite Automata Theory – Z. Kohavi and Niraj K Jha Cambridge University Press |  |  | 2010"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "4a1a5425-79e9-55c9-aa51-d4d535ffd9c5",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Digital Logic and Microprocessor Design with VHDL, Enoch O. Hwang, Publisher-Thomson/Nelson",
+    "title_candidate": null,
+    "year_raw": "2006",
+    "source_code": "EC-343",
+    "curriculum_codes": [
+      "ECT-121"
+    ],
+    "syllabus_id": "69a36ee8f1966ebacb74fb13",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 69,
+        "locator": "table 2 row 8",
+        "quote": "6. | Digital Logic and Microprocessor Design with VHDL, Enoch O. Hwang, Publisher-Thomson/Nelson |  |  | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "98167f6d-64f7-51af-ad52-c7b70faac48d",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Tanenbaum, A.S, “Computer Networks”, 4th Ed., Pearson Education.",
+    "title_candidate": "Computer Networks",
+    "year_raw": "2003",
+    "source_code": "CS-341",
+    "curriculum_codes": [
+      "ECT-104"
+    ],
+    "syllabus_id": "15d9ffd52734eec8f5cb9002",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 71,
+        "locator": "table 1 row 2",
+        "quote": "1. | Tanenbaum, A.S, “Computer Networks”, 4th Ed., Pearson Education. | 2003"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1cc675e4-79c5-57d0-9593-f3f976e571f7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Forouzan, B.A., “Data Communication and Networking”, 4th Ed., Tata McGraw-Hill.",
+    "title_candidate": "Data Communication and Networking",
+    "year_raw": "2006",
+    "source_code": "CS-341",
+    "curriculum_codes": [
+      "ECT-104"
+    ],
+    "syllabus_id": "15d9ffd52734eec8f5cb9002",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 71,
+        "locator": "table 1 row 3",
+        "quote": "2. | Forouzan, B.A., “Data Communication and Networking”, 4th Ed., Tata McGraw-Hill. | 2006"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "56279268-ca0b-5ec6-9edb-326b7e61ad4f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Stallings W., “Data and Computer Communication”, 8th Ed., Prentice-Hall.",
+    "title_candidate": "Data and Computer Communication",
+    "year_raw": "2007",
+    "source_code": "CS-341",
+    "curriculum_codes": [
+      "ECT-104"
+    ],
+    "syllabus_id": "15d9ffd52734eec8f5cb9002",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 71,
+        "locator": "table 1 row 4",
+        "quote": "3. | Stallings W., “Data and Computer Communication”, 8th Ed., Prentice-Hall. | 2007"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "34c4840b-a249-59b9-9fb5-4d567f6ca0ee",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Kurose, J.F. and Ross, K.W., \"Computer Networking: A Top-Down Approach Featuring the Internet\", 3rd Ed., Addison Wesley.",
+    "title_candidate": "Computer Networking: A Top-Down Approach Featuring the Internet",
+    "year_raw": "2004",
+    "source_code": "CS-341",
+    "curriculum_codes": [
+      "ECT-104"
+    ],
+    "syllabus_id": "15d9ffd52734eec8f5cb9002",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 71,
+        "locator": "table 1 row 5",
+        "quote": "4. | Kurose, J.F. and Ross, K.W., \"Computer Networking: A Top-Down Approach Featuring the Internet\", 3rd Ed., Addison Wesley. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "38818333-78db-5729-8bdf-96bef8979251",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Comer, D.E. and Droms, R.E., “Computer Networks and Internets”, 4th Ed., Prentice-Hall.",
+    "title_candidate": "Computer Networks and Internets",
+    "year_raw": "2004",
+    "source_code": "CS-341",
+    "curriculum_codes": [
+      "ECT-104"
+    ],
+    "syllabus_id": "15d9ffd52734eec8f5cb9002",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 71,
+        "locator": "table 1 row 6",
+        "quote": "5. | Comer, D.E. and Droms, R.E., “Computer Networks and Internets”, 4th Ed., Prentice-Hall. | 2004"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "cb23c1fd-c148-5eae-8654-00d601d0f5e7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gonzalez & Woods, “Digital Image Processing”, 3rd Edn.",
+    "title_candidate": "Digital Image Processing",
+    "year_raw": null,
+    "source_code": "ECN-316",
+    "curriculum_codes": [
+      "ECL-316"
+    ],
+    "syllabus_id": "7864aad9523bb3d6a37087bf",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 72,
+        "locator": "Suggested book",
+        "quote": "Gonzalez & Woods, “Digital Image Processing”, 3rd Edn."
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c157bbef-bac1-522e-b829-25d4084d8095",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "R. H. Caverly, Microwave and RF Semiconductor Control Device Modelling, Artech House",
+    "title_candidate": null,
+    "year_raw": "2016",
+    "source_code": "ECN-347",
+    "curriculum_codes": [
+      "ECL-347"
+    ],
+    "syllabus_id": "06fc9de17dd42c883918a47b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 76,
+        "locator": "Suggested Books row 1",
+        "quote": "R. H. Caverly, Microwave and RF Semiconductor Control Device Modelling, Artech House"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "41294ab9-bcc6-51a9-8b06-e8123948ae3c",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "S. M. Sze and K. K. Ng, Physics of Semiconductor Devices, John Wiley & Sons",
+    "title_candidate": null,
+    "year_raw": "2007",
+    "source_code": "ECN-347",
+    "curriculum_codes": [
+      "ECL-347"
+    ],
+    "syllabus_id": "06fc9de17dd42c883918a47b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 76,
+        "locator": "Suggested Books row 2",
+        "quote": "S. M. Sze and K. K. Ng, Physics of Semiconductor Devices, John Wiley & Sons"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "2e00e07a-0a26-5b47-aaf3-b7725c1929e7",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "K. Chang, I. Bahl and V. Nair, RF and Microwave Circuit and Component Design for Wireless Systems, John Wiley & Sons",
+    "title_candidate": null,
+    "year_raw": "2002",
+    "source_code": "ECN-347",
+    "curriculum_codes": [
+      "ECL-347"
+    ],
+    "syllabus_id": "06fc9de17dd42c883918a47b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 76,
+        "locator": "Suggested Books row 3",
+        "quote": "K. Chang, I. Bahl and V. Nair, RF and Microwave Circuit and Component Design for Wireless Systems, John Wiley & Sons"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "1cf0da87-dfe7-55bd-a250-5c0cdd52d419",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "G. D. Vendelin, A. M. Pavio and U. L. Rohde, Microwave Circuit Design using Linear and Nonlinear Techniques, John Wiley & Sons",
+    "title_candidate": null,
+    "year_raw": "2005",
+    "source_code": "ECN-347",
+    "curriculum_codes": [
+      "ECL-347"
+    ],
+    "syllabus_id": "06fc9de17dd42c883918a47b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 76,
+        "locator": "Suggested Books row 4",
+        "quote": "G. D. Vendelin, A. M. Pavio and U. L. Rohde, Microwave Circuit Design using Linear and Nonlinear Techniques, John Wiley & Sons"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "77533b0f-9413-5483-9909-34ab69cd373a",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "E. Camargo, Design of FET Frequency Multipliers and Harmonic Oscillators, Artech House",
+    "title_candidate": null,
+    "year_raw": "1998",
+    "source_code": "ECN-347",
+    "curriculum_codes": [
+      "ECL-347"
+    ],
+    "syllabus_id": "06fc9de17dd42c883918a47b",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 76,
+        "locator": "Suggested Books row 5",
+        "quote": "E. Camargo, Design of FET Frequency Multipliers and Harmonic Oscillators, Artech House"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "d72ef1a0-c031-5c7d-90c2-ec75172584c3",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Network Analysis and Synthesis, by Franklin F. Kuo, Wiley",
+    "title_candidate": null,
+    "year_raw": "2006",
+    "source_code": "ECN-357",
+    "curriculum_codes": [
+      "ECL-357"
+    ],
+    "syllabus_id": "ccb178de27ec00e312fd73c0",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 78,
+        "locator": "Suggested Books row 1",
+        "quote": "Network Analysis and Synthesis, by Franklin F. Kuo, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "33e83061-82da-59ab-b71a-6cc08e1d0e8f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Principles of Active Network Synthesis and Design, by Gobin Daryanani, Wiley",
+    "title_candidate": null,
+    "year_raw": "2003",
+    "source_code": "ECN-357",
+    "curriculum_codes": [
+      "ECL-357"
+    ],
+    "syllabus_id": "ccb178de27ec00e312fd73c0",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 78,
+        "locator": "Suggested Books row 2",
+        "quote": "Principles of Active Network Synthesis and Design, by Gobin Daryanani, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "d95de508-f5ba-57bf-914c-e7281a34525b",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "CMOS: Circuit Design, Layout and Simulation, R. Jacob Baker, Wiley",
+    "title_candidate": null,
+    "year_raw": "2017",
+    "source_code": "ECN-357",
+    "curriculum_codes": [
+      "ECL-357"
+    ],
+    "syllabus_id": "ccb178de27ec00e312fd73c0",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 78,
+        "locator": "Suggested Books row 3",
+        "quote": "CMOS: Circuit Design, Layout and Simulation, R. Jacob Baker, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "8af399ec-d34f-5902-91d1-aa791ddfea46",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Arithmetic and Logic in Computer Systems, by Mi Lu, Wiley",
+    "title_candidate": null,
+    "year_raw": "2004",
+    "source_code": "ECN-357",
+    "curriculum_codes": [
+      "ECL-357"
+    ],
+    "syllabus_id": "ccb178de27ec00e312fd73c0",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 78,
+        "locator": "Suggested Books row 4",
+        "quote": "Arithmetic and Logic in Computer Systems, by Mi Lu, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "3e9cbde2-45f8-5213-8f19-e401ba0b63fe",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Digital Electronics: Sequential and Arithmetic Logic Circuits, by Tertulien Ndjountche, Wiley",
+    "title_candidate": null,
+    "year_raw": "2016",
+    "source_code": "ECN-357",
+    "curriculum_codes": [
+      "ECL-357"
+    ],
+    "syllabus_id": "ccb178de27ec00e312fd73c0",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 78,
+        "locator": "Suggested Books row 5",
+        "quote": "Digital Electronics: Sequential and Arithmetic Logic Circuits, by Tertulien Ndjountche, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "6ecb33ea-91e8-5c7a-bdd6-dab3664af9e4",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gary S. May, Costas J. Spanos, Fundamentals of Semiconductor Manufacturing and Process Control, Wiley",
+    "title_candidate": null,
+    "year_raw": "2006",
+    "source_code": "ECN-358",
+    "curriculum_codes": [
+      "ECL-358"
+    ],
+    "syllabus_id": "05674021878d79092ad85147",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 79,
+        "locator": "Suggested Books row 1",
+        "quote": "Gary S. May, Costas J. Spanos, Fundamentals of Semiconductor Manufacturing and Process Control, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "05c0bb88-629a-549e-9cf6-21dbf8098bb3",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Douglas Montgomery, George Runger, Applied Statistics and Probability for Engineers, 7th edition, Wiley",
+    "title_candidate": null,
+    "year_raw": "2018",
+    "source_code": "ECN-358",
+    "curriculum_codes": [
+      "ECL-358"
+    ],
+    "syllabus_id": "05674021878d79092ad85147",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 79,
+        "locator": "Suggested Books row 2",
+        "quote": "Douglas Montgomery, George Runger, Applied Statistics and Probability for Engineers, 7th edition, Wiley"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "c5cad2ca-c8d2-54af-8fc1-9f46dd13583e",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, An Introduction to Statistical Learning, Springer",
+    "title_candidate": null,
+    "year_raw": "2013",
+    "source_code": "ECN-358",
+    "curriculum_codes": [
+      "ECL-358"
+    ],
+    "syllabus_id": "05674021878d79092ad85147",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 79,
+        "locator": "Suggested Books row 3",
+        "quote": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, An Introduction to Statistical Learning, Springer"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  },
+  {
+    "resource_id": "f48131f6-53df-5504-942d-9a1bcc92c60f",
+    "resource_type": "syllabus_recommended_book",
+    "bibliographic_text": "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep learning, MIT Press",
+    "title_candidate": null,
+    "year_raw": "2016",
+    "source_code": "ECN-358",
+    "curriculum_codes": [
+      "ECL-358"
+    ],
+    "syllabus_id": "05674021878d79092ad85147",
+    "evidence": [
+      {
+        "source_version_id": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+        "path": "data/btech_ec_syll_22.pdf",
+        "page": 79,
+        "locator": "Suggested Books row 4",
+        "quote": "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep learning, MIT Press"
+      }
+    ],
+    "table_of_contents": null,
+    "chapter_mapping_status": "next_phase_collect_edition_specific_toc",
+    "full_text_ingested": false,
+    "related_contents_ids": []
+  }
+]

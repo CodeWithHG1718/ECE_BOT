@@ -1,0 +1,2667 @@
+[
+  {
+    "book_id": "pozar-microwave-3",
+    "source_id": "08d28ae62c9c4c8754b9",
+    "title": "Microwave Engineering",
+    "authors": "David M. Pozar",
+    "edition": "3rd edition",
+    "isbn": "0471448788",
+    "curriculum_codes": [
+      "ECC-303",
+      "ECC-302",
+      "ECT-101",
+      "ECT-102",
+      "ECT-103"
+    ],
+    "notes": [],
+    "source_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+    "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Electromagnetic Theory",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10488",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+        "source_text": "Chapter 1: Electromagnetic Theory",
+        "chapter_id": "pozar-microwave-3:chapter:1",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+          "quote": "Chapter 1: Electromagnetic Theory"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Transmission Line Theory",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10489",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+        "source_text": "Chapter 2: Transmission Line Theory",
+        "chapter_id": "pozar-microwave-3:chapter:2",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+          "quote": "Chapter 2: Transmission Line Theory"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "Transmission Lines and Waveguides",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10490",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+        "source_text": "Chapter 3: Transmission Lines and Waveguides",
+        "chapter_id": "pozar-microwave-3:chapter:3",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+          "quote": "Chapter 3: Transmission Lines and Waveguides"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Microwave Network Analysis",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10491",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+        "source_text": "Chapter 4: Microwave Network Analysis",
+        "chapter_id": "pozar-microwave-3:chapter:4",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+          "quote": "Chapter 4: Microwave Network Analysis"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Impedance Matching and Tuning",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10492",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+        "source_text": "Chapter 5: Impedance Matching and Tuning",
+        "chapter_id": "pozar-microwave-3:chapter:5",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+          "quote": "Chapter 5: Impedance Matching and Tuning"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Microwave Resonators",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10493",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+        "source_text": "Chapter 6: Microwave Resonators",
+        "chapter_id": "pozar-microwave-3:chapter:6",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+          "quote": "Chapter 6: Microwave Resonators"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Power Dividers and Directional Couplers",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10494",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+        "source_text": "Chapter 7: Power Dividers and Directional Couplers",
+        "chapter_id": "pozar-microwave-3:chapter:7",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+          "quote": "Chapter 7: Power Dividers and Directional Couplers"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Microwave Filters",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10495",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+        "source_text": "Chapter 8: Microwave Filters",
+        "chapter_id": "pozar-microwave-3:chapter:8",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+          "quote": "Chapter 8: Microwave Filters"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Theory and Design of Ferrimagnetic Components",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10496",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+        "source_text": "Chapter 9: Theory and Design of Ferrimagnetic Components",
+        "chapter_id": "pozar-microwave-3:chapter:9",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+          "quote": "Chapter 9: Theory and Design of Ferrimagnetic Components"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Noise and Active RF Components",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10497",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+        "source_text": "Chapter 10: Noise and Active RF Components",
+        "chapter_id": "pozar-microwave-3:chapter:10",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+          "quote": "Chapter 10: Noise and Active RF Components"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "Microwave Amplifier Design",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10498",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+        "source_text": "Chapter 11: Microwave Amplifier Design",
+        "chapter_id": "pozar-microwave-3:chapter:11",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+          "quote": "Chapter 11: Microwave Amplifier Design"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 12,
+        "title": "Oscillators and Mixers",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10499",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+        "source_text": "Chapter 12: Oscillators and Mixers",
+        "chapter_id": "pozar-microwave-3:chapter:12",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+          "quote": "Chapter 12: Oscillators and Mixers"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 13,
+        "title": "Introduction to Microwave Systems",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=1899&itemId=0471448788&chapterId=10500",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+        "source_text": "Chapter 13: Introduction to Microwave Systems",
+        "chapter_id": "pozar-microwave-3:chapter:13",
+        "evidence": {
+          "source_version_id": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+          "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+          "quote": "Chapter 13: Introduction to Microwave Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "e7c3a984-6538-5df5-9b8e-d78198f68455",
+      "3b80f097-a086-554e-8eac-aed304bcb5a0"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "oppenheim-signals-2",
+    "source_id": "71794f0b043579ed97a7",
+    "title": "Signals and Systems",
+    "authors": "Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab",
+    "edition": "2nd edition",
+    "isbn": null,
+    "curriculum_codes": [
+      "ECC-106"
+    ],
+    "notes": [
+      "The exact printing/ISBN should be checked against the student's copy; references use the named second edition."
+    ],
+    "source_url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+    "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Signals and Systems",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[1]",
+        "source_text": "1. Signals and Systems",
+        "subtopics": [
+          {
+            "title": "Continuous-Time and Discrete-Time Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[1]"
+          },
+          {
+            "title": "Transformations of the Independent Variable.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[2]"
+          },
+          {
+            "title": "Exponential and Sinusoidal Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[3]"
+          },
+          {
+            "title": "The Unit Impulse and Unit Step Functions.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[4]"
+          },
+          {
+            "title": "Continuous-Time and Discrete-Time Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[5]"
+          },
+          {
+            "title": "Basic System Properties.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[1]/li[6]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:1",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[1]",
+          "quote": "1. Signals and Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Linear Time-Invariant Systems",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[2]",
+        "source_text": "2. Linear Time-Invariant Systems",
+        "subtopics": [
+          {
+            "title": "Discrete-Time LTI Systems: The Convolution Sum.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[1]"
+          },
+          {
+            "title": "Continuous-Time LTI Systems: The Convolution Integral.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[2]"
+          },
+          {
+            "title": "Properties of Linear Time-Invariant Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[3]"
+          },
+          {
+            "title": "Causal LTI Systems Described by Differential and Difference Equations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[4]"
+          },
+          {
+            "title": "Singularity Functions.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[2]/li[5]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:2",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[2]",
+          "quote": "2. Linear Time-Invariant Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "Fourier Series Representation of Periodic Signals",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[3]",
+        "source_text": "3. Fourier Series Representation of Periodic Signals",
+        "subtopics": [
+          {
+            "title": "A Historical Perspective.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[1]"
+          },
+          {
+            "title": "The Response of LTI Systems to Complex Exponentials.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[2]"
+          },
+          {
+            "title": "Fourier Series Representation of Continuous-Time Periodic Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[3]"
+          },
+          {
+            "title": "Convergence of the Fourier Series.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[4]"
+          },
+          {
+            "title": "Properties of Continuous-Time Fourier Series.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[5]"
+          },
+          {
+            "title": "Fourier Series Representation of Discrete-Time Periodic Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[6]"
+          },
+          {
+            "title": "Properties of Discrete-Time Fourier Series.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[7]"
+          },
+          {
+            "title": "Fourier Series and LTI Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[8]"
+          },
+          {
+            "title": "Filtering.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[9]"
+          },
+          {
+            "title": "Examples of Continuous-Time Filters Described by Differential Equations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[10]"
+          },
+          {
+            "title": "Examples of Discrete-Time Filters Described by Difference Equations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[3]/li[11]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:3",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[3]",
+          "quote": "3. Fourier Series Representation of Periodic Signals"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "The Continuous-Time Fourier Transform",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[4]",
+        "source_text": "4. The Continuous-Time Fourier Transform",
+        "subtopics": [
+          {
+            "title": "Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[1]"
+          },
+          {
+            "title": "The Fourier Transform for Periodic Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[2]"
+          },
+          {
+            "title": "Properties of the Continuous-Time Fourier Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[3]"
+          },
+          {
+            "title": "The Convolution Property.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[4]"
+          },
+          {
+            "title": "The Multiplication Property.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[5]"
+          },
+          {
+            "title": "Tables of Fourier Properties and Basic Fourier Transform Pairs.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[6]"
+          },
+          {
+            "title": "Systems Characterized by Linear Constant-Coefficient Differential Equations",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[4]/li[7]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:4",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[4]",
+          "quote": "4. The Continuous-Time Fourier Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "The Discrete-Time Fourier Transform",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[5]",
+        "source_text": "5. The Discrete-Time Fourier Transform.",
+        "subtopics": [
+          {
+            "title": "Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[1]"
+          },
+          {
+            "title": "The Fourier Transform for Periodic Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[2]"
+          },
+          {
+            "title": "Properties of the Discrete-Time Fourier Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[3]"
+          },
+          {
+            "title": "The Convolution Property.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[4]"
+          },
+          {
+            "title": "The Multiplication Property.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[5]"
+          },
+          {
+            "title": "Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[6]"
+          },
+          {
+            "title": "Duality.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[7]"
+          },
+          {
+            "title": "Systems Characterized by Linear Constant-Coefficient Difference Equations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[5]/li[8]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:5",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[5]",
+          "quote": "5. The Discrete-Time Fourier Transform."
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Time- and Frequency Characterization of Signals and Systems",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[6]",
+        "source_text": "6. Time- and Frequency Characterization of Signals and Systems",
+        "subtopics": [
+          {
+            "title": "The Magnitude-Phase Representation of the Fourier Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[1]"
+          },
+          {
+            "title": "The Magnitude-Phase Representation of the Frequency Response of LTI Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[2]"
+          },
+          {
+            "title": "Time-Domain Properties of Ideal Frequency-Selective Filters.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[3]"
+          },
+          {
+            "title": "Time- Domain and Frequency-Domain Aspects of Nonideal Filters.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[4]"
+          },
+          {
+            "title": "First-Order and Second-Order Continuous-Time Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[5]"
+          },
+          {
+            "title": "First-Order and Second-Order Discrete-Time Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[6]"
+          },
+          {
+            "title": "Examples of Time- and Frequency-Domain Analysis of Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[6]/li[7]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:6",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[6]",
+          "quote": "6. Time- and Frequency Characterization of Signals and Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Sampling",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[7]",
+        "source_text": "7. Sampling",
+        "subtopics": [
+          {
+            "title": "Representation of a Continuous-Time Signal by Its Samples: The Sampling Theorem.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[7]/li[1]"
+          },
+          {
+            "title": "Reconstruction of a Signal from Its Samples Using Interpolation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[7]/li[2]"
+          },
+          {
+            "title": "The Effect of Undersampling: Aliasing.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[7]/li[3]"
+          },
+          {
+            "title": "Discrete-Time Processing of Continuous-Time Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[7]/li[4]"
+          },
+          {
+            "title": "Sampling of Discrete-Time Signals.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[7]/li[5]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:7",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[7]",
+          "quote": "7. Sampling"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Communication Systems",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[8]",
+        "source_text": "8. Communication Systems",
+        "subtopics": [
+          {
+            "title": "Complex Exponential and Sinusoidal Amplitude Modulation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[1]"
+          },
+          {
+            "title": "Demodulation for Sinusoidal AM. Frequency-Division Multiplexing.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[2]"
+          },
+          {
+            "title": "Single-Sideband Sinusoidal Amplitude Modulation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[3]"
+          },
+          {
+            "title": "Amplitude Modulation with a Pulse-Train Carrier.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[4]"
+          },
+          {
+            "title": "Pulse-Amplitude Modulation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[5]"
+          },
+          {
+            "title": "Sinusoidal Frequency Modulation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[6]"
+          },
+          {
+            "title": "Discrete-Time Modulation.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[8]/li[7]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:8",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[8]",
+          "quote": "8. Communication Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "The Laplace Transform",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[9]",
+        "source_text": "9. The Laplace Transform",
+        "subtopics": [
+          {
+            "title": "The Laplace Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[1]"
+          },
+          {
+            "title": "The Region of Convergence for Laplace Transforms.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[2]"
+          },
+          {
+            "title": "The Inverse Laplace Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[3]"
+          },
+          {
+            "title": "Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[4]"
+          },
+          {
+            "title": "Properties of the Laplace Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[5]"
+          },
+          {
+            "title": "Some Laplace Transform Pairs.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[6]"
+          },
+          {
+            "title": "Analysis and Characterization of LTI Systems Using the Laplace Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[7]"
+          },
+          {
+            "title": "System Function Algebra and Block Diagram Representations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[8]"
+          },
+          {
+            "title": "The Unilateral Laplace Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[9]/li[9]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:9",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[9]",
+          "quote": "9. The Laplace Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "The Z-Transform",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[10]",
+        "source_text": "10. The Z-Transform",
+        "subtopics": [
+          {
+            "title": "The z-Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[1]"
+          },
+          {
+            "title": "The Region of Convergence for the z-Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[2]"
+          },
+          {
+            "title": "The Inverse z-Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[3]"
+          },
+          {
+            "title": "Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[4]"
+          },
+          {
+            "title": "Properties of the z-Transform.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[5]"
+          },
+          {
+            "title": "Some Common z-Transform Pairs.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[6]"
+          },
+          {
+            "title": "Analysis and Characterization of LTI Systems Using z-Transforms.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[7]"
+          },
+          {
+            "title": "System Function Algebra and Block Diagram Representations.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[8]"
+          },
+          {
+            "title": "The Unilateral z-Transforms.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[10]/li[9]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:10",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[10]",
+          "quote": "10. The Z-Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "Linear Feedback Systems",
+        "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[11]",
+        "source_text": "11. Linear Feedback Systems",
+        "subtopics": [
+          {
+            "title": "Linear Feedback Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[11]/li[1]"
+          },
+          {
+            "title": "Some Applications and Consequences of Feedback.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[11]/li[2]"
+          },
+          {
+            "title": "Root-Locus Analysis of Linear Feedback Systems.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[11]/li[3]"
+          },
+          {
+            "title": "The Nyquist Stability Criterion.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[11]/li[4]"
+          },
+          {
+            "title": "Gain and Phase Margins.",
+            "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/ul[11]/li[5]"
+          }
+        ],
+        "chapter_id": "oppenheim-signals-2:chapter:11",
+        "evidence": {
+          "source_version_id": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+          "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/h3[11]",
+          "quote": "11. Linear Feedback Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "0091a919-3817-57c0-ac9e-ca4a8f4be6eb"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "razavi-fundamentals-2",
+    "source_id": "b6350ddd8ac9a55c5fda",
+    "title": "Fundamentals of Microelectronics",
+    "authors": "Behzad Razavi",
+    "edition": "2nd edition",
+    "isbn": "1118156323",
+    "curriculum_codes": [
+      "ECC-102",
+      "ECC-204",
+      "ECC-305",
+      "ECL-343"
+    ],
+    "notes": [
+      "Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents."
+    ],
+    "source_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+    "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "INTRODUCTION TO MICROELECTRONICS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102415",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+        "source_text": "Chapter 1: INTRODUCTION TO MICROELECTRONICS",
+        "chapter_id": "razavi-fundamentals-2:chapter:1",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+          "quote": "Chapter 1: INTRODUCTION TO MICROELECTRONICS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "BASIC PHYSICS OF SEMICONDUCTORS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102416",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+        "source_text": "Chapter 2: BASIC PHYSICS OF SEMICONDUCTORS",
+        "chapter_id": "razavi-fundamentals-2:chapter:2",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+          "quote": "Chapter 2: BASIC PHYSICS OF SEMICONDUCTORS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "DIODE MODELS AND CIRCUITS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102417",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+        "source_text": "Chapter 3: DIODE MODELS AND CIRCUITS",
+        "chapter_id": "razavi-fundamentals-2:chapter:3",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+          "quote": "Chapter 3: DIODE MODELS AND CIRCUITS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "PHYSICS OF BIPOLAR TRANSISTORS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102418",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+        "source_text": "Chapter 4: PHYSICS OF BIPOLAR TRANSISTORS",
+        "chapter_id": "razavi-fundamentals-2:chapter:4",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+          "quote": "Chapter 4: PHYSICS OF BIPOLAR TRANSISTORS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "BIPOLAR AMPLIFIERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102419",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+        "source_text": "Chapter 5: BIPOLAR AMPLIFIERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:5",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+          "quote": "Chapter 5: BIPOLAR AMPLIFIERS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "PHYSICS OF MOS TRANSISTORS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102420",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+        "source_text": "Chapter 6: PHYSICS OF MOS TRANSISTORS",
+        "chapter_id": "razavi-fundamentals-2:chapter:6",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+          "quote": "Chapter 6: PHYSICS OF MOS TRANSISTORS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "CMOS AMPLIFIERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102421",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+        "source_text": "Chapter 7: CMOS AMPLIFIERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:7",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+          "quote": "Chapter 7: CMOS AMPLIFIERS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "OPERATIONAL AMPLIFIER AS A BLACK BOX 354",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102422",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+        "source_text": "Chapter 8: OPERATIONAL AMPLIFIER AS A BLACK BOX 354",
+        "chapter_id": "razavi-fundamentals-2:chapter:8",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+          "quote": "Chapter 8: OPERATIONAL AMPLIFIER AS A BLACK BOX 354"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "CASCODE STAGES AND CURRENT MIRRORS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102423",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+        "source_text": "Chapter 9: CASCODE STAGES AND CURRENT MIRRORS",
+        "chapter_id": "razavi-fundamentals-2:chapter:9",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+          "quote": "Chapter 9: CASCODE STAGES AND CURRENT MIRRORS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "DIFFERENTIAL AMPLIFIERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102424",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+        "source_text": "Chapter 10: DIFFERENTIAL AMPLIFIERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:10",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+          "quote": "Chapter 10: DIFFERENTIAL AMPLIFIERS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "FREQUENCY RESPONSE",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102425",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+        "source_text": "Chapter 11: FREQUENCY RESPONSE",
+        "chapter_id": "razavi-fundamentals-2:chapter:11",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+          "quote": "Chapter 11: FREQUENCY RESPONSE"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 12,
+        "title": "FEEDBACK",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102426",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+        "source_text": "Chapter 12: FEEDBACK",
+        "chapter_id": "razavi-fundamentals-2:chapter:12",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+          "quote": "Chapter 12: FEEDBACK"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 13,
+        "title": "OSCILLATORS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102427",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+        "source_text": "Chapter 13: OSCILLATORS",
+        "chapter_id": "razavi-fundamentals-2:chapter:13",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+          "quote": "Chapter 13: OSCILLATORS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 14,
+        "title": "OUTPUT STAGES AND POWER AMPLIFIERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102428",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[14]/a",
+        "source_text": "Chapter 14: OUTPUT STAGES AND POWER AMPLIFIERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:14",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[14]/a",
+          "quote": "Chapter 14: OUTPUT STAGES AND POWER AMPLIFIERS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 15,
+        "title": "ANALOG FILTERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102429",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[15]/a",
+        "source_text": "Chapter 15: ANALOG FILTERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:15",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[15]/a",
+          "quote": "Chapter 15: ANALOG FILTERS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 16,
+        "title": "DIGITAL CMOS CIRCUITS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102430",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[16]/a",
+        "source_text": "Chapter 16: DIGITAL CMOS CIRCUITS",
+        "chapter_id": "razavi-fundamentals-2:chapter:16",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[16]/a",
+          "quote": "Chapter 16: DIGITAL CMOS CIRCUITS"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 17,
+        "title": "CMOS AMPLIFIERS",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9036&itemId=1118156323&chapterId=102431",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[17]/a",
+        "source_text": "Chapter 17: CMOS AMPLIFIERS",
+        "chapter_id": "razavi-fundamentals-2:chapter:17",
+        "evidence": {
+          "source_version_id": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+          "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[17]/a",
+          "quote": "Chapter 17: CMOS AMPLIFIERS"
+        },
+        "page_number": null,
+        "review_status": "source_label_requires_review"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "0c1860a3-cdfe-52b9-a9f8-3eea445ce73e",
+      "0d3a40e9-462d-5f0e-b90d-e820fd27db14"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "balanis-antennas-3",
+    "source_id": "9caa091895b6bcfc28ff",
+    "title": "Antenna Theory: Analysis and Design",
+    "authors": "Constantine A. Balanis",
+    "edition": "3rd edition",
+    "isbn": "047166782X",
+    "curriculum_codes": [
+      "ECC-203"
+    ],
+    "notes": [
+      "Companion contents list starts at chapter 2; no missing chapter title has been invented."
+    ],
+    "source_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+    "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+    "chapters": [
+      {
+        "number": 2,
+        "title": "Fundamental Parameters of Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90412",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+        "source_text": "Chapter 2: Fundamental Parameters of Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:2",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+          "quote": "Chapter 2: Fundamental Parameters of Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "Radiation Integrals and Auxiliary Potential Functions",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90413",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+        "source_text": "Chapter 3: Radiation Integrals and Auxiliary Potential Functions",
+        "chapter_id": "balanis-antennas-3:chapter:3",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+          "quote": "Chapter 3: Radiation Integrals and Auxiliary Potential Functions"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Linear Wire Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90414",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+        "source_text": "Chapter 4: Linear Wire Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:4",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+          "quote": "Chapter 4: Linear Wire Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Loop Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90415",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+        "source_text": "Chapter 5: Loop Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:5",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+          "quote": "Chapter 5: Loop Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Arrays: Linear, Planar, and Circular",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90416",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+        "source_text": "Chapter 6: Arrays: Linear, Planar, and Circular",
+        "chapter_id": "balanis-antennas-3:chapter:6",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+          "quote": "Chapter 6: Arrays: Linear, Planar, and Circular"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Antenna Synthesis and Continuous Sources",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90417",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+        "source_text": "Chapter 7: Antenna Synthesis and Continuous Sources",
+        "chapter_id": "balanis-antennas-3:chapter:7",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+          "quote": "Chapter 7: Antenna Synthesis and Continuous Sources"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Integral Equations, Moment Method, and Self and Mutual Impedances",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90418",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+        "source_text": "Chapter 8: Integral Equations, Moment Method, and Self and Mutual Impedances",
+        "chapter_id": "balanis-antennas-3:chapter:8",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+          "quote": "Chapter 8: Integral Equations, Moment Method, and Self and Mutual Impedances"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Broadband Dipoles and Matching Techniques",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90419",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+        "source_text": "Chapter 9: Broadband Dipoles and Matching Techniques",
+        "chapter_id": "balanis-antennas-3:chapter:9",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+          "quote": "Chapter 9: Broadband Dipoles and Matching Techniques"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Traveling Wave and Broadband Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90420",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+        "source_text": "Chapter 10: Traveling Wave and Broadband Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:10",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+          "quote": "Chapter 10: Traveling Wave and Broadband Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "Frequency Independent Antennas, Antenna Miniaturization and Fractal Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90421",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+        "source_text": "Chapter 11: Frequency Independent Antennas, Antenna Miniaturization and Fractal Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:11",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+          "quote": "Chapter 11: Frequency Independent Antennas, Antenna Miniaturization and Fractal Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 12,
+        "title": "Aperture Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90422",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+        "source_text": "Chapter 12: Aperture Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:12",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[12]/a",
+          "quote": "Chapter 12: Aperture Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 13,
+        "title": "Horn Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90423",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+        "source_text": "Chapter 13: Horn Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:13",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[13]/a",
+          "quote": "Chapter 13: Horn Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 14,
+        "title": "Microstrip Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90424",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[14]/a",
+        "source_text": "Chapter 14: Microstrip Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:14",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[14]/a",
+          "quote": "Chapter 14: Microstrip Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 15,
+        "title": "Reflector Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90425",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[15]/a",
+        "source_text": "Chapter 15: Reflector Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:15",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[15]/a",
+          "quote": "Chapter 15: Reflector Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 16,
+        "title": "Smart Antennas",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=8129&itemId=047166782X&chapterId=90426",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[16]/a",
+        "source_text": "Chapter 16: Smart Antennas",
+        "chapter_id": "balanis-antennas-3:chapter:16",
+        "evidence": {
+          "source_version_id": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+          "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[16]/a",
+          "quote": "Chapter 16: Smart Antennas"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "4ca60df2-1fe2-5611-b1e2-b1d3529223c3"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "mano-digital-6",
+    "source_id": "b75ec3282b9d7168f80f",
+    "title": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog",
+    "authors": "M. Morris Mano; Michael D. Ciletti",
+    "edition": "6th edition",
+    "isbn": "9780137501984",
+    "curriculum_codes": [
+      "ECC-104",
+      "ECC-305",
+      "ECT-110"
+    ],
+    "notes": [
+      "The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering."
+    ],
+    "source_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+    "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Digital Systems and Binary Numbers",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[2]",
+        "source_text": "1 Digital Systems and Binary Numbers",
+        "subtopics": [
+          {
+            "title": "1.1 Digital Systems",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[3]"
+          },
+          {
+            "title": "1.2 Binary Numbers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[4]"
+          },
+          {
+            "title": "1.3 NumberBase Conversions",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[5]"
+          },
+          {
+            "title": "1.4 Octal and Hexadecimal Numbers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[6]"
+          },
+          {
+            "title": "1.5 Complements of Numbers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[7]"
+          },
+          {
+            "title": "1.6 Signed Binary Numbers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[8]"
+          },
+          {
+            "title": "1.7 Binary Codes",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[9]"
+          },
+          {
+            "title": "1.8 Binary Storage and Registers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[10]"
+          },
+          {
+            "title": "1.9 Binary Logic",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[11]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:1",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[2]",
+          "quote": "1 Digital Systems and Binary Numbers"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Boolean Algebra and Logic Gates",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[13]",
+        "source_text": "2 Boolean Algebra and Logic Gates",
+        "subtopics": [
+          {
+            "title": "2.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[14]"
+          },
+          {
+            "title": "2.2 Basic Definitions",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[15]"
+          },
+          {
+            "title": "2.3 Axiomatic Definition of Boolean Algebra",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[16]"
+          },
+          {
+            "title": "2.4 Basic Theorems and Properties of Boolean Algebra",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[17]"
+          },
+          {
+            "title": "2.5 Boolean Functions",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[18]"
+          },
+          {
+            "title": "2.6 Canonical and Standard Forms",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[19]"
+          },
+          {
+            "title": "2.7 Other Logic Operations",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[20]"
+          },
+          {
+            "title": "2.8 Digital Logic Gates",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[21]"
+          },
+          {
+            "title": "2.9 Integrated Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[22]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:2",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[13]",
+          "quote": "2 Boolean Algebra and Logic Gates"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "GateLevel Minimization",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[24]",
+        "source_text": "3 GateLevel Minimization",
+        "subtopics": [
+          {
+            "title": "3.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[25]"
+          },
+          {
+            "title": "3.2 The Map Method",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[26]"
+          },
+          {
+            "title": "3.3 FourVariable K-Map",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[27]"
+          },
+          {
+            "title": "3.4 ProductofSums Simplification",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[28]"
+          },
+          {
+            "title": "3.5 Don’tCare Conditions",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[29]"
+          },
+          {
+            "title": "3.6 NAND and NOR Implementation",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[30]"
+          },
+          {
+            "title": "3.7 Other TwoLevel Implementations",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[31]"
+          },
+          {
+            "title": "3.8 ExclusiveOR Function",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[32]"
+          },
+          {
+            "title": "3.9 Hardware Description Languages (HDLs)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[33]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:3",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[24]",
+          "quote": "3 GateLevel Minimization"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Combinational Logic",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[35]",
+        "source_text": "4 Combinational Logic",
+        "subtopics": [
+          {
+            "title": "4.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[36]"
+          },
+          {
+            "title": "4.2 Combinational Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[37]"
+          },
+          {
+            "title": "4.3 Analysis of Combinational Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[38]"
+          },
+          {
+            "title": "4.4 Design Procedure",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[39]"
+          },
+          {
+            "title": "4.5 Binary Adder—Subtractor",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[40]"
+          },
+          {
+            "title": "4.6 Decimal Adder",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[41]"
+          },
+          {
+            "title": "4.7 Binary Multiplier",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[42]"
+          },
+          {
+            "title": "4.8 Magnitude Comparator",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[43]"
+          },
+          {
+            "title": "4.9 Decoders",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[44]"
+          },
+          {
+            "title": "4.10 Encoders",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[45]"
+          },
+          {
+            "title": "4.11 Multiplexers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[46]"
+          },
+          {
+            "title": "4.12 HDL Models of Combinational Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[47]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:4",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[35]",
+          "quote": "4 Combinational Logic"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Synchronous Sequential Logic",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[49]",
+        "source_text": "5 Synchronous Sequential Logic",
+        "subtopics": [
+          {
+            "title": "5.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[50]"
+          },
+          {
+            "title": "5.2 Sequential Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[51]"
+          },
+          {
+            "title": "5.3 Storage Elements: Latches",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[52]"
+          },
+          {
+            "title": "5.4 Storage Elements: FlipFlops",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[53]"
+          },
+          {
+            "title": "5.5 Analysis of Clocked Sequential Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[54]"
+          },
+          {
+            "title": "5.6 Synthesizable HDL Models of Sequential Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[55]"
+          },
+          {
+            "title": "5.7 State Reduction and Assignment",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[56]"
+          },
+          {
+            "title": "5.8 Design Procedure",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[57]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:5",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[49]",
+          "quote": "5 Synchronous Sequential Logic"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Registers and Counters",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[59]",
+        "source_text": "6 Registers and Counters",
+        "subtopics": [
+          {
+            "title": "6.1 Registers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[60]"
+          },
+          {
+            "title": "6.2 Shift Registers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[61]"
+          },
+          {
+            "title": "6.3 Ripple Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[62]"
+          },
+          {
+            "title": "6.4 Synchronous Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[63]"
+          },
+          {
+            "title": "6.5 Other Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[64]"
+          },
+          {
+            "title": "6.6 HDL Models of Registers and Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[65]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:6",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[59]",
+          "quote": "6 Registers and Counters"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Memory and Programmable Logic",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[67]",
+        "source_text": "7 Memory and Programmable Logic",
+        "subtopics": [
+          {
+            "title": "7.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[68]"
+          },
+          {
+            "title": "7.2 RandomAccess Memory",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[69]"
+          },
+          {
+            "title": "7.3 Memory Decoding",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[70]"
+          },
+          {
+            "title": "7.4 Error Detection and Correction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[71]"
+          },
+          {
+            "title": "7.5 ReadOnly Memory",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[72]"
+          },
+          {
+            "title": "7.6 Programmable Logic Array",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[73]"
+          },
+          {
+            "title": "7.7 Programmable Array Logic",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[74]"
+          },
+          {
+            "title": "7.8 Sequential Programmable Devices",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[75]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:7",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[67]",
+          "quote": "7 Memory and Programmable Logic"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Design at the Register Transfer Level",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[77]",
+        "source_text": "8 Design at the Register Transfer Level",
+        "subtopics": [
+          {
+            "title": "8.1 Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[78]"
+          },
+          {
+            "title": "8.2 Register Transfer Level (RTL) Notation",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[79]"
+          },
+          {
+            "title": "8.3 RTL descriptions VERILOG (Edge- and Level-Sensitive Behaviors)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[80]"
+          },
+          {
+            "title": "8.4 Algorithmic State Machines (ASMs)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[81]"
+          },
+          {
+            "title": "8.5 Design Example (ASMD Chart)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[82]"
+          },
+          {
+            "title": "8.6 HDL Description of Design Example",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[83]"
+          },
+          {
+            "title": "8.7 Sequential Binary Multiplier",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[84]"
+          },
+          {
+            "title": "8.8 Control Logic",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[85]"
+          },
+          {
+            "title": "8.9 HDL Description of Binary Multiplier",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[86]"
+          },
+          {
+            "title": "8.10 Design with Multiplexers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[87]"
+          },
+          {
+            "title": "8.11 RaceFree Design (Software Race Conditions)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[88]"
+          },
+          {
+            "title": "8.12 LatchFree Design (Why Waste Silicon?)",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[89]"
+          },
+          {
+            "title": "8.13 System Verilog–An Introduction",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[90]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:8",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[77]",
+          "quote": "8 Design at the Register Transfer Level"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Laboratory Experiments with Standard ICs and FPGAs",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[92]",
+        "source_text": "9 Laboratory Experiments with Standard ICs and FPGAs",
+        "subtopics": [
+          {
+            "title": "9.1 Introduction to Experiments",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[93]"
+          },
+          {
+            "title": "9.2 Experiment 1: Binary and Decimal Numbers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[94]"
+          },
+          {
+            "title": "9.3 Experiment 2: Digital Logic Gates",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[95]"
+          },
+          {
+            "title": "9.4 Experiment 3: Simplification of Boolean Functions",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[96]"
+          },
+          {
+            "title": "9.5 Experiment 4: Combinational Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[97]"
+          },
+          {
+            "title": "9.6 Experiment 5: Code Converters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[98]"
+          },
+          {
+            "title": "9.7 Experiment 6: Design with Multiplexers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[99]"
+          },
+          {
+            "title": "9.8 Experiment 7: Adders and Subtractors",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[100]"
+          },
+          {
+            "title": "9.9 Experiment 8: FlipFlops",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[101]"
+          },
+          {
+            "title": "9.10 Experiment 9: Sequential Circuits",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[102]"
+          },
+          {
+            "title": "9.11 Experiment 10: Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[103]"
+          },
+          {
+            "title": "9.12 Experiment 11: Shift Registers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[104]"
+          },
+          {
+            "title": "9.13 Experiment 12: Serial Addition",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[105]"
+          },
+          {
+            "title": "9.14 Experiment 13: Memory Unit",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[106]"
+          },
+          {
+            "title": "9.15 Experiment 14: Lamp Handball",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[107]"
+          },
+          {
+            "title": "9.16 Experiment 15: ClockPulse Generator",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[108]"
+          },
+          {
+            "title": "9.17 Experiment 16: Parallel Adder and Accumulator",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[109]"
+          },
+          {
+            "title": "9.18 Experiment 17: Binary Multiplier",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[110]"
+          },
+          {
+            "title": "9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[111]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:9",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[92]",
+          "quote": "9 Laboratory Experiments with Standard ICs and FPGAs"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Standard Graphic Symbols",
+        "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab",
+        "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[113]",
+        "source_text": "10 Standard Graphic Symbols",
+        "subtopics": [
+          {
+            "title": "10.1 RectangularShape Symbols",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[114]"
+          },
+          {
+            "title": "10.2 Qualifying Symbols",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[115]"
+          },
+          {
+            "title": "10.3 Dependency Notation",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[116]"
+          },
+          {
+            "title": "10.4 Symbols for Combinational Elements",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[117]"
+          },
+          {
+            "title": "10.5 Symbols for FlipFlops",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[118]"
+          },
+          {
+            "title": "10.6 Symbols for Registers",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[119]"
+          },
+          {
+            "title": "10.7 Symbols for Counters",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[120]"
+          },
+          {
+            "title": "10.8 Symbol for RAM",
+            "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[121]"
+          }
+        ],
+        "chapter_id": "mano-digital-6:chapter:10",
+        "evidence": {
+          "source_version_id": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+          "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+          "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+          "locator": "/html/body/div/main/div[1]/div[3]/div/div/div/div[4]/div/div/div/p[113]",
+          "quote": "10 Standard Graphic Symbols"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "285d32a6-08a5-5aa7-8593-21a7ce207ad8",
+      "1701cca0-0dee-5440-80f1-951bffdbc536",
+      "cfc8882b-0f03-563a-80df-4279250b153c"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "oppenheim-dsp-3",
+    "source_id": "36e53bf9bc96288161d4",
+    "title": "Discrete-Time Signal Processing",
+    "authors": "Alan V. Oppenheim; Ronald W. Schafer",
+    "edition": "3rd edition",
+    "isbn": "9780131988422",
+    "curriculum_codes": [
+      "ECC-301",
+      "ECT-109"
+    ],
+    "notes": [
+      "Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate."
+    ],
+    "source_url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+    "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Introduction",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[1]",
+        "source_text": "Introduction",
+        "chapter_id": "oppenheim-dsp-3:chapter:1",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[1]",
+          "quote": "Introduction"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Discrete Time-Signals and Systems",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[2]",
+        "source_text": "Discrete Time-Signals and Systems",
+        "chapter_id": "oppenheim-dsp-3:chapter:2",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[2]",
+          "quote": "Discrete Time-Signals and Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "The z-Transform",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[3]",
+        "source_text": "The z-Transform",
+        "chapter_id": "oppenheim-dsp-3:chapter:3",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[3]",
+          "quote": "The z-Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Sampling of Continuous-Time Signals",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[4]",
+        "source_text": "Sampling of Continuous-Time Signals",
+        "chapter_id": "oppenheim-dsp-3:chapter:4",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[4]",
+          "quote": "Sampling of Continuous-Time Signals"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Transform Analysis of Linear Time-Invariant Systems",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[5]",
+        "source_text": "Transform Analysis of Linear Time-Invariant Systems",
+        "chapter_id": "oppenheim-dsp-3:chapter:5",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[5]",
+          "quote": "Transform Analysis of Linear Time-Invariant Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Structures for Discrete-Time Systems",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[6]",
+        "source_text": "Structures for Discrete-Time Systems",
+        "chapter_id": "oppenheim-dsp-3:chapter:6",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[6]",
+          "quote": "Structures for Discrete-Time Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Filter Design Techniques",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[7]",
+        "source_text": "Filter Design Techniques",
+        "chapter_id": "oppenheim-dsp-3:chapter:7",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[7]",
+          "quote": "Filter Design Techniques"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "The Discrete Fourier Transform",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[8]",
+        "source_text": "The Discrete Fourier Transform",
+        "chapter_id": "oppenheim-dsp-3:chapter:8",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[8]",
+          "quote": "The Discrete Fourier Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Computation of the Discrete Fourier Transform",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[9]",
+        "source_text": "Computation of the Discrete Fourier Transform",
+        "chapter_id": "oppenheim-dsp-3:chapter:9",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[9]",
+          "quote": "Computation of the Discrete Fourier Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Fourier Analysis of Signals Using the Discrete Fourier Transform",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[10]",
+        "source_text": "Fourier Analysis of Signals Using the Discrete Fourier Transform",
+        "chapter_id": "oppenheim-dsp-3:chapter:10",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[10]",
+          "quote": "Fourier Analysis of Signals Using the Discrete Fourier Transform"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "Parametric Signal Modeling",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[11]",
+        "source_text": "Parametric Signal Modeling",
+        "chapter_id": "oppenheim-dsp-3:chapter:11",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[11]",
+          "quote": "Parametric Signal Modeling"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 12,
+        "title": "Discrete Hilbert Transforms",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[12]",
+        "source_text": "Discrete Hilbert Transforms",
+        "chapter_id": "oppenheim-dsp-3:chapter:12",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[12]",
+          "quote": "Discrete Hilbert Transforms"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 13,
+        "title": "Cepstrum Analysis and Homomorphic Deconvolution",
+        "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168#table-of-contents-tab",
+        "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[13]",
+        "source_text": "Cepstrum Analysis and Homomorphic Deconvolution",
+        "chapter_id": "oppenheim-dsp-3:chapter:13",
+        "evidence": {
+          "source_version_id": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+          "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+          "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+          "locator": "/html/body/div/main/div/div[2]/div/div/div[4]/div/div/div/div/div/div/ol/li[13]",
+          "quote": "Cepstrum Analysis and Homomorphic Deconvolution"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [
+      "671538f9-3f5e-5f55-b436-c7daf6826599"
+    ],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "haykin-intro-communications-2",
+    "source_id": "5ac8c3bf87cb9d33c412",
+    "title": "An Introduction to Analog and Digital Communications",
+    "authors": "Simon Haykin; Michael Moher",
+    "edition": "2nd edition",
+    "isbn": "0471432229",
+    "curriculum_codes": [
+      "ECC-201",
+      "ECC-202",
+      "ECC-304"
+    ],
+    "notes": [
+      "Supplementary study reference; do not confuse this title with Haykin's Communication Systems."
+    ],
+    "source_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+    "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Introduction",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23667",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+        "source_text": "Chapter 1: Introduction",
+        "chapter_id": "haykin-intro-communications-2:chapter:1",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+          "quote": "Chapter 1: Introduction"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Fourier Representation of Signals and Systems",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23668",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+        "source_text": "Chapter 2: Fourier Representation of Signals and Systems",
+        "chapter_id": "haykin-intro-communications-2:chapter:2",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+          "quote": "Chapter 2: Fourier Representation of Signals and Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "Amplitude Modulation",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23669",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+        "source_text": "Chapter 3: Amplitude Modulation",
+        "chapter_id": "haykin-intro-communications-2:chapter:3",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+          "quote": "Chapter 3: Amplitude Modulation"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Angle Modulation",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23670",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+        "source_text": "Chapter 4: Angle Modulation",
+        "chapter_id": "haykin-intro-communications-2:chapter:4",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+          "quote": "Chapter 4: Angle Modulation"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Pulse Modulation: Transition from Analog to Digital Communications",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23671",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+        "source_text": "Chapter 5: Pulse Modulation: Transition from Analog to Digital Communications",
+        "chapter_id": "haykin-intro-communications-2:chapter:5",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+          "quote": "Chapter 5: Pulse Modulation: Transition from Analog to Digital Communications"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Baseband Data Transmission",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23672",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+        "source_text": "Chapter 6: Baseband Data Transmission",
+        "chapter_id": "haykin-intro-communications-2:chapter:6",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+          "quote": "Chapter 6: Baseband Data Transmission"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Digital Band-Pass Modulation Techniques",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23673",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+        "source_text": "Chapter 7: Digital Band-Pass Modulation Techniques",
+        "chapter_id": "haykin-intro-communications-2:chapter:7",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+          "quote": "Chapter 7: Digital Band-Pass Modulation Techniques"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Random Signals and Noise",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23674",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+        "source_text": "Chapter 8: Random Signals and Noise",
+        "chapter_id": "haykin-intro-communications-2:chapter:8",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+          "quote": "Chapter 8: Random Signals and Noise"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Noise in Analog Communications",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23675",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+        "source_text": "Chapter 9: Noise in Analog Communications",
+        "chapter_id": "haykin-intro-communications-2:chapter:9",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+          "quote": "Chapter 9: Noise in Analog Communications"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Noise in Digital Communications",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23676",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+        "source_text": "Chapter 10: Noise in Digital Communications",
+        "chapter_id": "haykin-intro-communications-2:chapter:10",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+          "quote": "Chapter 10: Noise in Digital Communications"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 11,
+        "title": "System and Noise Calculations",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=3081&itemId=0471432229&chapterId=23677",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+        "source_text": "Chapter 11: System and Noise Calculations",
+        "chapter_id": "haykin-intro-communications-2:chapter:11",
+        "evidence": {
+          "source_version_id": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+          "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[11]/a",
+          "quote": "Chapter 11: System and Noise Calculations"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  },
+  {
+    "book_id": "haykin-digital-communications-1",
+    "source_id": "1f8d9eaa413ad0e5f713",
+    "title": "Digital Communication Systems",
+    "authors": "Simon Haykin",
+    "edition": "1st edition",
+    "isbn": "0471647357",
+    "curriculum_codes": [
+      "ECC-202",
+      "ECL-515"
+    ],
+    "notes": [
+      "Supplementary study reference; a separate title from Communication Systems."
+    ],
+    "source_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+    "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Introduction",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104339",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+        "source_text": "Chapter 1: Introduction",
+        "chapter_id": "haykin-digital-communications-1:chapter:1",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[1]/a",
+          "quote": "Chapter 1: Introduction"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 2,
+        "title": "Fourier Analysis of Signals and Systems",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104340",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+        "source_text": "Chapter 2: Fourier Analysis of Signals and Systems",
+        "chapter_id": "haykin-digital-communications-1:chapter:2",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[2]/a",
+          "quote": "Chapter 2: Fourier Analysis of Signals and Systems"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 3,
+        "title": "Probability Theory and Bayesian Inference",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104341",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+        "source_text": "Chapter 3: Probability Theory and Bayesian Inference",
+        "chapter_id": "haykin-digital-communications-1:chapter:3",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[3]/a",
+          "quote": "Chapter 3: Probability Theory and Bayesian Inference"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 4,
+        "title": "Stochastic Processes",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104342",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+        "source_text": "Chapter 4: Stochastic Processes",
+        "chapter_id": "haykin-digital-communications-1:chapter:4",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[4]/a",
+          "quote": "Chapter 4: Stochastic Processes"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 5,
+        "title": "Information Theory",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104343",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+        "source_text": "Chapter 5: Information Theory",
+        "chapter_id": "haykin-digital-communications-1:chapter:5",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[5]/a",
+          "quote": "Chapter 5: Information Theory"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 6,
+        "title": "Conversion of Analog Waveforms into Coded Pulses",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104344",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+        "source_text": "Chapter 6: Conversion of Analog Waveforms into Coded Pulses",
+        "chapter_id": "haykin-digital-communications-1:chapter:6",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[6]/a",
+          "quote": "Chapter 6: Conversion of Analog Waveforms into Coded Pulses"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 7,
+        "title": "Signaling over AWGN Channels",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104345",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+        "source_text": "Chapter 7: Signaling over AWGN Channels",
+        "chapter_id": "haykin-digital-communications-1:chapter:7",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[7]/a",
+          "quote": "Chapter 7: Signaling over AWGN Channels"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 8,
+        "title": "Signaling over Band-Limited Channels",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104346",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+        "source_text": "Chapter 8: Signaling over Band-Limited Channels",
+        "chapter_id": "haykin-digital-communications-1:chapter:8",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[8]/a",
+          "quote": "Chapter 8: Signaling over Band-Limited Channels"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 9,
+        "title": "Signaling over Fading Channels",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104347",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+        "source_text": "Chapter 9: Signaling over Fading Channels",
+        "chapter_id": "haykin-digital-communications-1:chapter:9",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[9]/a",
+          "quote": "Chapter 9: Signaling over Fading Channels"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      },
+      {
+        "number": 10,
+        "title": "Error-Control Coding",
+        "url": "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104348",
+        "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+        "source_text": "Chapter 10: Error-Control Coding",
+        "chapter_id": "haykin-digital-communications-1:chapter:10",
+        "evidence": {
+          "source_version_id": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+          "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+          "locator": "/html/body/div/div[4]/div[1]/div[2]/div[10]/a",
+          "quote": "Chapter 10: Error-Control Coding"
+        },
+        "page_number": null,
+        "review_status": "extracted_from_publisher"
+      }
+    ],
+    "related_syllabus_reference_ids": [],
+    "relationship": "related_title_not_automatic_edition_equivalence",
+    "coverage": "chapters_listed_on_public_publisher_page",
+    "full_text_ingested": false
+  }
+]

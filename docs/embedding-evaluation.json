@@ -1,0 +1,1231 @@
+{
+  "scope": "Developer-authored source checks: 6 development, 16 held-out chapter queries, and 7 unrelated queries. Not a benchmark or guarantee.",
+  "model": {
+    "provider": "huggingface",
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimensions": 1024,
+    "context": 8192,
+    "normalization": "l2",
+    "prompt": "none",
+    "truncate": false,
+    "storage": "float32-le",
+    "compute_dtype": "float32",
+    "pipeline_version": 1,
+    "sentence_transformers": "5.1.2",
+    "transformers": "4.57.1"
+  },
+  "positive_hit_at_5": 0.9545454545454546,
+  "positive_hit_at_2": 0.9545454545454546,
+  "holdout_hit_at_5": 0.9375,
+  "negative_abstentions": 7,
+  "negative_count": 7,
+  "repeat_query_seconds": 0.0035,
+  "checks": [
+    {
+      "split": "development",
+      "query": "Where can I learn how convolution describes an LTI system?",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:2",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.213,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:2",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 2: Linear Time-Invariant Systems. Contents topics: Discrete-Time LTI Systems: The Convolution Sum.; Continuous-Time LTI Systems: The Convolution Integral.; Properties of Linear Time-Invariant Systems.; Causal LTI Systems Described by Differential and Difference Equations.; Singularity Functions. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.640384,
+            "lexical": 3.075049,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:10",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 10: The Z-Transform. Contents topics: The z-Transform.; The Region of Convergence for the z-Transform.; The Inverse z-Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the z-Transform.; Some Common z-Transform Pairs.; Analysis and Characterization of LTI Systems Using z-Transforms.; System Function Algebra and Block Diagram Representations.; The Unilateral z-Transforms. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.559908,
+            "lexical": 0.82388,
+            "rrf": 0.031281
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.492028,
+            "lexical": 1.28327,
+            "rrf": 0.031281
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:9",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 9: The Laplace Transform. Contents topics: The Laplace Transform.; The Region of Convergence for Laplace Transforms.; The Inverse Laplace Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the Laplace Transform.; Some Laplace Transform Pairs.; Analysis and Characterization of LTI Systems Using the Laplace Transform.; System Function Algebra and Block Diagram Representations.; The Unilateral Laplace Transform. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.558932,
+            "lexical": 0.828408,
+            "rrf": 0.031258
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:3",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 3: Fourier Series Representation of Periodic Signals. Contents topics: A Historical Perspective.; The Response of LTI Systems to Complex Exponentials.; Fourier Series Representation of Continuous-Time Periodic Signals.; Convergence of the Fourier Series.; Properties of Continuous-Time Fourier Series.; Fourier Series Representation of Discrete-Time Periodic Signals.; Properties of Discrete-Time Fourier Series.; Fourier Series and LTI Systems.; Filtering.; Examples of Continuous-Time Filters Described by Differential Equations.; Examples of Discrete-Time Filters Described by Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.543812,
+            "lexical": 1.048258,
+            "rrf": 0.03125
+          }
+        }
+      ]
+    },
+    {
+      "split": "development",
+      "query": "Representing periodic signals as sums of sinusoids",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:3",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:3",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 3: Fourier Series Representation of Periodic Signals. Contents topics: A Historical Perspective.; The Response of LTI Systems to Complex Exponentials.; Fourier Series Representation of Continuous-Time Periodic Signals.; Convergence of the Fourier Series.; Properties of Continuous-Time Fourier Series.; Fourier Series Representation of Discrete-Time Periodic Signals.; Properties of Discrete-Time Fourier Series.; Fourier Series and LTI Systems.; Filtering.; Examples of Continuous-Time Filters Described by Differential Equations.; Examples of Discrete-Time Filters Described by Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.580915,
+            "lexical": 1.882363,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.575259,
+            "lexical": 1.29166,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:7",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 7: Sampling. Contents topics: Representation of a Continuous-Time Signal by Its Samples: The Sampling Theorem.; Reconstruction of a Signal from Its Samples Using Interpolation.; The Effect of Undersampling: Aliasing.; Discrete-Time Processing of Continuous-Time Signals.; Sampling of Discrete-Time Signals. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.562237,
+            "lexical": 0.076783,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:5",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 5: The Discrete-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Discrete-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.; Duality.; Systems Characterized by Linear Constant-Coefficient Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.562173,
+            "lexical": 1.277184,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:1",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 1: Signals and Systems. Contents topics: Continuous-Time and Discrete-Time Signals.; Transformations of the Independent Variable.; Exponential and Sinusoidal Signals.; The Unit Impulse and Unit Step Functions.; Continuous-Time and Discrete-Time Systems.; Basic System Properties. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.525475,
+            "lexical": 0.074226,
+            "rrf": 0.030536
+          }
+        }
+      ]
+    },
+    {
+      "split": "development",
+      "query": "What should I read about the Laplace transform?",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:9",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:9",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 9: The Laplace Transform. Contents topics: The Laplace Transform.; The Region of Convergence for Laplace Transforms.; The Inverse Laplace Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the Laplace Transform.; Some Laplace Transform Pairs.; Analysis and Characterization of LTI Systems Using the Laplace Transform.; System Function Algebra and Block Diagram Representations.; The Unilateral Laplace Transform. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.593663,
+            "lexical": 5.462776,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:5",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 5: The Discrete-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Discrete-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.; Duality.; Systems Characterized by Linear Constant-Coefficient Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.464911,
+            "lexical": 1.422669,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:10",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 10: The Z-Transform. Contents topics: The z-Transform.; The Region of Convergence for the z-Transform.; The Inverse z-Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the z-Transform.; Some Common z-Transform Pairs.; Analysis and Characterization of LTI Systems Using z-Transforms.; System Function Algebra and Block Diagram Representations.; The Unilateral z-Transforms. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.459955,
+            "lexical": 1.504941,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:6",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 6: Time- and Frequency Characterization of Signals and Systems. Contents topics: The Magnitude-Phase Representation of the Fourier Transform.; The Magnitude-Phase Representation of the Frequency Response of LTI Systems.; Time-Domain Properties of Ideal Frequency-Selective Filters.; Time- Domain and Frequency-Domain Aspects of Nonideal Filters.; First-Order and Second-Order Continuous-Time Systems.; First-Order and Second-Order Discrete-Time Systems.; Examples of Time- and Frequency-Domain Analysis of Systems. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.455941,
+            "lexical": 0.725072,
+            "rrf": 0.03101
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.450555,
+            "lexical": 1.381288,
+            "rrf": 0.03101
+          }
+        }
+      ]
+    },
+    {
+      "split": "development",
+      "query": "Transmission line impedance and reflected waves",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:2",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:2",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 2: Transmission Line Theory.",
+          "scores": {
+            "dense": 0.586903,
+            "lexical": 3.435635,
+            "rrf": 0.032522
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:3",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 3: Transmission Lines and Waveguides.",
+          "scores": {
+            "dense": 0.559223,
+            "lexical": 3.435635,
+            "rrf": 0.032522
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:5",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 5: Impedance Matching and Tuning.",
+          "scores": {
+            "dense": 0.509146,
+            "lexical": 2.227176,
+            "rrf": 0.031746
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:10",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 10: Noise and Active RF Components.",
+          "scores": {
+            "dense": 0.473545,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:1",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 1: Electromagnetic Theory.",
+          "scores": {
+            "dense": 0.473104,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    },
+    {
+      "split": "development",
+      "query": "Microwave impedance matching using stubs",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:5",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:5",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 5: Impedance Matching and Tuning.",
+          "scores": {
+            "dense": 0.596076,
+            "lexical": 4.490615,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:8",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 8: Microwave Filters.",
+          "scores": {
+            "dense": 0.492051,
+            "lexical": 0.051223,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:6",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 6: Microwave Resonators.",
+          "scores": {
+            "dense": 0.468561,
+            "lexical": 0.051223,
+            "rrf": 0.031054
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:13",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 13: Introduction to Microwave Systems.",
+          "scores": {
+            "dense": 0.482749,
+            "lexical": 0.049907,
+            "rrf": 0.031025
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:4",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 4: Microwave Network Analysis.",
+          "scores": {
+            "dense": 0.471753,
+            "lexical": 0.049907,
+            "rrf": 0.030769
+          }
+        }
+      ]
+    },
+    {
+      "split": "development",
+      "query": "Which chapter covers microwave filter design?",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:8",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:8",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 8: Microwave Filters.",
+          "scores": {
+            "dense": 0.650844,
+            "lexical": 2.364798,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:9",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 9: Theory and Design of Ferrimagnetic Components.",
+          "scores": {
+            "dense": 0.61158,
+            "lexical": 1.690934,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:11",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 11: Microwave Amplifier Design.",
+          "scores": {
+            "dense": 0.604692,
+            "lexical": 1.767724,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:13",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 13: Introduction to Microwave Systems.",
+          "scores": {
+            "dense": 0.596478,
+            "lexical": 0.049907,
+            "rrf": 0.030777
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:4",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 4: Microwave Network Analysis.",
+          "scores": {
+            "dense": 0.594665,
+            "lexical": 0.049907,
+            "rrf": 0.030769
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "How do I simplify digital logic using Boolean algebra?",
+      "course": "ECC-104",
+      "expected": "mano-digital-6:chapter:2",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.017,
+      "results": [
+        {
+          "id": "mano-digital-6:chapter:2",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 2: Boolean Algebra and Logic Gates. Contents topics: 2.1 Introduction; 2.2 Basic Definitions; 2.3 Axiomatic Definition of Boolean Algebra; 2.4 Basic Theorems and Properties of Boolean Algebra; 2.5 Boolean Functions; 2.6 Canonical and Standard Forms; 2.7 Other Logic Operations; 2.8 Digital Logic Gates; 2.9 Integrated Circuits Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.642432,
+            "lexical": 6.389068,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:9",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 9: Laboratory Experiments with Standard ICs and FPGAs. Contents topics: 9.1 Introduction to Experiments; 9.2 Experiment 1: Binary and Decimal Numbers; 9.3 Experiment 2: Digital Logic Gates; 9.4 Experiment 3: Simplification of Boolean Functions; 9.5 Experiment 4: Combinational Circuits; 9.6 Experiment 5: Code Converters; 9.7 Experiment 6: Design with Multiplexers; 9.8 Experiment 7: Adders and Subtractors; 9.9 Experiment 8: FlipFlops; 9.10 Experiment 9: Sequential Circuits; 9.11 Experiment 10: Counters; 9.12 Experiment 11: Shift Registers; 9.13 Experiment 12: Serial Addition; 9.14 Experiment 13: Memory Unit; 9.15 Experiment 14: Lamp Handball; 9.16 Experiment 15: ClockPulse Generator; 9.17 Experiment 16: Parallel Adder and Accumulator; 9.18 Experiment 17: Binary Multiplier; 9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.539155,
+            "lexical": 1.466786,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:1",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 1: Digital Systems and Binary Numbers. Contents topics: 1.1 Digital Systems; 1.2 Binary Numbers; 1.3 NumberBase Conversions; 1.4 Octal and Hexadecimal Numbers; 1.5 Complements of Numbers; 1.6 Signed Binary Numbers; 1.7 Binary Codes; 1.8 Binary Storage and Registers; 1.9 Binary Logic Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.519303,
+            "lexical": 0.47607,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:7",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 7: Memory and Programmable Logic. Contents topics: 7.1 Introduction; 7.2 RandomAccess Memory; 7.3 Memory Decoding; 7.4 Error Detection and Correction; 7.5 ReadOnly Memory; 7.6 Programmable Logic Array; 7.7 Programmable Array Logic; 7.8 Sequential Programmable Devices Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.504285,
+            "lexical": 0.673913,
+            "rrf": 0.031258
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:4",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 4: Combinational Logic. Contents topics: 4.1 Introduction; 4.2 Combinational Circuits; 4.3 Analysis of Combinational Circuits; 4.4 Design Procedure; 4.5 Binary Adder—Subtractor; 4.6 Decimal Adder; 4.7 Binary Multiplier; 4.8 Magnitude Comparator; 4.9 Decoders; 4.10 Encoders; 4.11 Multiplexers; 4.12 HDL Models of Combinational Circuits Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.506409,
+            "lexical": 0.435576,
+            "rrf": 0.030777
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Study registers and binary counters",
+      "course": "ECC-104",
+      "expected": "mano-digital-6:chapter:6",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "mano-digital-6:chapter:6",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 6: Registers and Counters. Contents topics: 6.1 Registers; 6.2 Shift Registers; 6.3 Ripple Counters; 6.4 Synchronous Counters; 6.5 Other Counters; 6.6 HDL Models of Registers and Counters Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.541008,
+            "lexical": 3.354066,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:1",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 1: Digital Systems and Binary Numbers. Contents topics: 1.1 Digital Systems; 1.2 Binary Numbers; 1.3 NumberBase Conversions; 1.4 Octal and Hexadecimal Numbers; 1.5 Complements of Numbers; 1.6 Signed Binary Numbers; 1.7 Binary Codes; 1.8 Binary Storage and Registers; 1.9 Binary Logic Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.523708,
+            "lexical": 2.387773,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "mano-digital-6:chapter:9",
+          "text": "Digital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog — M. Morris Mano; Michael D. Ciletti — 6th edition\nChapter 9: Laboratory Experiments with Standard ICs and FPGAs. Contents topics: 9.1 Introduction to Experiments; 9.2 Experiment 1: Binary and Decimal Numbers; 9.3 Experiment 2: Digital Logic Gates; 9.4 Experiment 3: Simplification of Boolean Functions; 9.5 Experiment 4: Combinational Circuits; 9.6 Experiment 5: Code Converters; 9.7 Experiment 6: Design with Multiplexers; 9.8 Experiment 7: Adders and Subtractors; 9.9 Experiment 8: FlipFlops; 9.10 Experiment 9: Sequential Circuits; 9.11 Experiment 10: Counters; 9.12 Experiment 11: Shift Registers; 9.13 Experiment 12: Serial Addition; 9.14 Experiment 13: Memory Unit; 9.15 Experiment 14: Lamp Handball; 9.16 Experiment 15: ClockPulse Generator; 9.17 Experiment 16: Parallel Adder and Accumulator; 9.18 Experiment 17: Binary Multiplier; 9.19 HDL Simulation Experiments and Rapid Prototyping with FPGAs Edition notes: The syllabus recommends the fourth edition. These chapter references are explicitly for the sixth edition and must not be presented as fourth-edition chapter numbering.",
+          "scores": {
+            "dense": 0.484303,
+            "lexical": 2.402642,
+            "rrf": 0.032002
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Circuits that combine gates without storing any state",
+      "course": "ECC-104",
+      "expected": "mano-digital-6:chapter:4",
+      "expected_rank": null,
+      "passed": false,
+      "seconds": 0.015,
+      "results": []
+    },
+    {
+      "split": "holdout",
+      "query": "Where should I study diode models and rectifier circuits?",
+      "course": "ECC-102",
+      "expected": "razavi-fundamentals-2:chapter:3",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "razavi-fundamentals-2:chapter:3",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 3: DIODE MODELS AND CIRCUITS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.581634,
+            "lexical": 6.744323,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:16",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 16: DIGITAL CMOS CIRCUITS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.505722,
+            "lexical": 1.90897,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:9",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 9: CASCODE STAGES AND CURRENT MIRRORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.482725,
+            "lexical": 0,
+            "rrf": 0.015873
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:1",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 1: INTRODUCTION TO MICROELECTRONICS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.479197,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:2",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 2: BASIC PHYSICS OF SEMICONDUCTORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.473642,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Device physics of a MOS transistor",
+      "course": "ECC-102",
+      "expected": "razavi-fundamentals-2:chapter:6",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "razavi-fundamentals-2:chapter:6",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 6: PHYSICS OF MOS TRANSISTORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.629137,
+            "lexical": 5.90054,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:4",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 4: PHYSICS OF BIPOLAR TRANSISTORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.580409,
+            "lexical": 3.482864,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:2",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 2: BASIC PHYSICS OF SEMICONDUCTORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.567195,
+            "lexical": 1.573894,
+            "rrf": 0.031746
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:3",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 3: DIODE MODELS AND CIRCUITS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.549812,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:13",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 13: OSCILLATORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.536649,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Design using operational amplifiers",
+      "course": "ECC-204",
+      "expected": "razavi-fundamentals-2:chapter:8",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "razavi-fundamentals-2:chapter:8",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 8: OPERATIONAL AMPLIFIER AS A BLACK BOX 354. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.525788,
+            "lexical": 2.364915,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:10",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 10: DIFFERENTIAL AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.476136,
+            "lexical": 0.041308,
+            "rrf": 0.031746
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:14",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 14: OUTPUT STAGES AND POWER AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.489948,
+            "lexical": 0.04056,
+            "rrf": 0.031514
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:5",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 5: BIPOLAR AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.469214,
+            "lexical": 0.041308,
+            "rrf": 0.03125
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:13",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 13: OSCILLATORS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.465328,
+            "lexical": 0.03054,
+            "rrf": 0.030077
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Differential amplifier circuits",
+      "course": "ECC-204",
+      "expected": "razavi-fundamentals-2:chapter:10",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "razavi-fundamentals-2:chapter:10",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 10: DIFFERENTIAL AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.542192,
+            "lexical": 2.491512,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:16",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 16: DIGITAL CMOS CIRCUITS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.513772,
+            "lexical": 1.938699,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:3",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 3: DIODE MODELS AND CIRCUITS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.511176,
+            "lexical": 1.938699,
+            "rrf": 0.031746
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:14",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 14: OUTPUT STAGES AND POWER AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.487133,
+            "lexical": 0.04056,
+            "rrf": 0.030777
+          }
+        },
+        {
+          "id": "razavi-fundamentals-2:chapter:5",
+          "text": "Fundamentals of Microelectronics — Behzad Razavi — 2nd edition\nChapter 5: BIPOLAR AMPLIFIERS. Edition notes: Publisher companion page repeats CMOS AMPLIFIERS as chapters 7 and 17. Both source labels are preserved; chapter 17 requires checking against the printed contents.",
+          "scores": {
+            "dense": 0.477147,
+            "lexical": 0.041308,
+            "rrf": 0.030536
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Linear and planar arrays of antennas",
+      "course": "ECC-203",
+      "expected": "balanis-antennas-3:chapter:6",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "balanis-antennas-3:chapter:6",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 6: Arrays: Linear, Planar, and Circular. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.686394,
+            "lexical": 6.574986,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:4",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 4: Linear Wire Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.624342,
+            "lexical": 1.915591,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:13",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 13: Horn Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.572717,
+            "lexical": 0.044376,
+            "rrf": 0.03055
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:2",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 2: Fundamental Parameters of Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.575021,
+            "lexical": 0.043903,
+            "rrf": 0.030159
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:15",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 15: Reflector Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.549901,
+            "lexical": 0.044376,
+            "rrf": 0.030118
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "How to design a patch antenna on a printed circuit board",
+      "course": "ECC-203",
+      "expected": "balanis-antennas-3:chapter:14",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "balanis-antennas-3:chapter:14",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 14: Microstrip Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.481667,
+            "lexical": 0.076893,
+            "rrf": 0.031545
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:11",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 11: Frequency Independent Antennas, Antenna Miniaturization and Fractal Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.46279,
+            "lexical": 0.082678,
+            "rrf": 0.031099
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:15",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 15: Reflector Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.463446,
+            "lexical": 0.076893,
+            "rrf": 0.031054
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:13",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 13: Horn Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.469452,
+            "lexical": 0.076893,
+            "rrf": 0.030769
+          }
+        },
+        {
+          "id": "balanis-antennas-3:chapter:4",
+          "text": "Antenna Theory: Analysis and Design — Constantine A. Balanis — 3rd edition\nChapter 4: Linear Wire Antennas. Edition notes: Companion contents list starts at chapter 2; no missing chapter title has been invented.",
+          "scores": {
+            "dense": 0.47229,
+            "lexical": 0.075915,
+            "rrf": 0.030118
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Amplitude modulation of a carrier signal",
+      "course": "ECC-201",
+      "expected": "haykin-intro-communications-2:chapter:3",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.017,
+      "results": [
+        {
+          "id": "haykin-intro-communications-2:chapter:3",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 3: Amplitude Modulation. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.567408,
+            "lexical": 3.119831,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:4",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 4: Angle Modulation. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.524576,
+            "lexical": 0.999919,
+            "rrf": 0.031754
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:2",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 2: Fourier Representation of Signals and Systems. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.484902,
+            "lexical": 1.551688,
+            "rrf": 0.031258
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:5",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 5: Pulse Modulation: Transition from Analog to Digital Communications. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.498694,
+            "lexical": 0.928896,
+            "rrf": 0.031025
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:7",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 7: Digital Band-Pass Modulation Techniques. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.495848,
+            "lexical": 0.956059,
+            "rrf": 0.03101
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Random signals and noise in communication",
+      "course": "ECC-201",
+      "expected": "haykin-intro-communications-2:chapter:8",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "haykin-intro-communications-2:chapter:8",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 8: Random Signals and Noise. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.707898,
+            "lexical": 4.706585,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:9",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 9: Noise in Analog Communications. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.610996,
+            "lexical": 1.051881,
+            "rrf": 0.031754
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:10",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 10: Noise in Digital Communications. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.601047,
+            "lexical": 1.051881,
+            "rrf": 0.031746
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:2",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 2: Fourier Representation of Signals and Systems. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.561247,
+            "lexical": 1.609772,
+            "rrf": 0.031514
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:11",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 11: System and Noise Calculations. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.595663,
+            "lexical": 1.043543,
+            "rrf": 0.03101
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Error correcting codes for digital communication",
+      "course": "ECC-202",
+      "expected": "haykin-digital-communications-1:chapter:10",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "haykin-digital-communications-1:chapter:10",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 10: Error-Control Coding. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.637254,
+            "lexical": 2.942043,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:10",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 10: Noise in Digital Communications. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.511707,
+            "lexical": 0.065756,
+            "rrf": 0.031514
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:7",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 7: Digital Band-Pass Modulation Techniques. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.505141,
+            "lexical": 0.05976,
+            "rrf": 0.030777
+          }
+        },
+        {
+          "id": "haykin-digital-communications-1:chapter:9",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 9: Signaling over Fading Channels. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.515863,
+            "lexical": 0.057026,
+            "rrf": 0.030159
+          }
+        },
+        {
+          "id": "haykin-digital-communications-1:chapter:6",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 6: Conversion of Analog Waveforms into Coded Pulses. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.52494,
+            "lexical": 0.055409,
+            "rrf": 0.029643
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Entropy and information theory",
+      "course": "ECC-202",
+      "expected": "haykin-digital-communications-1:chapter:5",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "haykin-digital-communications-1:chapter:5",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 5: Information Theory. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.526435,
+            "lexical": 5.316882,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "haykin-digital-communications-1:chapter:3",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 3: Probability Theory and Bayesian Inference. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.522003,
+            "lexical": 2.293667,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:8",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 8: Random Signals and Noise. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.463184,
+            "lexical": 0,
+            "rrf": 0.015873
+          }
+        },
+        {
+          "id": "haykin-digital-communications-1:chapter:4",
+          "text": "Digital Communication Systems — Simon Haykin — 1st edition\nChapter 4: Stochastic Processes. Edition notes: Supplementary study reference; a separate title from Communication Systems.",
+          "scores": {
+            "dense": 0.462529,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "haykin-intro-communications-2:chapter:11",
+          "text": "An Introduction to Analog and Digital Communications — Simon Haykin; Michael Moher — 2nd edition\nChapter 11: System and Noise Calculations. Edition notes: Supplementary study reference; do not confuse this title with Haykin's Communication Systems.",
+          "scores": {
+            "dense": 0.45894,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Sampling a continuous signal to make a discrete time sequence",
+      "course": "ECC-301",
+      "expected": "oppenheim-dsp-3:chapter:4",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.077,
+      "results": [
+        {
+          "id": "oppenheim-dsp-3:chapter:4",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 4: Sampling of Continuous-Time Signals. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.646217,
+            "lexical": 4.584261,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:2",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 2: Discrete Time-Signals and Systems. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.545125,
+            "lexical": 0.149581,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:6",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 6: Structures for Discrete-Time Systems. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.519595,
+            "lexical": 0.135935,
+            "rrf": 0.031258
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:10",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 10: Fourier Analysis of Signals Using the Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.52395,
+            "lexical": 0.131755,
+            "rrf": 0.03125
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:1",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 1: Introduction. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.528298,
+            "lexical": 0.113306,
+            "rrf": 0.030159
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Fast algorithms for computing the discrete Fourier transform",
+      "course": "ECC-301",
+      "expected": "oppenheim-dsp-3:chapter:9",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.015,
+      "results": [
+        {
+          "id": "oppenheim-dsp-3:chapter:9",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 9: Computation of the Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.601356,
+            "lexical": 2.194319,
+            "rrf": 0.032266
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:10",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 10: Fourier Analysis of Signals Using the Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.572583,
+            "lexical": 2.630547,
+            "rrf": 0.032266
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:8",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 8: The Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.587688,
+            "lexical": 2.224624,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:12",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 12: Discrete Hilbert Transforms. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.520428,
+            "lexical": 0.82498,
+            "rrf": 0.03125
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:3",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 3: The z-Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.504722,
+            "lexical": 0.822807,
+            "rrf": 0.030769
+          }
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "query": "Designing a digital filter",
+      "course": "ECC-301",
+      "expected": "oppenheim-dsp-3:chapter:7",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "oppenheim-dsp-3:chapter:7",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 7: Filter Design Techniques. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.586354,
+            "lexical": 2.255102,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:10",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 10: Fourier Analysis of Signals Using the Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.476438,
+            "lexical": 0,
+            "rrf": 0.016129
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:9",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 9: Computation of the Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.471119,
+            "lexical": 0,
+            "rrf": 0.015873
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:1",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 1: Introduction. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.466602,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "oppenheim-dsp-3:chapter:8",
+          "text": "Discrete-Time Signal Processing — Alan V. Oppenheim; Ronald W. Schafer — 3rd edition\nChapter 8: The Discrete Fourier Transform. Edition notes: Collected contents are for the third edition. Keep any older-edition syllabus recommendation separate.",
+          "scores": {
+            "dense": 0.46636,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    }
+  ],
+  "negatives": [
+    {
+      "query": "xyzzynotarealtopic",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "how to bake a chocolate cake",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "latest cricket match score",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "recommend a pasta recipe",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "Who won the football world cup?",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "qzxvblnmp",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "cheap hotels in Paris",
+      "abstained": true,
+      "results": []
+    }
+  ]
+}

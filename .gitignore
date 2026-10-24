@@ -1,0 +1,21 @@
+.venv-embeddings/
+.cache/
+__pycache__/
+*.pyc
+tmp/
+.env
+.env.*
+!.env.example
+
+# The Telegram project uses the Python chatbot; this older website prototype
+# is intentionally kept out of the ECE_BOT source repository.
+/frontend/
+/filter_results/
+/butterworth_lab.m
+
+# Local database journals and editor/runtime artifacts.
+datafiles/academic/vectors/*.sqlite3-wal
+datafiles/academic/vectors/*.sqlite3-shm
+.pytest_cache/
+.idea/
+.vscode/

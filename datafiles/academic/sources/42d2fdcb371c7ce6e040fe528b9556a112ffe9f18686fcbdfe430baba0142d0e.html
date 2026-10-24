@@ -1,0 +1,645 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+	<meta expires="0">
+	<title>Haykin: Digital Communication Systems, 1st Edition - Student Companion Site</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<script type=text/javascript src="scripts/jquery.min.js"></script>
+	<script type=text/javascript src="scripts/animated-menu.js"></script>
+	<link href="scripts/animated-menu.css" type="text/css" rel="stylesheet"/>
+	<link href="scripts/style.css" type="text/css" rel="stylesheet"/>
+	<script src="//assets.adobedtm.com/6e626c9ec247e474f6b98eb15a79a185cf7e26a5/satelliteLib-493a975e3a4d6b7f27c032ec9a0f777bdf0f8b52.js"></script>
+	<script language="JavaScript">
+	  <!--
+	 /* if ((navigator.appVersion.indexOf('Mac') != -1)) {
+		  /*document.write('<link href="scripts/collegestyle_mac.css" type="text/css" rel="stylesheet"/>');
+		  document.write('<link href="scripts/bcs_mac.css" type="text/css" rel="stylesheet"/>');
+	  } else {
+		  /* document.write('<link href="scripts/collegestyle.css" type="text/css" rel="stylesheet"/>');
+		  document.write('<link href="scripts/bcs.css" type="text/css" rel="stylesheet"/>');
+		  document.write('<link href="scripts/animated-menu.css" type="text/css" rel="stylesheet"/>');
+		  document.write('<link href="scripts/style.css" type="text/css" rel="stylesheet"/>');
+		  
+	 }*/
+ 
+	  function formHandler() {
+		  var URL = document.form.site.options[document.form.site.selectedIndex].value;
+		  window.location.href = URL;
+	  }
+
+	  function openWindowNoMenu(url) {
+		  newWindow = window.open(url, 'newWin2','menubar=no, resizable=yes')
+		  newWindow.focus()
+	  }
+
+	  function openWindow(url) {
+		  newWindow = window.open(url, 'newWin2')
+		  newWindow.focus()
+	  }
+	  // rollover code
+	  var littleButtonOff = new Image();
+	  var littleButtonOn = new Image();
+	  littleButtonOff.src = "images/minibutton_gray.gif";
+	  littleButtonOn.src = "images/minibutton_olive.gif";
+
+	  function goOn(image) {
+		  document[image].src = littleButtonOn.src;
+	  }
+	  function goOff(image) {
+		  document[image].src = littleButtonOff.src;
+	  }
+	  // -->
+
+
+    // This is the variable that we check for multiple submissions.
+    var gbSubmitted = new Boolean(false);
+    var gbSubmittedByEnter = new Boolean(false);
+    
+    function SubmitOnce() 
+    {
+       if (gbSubmittedByEnter == true && gbSubmitted == false )
+       {
+            gbSubmitted = true;
+            return false;
+       }
+       else if (gbSubmitted == false)
+       {
+            gbSubmitted = true;
+            return true;
+       }
+       else
+       {
+            alert("SubmitOnce - You have already submitted this form. If you have had no response then please Refresh/Reload and try again.");
+            return false;
+       }
+    }
+
+	
+	function forwardPageBuyStep2()
+	{
+    	if( document.theform.userType.value == 'new' )
+        	document.theform.mode.value="1009";
+	    else
+    	    document.theform.mode.value="1021";
+	}
+
+	function SubmitOnceBuyStep2() 
+    {
+		if( SubmitOnce() == true )
+			forwardPageBuyStep2();
+		else
+			return false;
+	}
+	
+	function forwardPageRegisterAccess()
+	{
+        if( document.theform.userType.value == 'new' )
+            document.theform.mode.value="1014";
+        else
+            document.theform.mode.value="1012";
+	}
+
+	function forwardPageExistingUser()
+	{
+		/*
+	    if( document.theform.userFast[0].checked == true )
+    	    document.theform.user_fast.value="true";
+	    else
+    	    document.theform.user_fast.value="false";
+    	*/
+	}
+
+	function SubmitOnceExistingUser() 
+    {
+		if( SubmitOnce() == true )
+			forwardPageExistingUser();
+		else
+			return false;
+	}
+
+	function openSchoolFinder() 
+	{
+    	var schoolSearch='';
+	    var stateSearch='';
+	    var MandatoryParams='';
+    
+	    if (document.theform.campusState.value != '')
+    	    stateSearch='&state=' + document.theform.campusState.options[document.theform.campusState.selectedIndex].value;
+
+	    open('Books?action=login&mode=1010&basename=institution&itemId=0471647357&bcsId=9172&state='+document.theform.campusState.options[document.theform.campusState.selectedIndex].value,'schoolFinder','resizable=yes,scrollbars=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,width=950,height=200');
+	}
+
+
+	function forwardPageNewUser()
+	{
+		/*
+	    if( document.theform.userFast[0].checked == true )
+    	    document.theform.user_fast.value="true";
+	    else
+    	    document.theform.user_fast.value="false";
+		*/
+
+	    if( document.theform.receiveUpdates[0].checked == true )
+    	    document.theform.receive_Updates.value="true";
+	    else
+        	document.theform.receive_Updates.value="false";
+    	    
+	    document.theform.submit();
+	}
+
+	function SubmitOnceNewUser() 
+    {
+		if( SubmitOnce() == true )
+			forwardPageNewUser();
+		else
+			return false;
+	}
+
+	function forwardPagePaymentPreference()
+	{
+	    if( document.theform.isBillingSame.checked == true )
+    	    document.theform.is_BillingSame.value="true";
+	    else
+    	    document.theform.is_BillingSame.value="false";
+
+	    if(null != document.theform.ccType) {
+	    	if( document.theform.ccType[0].checked == true )
+	    	    document.theform.cc_Type.value="MASTER_CARD";
+		    else if( document.theform.ccType[1].checked == true )
+	    	    document.theform.cc_Type.value="VISA";
+		    else
+	    	    document.theform.cc_Type.value="AMERICAN_EXPRESS";
+	    }
+	}
+
+	function SubmitOncePaymentPreference() 
+    {
+		if( SubmitOnce() == true )
+			forwardPagePaymentPreference();
+		else
+			return false;
+	}
+
+	function submitPaymentPreference() {
+		SubmitOncePaymentPreference();
+		document.getElementById('paymentPreference').submit();
+	}
+	
+	function changes() {
+		 document.getElementById('makeChanges').mode.value=1015;
+		 if( SubmitOnce() == true )
+			 document.getElementById('makeChanges').submit();
+		 else
+			 return false;
+	}
+	
+	function payment() {
+		 if( SubmitOnce() == true )
+			 document.getElementById('proceedPayment').submit();
+		 else
+			 return false;
+	}
+	
+	function gotoResource() {
+		 document.getElementById('resource').mode.value=1017;
+		 if( SubmitOnce() == true )
+			 document.getElementById('resource').submit();
+		 else
+			 return false;
+	}
+	
+    function forwardNewRegPage(form,textFields) {
+        var error = false;
+        for (var i=1;i < arguments.length ; i=i+2) {
+            var obj = arguments[i];
+            if (obj.value.length == 0) {
+                alert(arguments[i+1] + ' is required.');
+                error=true;
+                break;
+            }
+        }
+
+        if( error == true )  {
+			return false;
+		}
+        else {
+			return true;
+		}
+    }
+
+	function forwardPageRegisterNewUser()
+	{
+		/*
+	    if( document.theform.userFast[0].checked == true )
+    	    document.theform.user_fast.value="true";
+	    else
+    	    document.theform.user_fast.value="false";
+		*/
+	    if( document.theform.receiveUpdates[0].checked == true )
+    	    document.theform.receive_Updates.value="true";
+	    else
+    	    document.theform.receive_Updates.value="false";
+        
+	    document.theform.submit();
+	}
+
+	function buyStepExistingUser() {
+		document.theform.userType.value='existing';
+		SubmitOnceBuyStep2();
+		document.getElementById('buyStep2').submit();
+	}
+	
+	function buyStepNewUser() {
+		document.theform.userType.value='new';
+		SubmitOnceBuyStep2();
+		document.getElementById('buyStep2').submit();
+	}
+	
+	function registerAccessExistingUser() {
+		document.theform.userType.value='existing';
+		forwardPageRegisterAccess();
+		document.getElementById('registerAccess').submit();
+	}
+	
+	function registerAccessNewUser() {
+		document.theform.userType.value='new';
+		forwardPageRegisterAccess();
+		document.getElementById('registerAccess').submit();
+	}
+	
+	$(document).ready(function(){
+		$("[href*='http:'], [src*='http:'], [content*='http:']").each(function(){
+			          var element = $(this);
+
+			          var href    = (element.attr("href")    || "").replace("http://", "https://");
+			          var src     = (element.attr("src")     || "").replace("http://", "https://");
+			          var content = (element.attr("content") || "").replace("http://", "https://");
+
+			          element.attr("href"   , href);
+			          element.attr("src"    , src);
+			          element.attr("content", content);
+			});
+	});
+	</script>
+  </head>
+  
+  <body>
+  <!--  <div class="wrapperHolder"> -->
+  
+	<div class="wrapper">
+		<div id='globalHeader' class='globalHead'>
+			<div class="logoImage">
+				<a href="http://www.wiley.com"><img class="logo" src="images/wileyHead.jpg"/>
+				</a>
+			</div>
+			<div class="linkHolder">
+				
+				
+				
+					
+				
+				
+				
+	              <a href="http://he-cda.wiley.com/go/contact_us" class='globalLinks'>Contact Us</a>
+	              <a href="http://support.wiley.com" class='globalLinks'>Tech Support</a>
+	            
+			</div>
+		</div>
+	
+	
+		
+  
+	 <!-- Include Header -->
+	 
+
+
+<div class='headerContent'>
+	<div class="description">
+		<p class="bookAuthor">Haykin:</p>
+		<p class="bookTitle">Digital Communication Systems, 1st Edition</p>
+	</div>
+	<div class="siteType">
+		
+		  	<span><img src="images/student.jpg"  alt="Student Companion Site"/></span>
+		  
+	</div>
+</div>
+
+	
+		<script language="JavaScript">
+			$(document).ready(function(){
+			   $(".tabName a").css('color','#333333');
+			   $("#moreInfo").children('p').children('a').css('color','#1032C9');
+			});
+		</script>
+	
+
+<div class="mainMenu">
+	<UL>
+		<LI class=menutab id="homeMenu">
+			<P class="tabName"><A href="https://bcs.wiley.com/he-bcs/Books?action=index&bcsId=9172&itemId=0471647357">Home</A></P>
+		</LI>
+		<LI class=menutab id="chapterMenu">
+			<P class="tabName"><A>Browse by Chapter</A><img class="logo" src="images/downIcon.png"/></P>
+			<div class="subtext">
+				<span class="close_box"><img class="closeLogo" src="images/closeImage.png"/></span>
+				<P class="tabName">Browse by Chapter</P>
+				<div class="itemList">
+					<script type=text/javascript>
+					
+								document.write('<div class="menuColumn"><ul>');
+							
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104339">Chapter 1</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104340">Chapter 2</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104341">Chapter 3</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104342">Chapter 4</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104343">Chapter 5</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104344">Chapter 6</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104345">Chapter 7</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104346">Chapter 8</a></li>');
+								
+							document.write('</ul></div>');
+					
+								document.write('<div class="menuColumn" style="margin-left:30px;"><ul>');
+							
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104347">Chapter 9</a></li>');
+								
+								document.write('<li><a href = "https://bcs.wiley.com/he-bcs/Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104348">Chapter 10</a></li>');
+								
+							document.write('</ul></div>');
+					
+					</script>
+				</div>
+			</div>
+		</LI>
+	<LI class=menutab  id="resourceMenu">
+		<P class="tabName"><A>Browse by Resource</A><img class="logo" src="images/downIcon.png"/></P>
+		<div class=subtext>
+			<span class="close_box"><img class="closeLogo" src="images/closeImage.png"/></span>
+			<P class="tabName">Browse by Resource</P>
+			<div class="itemList">
+				<script type=text/javascript>
+				
+							document.write('<div class="menuColumn"><ul>');
+						
+							document.write('<li><a href="https://bcs.wiley.com/he-bcs/Books?action=resource&bcsId=9172&itemId=0471647357&resourceId=36491">Errata</a></li>');
+						
+						document.write('</ul></div>');
+					
+				</script>						
+			</div>
+		</div>
+	</LI>
+	<LI class=menutab id="moreInfo">
+		<P class="tabName"><A>More Information</A><img class="logo" src="images/downIcon.png"/></P>
+		<DIV class=subtext>
+			<span class="close_box"><img class="closeLogo" src="images/closeImage.png"/></span>
+			<P class="tabName">More Information</P>
+			<UL>
+			<LI class=leftColumn>
+				<div class="columnElement">
+					
+				 		<a class="subLink" href="http://he-cda.wiley.com/WileyCDA/HigherEdTitle.rdr?productCd=0471647357">Title Home on Wiley.com </a>
+					
+				</div>
+				<div class="columnElement">
+					
+					<a class="subLink" href="javascript:openWindow('http://www.wiley.com/college/bcs/howto.html')">How to Use This Site</a>
+					
+				</div>
+				<div class="columnElement">
+					<a class="subLink" href="https://bcs.wiley.com/he-bcs/Books?action=contents&itemId=0471647357&bcsId=9172">Table of Contents</a>
+				</div>
+				<div class="columnElement">
+					
+				</div>
+			</LI>
+			</UL>
+		</DIV>
+	</LI>
+</UL>
+</div>
+
+  
+
+
+		<!-- MAIN CONTENT -->
+		<!-- <td valign="top" width="100%"> -->
+
+			
+
+
+
+
+		<div class="mainContent">
+			<div class="leftContent">
+			    <div class="mainHeader">
+					<h1>Table Of Contents</h1>
+				</div>
+				<div class="materialHolder">
+					
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104339"><h3>Chapter 1: Introduction</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104340"><h3>Chapter 2: Fourier Analysis of Signals and Systems</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104341"><h3>Chapter 3: Probability Theory and Bayesian Inference</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104342"><h3>Chapter 4: Stochastic Processes</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104343"><h3>Chapter 5: Information Theory</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104344"><h3>Chapter 6: Conversion of Analog Waveforms into Coded Pulses</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104345"><h3>Chapter 7: Signaling over AWGN Channels</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104346"><h3>Chapter 8: Signaling over Band-Limited Channels</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104347"><h3>Chapter 9: Signaling over Fading Channels</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+							  <div class="chapterTitle"><a href="Books?action=chapter&bcsId=9172&itemId=0471647357&chapterId=104348"><h3>Chapter 10: Error-Control Coding</h3></a>
+							  </div>
+					  	  
+							    <ul>
+							   
+												 
+													<li><p><img class="listBullet" src="images/orangeBullet.png"/>
+													<a href="javascript:openWindowNoMenu('Books?action=mininav&bcsId=9172&itemId=0471647357&assetId=369850&resourceId=36491&newwindow=true')">Errata</a>
+													<span class="subordinateText" style="padding-left:3px;">(requires Adobe Acrobat Reader)</span></p></li>
+								              	
+								              
+							      </ul> 
+					  		  
+				</div>
+			</div>
+
+
+
+		<!-- Include Toolbox -->
+		
+
+
+
+
+
+
+
+		
+		<div class="rightContent">
+
+			
+			<div class="getHelpSite">
+			<h2>Get Help With:</h2>
+				<div class="sideColumnElements">
+				<ul>
+
+					<li><A class="sideLinks" href="javascript:openWindow('http://www.adobe.com/products/acrobat/readstep.html')">Adobe PDF and Acrobat Reader</A></li>
+				
+				</ul>
+				</div>
+				<div class="subordinateText">* These links will open a new window</div>
+	    	</div>
+
+			<div class="lightDivider" style="margin-top: 0px; margin-bottom: 0px;"></div>
+		
+		
+		</div> 
+
+
+	
+
+	
+ </div> <!-- End of Main Content -->	
+ 
+<!-- Adobe Marketing Cloud Tag Loader Code Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+	 More info available at http://www.adobe.com/solutions/digital-marketing.html -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- End Adobe Marketing Cloud Tag Loader Code -->
+ 
+  
+	    <!-- Include footer -->
+	   
+		<div class='globalFooter'>
+			<p><a href="http://www.wiley.com/WileyCDA/Section/id-301464.html">Copyright &#169; 2000-2026</a> by John Wiley & Sons, Inc., or related companies. All right reserved.&nbsp; | <a href="http://www.wiley.com/WileyCDA/Section/id-301465.html">Privacy Policy</a></p>
+			<div class="logoFooter">
+				<a href="http://www.wiley.com"><img class="wileyFooter" src="images/wileyFooter.jpg"/></a><br />
+				<!-- <span>Build Version:2.4 &nbsp;</span> -->
+			</div>
+		</div>
+		</div>  <!-- End of wrapper class-->
+  
+
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a48c6b3369743c33',t:'MTc5MTcwNjU0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"4040e52a43b944ee8a17b9f2521406a4","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
+

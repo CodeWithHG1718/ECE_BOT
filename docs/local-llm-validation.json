@@ -1,0 +1,125 @@
+{
+  "model": "qwen3:4b-instruct",
+  "endpoint": "http://127.0.0.1:11435",
+  "checks": [
+    {
+      "question": "Show me courses of 2nd year at IIT Roorkee in 2026",
+      "passed": true,
+      "wall_seconds": 0.001,
+      "generation_calls": 0,
+      "generation": {}
+    },
+    {
+      "question": "Explain convolution in simple terms.",
+      "passed": true,
+      "wall_seconds": 11.858,
+      "generation_calls": 1,
+      "generation": {
+        "cached": false,
+        "wall_seconds": 2.688,
+        "eval_count": 162,
+        "eval_duration": 2144442800,
+        "prompt_eval_count": 1323,
+        "load_duration": 60427000
+      }
+    },
+    {
+      "question": "Give a numerical example: convolve [1, 2] with [1, 1].",
+      "passed": true,
+      "wall_seconds": 2.365,
+      "generation_calls": 1,
+      "generation": {
+        "cached": false,
+        "wall_seconds": 2.344,
+        "eval_count": 156,
+        "eval_duration": 2048166300,
+        "prompt_eval_count": 1281,
+        "load_duration": 57529500
+      }
+    },
+    {
+      "question": "DSP",
+      "passed": true,
+      "wall_seconds": 0.0,
+      "generation_calls": 0,
+      "generation": {}
+    },
+    {
+      "question": "Explain the second unit",
+      "passed": true,
+      "wall_seconds": 2.745,
+      "generation_calls": 1,
+      "generation": {
+        "cached": false,
+        "wall_seconds": 2.734,
+        "eval_count": 184,
+        "eval_duration": 2401924800,
+        "prompt_eval_count": 1186,
+        "load_duration": 54029300
+      }
+    },
+    {
+      "question": "Make it simpler",
+      "passed": true,
+      "wall_seconds": 2.606,
+      "generation_calls": 1,
+      "generation": {
+        "cached": false,
+        "wall_seconds": 2.609,
+        "eval_count": 178,
+        "eval_duration": 2330103200,
+        "prompt_eval_count": 1191,
+        "load_duration": 56537800
+      }
+    },
+    {
+      "question": "Show my timetable",
+      "passed": true,
+      "wall_seconds": 0.0,
+      "generation_calls": 0,
+      "generation": {}
+    },
+    {
+      "question": "/projects VLSI",
+      "passed": true,
+      "wall_seconds": 0.022,
+      "generation_calls": 0,
+      "generation": {}
+    },
+    {
+      "question": "only books about convolution",
+      "passed": true,
+      "wall_seconds": 1.903,
+      "generation_calls": 1,
+      "generation": {
+        "cached": false,
+        "wall_seconds": 1.89,
+        "eval_count": 123,
+        "eval_duration": 1596412300,
+        "prompt_eval_count": 1067,
+        "load_duration": 56017200
+      }
+    },
+    {
+      "question": "Explain convolution in simple terms.",
+      "passed": true,
+      "wall_seconds": 0.008,
+      "generation_calls": 1,
+      "generation": {
+        "cached": true,
+        "wall_seconds": 0
+      }
+    }
+  ],
+  "all_passed": true,
+  "running_models": [
+    {
+      "name": "qwen3:4b-instruct",
+      "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+      "size": 3517133952,
+      "size_vram": 3517133952,
+      "context_length": 4096
+    }
+  ],
+  "limitations": "Small developer-authored functional sample, not a comprehensive educational accuracy benchmark."
+}

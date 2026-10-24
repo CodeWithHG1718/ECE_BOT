@@ -1,0 +1,51 @@
+[
+  {
+    "query": "Where should I learn convolution?",
+    "course": "ECC-106",
+    "passed": true,
+    "seconds": 0.2018,
+    "answer": "Searching ECC-106 · /clear to reset\n\nHere are a few places to start studying:\n\nRead · Chapter 2: Linear Time-Invariant Systems (https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab)\nSignals and Systems · 2nd edition\n\nRead · Chapter 4: The Continuous-Time Fourier Transform (https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155#table-of-contents-tab)\nSignals and Systems · 2nd edition\n\nWatch · Lecture-14-Example Problems LTI Systems-I   (https://www.youtube.com/watch?v=vMUbw25Look)\nPrinciples of Signals and Systems · NPTEL outline (https://nptel.ac.in/courses/108104100)\n\nWatch · Lecture-61-Discrete Fourier Transform: Properties - Conjugation, Frequency Shift, Duality, Circular Convolution, Multiplication, Parseval's Relation, Example Problems for Fourier Analysis of Discrete Time Signals (https://www.youtube.com/watch?v=W7-PmVeKCMg)\nPrinciples of Signals and Systems · NPTEL outline (https://nptel.ac.in/courses/108104100)\n\nThese recommendations use chapter contents and lecture outlines, not full textbook answers. Check the linked edition and coverage.\nBGE-M3 semantic + keyword retrieval"
+  },
+  {
+    "query": "Which lectures explain digital logic?",
+    "course": "ECC-104",
+    "passed": true,
+    "seconds": 0.0192,
+    "answer": "Searching ECC-104 · /clear to reset\n\nHere are a few places to start studying:\n\nRead · Chapter 2: Boolean Algebra and Logic Gates (https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab)\nDigital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog · 6th edition\n\nRead · Chapter 7: Memory and Programmable Logic (https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html#tableOfContents-tab)\nDigital Design: With an Introduction to the Verilog HDL, VHDL, and SystemVerilog · 6th edition\n\nWatch · Logic Simplification (https://www.youtube.com/watch?v=FwJalVfvn50)\nDigital Circuits and Systems · NPTEL outline (https://nptel.ac.in/courses/117106086)\n\nWatch · Combinational Logic Basics (https://www.youtube.com/watch?v=sUutDs7FFeA)\nDigital Circuits and Systems · NPTEL outline (https://nptel.ac.in/courses/117106086)\n\nThese recommendations use chapter contents and lecture outlines, not full textbook answers. Check the linked edition and coverage.\nBGE-M3 semantic + keyword retrieval"
+  },
+  {
+    "query": "What are the credits for ECC-203?",
+    "course": null,
+    "passed": true,
+    "seconds": 0.0001,
+    "answer": "ECC-203 · Electromagnetics and Radiating Systems\nSemester: 3\nCredits: 4\nCurriculum · page 5 (https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_str_24.pdf#page=5)\n\nUse this course as a filter, then send a study topic."
+  },
+  {
+    "query": "VLSI",
+    "course": null,
+    "passed": true,
+    "seconds": 0.0212,
+    "answer": "These research profiles may connect with your topic:\n\nBulusu Anand (https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100524.html)\nCMOS digital circuit design methodologies, VLSI device physics, device-circuit interaction, Mixed-signal design methodologies\n\nSparsh Mittal (https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100874.html)\nAccelerators for AI, Computer architecture, AI for Computer Vision, Generative AI, LLMs, VLSI, Circuit and System Design, RISC-V Processors\n\nBishnu Prasad Das (https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100660.html)\nVLSI Circuit and System Level Designs, Cyber Physical System Designs and FPGA based Designs., Standard Cell library Design, Resilient circuit design, Hardware security, Variability Measurement\n\nResearch interests do not confirm supervision availability.\nBGE-M3 semantic + keyword retrieval"
+  },
+  {
+    "query": "how to bake a chocolate cake",
+    "course": null,
+    "passed": true,
+    "seconds": 0.0257,
+    "answer": "I couldn’t find a sufficiently close match in the collected sources. Try a more specific ECE topic, change your course filter with /clear, or browse /courses."
+  },
+  {
+    "query": "What are the credits for ECN-203?",
+    "course": "ECC-106",
+    "passed": true,
+    "seconds": 0.0002,
+    "answer": "That course code isn’t in the supplied curriculum. Please choose a code from /courses; I won’t substitute a similarly numbered syllabus course."
+  },
+  {
+    "query": "Circuits that combine gates without storing any state",
+    "course": "ECC-104",
+    "passed": null,
+    "seconds": 0.0258,
+    "answer": "Searching ECC-104 · /clear to reset\n\nHere are a few places to start studying:\n\nWatch · Combinational Circuits (https://www.youtube.com/watch?v=XCiLHOZsQl8)\nDigital Circuits and Systems · NPTEL outline (https://nptel.ac.in/courses/117106086)\n\nWatch · State Machines (https://www.youtube.com/watch?v=FZAHhQ1v7B0)\nDigital Circuits and Systems · NPTEL outline (https://nptel.ac.in/courses/117106086)\n\nThese recommendations use chapter contents and lecture outlines, not full textbook answers. Check the linked edition and coverage.\nBGE-M3 semantic + keyword retrieval"
+  }
+]

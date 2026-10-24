@@ -1,0 +1,283 @@
+ain menu
+
+ECE Companion
+Your department, all in one place.
+
+
+
+BOT MESSAGE
+Hey! 👋 Welcome to your ECE Companion.
+What do you need help with today?
+Academics
+Timetable, courses, exams
+
+
+Faculty & Research
+Professors, projects, labs
+
+
+Learning Hub
+Syllabus, notes, resources
+
+
+Career & Skills
+Internships, projects, roadmaps
+
+
+Department Guide
+Labs, contacts, notices
+
+
+Ask Anything
+Search across everything
+
+
+
+Visual mockup of the bot's welcome message. In Telegram, use inline keyboard buttons for these categories and a persistent reply keyboard for the most common actions.
+
+One important Telegram-specific decision: use inline keyboards for contextual actions under messages, and a persistent reply keyboard for the top-level menu if you want students to navigate without remembering commands. Also support /start, /menu, /help, and /search.
+2. The complete catalogue structure
+I would keep the top-level catalogue to 7 categories. More than that makes the bot feel cluttered; fewer can hide useful features.
+
+01 · Academics
+Timetable, course structure, curriculum, academic calendar, exams, attendance information if available, credits, and academic rules.
+Buttons: My Timetable · Courses · Exams & Dates · Academic Rules
+
+
+
+
+02 · Courses & Learning
+Course-wise syllabus, lecture notes, textbooks, video resources, previous-year papers, lab manuals, explanations, and quizzes.
+Buttons: Browse Courses · Find Notes · PYQs · Explain a Topic
+
+
+
+
+03 · Faculty & Research
+Faculty profiles, specializations, research areas, publications, ongoing projects, laboratories, and official contact or application links.
+Buttons: Find Faculty · Explore Projects · Research Areas · Labs
+
+
+
+
+04 · Projects & Career
+Project ideas, prerequisites, skill roadmaps, internship preparation, company research, interview practice, and resume assistance.
+Buttons: Find a Project · Skill Roadmaps · Internships · Interview Prep
+
+
+
+
+05 · Department & Campus
+Department contacts, lab locations, facilities, office hours, official forms, administrative procedures, and campus resources.
+Buttons: Contacts · Find a Lab · Facilities · Forms & Policies
+
+
+
+
+06 · Notices & Updates
+Department notices, deadlines, timetable changes, event announcements, seminars, workshops, and registration updates.
+Buttons: Latest Notices · Upcoming Events · My Reminders
+
+
+
+
+07 · AI Assistant
+Ask questions across all catalogues, compare courses, find relevant professors, plan study schedules, and get explanations grounded in department resources.
+Buttons: Ask a Question · Study Planner · Find Anything
+
+
+
+These are user-facing categories, not seven separate AI systems. They should all connect to the same underlying knowledge and search system.
+3. What the catalogue should look like inside Telegram
+Keep the navigation shallow: a student should reach most information in one or two taps.
+Here is an example of the interaction structure.
+BOT · ACADEMICS
+What would you like to explore?
+Choose an option below, or type your question directly.
+
+My Timetable
+
+
+Course Catalogue
+
+
+Curriculum
+
+
+Academic Calendar
+
+
+
+Back
+
+Main Menu
+
+
+Illustrative layout. Implement these as Telegram inline keyboard buttons; the grid above represents the intended grouping.
+
+For example, the path to finding a course resource should be:
+Main Menu → Courses & Learning → Select Course → Select Resource
+But the bot should also accept a shortcut such as "Find the DSP notes for the DFT unit" without making the student navigate through those steps.
+
+4. How the responses should look
+This is where you can distinguish your chatbot from a typical RAG bot. Don't return long paragraphs for every query. Use response formats appropriate to the task.
+A. Timetable response
+BOT RESPONSE EXAMPLE
+📅 Your timetable for today
+Monday · Example schedule
+09:00–10:00
+
+Signals and Systems
+Lecture · Room from official timetable
+
+
+
+11:00–12:00
+
+Digital Signal Processing
+Lecture · Room from official timetable
+
+
+
+Example only; not a real timetable.
+Tomorrow
+Full Week
+Change Section
+
+
+The bot should fetch the student's actual timetable based on year, section, and sub-batch. Never hardcode example times into the real response.
+B. Course information response
+📘 Digital Signal Processing
+Course details · Example template
+CREDITS
+4
+
+SEMESTER
+6
+
+TYPE
+Core
+
+
+Course contents
+- Discrete-time signals and systems
+- DFT and FFT
+- Digital filter design
+- Multirate signal processing
+Illustrative data only. Populate the production response from the official course catalogue.
+Full Syllabus
+Resources
+Prerequisites
+Related Faculty
+
+
+This response should also support follow-up questions like "Explain the second unit" or "Find projects related to this course" without losing context.
+C. Faculty and project discovery response
+This is one of the most valuable parts of your existing catalogue. Don't just display a professor's name and biography. Help students discover who is relevant to their interests.
+🔬 Faculty matching your interests
+Example search: VLSI and chip design
+
+Faculty member 1 — [Verified faculty name]
+Research area: Microelectronics and VLSI
+Research overview: A short, plain-language summary of the faculty member's verified research.
+Related projects
+- Project title and short description
+- Relevant publications or official project links
+Useful preparation: Digital electronics, CMOS fundamentals, Verilog, depending on the actual project.
+Source: official faculty profile · Last verified: [date]
+Full Profile
+View Projects
+Publications
+Official Contact
+
+
+When students ask for recommendations, the bot should explain why a faculty member or project matches their interests. It should not imply that a professor is accepting students unless that information has been verified.
+D. Learning and resource response
+📚 Resources for DFT
+Course: Digital Signal Processing
+Course notes
+Official lecture notes covering DFT fundamentals.
+[Open notes]
+
+
+
+Reference material
+Recommended textbook chapter or approved online resource.
+[Open resource]
+
+
+
+Learn with AI
+Get an explanation, worked example, or practice quiz based on the retrieved material.
+
+
+
+The bot should distinguish official course materials from external learning recommendations. If no relevant resource exists in the catalogue, it can say so rather than inventing a link.
+E. General question response
+For questions that don't belong to a single category, use a concise conversational answer with optional actions.
+For example:
+Student: "I want to get into chip design. Where should I start?"
+Bot:
+If you're starting with digital IC design, I'd recommend this progression:
+1. Digital logic and computer architecture fundamentals.
+2. Verilog or SystemVerilog and simulation.
+3. RTL design and verification.
+4. Synthesis, timing analysis, and the ASIC design flow.
+5. A small project, such as a FIFO, UART, or simple processor.
+I can also connect this roadmap to relevant ECE courses and verified faculty research in your department.
+
+[Build My Roadmap] [Find Faculty] [Suggest Projects]
+This kind of answer can combine general educational knowledge with institute-specific information. Only the institute-specific claims need to be grounded in your departmental catalogue.
+
+5. How to make the bot genuinely useful as a one-stop solution
+A common mistake is to interpret "everything" as adding hundreds of categories. The better approach is to make the bot capable of answering across categories and completing common tasks.
+I'd prioritize these five capabilities:
+1. Universal search: Search courses, faculty, projects, resources, notices, and policies from one query.
+2. Context retention: If a student asks about DSP and then says "find the relevant professor," the bot should understand that DSP is the context.
+3. Cross-catalogue answers: Connect a course to its resources, instructor, related research, and possible projects.
+4. Useful actions: Open files, share official links, navigate to a section, generate a study plan, or set a reminder with the student's permission.
+5. Reliable data: Show sources, verification dates, and clear limitations for changing information such as timetables and deadlines.
+6. Commands worth supporting
+Telegram command	Purpose
+/start	Welcome and onboarding
+/menu	Main catalogue
+/timetable	View the personalized timetable
+/courses	Browse courses
+/faculty	Search faculty
+/projects	Explore research and projects
+/resources	Find course materials
+/notices	Recent department updates
+/search	Search across all catalogues
+/help	Commands and usage
+You don't need a command for every feature. Inline buttons and natural-language queries should handle most navigation.
+7. The response template I would standardize
+Every response should follow a small set of rules:
+- Answer first: Don't start with a long introduction.
+- Use structure: Short paragraphs, bullets, and compact data blocks.
+- Cite sources: Link the official source when providing institutional information.
+- Add relevant actions: Offer two to four useful next steps, not a dozen unrelated buttons.
+- Retain context: Allow follow-up questions without restarting the search.
+- Handle missing information honestly: Say when the information is unavailable, outdated, or unverified.
+- Keep Telegram messages readable: Split long explanations into multiple messages or offer a document link when appropriate.
+For implementation, I would use a consistent internal response format with fields like answer, source_links, last_verified, actions, and confidence_or_limitations, then render those fields as Telegram messages and inline keyboards. The model shouldn't be responsible for inventing the buttons or official URLs.
+8. Your actual catalogue should be more than the Telegram menu
+Keep these three layers separate:
+
+Layer 1: User-facing catalogue
+Seven categories, buttons, commands, and example questions. This is the discovery interface.
+
+
+
+
+Layer 2: Knowledge catalogue
+Structured records for courses, faculty, timetable entries, projects, notices, and resource metadata, plus indexed documents for RAG.
+
+
+
+
+Layer 3: Intent and action catalogue
+Defines how the bot handles timetable lookups, searches, explanations, recommendations, reminders, and follow-up questions.
+
+
+
+These layers serve different purposes. A single question may require the bot to search multiple data sources and then choose the appropriate response template.

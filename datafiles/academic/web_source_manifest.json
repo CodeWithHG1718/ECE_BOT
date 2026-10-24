@@ -1,0 +1,772 @@
+[
+  {
+    "source_id": "03e95ea31fe49f1446be",
+    "url": "https://nptel.ac.in/courses/117105143",
+    "final_url": "https://nptel.ac.in/courses/117105143",
+    "sha256": "03460ac68469da3a7a776783fde5324f1c99d64ea021cc2feb87648a24b5fc65",
+    "snapshot": "datafiles/academic/sources/03460ac68469da3a7a776783fde5324f1c99d64ea021cc2feb87648a24b5fc65.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:16:47.188827+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "08d28ae62c9c4c8754b9",
+    "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+    "final_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=1899&itemId=0471448788",
+    "sha256": "d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa",
+    "snapshot": "datafiles/academic/sources/d8bdfb0dbb8062fa72776bae4723fb6f3bcd3c4d974bb62939a256687b1249fa.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:13:53.909525+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "0a138b80ad49b923ccc1",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Terahertz%20Communication%20and%20Sensing.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Terahertz%20Communication%20and%20Sensing.html",
+    "sha256": "e6743b062093e1b58abac0bbf762df5d82799b02b48a4e2f6ede5ad74e3b55b4",
+    "snapshot": "datafiles/academic/sources/e6743b062093e1b58abac0bbf762df5d82799b02b48a4e2f6ede5ad74e3b55b4.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:11.934449+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "0d798ae9c47b4985c5d1",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100860.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100860.html",
+    "sha256": "918ec7b5c680ba453fca78df5d39f4c3d6808423614ac5e6afb69c5201599d64",
+    "snapshot": "datafiles/academic/sources/918ec7b5c680ba453fca78df5d39f4c3d6808423614ac5e6afb69c5201599d64.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:56.333663+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "0ec9e80519154c276f2e",
+    "url": "https://nptel.ac.in/courses/108106151",
+    "final_url": "https://nptel.ac.in/courses/108106151",
+    "sha256": "231c10fad9fb748dee4d6147276b73a80928a01828d29dd6956ae119d983c8cc",
+    "snapshot": "datafiles/academic/sources/231c10fad9fb748dee4d6147276b73a80928a01828d29dd6956ae119d983c8cc.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:07:35.423368+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "0fa6b6d9b7d19ee4db72",
+    "url": "https://nptel.ac.in/courses/108106172",
+    "final_url": "https://nptel.ac.in/courses/108106172",
+    "sha256": "de56dce4624d8003a480f42e78988173bcd5587894682b16b9668f06a86fd5ec",
+    "snapshot": "datafiles/academic/sources/de56dce4624d8003a480f42e78988173bcd5587894682b16b9668f06a86fd5ec.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:21.733307+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "13b05ce1664446dd9639",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/FACULTY%20MEMBERS.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/FACULTY%20MEMBERS.html",
+    "sha256": "d18cc5c1233f3de68ac7ceff1e999f86e7355ce9eb8080b1cfc35ac264efcb5b",
+    "snapshot": "datafiles/academic/sources/d18cc5c1233f3de68ac7ceff1e999f86e7355ce9eb8080b1cfc35ac264efcb5b.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:52:58.189825+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "18d9e1d57c2fe7a302c1",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_str_24.pdf",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_str_24.pdf",
+    "sha256": "760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b",
+    "snapshot": "datafiles/academic/sources/760088e6c2c6c1046c7c9221c0731d8357f7696494e7f88fa1934d9bb8a7e60b.pdf",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-11T08:07:30.764545+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "1ae18d51ff505ed7eeb7",
+    "url": "https://nptel.ac.in/courses/108101037",
+    "final_url": "https://nptel.ac.in/courses/108101037",
+    "sha256": "fb353e1b1cccda5d0eeb5279c3d66cf1fae2daeeaf06ebba8c2e2da8a80d0023",
+    "snapshot": "datafiles/academic/sources/fb353e1b1cccda5d0eeb5279c3d66cf1fae2daeeaf06ebba8c2e2da8a80d0023.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:20.191815+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "1bdc341c8092ff7dffb0",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100879.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100879.html",
+    "sha256": "ab98e4a116729325fa0bbc0ed4179aae35744143fd015d9e478f56d3f73496f7",
+    "snapshot": "datafiles/academic/sources/ab98e4a116729325fa0bbc0ed4179aae35744143fd015d9e478f56d3f73496f7.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:06.956272+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "1f8d9eaa413ad0e5f713",
+    "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+    "final_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9172&itemId=0471647357",
+    "sha256": "42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e",
+    "snapshot": "datafiles/academic/sources/42d2fdcb371c7ce6e040fe528b9556a112ffe9f18686fcbdfe430baba0142d0e.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:33.175691+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "202d1aa9b1d2318f2047",
+    "url": "https://nptel.ac.in/courses/108104130",
+    "final_url": "https://nptel.ac.in/courses/108104130",
+    "sha256": "105a5e3a589e49e93b00a0252a896f468d19176c9d9d6bf6564f1ccba941c6ff",
+    "snapshot": "datafiles/academic/sources/105a5e3a589e49e93b00a0252a896f468d19176c9d9d6bf6564f1ccba941c6ff.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:23.139675+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "22bf7165d2192da2b82e",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100478.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100478.html",
+    "sha256": "4003fefe3e14b79a6e0b60622ad6ab4f6cfc2371bd1543bb3b7776e27f923b05",
+    "snapshot": "datafiles/academic/sources/4003fefe3e14b79a6e0b60622ad6ab4f6cfc2371bd1543bb3b7776e27f923b05.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:03.723104+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "2a5c2b99af68ec28f709",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100923.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100923.html",
+    "sha256": "13371f5dcbdf850ec9d7b2019304611373d3a1f9bd0f6a9695d5751533d0acd1",
+    "snapshot": "datafiles/academic/sources/13371f5dcbdf850ec9d7b2019304611373d3a1f9bd0f6a9695d5751533d0acd1.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:08.306091+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "2a7ff5c7fd70e379e8ec",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100676.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100676.html",
+    "sha256": "5644f190c95ff20e18407ec70d1276df1d3778937c7b4a3eb41123ea61018c29",
+    "snapshot": "datafiles/academic/sources/5644f190c95ff20e18407ec70d1276df1d3778937c7b4a3eb41123ea61018c29.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:06.034754+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "2aa96dac257bbfbf94e1",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100471.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100471.html",
+    "sha256": "d433663782fc9d500f4cfd65c852f40033dcbe70237ed2254edcc21ef3a0bda1",
+    "snapshot": "datafiles/academic/sources/d433663782fc9d500f4cfd65c852f40033dcbe70237ed2254edcc21ef3a0bda1.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:09.215383+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "2dd05d235087e5bc0721",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100618.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100618.html",
+    "sha256": "0bd91fd4c58eacb4e58202291a3430518cc215b09b8d6c0e42466fde3887e129",
+    "snapshot": "datafiles/academic/sources/0bd91fd4c58eacb4e58202291a3430518cc215b09b8d6c0e42466fde3887e129.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:54.525038+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "31003a3821211e653096",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Visvesvaraya%20PhD%20Scheme.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Visvesvaraya%20PhD%20Scheme.html",
+    "sha256": "8885dd496bbd090fc3289f6ea3e167b911374628b739fab9c8d087211fbbb6e4",
+    "snapshot": "datafiles/academic/sources/8885dd496bbd090fc3289f6ea3e167b911374628b739fab9c8d087211fbbb6e4.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:13.284955+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "34e1ee8972233b7ba197",
+    "url": "https://nptel.ac.in/courses/117106086",
+    "final_url": "https://nptel.ac.in/courses/117106086",
+    "sha256": "7ced8914b72f9ee97e7581934e3ebefe6cea098e0c253c46ed5795b147f783d6",
+    "snapshot": "datafiles/academic/sources/7ced8914b72f9ee97e7581934e3ebefe6cea098e0c253c46ed5795b147f783d6.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:07:34.694897+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "36e53bf9bc96288161d4",
+    "url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+    "final_url": "https://www.pearson.com/en-ca/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780136115168",
+    "sha256": "95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0",
+    "snapshot": "datafiles/academic/sources/95877752e8787422a73f0b60550fe7d409994d879d0f42d0277595376817dce0.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:16:46.448308+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "38451a21882a763b9f7c",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_syll_22.pdf",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_syll_22.pdf",
+    "sha256": "78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa",
+    "snapshot": "datafiles/academic/sources/78c3ac5e2dbc23a2e8096eaf17fa124f64be25e086a9ec10398f5efc7a1fc5aa.pdf",
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-11T08:07:31.286741+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "3c000c2ed81f061c8d2f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Smart%20Electronic%20Systems%20and%20Sensors.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Smart%20Electronic%20Systems%20and%20Sensors.html",
+    "sha256": "dba72113e50cf0ba8b6788abeb3dfadf80f63f6d8ffc3b46f7605dd7e5d346b4",
+    "snapshot": "datafiles/academic/sources/dba72113e50cf0ba8b6788abeb3dfadf80f63f6d8ffc3b46f7605dd7e5d346b4.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:12.377748+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "436ba9ed4e479ea59431",
+    "url": "https://www.pearson.com/en-gb/subject-catalog/p/signals-and-systems-pearson-new-international-edition/P200000005151/9781292025902",
+    "final_url": "https://www.pearson.com/en-gb/subject-catalog/p/signals-and-systems-pearson-new-international-edition/P200000005151/9781292025902",
+    "sha256": "dc5524d665ede4c7f20b844aeaa6bcf2f2408ca39c8f027c518e818dd55cea41",
+    "snapshot": "datafiles/academic/sources/dc5524d665ede4c7f20b844aeaa6bcf2f2408ca39c8f027c518e818dd55cea41.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:13:55.805294+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "51fcca2117d1b5e0ebc7",
+    "url": "https://nptel.ac.in/courses/108105114",
+    "final_url": "https://nptel.ac.in/courses/108105114",
+    "sha256": "cce93f3f0bad58465354a934efb2d9c5715e4df18565bde7a604e01c1c4da87f",
+    "snapshot": "datafiles/academic/sources/cce93f3f0bad58465354a934efb2d9c5715e4df18565bde7a604e01c1c4da87f.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:22.434511+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "521e28ea945d6b695c9d",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100803.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100803.html",
+    "sha256": "43fdf683fc10cbf5ef1eb9ca6828ab33d1d271ce80f6c101d02f301cbbdf2fa0",
+    "snapshot": "datafiles/academic/sources/43fdf683fc10cbf5ef1eb9ca6828ab33d1d271ce80f6c101d02f301cbbdf2fa0.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:04.189720+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "5230a7b84296dd388b78",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100922.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100922.html",
+    "sha256": "848cfc5d7867faa3e029a9bed165e8a6f44284f21e0e13b95641675629297975",
+    "snapshot": "datafiles/academic/sources/848cfc5d7867faa3e029a9bed165e8a6f44284f21e0e13b95641675629297975.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:53.614932+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "54693b43d0c65ea6dfaa",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100973.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100973.html",
+    "sha256": "2fede210bb8ee42c6d306c8cc72b6309e47a375aecc489a87b963857eb6a99ee",
+    "snapshot": "datafiles/academic/sources/2fede210bb8ee42c6d306c8cc72b6309e47a375aecc489a87b963857eb6a99ee.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:54.977304+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "58fb25cba44be2b90a0e",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100599.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100599.html",
+    "sha256": "92da95a184ff1eb3d2b51b891f5b7a5315fd47da4fd480c0a4a5b5210baef0c7",
+    "snapshot": "datafiles/academic/sources/92da95a184ff1eb3d2b51b891f5b7a5315fd47da4fd480c0a4a5b5210baef0c7.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:01.398926+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "5ac8c3bf87cb9d33c412",
+    "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+    "final_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=3081&itemId=0471432229",
+    "sha256": "12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0",
+    "snapshot": "datafiles/academic/sources/12bbcf128764f4e9b154078f5ea0f9f744cb7e9ac9b7d0af80689612a61163a0.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:31.841333+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "5adeae13a67e974c7a8a",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Communication%2C%20Network%20&%20Signal%20Processing.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Communication%2C%20Network%20&%20Signal%20Processing.html",
+    "sha256": "58ea073b628e254b5418e42d53239bf9acb2822f60ee18b01b34f1fbc30e1351",
+    "snapshot": "datafiles/academic/sources/58ea073b628e254b5418e42d53239bf9acb2822f60ee18b01b34f1fbc30e1351.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:10.589281+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "5baffd5d4edb0fa5ccd4",
+    "url": "https://nptel.ac.in/courses/117101051",
+    "final_url": "https://nptel.ac.in/courses/117101051",
+    "sha256": "f4d3546a3919d713c0472f0740e062863cb61ca1c33e61f7765e181ae190807f",
+    "snapshot": "datafiles/academic/sources/f4d3546a3919d713c0472f0740e062863cb61ca1c33e61f7765e181ae190807f.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:20.961310+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "5fa5a1b6cbe0ff41a2cf",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Patent.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Patent.html",
+    "sha256": "d5b61fb75173814bbc211f6fc970631d5ab2293a0ce7a776fc139bd8711541b3",
+    "snapshot": "datafiles/academic/sources/d5b61fb75173814bbc211f6fc970631d5ab2293a0ce7a776fc139bd8711541b3.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:14.160895+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "605b19eda7b58110228e",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/List%20of%20Sponsored%20Projects.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/List%20of%20Sponsored%20Projects.html",
+    "sha256": "96449086514ed699e53888cc48bf42304312495a7380d8ba0a204a8e762c1d2e",
+    "snapshot": "datafiles/academic/sources/96449086514ed699e53888cc48bf42304312495a7380d8ba0a204a8e762c1d2e.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:52:58.653233+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "61a534047e10d7f65a3f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100826.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100826.html",
+    "sha256": "e23ccef7cf716f347acda93238f28305f93bbe6d4c0a29e4387bc0b53e963afb",
+    "snapshot": "datafiles/academic/sources/e23ccef7cf716f347acda93238f28305f93bbe6d4c0a29e4387bc0b53e963afb.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:06.498507+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "61e6e5b20c451e327ea4",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101014.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101014.html",
+    "sha256": "b8ff32afa8c7d40a58d9e97d991e32358fc85a141d50f33f9bf95bbff27673b7",
+    "snapshot": "datafiles/academic/sources/b8ff32afa8c7d40a58d9e97d991e32358fc85a141d50f33f9bf95bbff27673b7.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:52.709322+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "62ee349f57b8305a3138",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Research%20Groups.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Research%20Groups.html",
+    "sha256": "ba0fcad0e93acaf6ecfc9a350a4a7be1e9b7e96239fd4f0443a2440da7b585bd",
+    "snapshot": "datafiles/academic/sources/ba0fcad0e93acaf6ecfc9a350a4a7be1e9b7e96239fd4f0443a2440da7b585bd.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:10.126748+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "71794f0b043579ed97a7",
+    "url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+    "final_url": "https://www.pearson.com/en-us/subject-catalog/p/Oppenheim-Signals-and-Systems-2nd-Edition/P200000003155",
+    "sha256": "5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1",
+    "snapshot": "datafiles/academic/sources/5d111a4449e31cc7b87df0bad1a22d5bca570623ed85b4b90f4430f76c5676f1.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:16:49.519711+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "75b07e1bf417ef783f6f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100874.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100874.html",
+    "sha256": "ccc19b92574d2563a4b1154c8939f5ddf4f70ff41e89ee5ad31b70dd5b3f42c0",
+    "snapshot": "datafiles/academic/sources/ccc19b92574d2563a4b1154c8939f5ddf4f70ff41e89ee5ad31b70dd5b3f42c0.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:00.055491+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "7fbd45de2bd5f272a742",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101053.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101053.html",
+    "sha256": "0e13e3830dc7dbff1cc8447f5d67092fac5bb91137ca69515d086e3dd1d5e4be",
+    "snapshot": "datafiles/academic/sources/0e13e3830dc7dbff1cc8447f5d67092fac5bb91137ca69515d086e3dd1d5e4be.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:55.881974+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "82e4088298cf577d40b8",
+    "url": "https://nptel.ac.in/courses/108107142",
+    "final_url": "https://nptel.ac.in/courses/108107142",
+    "sha256": "353e3097024caea72db770669d8d30fb5652259dd089fdf5c1e695d5e4522f14",
+    "snapshot": "datafiles/academic/sources/353e3097024caea72db770669d8d30fb5652259dd089fdf5c1e695d5e4522f14.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:07:33.995482+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "8584716b0c2ebb09afd5",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100920.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100920.html",
+    "sha256": "1cec0ed6e5a0d7eb2311172960cbb5b393df29d71ae60b80123122f29a14bbeb",
+    "snapshot": "datafiles/academic/sources/1cec0ed6e5a0d7eb2311172960cbb5b393df29d71ae60b80123122f29a14bbeb.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:05.117394+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "8891e15b54c7e09f380b",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100953.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100953.html",
+    "sha256": "9a89bb5032a610e1606eee26294939dc97353fc9235e063038beee61d09ac06a",
+    "snapshot": "datafiles/academic/sources/9a89bb5032a610e1606eee26294939dc97353fc9235e063038beee61d09ac06a.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:52.251390+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "9b67d1869d45de8321fd",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100704.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100704.html",
+    "sha256": "a88c97a04cf4450dd695bde2bfdd54d80d751b699abb41aadc48d3970a83c686",
+    "snapshot": "datafiles/academic/sources/a88c97a04cf4450dd695bde2bfdd54d80d751b699abb41aadc48d3970a83c686.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:05.587598+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "9caa091895b6bcfc28ff",
+    "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+    "final_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=8129&itemId=047166782X",
+    "sha256": "84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef",
+    "snapshot": "datafiles/academic/sources/84d49f84ed6a50c69069af4f70a6a21dbdca2330729a207297db12265762f5ef.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:14:40.926997+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "9db8a152ce21c5b94717",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100443.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100443.html",
+    "sha256": "fab515f2536642fccab042c14fbac7d1638109fcf977dbade89662fac71acd1b",
+    "snapshot": "datafiles/academic/sources/fab515f2536642fccab042c14fbac7d1638109fcf977dbade89662fac71acd1b.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:54.058875+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "a0c42bffb328cd2c8867",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101117.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101117.html",
+    "sha256": "0d9993729f8ec59925b5b35ece67e002dce5676da096388cf8126bf033d5c49f",
+    "snapshot": "datafiles/academic/sources/0d9993729f8ec59925b5b35ece67e002dce5676da096388cf8126bf033d5c49f.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:07.856150+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "a343b3d92c1fc81350ce",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/C-DoT%20Centre%20of%20Excellence%20%28C-CoE%29.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/C-DoT%20Centre%20of%20Excellence%20%28C-CoE%29.html",
+    "sha256": "f685d8060f208c5256ac29d6f7a25e0d06ef135b79cf1bfa744636dfeb9f7530",
+    "snapshot": "datafiles/academic/sources/f685d8060f208c5256ac29d6f7a25e0d06ef135b79cf1bfa744636dfeb9f7530.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:12.834023+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "a4c4c8826986bc3f3211",
+    "url": "https://ece.iitr.ac.in/",
+    "final_url": "https://ece.iitr.ac.in/",
+    "sha256": "16f568e437570499e477ecb3f51216201ed8d2ea9494b7451f4e2736c4dc1241",
+    "snapshot": "datafiles/academic/sources/16f568e437570499e477ecb3f51216201ed8d2ea9494b7451f4e2736c4dc1241.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:52:57.721231+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "a9492cdb0f11e9b33bda",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100522.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100522.html",
+    "sha256": "20fae7a5cc18fb2fcd010cd3b2c6c3b9e718ac0ff1d420e80652889ff18875ab",
+    "snapshot": "datafiles/academic/sources/20fae7a5cc18fb2fcd010cd3b2c6c3b9e718ac0ff1d420e80652889ff18875ab.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:59.574906+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b0d954b78e43519f1346",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100564.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100564.html",
+    "sha256": "8045f5489bf5e3a3541dd1ae43f10d1ed36a979ba0ea602c4e69b33236a7ada5",
+    "snapshot": "datafiles/academic/sources/8045f5489bf5e3a3541dd1ae43f10d1ed36a979ba0ea602c4e69b33236a7ada5.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:01.849625+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b3b7dd78e64c73311dc9",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100925.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100925.html",
+    "sha256": "26249712091935c50c33c1c7643f238d36f54848a0cc638a9c3b8d00b0b19403",
+    "snapshot": "datafiles/academic/sources/26249712091935c50c33c1c7643f238d36f54848a0cc638a9c3b8d00b0b19403.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:00.488062+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b408fe02f472fb38ae59",
+    "url": "https://nptel.ac.in/courses/108107129",
+    "final_url": "https://nptel.ac.in/courses/108107129",
+    "sha256": "ab48cae1c6008fcc38c149b0acfd93a0fe88bb5c7c449c8764bbd444c72003b3",
+    "snapshot": "datafiles/academic/sources/ab48cae1c6008fcc38c149b0acfd93a0fe88bb5c7c449c8764bbd444c72003b3.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:07:36.166247+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b6350ddd8ac9a55c5fda",
+    "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+    "final_url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=9036&itemId=1118156323",
+    "sha256": "18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8",
+    "snapshot": "datafiles/academic/sources/18c103000fdf9831c3568c3e492dee7de5c5221b20a9ba84c7d277d330a6e4b8.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:14:39.302788+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b75ec3282b9d7168f80f",
+    "url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+    "final_url": "https://www.pearson.com/en-us/pearsonplus/p/9780137501984.html",
+    "sha256": "e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb",
+    "snapshot": "datafiles/academic/sources/e6c4b80320571a3d948d54edc41d17c0557502c0329e662db1f99cd077c3cbdb.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:30.170529+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "b9d4c54416f3c937def4",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100381.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100381.html",
+    "sha256": "0f39c61738a42abfa6d36c49591e54721f616bf9d1d5ecfeb8fc4d7ed7a1dbb3",
+    "snapshot": "datafiles/academic/sources/0f39c61738a42abfa6d36c49591e54721f616bf9d1d5ecfeb8fc4d7ed7a1dbb3.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:08.754137+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "c0819cf9c39a7de04d29",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100907.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100907.html",
+    "sha256": "d31b173f608099c23f23a8acc49a02c6f7ff82d1b224a71f72c9bf2bba19f519",
+    "snapshot": "datafiles/academic/sources/d31b173f608099c23f23a8acc49a02c6f7ff82d1b224a71f72c9bf2bba19f519.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:57.228000+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "c238467eca881afe2790",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100660.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100660.html",
+    "sha256": "a8b7229d1176d7e7594bbd98afae7ff9ac6ac86f7becfb96d2ca2dc83e447565",
+    "snapshot": "datafiles/academic/sources/a8b7229d1176d7e7594bbd98afae7ff9ac6ac86f7becfb96d2ca2dc83e447565.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:53.162294+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "caaaf29f46cb42603a6f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101012.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101012.html",
+    "sha256": "fe3d9756ffc466d1be97ed30962cbf10f7eb57f2e65e0b1518e4150aaebf8527",
+    "snapshot": "datafiles/academic/sources/fe3d9756ffc466d1be97ed30962cbf10f7eb57f2e65e0b1518e4150aaebf8527.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:56.796799+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "cece8b42076f7df6f8cf",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Faculty%20Led%20Startups.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Faculty%20Led%20Startups.html",
+    "sha256": "87d0e5274b1e9b4f7fea92a3f117a6dbd36f4406060f9d9fdca39bf7c3eaefc4",
+    "snapshot": "datafiles/academic/sources/87d0e5274b1e9b4f7fea92a3f117a6dbd36f4406060f9d9fdca39bf7c3eaefc4.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:13.723412+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "cf792ae4c5c2c1878bd5",
+    "url": "https://www.pearson.com/subject-catalog/p/discrete-time-signal-processing/P200000003226/9780137549771",
+    "final_url": "https://www.pearson.com/en-us/search/All-results?aq=discrete%20time%20signal%20processing",
+    "sha256": "2294a532b341bf9d01f572c053ce8afb5b203094359f85ffe0048dbb3ff46e93",
+    "snapshot": "datafiles/academic/sources/2294a532b341bf9d01f572c053ce8afb5b203094359f85ffe0048dbb3ff46e93.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:26.994605+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "d25fa00e01a45bd0e3a7",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100470.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100470.html",
+    "sha256": "f18cfbb16c787f24a11b4427818125191264a7536c801a5b3a4e88de62938e78",
+    "snapshot": "datafiles/academic/sources/f18cfbb16c787f24a11b4427818125191264a7536c801a5b3a4e88de62938e78.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:02.315192+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "d2de2b0fbc080f8ae593",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100834.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100834.html",
+    "sha256": "06d5b56ce2c6d856c730c948b0c57d2ecc5fdd865b4d021cbba10345a1de92e2",
+    "snapshot": "datafiles/academic/sources/06d5b56ce2c6d856c730c948b0c57d2ecc5fdd865b4d021cbba10345a1de92e2.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:57.682737+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "d76a93ce4884e29a4f62",
+    "url": "https://nptel.ac.in/courses/108103141",
+    "final_url": "https://nptel.ac.in/courses/108103141",
+    "sha256": "32de60022ced48726a932e3d49b0e1543626c8231be233d751bd0d6bf1e3ce10",
+    "snapshot": "datafiles/academic/sources/32de60022ced48726a932e3d49b0e1543626c8231be233d751bd0d6bf1e3ce10.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:15:23.838882+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "d7de016226d7b4639f84",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Microelectronics%20&%20VLSI.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Microelectronics%20&%20VLSI.html",
+    "sha256": "9316cfc90e3f7b33065b88dee2c3f3a1b59df3425224ca418e1c46757e690ac8",
+    "snapshot": "datafiles/academic/sources/9316cfc90e3f7b33065b88dee2c3f3a1b59df3425224ca418e1c46757e690ac8.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:11.476045+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "e1d8dc76d0198546c9d1",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100969.html",
+    "sha256": "3a67a0b2d3188b5af69f28ef36062cbe73246148397bfda8d04cd7e38f619a35",
+    "snapshot": "datafiles/academic/sources/3a67a0b2d3188b5af69f28ef36062cbe73246148397bfda8d04cd7e38f619a35.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:59.117704+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "e5adb49fc7f4f2719bd0",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100814.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100814.html",
+    "sha256": "9ae1a37d3458508450123f83e5e6db23eb454bb86e23083fe909a5cfa4698a07",
+    "snapshot": "datafiles/academic/sources/9ae1a37d3458508450123f83e5e6db23eb454bb86e23083fe909a5cfa4698a07.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:07.402368+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "e5c358dc7de0c0654b83",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100509.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100509.html",
+    "sha256": "b656013f6c19fc05afd7579415e699f7e32d0022eb910fd5eb0dd7c14e4a599c",
+    "snapshot": "datafiles/academic/sources/b656013f6c19fc05afd7579415e699f7e32d0022eb910fd5eb0dd7c14e4a599c.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:55.420950+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "e89f904858c6c200c42d",
+    "url": "https://nptel.ac.in/courses/108104100",
+    "final_url": "https://nptel.ac.in/courses/108104100",
+    "sha256": "64ad56e93429afc9ef3819bf57b10cfa3a4b3a89d2f05a63bef7198cea97d15a",
+    "snapshot": "datafiles/academic/sources/64ad56e93429afc9ef3819bf57b10cfa3a4b3a89d2f05a63bef7198cea97d15a.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T08:07:33.186700+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "e9c8614b7a4f19a1e203",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100524.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100524.html",
+    "sha256": "a4a22b3daec7b035b546b7952a10f2b31afed8e1fb7eab0c065754e1a395fbac",
+    "snapshot": "datafiles/academic/sources/a4a22b3daec7b035b546b7952a10f2b31afed8e1fb7eab0c065754e1a395fbac.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:51.357239+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "ebe4f39638111d1b2ec0",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Awards.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/Awards.html",
+    "sha256": "21bb5c9cf1d5a6e5ee9551e5be8ae9ac0c578eaa14f81d882b0964858e89ac93",
+    "snapshot": "datafiles/academic/sources/21bb5c9cf1d5a6e5ee9551e5be8ae9ac0c578eaa14f81d882b0964858e89ac93.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:09.668966+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "ecea665e2cb48ae732d7",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100651.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100651.html",
+    "sha256": "c80c2a1b25262f1b9a178d0b6238e28e0bd63a0a53eb0ab9133ad91fd15e107b",
+    "snapshot": "datafiles/academic/sources/c80c2a1b25262f1b9a178d0b6238e28e0bd63a0a53eb0ab9133ad91fd15e107b.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:58.202165+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "ef767340dc94170172c6",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/RF%20&%20Microwave%20Group.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Research/RF%20&%20Microwave%20Group.html",
+    "sha256": "f2ef90e573563ef10fce33a6aee0fba92768314b525b59b447aff725a8cd9616",
+    "snapshot": "datafiles/academic/sources/f2ef90e573563ef10fce33a6aee0fba92768314b525b59b447aff725a8cd9616.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:11.036460+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "efa82b87eda5740c288f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Academics/Courses%20Offered.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/Academics/Courses%20Offered.html",
+    "sha256": "9412c4c0dcd6070a77c561e56ff44db15e912874c5033366846354c8514dc3af",
+    "snapshot": "datafiles/academic/sources/9412c4c0dcd6070a77c561e56ff44db15e912874c5033366846354c8514dc3af.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:52:59.119712+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "f461cd14cd04fefcaa7f",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101118.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101118.html",
+    "sha256": "78cded3f932a2e7359e7845859afcdb979b9055b41463527ad1d7ebdaae49854",
+    "snapshot": "datafiles/academic/sources/78cded3f932a2e7359e7845859afcdb979b9055b41463527ad1d7ebdaae49854.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:58.654618+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "f47d7a4fd31b008af789",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100822.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100822.html",
+    "sha256": "07597c3e4b7f6391c8131a6b7b9224fcaa2a50a02460bdeb2f9feb48f186758c",
+    "snapshot": "datafiles/academic/sources/07597c3e4b7f6391c8131a6b7b9224fcaa2a50a02460bdeb2f9feb48f186758c.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:53:51.812647+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "fa920909f47f2fb259bc",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100675.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100675.html",
+    "sha256": "9809e5e4b2021b6e7f37ce98764f3eba92f0c7afc2566be95e26d70134eb0c6a",
+    "snapshot": "datafiles/academic/sources/9809e5e4b2021b6e7f37ce98764f3eba92f0c7afc2566be95e26d70134eb0c6a.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:04.651121+00:00",
+    "published_at": null
+  },
+  {
+    "source_id": "fdafc866bec615640346",
+    "url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101049.html",
+    "final_url": "https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/101049.html",
+    "sha256": "7db90dd955fd16b38f86ddb7b5cd68fa6b4f9c04d24dd38fa94af9e72194d3a8",
+    "snapshot": "datafiles/academic/sources/7db90dd955fd16b38f86ddb7b5cd68fa6b4f9c04d24dd38fa94af9e72194d3a8.html",
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-11T07:54:00.937681+00:00",
+    "published_at": null
+  }
+]

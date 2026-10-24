@@ -1,0 +1,386 @@
+{
+  "scope": "Six developer-authored chapter checks and three unrelated queries. Not a benchmark or guarantee.",
+  "model": {
+    "provider": "huggingface",
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimensions": 1024,
+    "context": 8192,
+    "normalization": "l2",
+    "prompt": "none",
+    "truncate": false,
+    "storage": "float32-le",
+    "compute_dtype": "float32",
+    "pipeline_version": 1,
+    "sentence_transformers": "5.1.2",
+    "transformers": "4.57.1"
+  },
+  "positive_hit_at_5": 1.0,
+  "negative_abstentions": 2,
+  "checks": [
+    {
+      "query": "Where can I learn how convolution describes an LTI system?",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:2",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.428,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:2",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 2: Linear Time-Invariant Systems. Contents topics: Discrete-Time LTI Systems: The Convolution Sum.; Continuous-Time LTI Systems: The Convolution Integral.; Properties of Linear Time-Invariant Systems.; Causal LTI Systems Described by Differential and Difference Equations.; Singularity Functions. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.640384,
+            "lexical": 2.994939,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:10",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 10: The Z-Transform. Contents topics: The z-Transform.; The Region of Convergence for the z-Transform.; The Inverse z-Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the z-Transform.; Some Common z-Transform Pairs.; Analysis and Characterization of LTI Systems Using z-Transforms.; System Function Algebra and Block Diagram Representations.; The Unilateral z-Transforms. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.559908,
+            "lexical": 1.955953,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:9",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 9: The Laplace Transform. Contents topics: The Laplace Transform.; The Region of Convergence for Laplace Transforms.; The Inverse Laplace Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the Laplace Transform.; Some Laplace Transform Pairs.; Analysis and Characterization of LTI Systems Using the Laplace Transform.; System Function Algebra and Block Diagram Representations.; The Unilateral Laplace Transform. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.558932,
+            "lexical": 1.966969,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:3",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 3: Fourier Series Representation of Periodic Signals. Contents topics: A Historical Perspective.; The Response of LTI Systems to Complex Exponentials.; Fourier Series Representation of Continuous-Time Periodic Signals.; Convergence of the Fourier Series.; Properties of Continuous-Time Fourier Series.; Fourier Series Representation of Discrete-Time Periodic Signals.; Properties of Discrete-Time Fourier Series.; Fourier Series and LTI Systems.; Filtering.; Examples of Continuous-Time Filters Described by Differential Equations.; Examples of Discrete-Time Filters Described by Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.543812,
+            "lexical": 0.986727,
+            "rrf": 0.03055
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.492028,
+            "lexical": 1.225085,
+            "rrf": 0.030536
+          }
+        }
+      ]
+    },
+    {
+      "query": "Representing periodic signals as sums of sinusoids",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:3",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.019,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:3",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 3: Fourier Series Representation of Periodic Signals. Contents topics: A Historical Perspective.; The Response of LTI Systems to Complex Exponentials.; Fourier Series Representation of Continuous-Time Periodic Signals.; Convergence of the Fourier Series.; Properties of Continuous-Time Fourier Series.; Fourier Series Representation of Discrete-Time Periodic Signals.; Properties of Discrete-Time Fourier Series.; Fourier Series and LTI Systems.; Filtering.; Examples of Continuous-Time Filters Described by Differential Equations.; Examples of Discrete-Time Filters Described by Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.580915,
+            "lexical": 1.884026,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.575259,
+            "lexical": 1.291763,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:5",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 5: The Discrete-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Discrete-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.; Duality.; Systems Characterized by Linear Constant-Coefficient Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.562173,
+            "lexical": 1.277487,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:7",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 7: Sampling. Contents topics: Representation of a Continuous-Time Signal by Its Samples: The Sampling Theorem.; Reconstruction of a Signal from Its Samples Using Interpolation.; The Effect of Undersampling: Aliasing.; Discrete-Time Processing of Continuous-Time Signals.; Sampling of Discrete-Time Signals. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.562237,
+            "lexical": 0.068534,
+            "rrf": 0.031258
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:1",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 1: Signals and Systems. Contents topics: Continuous-Time and Discrete-Time Signals.; Transformations of the Independent Variable.; Exponential and Sinusoidal Signals.; The Unit Impulse and Unit Step Functions.; Continuous-Time and Discrete-Time Systems.; Basic System Properties. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.525475,
+            "lexical": 0.074194,
+            "rrf": 0.030777
+          }
+        }
+      ]
+    },
+    {
+      "query": "What should I read about the Laplace transform?",
+      "course": "ECC-106",
+      "expected": "oppenheim-signals-2:chapter:9",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.016,
+      "results": [
+        {
+          "id": "oppenheim-signals-2:chapter:9",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 9: The Laplace Transform. Contents topics: The Laplace Transform.; The Region of Convergence for Laplace Transforms.; The Inverse Laplace Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the Laplace Transform.; Some Laplace Transform Pairs.; Analysis and Characterization of LTI Systems Using the Laplace Transform.; System Function Algebra and Block Diagram Representations.; The Unilateral Laplace Transform. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.593663,
+            "lexical": 5.440555,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:5",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 5: The Discrete-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Discrete-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Discrete-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Transform Properties and Basic Fourier Transform Pairs.; Duality.; Systems Characterized by Linear Constant-Coefficient Difference Equations. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.464911,
+            "lexical": 1.422776,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:10",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 10: The Z-Transform. Contents topics: The z-Transform.; The Region of Convergence for the z-Transform.; The Inverse z-Transform.; Geometric Evaluation of the Fourier Transform from the Pole-Zero Plot.; Properties of the z-Transform.; Some Common z-Transform Pairs.; Analysis and Characterization of LTI Systems Using z-Transforms.; System Function Algebra and Block Diagram Representations.; The Unilateral z-Transforms. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.459956,
+            "lexical": 1.453938,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:6",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 6: Time- and Frequency Characterization of Signals and Systems. Contents topics: The Magnitude-Phase Representation of the Fourier Transform.; The Magnitude-Phase Representation of the Frequency Response of LTI Systems.; Time-Domain Properties of Ideal Frequency-Selective Filters.; Time- Domain and Frequency-Domain Aspects of Nonideal Filters.; First-Order and Second-Order Continuous-Time Systems.; First-Order and Second-Order Discrete-Time Systems.; Examples of Time- and Frequency-Domain Analysis of Systems. Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.455941,
+            "lexical": 0.725794,
+            "rrf": 0.03101
+          }
+        },
+        {
+          "id": "oppenheim-signals-2:chapter:4",
+          "text": "Signals and Systems — Alan V. Oppenheim; Alan S. Willsky; S. Hamid Nawab — 2nd edition\nChapter 4: The Continuous-Time Fourier Transform. Contents topics: Representation of Aperiodic Signals: The Continuous-Time Fourier Transform.; The Fourier Transform for Periodic Signals.; Properties of the Continuous-Time Fourier Transform.; The Convolution Property.; The Multiplication Property.; Tables of Fourier Properties and Basic Fourier Transform Pairs.; Systems Characterized by Linear Constant-Coefficient Differential Equations Edition notes: The exact printing/ISBN should be checked against the student's copy; references use the named second edition.",
+          "scores": {
+            "dense": 0.450555,
+            "lexical": 1.381328,
+            "rrf": 0.03101
+          }
+        }
+      ]
+    },
+    {
+      "query": "Transmission line impedance and reflected waves",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:2",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.02,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:2",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 2: Transmission Line Theory.",
+          "scores": {
+            "dense": 0.586903,
+            "lexical": 3.945944,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:3",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 3: Transmission Lines and Waveguides.",
+          "scores": {
+            "dense": 0.559223,
+            "lexical": 1.718232,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:5",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 5: Impedance Matching and Tuning.",
+          "scores": {
+            "dense": 0.509146,
+            "lexical": 2.227713,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:10",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 10: Noise and Active RF Components.",
+          "scores": {
+            "dense": 0.473545,
+            "lexical": 0,
+            "rrf": 0.015625
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:1",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 1: Electromagnetic Theory.",
+          "scores": {
+            "dense": 0.473104,
+            "lexical": 0,
+            "rrf": 0.015385
+          }
+        }
+      ]
+    },
+    {
+      "query": "Microwave impedance matching using stubs",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:5",
+      "expected_rank": 1,
+      "passed": true,
+      "seconds": 0.021,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:5",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 5: Impedance Matching and Tuning.",
+          "scores": {
+            "dense": 0.596076,
+            "lexical": 4.491697,
+            "rrf": 0.032787
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:8",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 8: Microwave Filters.",
+          "scores": {
+            "dense": 0.492051,
+            "lexical": 0.051119,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:6",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 6: Microwave Resonators.",
+          "scores": {
+            "dense": 0.468561,
+            "lexical": 0.051119,
+            "rrf": 0.031054
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:13",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 13: Introduction to Microwave Systems.",
+          "scores": {
+            "dense": 0.482749,
+            "lexical": 0.049915,
+            "rrf": 0.031025
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:4",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 4: Microwave Network Analysis.",
+          "scores": {
+            "dense": 0.471753,
+            "lexical": 0.049915,
+            "rrf": 0.030769
+          }
+        }
+      ]
+    },
+    {
+      "query": "Which chapter covers microwave filter design?",
+      "course": "ECC-303",
+      "expected": "pozar-microwave-3:chapter:8",
+      "expected_rank": 3,
+      "passed": true,
+      "seconds": 0.021,
+      "results": [
+        {
+          "id": "pozar-microwave-3:chapter:11",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 11: Microwave Amplifier Design.",
+          "scores": {
+            "dense": 0.604692,
+            "lexical": 1.804419,
+            "rrf": 0.032266
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:9",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 9: Theory and Design of Ferrimagnetic Components.",
+          "scores": {
+            "dense": 0.61158,
+            "lexical": 1.731522,
+            "rrf": 0.032258
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:8",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 8: Microwave Filters.",
+          "scores": {
+            "dense": 0.650844,
+            "lexical": 0.088676,
+            "rrf": 0.032018
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:13",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 13: Introduction to Microwave Systems.",
+          "scores": {
+            "dense": 0.596478,
+            "lexical": 0.086187,
+            "rrf": 0.030777
+          }
+        },
+        {
+          "id": "pozar-microwave-3:chapter:4",
+          "text": "Microwave Engineering — David M. Pozar — 3rd edition\nChapter 4: Microwave Network Analysis.",
+          "scores": {
+            "dense": 0.594665,
+            "lexical": 0.086187,
+            "rrf": 0.030769
+          }
+        }
+      ]
+    }
+  ],
+  "negatives": [
+    {
+      "query": "xyzzynotarealtopic",
+      "abstained": false,
+      "results": [
+        {
+          "id": "nptel-108106151:8:53",
+          "scores": {
+            "dense": 0.411503,
+            "lexical": 0,
+            "rrf": 0.016393
+          }
+        },
+        {
+          "id": "nptel-108106172:6:71",
+          "scores": {
+            "dense": 0.402117,
+            "lexical": 0,
+            "rrf": 0.016129
+          }
+        }
+      ]
+    },
+    {
+      "query": "how to bake a chocolate cake",
+      "abstained": true,
+      "results": []
+    },
+    {
+      "query": "latest cricket match score",
+      "abstained": true,
+      "results": []
+    }
+  ]
+}

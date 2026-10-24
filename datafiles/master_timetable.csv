@@ -1,0 +1,222 @@
+term,academic_year,year,day,start_time,end_time,session_type_code,session_type,course_code,batch,room,faculty,sections,unmatched_codes,raw_text,source_page
+Autumn,2026-27,I-Year,Tuesday,08:00,08:55,L,Lecture,HSI-101,5,AKB-205,Aruni Mahapatra,"26EC1,26EC2,26EC3,26EC4",,"L HSI-101 Batch 5 APJ AKB-205 Aruni Mahapatra 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Thursday,08:00,08:55,L,Lecture,HSI-101,5,AKB-205,Aruni Mahapatra,"26EC1,26EC2,26EC3,26EC4",,"L HSI-101 Batch 5 APJ AKB-205 Aruni Mahapatra 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Monday,09:00,09:55,T,Tutorial,CSE-101,,AKB-407,Raksha Sharma,"26EC1,26EC2,26EC3,26EC4",,"T CSE-101 26EC1,26EC2,26EC3,26EC4 APJ AKB-407 Raksha Sharma",1
+Autumn,2026-27,I-Year,Tuesday,09:00,09:55,P,Practical,ECC-101,,,Brijesh Kumar,"26EC1,26EC2",,"P ECC-101 26EC1,26EC2 Brijesh Kumar",1
+Autumn,2026-27,I-Year,Wednesday,09:00,09:55,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC4,,P HSI-101 26EC4 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Thursday,09:00,09:55,T,Tutorial,MAI-101,,AKB-504,Surojit Ghosh,26EC2,,T MAI-101 26EC2 APJ AKB-504 Surojit Ghosh,1
+Autumn,2026-27,I-Year,Thursday,09:00,09:55,T,Tutorial,MAI-101,,AKB-503,Surojit Ghosh,26EC4,,T MAI-101 26EC4 APJ AKB-503 Surojit Ghosh,1
+Autumn,2026-27,I-Year,Thursday,09:00,09:55,P,Practical,PHI-101,,,,26EC3,,P PHI-101 26EC3,1
+Autumn,2026-27,I-Year,Friday,09:00,09:55,P,Practical,ECC-101,,,Brijesh Kumar,"26EC3,26EC4",,"P ECC-101 26EC3,26EC4 Brijesh Kumar",1
+Autumn,2026-27,I-Year,Friday,09:00,09:55,P,Practical,PHI-101,,,,26EC1,,P PHI-101 26EC1,1
+Autumn,2026-27,I-Year,Friday,09:00,09:55,P,Practical,PHI-101,,,,26EC2,,P PHI-101 26EC2,1
+Autumn,2026-27,I-Year,Tuesday,10:00,10:55,P,Practical,ECC-101,,,Brijesh Kumar,"26EC1,26EC2",,"P ECC-101 26EC1,26EC2 Brijesh Kumar",1
+Autumn,2026-27,I-Year,Wednesday,10:00,10:55,T,Tutorial,MAI-101,,GB-304,Surojit Ghosh,26EC1,,T MAI-101 26EC1 GB-304 Surojit Ghosh,1
+Autumn,2026-27,I-Year,Wednesday,10:00,10:55,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC4,,P HSI-101 26EC4 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Thursday,10:00,10:55,T,Tutorial,PHI-101,,AKB-303,,26EC1,,T PHI-101 26EC1 APJ AKB-303,1
+Autumn,2026-27,I-Year,Thursday,10:00,10:55,T,Tutorial,PHI-101,,AKB-502,,26EC2,,T PHI-101 26EC2 APJ AKB-502,1
+Autumn,2026-27,I-Year,Thursday,10:00,10:55,P,Practical,PHI-101,,,,26EC3,,P PHI-101 26EC3,1
+Autumn,2026-27,I-Year,Friday,10:00,10:55,P,Practical,ECC-101,,,Brijesh Kumar,"26EC3,26EC4",,"P ECC-101 26EC3,26EC4 Brijesh Kumar",1
+Autumn,2026-27,I-Year,Friday,10:00,10:55,P,Practical,PHI-101,,,,26EC1,,P PHI-101 26EC1,1
+Autumn,2026-27,I-Year,Friday,10:00,10:55,P,Practical,PHI-101,,,,26EC2,,P PHI-101 26EC2,1
+Autumn,2026-27,I-Year,Tuesday,11:05,12:00,P,Practical,HSI-101,,AKB-603,Aruni Mahapatra,26EC1,,P HSI-101 26EC1 APJ AKB-603 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Tuesday,11:05,12:00,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC2,,P HSI-101 26EC2 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Wednesday,11:05,12:00,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC3,,P HSI-101 26EC3 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Wednesday,11:05,12:00,P,Practical,PHI-101,,,,26EC4,,P PHI-101 26EC4,1
+Autumn,2026-27,I-Year,Monday,12:05,13:00,T,Tutorial,MAI-101,,AKB-504,Surojit Ghosh,26EC3,,T MAI-101 26EC3 APJ AKB-504 Surojit Ghosh,1
+Autumn,2026-27,I-Year,Tuesday,12:05,13:00,P,Practical,HSI-101,,AKB-603,Aruni Mahapatra,26EC1,,P HSI-101 26EC1 APJ AKB-603 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Tuesday,12:05,13:00,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC2,,P HSI-101 26EC2 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Wednesday,12:05,13:00,P,Practical,HSI-101,,AKB-604,Aruni Mahapatra,26EC3,,P HSI-101 26EC3 APJ AKB-604 Aruni Mahapatra,1
+Autumn,2026-27,I-Year,Wednesday,12:05,13:00,P,Practical,PHI-101,,,,26EC4,,P PHI-101 26EC4,1
+Autumn,2026-27,I-Year,Thursday,12:05,13:00,T,Tutorial,PHI-101,,AKB-504,,26EC4,,T PHI-101 26EC4 APJ AKB-504,1
+Autumn,2026-27,I-Year,Friday,12:05,13:00,T,Tutorial,PHI-101,,AKB-505,,26EC3,,T PHI-101 26EC3 APJ AKB-505,1
+Autumn,2026-27,I-Year,Wednesday,14:00,14:55,L,Lecture,PHI-101,5,AKB-205,M. V. Sunil Krishna,"26EC1,26EC2,26EC3,26EC4",,"L PHI-101 Batch 5 APJ AKB-205 M. V. Sunil Krishna 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Friday,14:00,14:55,L,Lecture,PHI-101,5,AKB-205,M. V. Sunil Krishna,"26EC1,26EC2,26EC3,26EC4",,"L PHI-101 Batch 5 APJ AKB-205 M. V. Sunil Krishna 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Monday,15:00,15:55,L,Lecture,MAI-101,5,AKB-205,Surojit Ghosh,"26EC1,26EC2,26EC3,26EC4",,"L MAI-101 Batch 5 APJ AKB-205 Surojit Ghosh 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Tuesday,15:00,15:55,L,Lecture,PHI-101,5,AKB-205,M. V. Sunil Krishna,"26EC1,26EC2,26EC3,26EC4",,"L PHI-101 Batch 5 APJ AKB-205 M. V. Sunil Krishna 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Wednesday,15:00,15:55,L,Lecture,MAI-101,5,AKB-205,Surojit Ghosh,"26EC1,26EC2,26EC3,26EC4",,"L MAI-101 Batch 5 APJ AKB-205 Surojit Ghosh 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Thursday,15:00,15:55,L,Lecture,CSE-101,2,AKB-207,Raksha Sharma,"26EC1,26EC2,26EC3,26EC4",,"L CSE-101 Batch 2 APJ AKB-207 Raksha Sharma 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Friday,15:00,15:55,L,Lecture,MAI-101,5,AKB-205,Surojit Ghosh,"26EC1,26EC2,26EC3,26EC4",,"L MAI-101 Batch 5 APJ AKB-205 Surojit Ghosh 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Monday,16:05,17:00,L,Lecture,ECC-101,1,AKB-206,Brijesh Kumar,"26EC1,26EC2,26EC3,26EC4",,"L ECC-101 Batch 1 APJ AKB-206 Brijesh Kumar 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Tuesday,16:05,17:00,L,Lecture,CSE-101,2,AKB-207,Raksha Sharma,"26EC1,26EC2,26EC3,26EC4",,"L CSE-101 Batch 2 APJ AKB-207 Raksha Sharma 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Thursday,16:05,17:00,L,Lecture,ECC-101,1,AKB-206,Brijesh Kumar 26€C1,"26EC2,26EC3,26EC4",,"L ECC-101 Batch 1 APJ AKB-206 Brijesh Kumar 26€C1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Friday,16:05,17:00,L,Lecture,CSE-101,2,AKB-207,Raksha Sharma,"26EC1,26EC2,26EC3,26EC4",,"L CSE-101 Batch 2 APJ AKB-207 Raksha Sharma 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Monday,17:05,18:00,L,Lecture,TMI-103,6,AKB-507,,"26EC1,26EC2,26EC3,26EC4",,"L TMI-103 Batch 6 APJ AKB-507 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Tuesday,17:05,18:00,L,Lecture,TMI-103,6,AKB-507,,"26EC1,26EC2,26EC3,26EC4",,"L TMI-103 Batch 6 APJ AKB-507 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Thursday,17:05,18:00,L,Lecture,TMI-103,6,AKB-507,,"26EC1,26EC2,26EC3,26EC4",,"L TMI-103 Batch 6 APJ AKB-507 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,I-Year,Friday,17:05,18:00,L,Lecture,ECC-101,1,AKB-206,Brijesh Kumar,"26EC1,26EC2,26EC3,26EC4",,"L ECC-101 Batch 1 APJ AKB-206 Brijesh Kumar 26EC1,26EC2,26EC3,26EC4",1
+Autumn,2026-27,II-Year,Monday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,2
+Autumn,2026-27,II-Year,Monday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,2
+Autumn,2026-27,II-Year,Tuesday,08:00,08:55,L,Lecture,HSS-210,1,GB-005,Ram Manohar Singh,,,L HSS-210 Batch 1 GB-005 Ram Manohar Singh,2
+Autumn,2026-27,II-Year,Tuesday,08:00,08:55,L,Lecture,HSS-204,1,LH-01,Tony Thomas,,,L HSS-204 Batch 1 DoMS LH-01 Tony Thomas,2
+Autumn,2026-27,II-Year,Tuesday,08:00,08:55,L,Lecture,HSS-208,1,GB-202,Roluahpuia,,,L HSS-208 Batch 1 GB-202 Roluahpuia,2
+Autumn,2026-27,II-Year,Tuesday,08:00,08:55,L,Lecture,HSS-207,1,GB-105,Anindya Jayanta Mishra,,,L HSS-207 Batch 1 GB-105 Anindya Jayanta Mishra,2
+Autumn,2026-27,II-Year,Wednesday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,2
+Autumn,2026-27,II-Year,Wednesday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,2
+Autumn,2026-27,II-Year,Thursday,08:00,08:55,L,Lecture,HSS-210,1,GB-005,Ram Manohar Singh,,,L HSS-210 Batch 1 GB-005 Ram Manohar Singh,2
+Autumn,2026-27,II-Year,Thursday,08:00,08:55,L,Lecture,HSS-204,1,LH-01,Tony Thomas,,,L HSS-204 Batch 1 DoMS LH-01 Tony Thomas,2
+Autumn,2026-27,II-Year,Thursday,08:00,08:55,L,Lecture,HSS-208,1,GB-202,Roluahpuia,,,L HSS-208 Batch 1 GB-202 Roluahpuia,2
+Autumn,2026-27,II-Year,Thursday,08:00,08:55,L,Lecture,HSS-207,1,GB-105,Anindya Jayanta Mishra,,,L HSS-207 Batch 1 GB-105 Anindya Jayanta Mishra,2
+Autumn,2026-27,II-Year,Friday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,2
+Autumn,2026-27,II-Year,Friday,09:00,09:55,T,Tutorial,HSS-210,1,GB-005,Ram Manohar Singh,,,T HSS-210 Batch 1 GB-005 Ram Manohar Singh,2
+Autumn,2026-27,II-Year,Friday,09:00,09:55,L,Lecture,HSS-204,1,LH-01,,,,L HSS-204 Batch 1 DoMS LH-01,2
+Autumn,2026-27,II-Year,Monday,10:00,10:55,L,Lecture,MAB-103,3,AKB-206,Ram Jiwari,"25EC1,25EC2,25EC3,25EC4",,"L MAB-103 Batch 3 APJ AKB-206 Ram Jiwari 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Tuesday,10:00,10:55,L,Lecture,MSI-101,5,AKB-205,"Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao","25EC1,25EC2,25EC3,25EC4",,"L MSI-101 Batch 5 APJ AKB-205 Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Wednesday,10:00,10:55,L,Lecture,MAB-103,3,AKB-206,Ram Jiwari,"25EC1,25EC2,25EC3,25EC4",,"L MAB-103 Batch 3 APJ AKB-206 Ram Jiwari 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Thursday,10:00,10:55,L,Lecture,MSI-101,5,AKB-205,"Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao","25EC1,25EC2,25EC3,25EC4",,"L MSI-101 Batch 5 APJ AKB-205 Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Friday,10:00,10:55,L,Lecture,MSI-101,5,AKB-205,"Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao","25EC1,25EC2,25EC3,25EC4",,"L MSI-101 Batch 5 APJ AKB-205 Prachi Jain,Eshan Bhatt,Ramesh Anbanandam,Ashu Khanna,Kulkarni Kalpak Kantrao 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Monday,11:05,12:00,L,Lecture,ECC-201,1,AKB-205,"Vinod Pankajakshan,Anshul Jaiswal","25EC1,25EC2,25EC3,25EC4",,"L ECC-201 Batch 1 APJ AKB-205 Vinod Pankajakshan,Anshul Jaiswal 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Tuesday,11:05,12:00,L,Lecture,ECC-205,1,AKB-205,Saravana Kumar M,"25EC1,25EC2,25EC3,25EC4",,"L ECC-205 Batch 1 APJ AKB-205 Saravana Kumar M. 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Wednesday,11:05,12:00,L,Lecture,ECC-201,1,AKB-205,"Vinod Pankajakshan,Anshul Jaiswal","25EC1,25EC2,25EC3,25EC4",,"L ECC-201 Batch 1 APJ AKB-205 Vinod Pankajakshan,Anshul Jaiswal 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Thursday,11:05,12:00,L,Lecture,MAB-103,3,AKB-206,Ram Jiwari,"25EC1,25EC2,25EC3,25EC4",,"L MAB-103 Batch 3 APJ AKB-206 Ram Jiwari 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Friday,11:05,12:00,L,Lecture,ECC-201,1,AKB-205,"Vinod Pankajakshan,Anshul Jaiswal","25EC1,25EC2,25EC3,25EC4",,"L ECC-201 Batch 1 APJ AKB-205 Vinod Pankajakshan,Anshul Jaiswal 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Monday,12:05,13:00,L,Lecture,ECC-203,1,AKB-206,Nagendra P. Pathak,"25EC1,25EC2,25EC3,25EC4",,"L ECC-203 Batch 1 APJ AKB-206 Nagendra P. Pathak 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Tuesday,12:05,13:00,L,Lecture,ECC-203,1,AKB-206,Nagendra P. Pathak,"25EC1,25EC2,25EC3,25EC4",,"L ECC-203 Batch 1 APJ AKB-206 Nagendra P. Pathak 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Wednesday,12:05,13:00,L,Lecture,ECC-205,1,AKB-205,Saravana Kumar M,"25EC1,25EC2,25EC3,25EC4",,"L ECC-205 Batch 1 APJ AKB-205 Saravana Kumar M. 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Thursday,12:05,13:00,L,Lecture,ECC-203,1,AKB-206,Nagendra P. Pathak,"25EC1,25EC2,25EC3,25EC4",,"L ECC-203 Batch 1 APJ AKB-206 Nagendra P. Pathak 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Friday,12:05,13:00,L,Lecture,ECC-205,1,AKB-205,Saravana Kumar M,"25EC1,25EC2,25EC3,25EC4",,"L ECC-205 Batch 1 APJ AKB-205 Saravana Kumar M. 25EC1,25EC2,25EC3,25EC4",2
+Autumn,2026-27,II-Year,Tuesday,14:00,14:55,T,Tutorial,ECC-201,,AKB-601,"Anshul Jaiswal,Vinod Pankajakshan",25EC1,,"T ECC-201 25EC1 APJ AKB-601 Anshul Jaiswal,Vinod Pankajakshan",2
+Autumn,2026-27,II-Year,Tuesday,14:00,14:55,T,Tutorial,ECC-203,,AKB-501,Nagendra P. Pathak,25EC2,,T ECC-203 25EC2 APJ AKB-501 Nagendra P. Pathak,2
+Autumn,2026-27,II-Year,Wednesday,14:00,14:55,T,Tutorial,ECC-201,,AKB-601,"Anshul Jaiswal,Vinod Pankajakshan",25EC3,,"T ECC-201 25EC3 APJ AKB-601 Anshul Jaiswal,Vinod Pankajakshan",2
+Autumn,2026-27,II-Year,Thursday,14:00,14:55,T,Tutorial,ECC-201,,AKB-602,"Anshul Jaiswal,Vinod Pankajakshan",25EC4,,"T ECC-201 25EC4 APJ AKB-602 Anshul Jaiswal,Vinod Pankajakshan",2
+Autumn,2026-27,II-Year,Friday,14:00,14:55,T,Tutorial,ECC-201,,AKB-601,"Anshul Jaiswal,Vinod Pankajakshan",25EC2,,"T ECC-201 25EC2 APJ AKB-601 Anshul Jaiswal,Vinod Pankajakshan",2
+Autumn,2026-27,II-Year,Tuesday,15:00,15:55,T,Tutorial,MAB-103,,AKB-605,Ram Jiwari,25EC1,,T MAB-103 25EC1 APJ AKB-605 Ram Jiwari,2
+Autumn,2026-27,II-Year,Tuesday,15:00,15:55,T,Tutorial,ECC-203,,AKB-501,Nagendra P. Pathak,25EC3,,T ECC-203 25EC3 APJ AKB-501 Nagendra P. Pathak,2
+Autumn,2026-27,II-Year,Wednesday,15:00,15:55,T,Tutorial,MAB-103,,AKB-606,Ram Jiwari,25EC3,,T MAB-103 25EC3 APJ AKB-606 Ram Jiwari,2
+Autumn,2026-27,II-Year,Thursday,15:00,15:55,T,Tutorial,MAB-103,,AKB-606,Ram Jiwari,25EC4,,T MAB-103 25EC4 APJ AKB-606 Ram Jiwari,2
+Autumn,2026-27,II-Year,Friday,15:00,15:55,T,Tutorial,HSS-207,1,AKB-603,Anindya Jayanta Mishra,,,T HSS-207 Batch 1 APJ AKB-603 Anindya Jayanta Mishra,2
+Autumn,2026-27,II-Year,Tuesday,16:05,17:00,T,Tutorial,ECC-203,,AKB-501,Nagendra P. Pathak,25EC1,,T ECC-203 25EC1 APJ AKB-501 Nagendra P. Pathak,2
+Autumn,2026-27,II-Year,Thursday,16:05,17:00,T,Tutorial,ECC-203,,AKB-601,Nagendra P. Pathak,25EC4,,T ECC-203 25EC4 APJ AKB-601 Nagendra P. Pathak,2
+Autumn,2026-27,II-Year,Friday,16:05,17:00,T,Tutorial,HSS-208,1,LH-01,Roluahpuia,,,T HSS-208 Batch 1 DoMS LH-01 Roluahpuia,2
+Autumn,2026-27,II-Year,Friday,16:05,17:00,T,Tutorial,HSS-207,1,AKB-506,Anindya Jayanta Mishra,,,T HSS-207 Batch 1 APJ AKB-506 Anindya Jayanta Mishra,2
+Autumn,2026-27,II-Year,Tuesday,17:05,18:00,T,Tutorial,MAB-103,,AKB-604,Ram Jiwari,25EC2,,T MAB-103 25EC2 APJ AKB-604 Ram Jiwari,2
+Autumn,2026-27,II-Year,Friday,17:05,18:00,T,Tutorial,HSS-207,1,AKB-604,Anindya Jayanta Mishra,,,T HSS-207 Batch 1 APJ AKB-604 Anindya Jayanta Mishra,2
+Autumn,2026-27,III-Year,Monday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,3
+Autumn,2026-27,III-Year,Monday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,3
+Autumn,2026-27,III-Year,Tuesday,08:00,08:55,T,Tutorial,HSS-306,6,GB-302,Manish Kumar Asthana,,,T HSS-306 Batch 6 GB-302 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Wednesday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,3
+Autumn,2026-27,III-Year,Wednesday,08:00,08:55,L,Lecture,OEC,,,,,,L OEC,3
+Autumn,2026-27,III-Year,Monday,09:00,09:55,L,Lecture,HSS-302,1,GB-205,Anindya Jayanta Mishra,,,L HSS-302 Batch 1 GB-205 Anindya Jayanta Mishra,3
+Autumn,2026-27,III-Year,Monday,09:00,09:55,L,Lecture,HSS-306,1,GB-202,Manish Kumar Asthana,,,L HSS-306 Batch 1 GB-202 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Monday,09:00,09:55,L,Lecture,HSS-304,1,LH-02,Lalatendu Keshari Das,,,L HSS-304 Batch 1 DoMS LH-02 Lalatendu Keshari Das,3
+Autumn,2026-27,III-Year,Monday,09:00,09:55,L,Lecture,HSS-305,1,AKB-405,Pooja Garg,,,L HSS-305 Batch 1 APJ AKB-405 Pooja Garg,3
+Autumn,2026-27,III-Year,Wednesday,09:00,09:55,L,Lecture,HSS-302,1,GB-205,Anindya Jayanta Mishra,,,L HSS-302 Batch 1 GB-205 Anindya Jayanta Mishra,3
+Autumn,2026-27,III-Year,Wednesday,09:00,09:55,L,Lecture,HSS-306,1,GB-202,Manish Kumar Asthana,,,L HSS-306 Batch 1 GB-202 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Wednesday,09:00,09:55,L,Lecture,HSS-304,1,LH-02,Lalatendu Keshari Das,,,L HSS-304 Batch 1 DoMS LH-02 Lalatendu Keshari Das,3
+Autumn,2026-27,III-Year,Wednesday,09:00,09:55,L,Lecture,HSS-305,1,AKB-405,Pooja Garg,,,L HSS-305 Batch 1 APJ AKB-405 Pooja Garg,3
+Autumn,2026-27,III-Year,Thursday,09:00,09:55,P,Practical,ECT-110,1,,Bishnu Prasad Das,,,P ECT-110 Batch 1 Bishnu Prasad Das,3
+Autumn,2026-27,III-Year,Thursday,09:00,09:55,P,Practical,ECT-114,1,,Saravana Kumar M,,,P ECT-114 Batch 1 Saravana Kumar M.,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,1,GB-101,Manish Kumar Asthana,,,T HSS-306 Batch 1 GB-101 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,2,GB-104,Manish Kumar Asthana,,,T HSS-306 Batch 2 GB-104 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,3,GB-106,Manish Kumar Asthana,,,T HSS-306 Batch 3 GB-106 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,4,GB-201,Manish Kumar Asthana,,,T HSS-306 Batch 4 GB-201 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,5,GB-203,Manish Kumar Asthana,,,T HSS-306 Batch 5 GB-203 Manish Kumar Asthana,3
+Autumn,2026-27,III-Year,Friday,09:00,09:55,P,Practical,ECC-305,,,,24EC4,,P ECC-305 24EC4,3
+Autumn,2026-27,III-Year,Monday,10:00,10:55,P,Practical,ECC-305,,,Sudeb Dasgupta,24EC1,,P ECC-305 24EC1 Sudeb Dasgupta,3
+Autumn,2026-27,III-Year,Tuesday,10:00,10:55,P,Practical,ECC-305,,,Sanjeev Manhas,24EC2,,P ECC-305 24EC2 Sanjeev Manhas,3
+Autumn,2026-27,III-Year,Wednesday,10:00,10:55,P,Practical,ECC-305,,,Anand Bulusu,24EC3,,P ECC-305 24EC3 Anand Bulusu,3
+Autumn,2026-27,III-Year,Thursday,10:00,10:55,P,Practical,ECT-110,1,,Bishnu Prasad Das,,,P ECT-110 Batch 1 Bishnu Prasad Das,3
+Autumn,2026-27,III-Year,Thursday,10:00,10:55,P,Practical,ECT-114,1,,Saravana Kumar M,,,P ECT-114 Batch 1 Saravana Kumar M.,3
+Autumn,2026-27,III-Year,Friday,10:00,10:55,P,Practical,ECC-305,,,"Biplab Sarkar, Tanmoy Pramanik",24EC4,,"P ECC-305 24EC4 Biplab Sarkar, Tanmoy Pramanik",3
+Autumn,2026-27,III-Year,Monday,11:05,12:00,P,Practical,ECC-305,,,Sudeb Dasgupta,24EC1,,P ECC-305 24EC1 Sudeb Dasgupta,3
+Autumn,2026-27,III-Year,Tuesday,11:05,12:00,T,Tutorial,HSS-304,1,GB-202,Lalatendu Keshari Das,,,T HSS-304 Batch 1 GB-202 Lalatendu Keshari Das,3
+Autumn,2026-27,III-Year,Tuesday,11:05,12:00,P,Practical,ECC-305,,,Sanjeev Manhas,24EC2,,P ECC-305 24EC2 Sanjeev Manhas,3
+Autumn,2026-27,III-Year,Wednesday,11:05,12:00,P,Practical,ECC-305,,,Anand Bulusu,24EC3,,P ECC-305 24EC3 Anand Bulusu,3
+Autumn,2026-27,III-Year,Thursday,11:05,12:00,P,Practical,ECT-110,1,,Bishnu Prasad Das,,,P ECT-110 Batch 1 Bishnu Prasad Das,3
+Autumn,2026-27,III-Year,Thursday,11:05,12:00,P,Practical,ECT-114,1,,Saravana Kumar M,,,P ECT-114 Batch 1 Saravana Kumar M.,3
+Autumn,2026-27,III-Year,Friday,11:05,12:00,P,Practical,ECC-305,,,"Biplab Sarkar,Tanmoy Pramanik",24EC4,,"P ECC-305 24EC4 Biplab Sarkar,Tanmoy Pramanik",3
+Autumn,2026-27,III-Year,Monday,12:05,13:00,P,Practical,ECC-305,,,Sudeb Dasgupta,24EC1,,P ECC-305 24EC1 Sudeb Dasgupta,3
+Autumn,2026-27,III-Year,Tuesday,12:05,13:00,P,Practical,ECC-305,,,Sanjeev Manhas,24EC2,,P ECC-305 24EC2 Sanjeev Manhas,3
+Autumn,2026-27,III-Year,Wednesday,12:05,13:00,P,Practical,ECC-305,,,Anand Bulusu,24EC3,,P ECC-305 24EC3 Anand Bulusu,3
+Autumn,2026-27,III-Year,Thursday,12:05,13:00,P,Practical,ECT-110,1,,Bishnu Prasad Das,,,P ECT-110 Batch 1 Bishnu Prasad Das,3
+Autumn,2026-27,III-Year,Thursday,12:05,13:00,P,Practical,ECT-114,1,,Saravana Kumar M,,,P ECT-114 Batch 1 Saravana Kumar M.,3
+Autumn,2026-27,III-Year,Friday,12:05,13:00,P,Practical,ECC-305,,,"Biplab Sarkar, Tanmoy Pramanik",24EC4,,"P ECC-305 24EC4 Biplab Sarkar, Tanmoy Pramanik",3
+Autumn,2026-27,III-Year,Monday,15:00,15:55,L,Lecture,ECC-301,1,AKB-206,Meenakshi Rawat,,,L ECC-301 Batch 1 APJ AKB-206 Meenakshi Rawat,3
+Autumn,2026-27,III-Year,Wednesday,15:00,15:55,L,Lecture,ECC-301,1,AKB-206,Meenakshi Rawat,,,L ECC-301 Batch 1 APJ AKB-206 Meenakshi Rawat,3
+Autumn,2026-27,III-Year,Thursday,15:00,15:55,L,Lecture,ECC-303,1,AKB-206,Akhilesh Mohan,,,L ECC-303 Batch 1 APJ AKB-206 Akhilesh Mohan,3
+Autumn,2026-27,III-Year,Thursday,15:00,15:55,T,Tutorial,HSS-302,1,AKB-601,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-601 Anindya Jayanta Mishra,3
+Autumn,2026-27,III-Year,Friday,15:00,15:55,L,Lecture,ECC-301,1,AKB-206,Meenakshi Rawat,,,L ECC-301 Batch 1 APJ AKB-206 Meenakshi Rawat,3
+Autumn,2026-27,III-Year,Monday,16:05,17:00,L,Lecture,ECC-351,1,AKB-207,Tharun Kumar Reddy Bolu,,,L ECC-351 Batch 1 APJ AKB-207 Tharun Kumar Reddy Bolu,3
+Autumn,2026-27,III-Year,Tuesday,16:05,17:00,L,Lecture,ECC-303,1,AKB-206,Akhilesh Mohan,,,L ECC-303 Batch 1 APJ AKB-206 Akhilesh Mohan,3
+Autumn,2026-27,III-Year,Thursday,16:05,17:00,L,Lecture,ECC-351,1,AKB-207,Tharun Kumar Reddy Bolu,,,L ECC-351 Batch 1 APJ AKB-207 Tharun Kumar Reddy Bolu,3
+Autumn,2026-27,III-Year,Thursday,16:05,17:00,T,Tutorial,HSS-302,1,AKB-603,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-603 Anindya Jayanta Mishra,3
+Autumn,2026-27,III-Year,Friday,16:05,17:00,L,Lecture,ECC-303,1,AKB-206,Akhilesh Mohan,,,L ECC-303 Batch 1 APJ AKB-206 Akhilesh Mohan,3
+Autumn,2026-27,III-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,1,AKB-503,Pooja Garg,,,T HSS-305 Batch 1 APJ AKB-503 Pooja Garg,3
+Autumn,2026-27,III-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,2,AKB-502,Pooja Garg,,,T HSS-305 Batch 2 APJ AKB-502 Pooja Garg,3
+Autumn,2026-27,III-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,3,AKB-501,Pooja Garg,,,T HSS-305 Batch 3 APJ AKB-501 Pooja Garg,3
+Autumn,2026-27,III-Year,Monday,17:05,18:00,T,Tutorial,ECC-303,,AKB-206,Akhilesh Mohan,"24EC1,24EC2,24EC3,24EC4",,"T ECC-303 24EC1,24EC2,24EC3,24EC4 APJ AKB-206 Akhilesh Mohan",3
+Autumn,2026-27,III-Year,Thursday,17:05,18:00,T,Tutorial,HSS-302,1,AKB-603,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-603 Anindya Jayanta Mishra,3
+Autumn,2026-27,III-Year,Friday,17:05,18:00,L,Lecture,ECC-351,1,AKB-207,Tharun Kumar Reddy Bolu,,,L ECC-351 Batch 1 APJ AKB-207 Tharun Kumar Reddy Bolu,3
+Autumn,2026-27,III-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,4,AKB-503,Pooja Garg,,,T HSS-305 Batch 4 APJ AKB-503 Pooja Garg,3
+Autumn,2026-27,III-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,5,AKB-603,Pooja Garg,,,T HSS-305 Batch 5 APJ AKB-603 Pooja Garg,3
+Autumn,2026-27,III-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,6,AKB-601,Pooja Garg,,,T HSS-305 Batch 6 APJ AKB-601 Pooja Garg,3
+Autumn,2026-27,IV-Year,Tuesday,08:00,08:55,T,Tutorial,HSS-306,6,GB-302,Manish Kumar Asthana,,,T HSS-306 Batch 6 GB-302 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Monday,09:00,09:55,L,Lecture,HSS-302,1,GB-205,Anindya Jayanta Mishra,,,L HSS-302 Batch 1 GB-205 Anindya Jayanta Mishra,4
+Autumn,2026-27,IV-Year,Monday,09:00,09:55,L,Lecture,HSS-305,1,AKB-405,Pooja Garg,,,L HSS-305 Batch 1 APJ AKB-405 Pooja Garg,4
+Autumn,2026-27,IV-Year,Monday,09:00,09:55,L,Lecture,HSS-304,1,LH-02,Lalatendu Keshari Das,,,L HSS-304 Batch 1 DoMS LH-02 Lalatendu Keshari Das,4
+Autumn,2026-27,IV-Year,Monday,09:00,09:55,L,Lecture,HSS-306,1,GB-202,Manish Kumar Asthana,,,L HSS-306 Batch 1 GB-202 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Wednesday,09:00,09:55,L,Lecture,HSS-302,1,GB-205,Anindya Jayanta Mishra,,,L HSS-302 Batch 1 GB-205 Anindya Jayanta Mishra,4
+Autumn,2026-27,IV-Year,Wednesday,09:00,09:55,L,Lecture,HSS-305,1,AKB-405,Pooja Garg,,,L HSS-305 Batch 1 APJ AKB-405 Pooja Garg,4
+Autumn,2026-27,IV-Year,Wednesday,09:00,09:55,L,Lecture,HSS-304,1,LH-02,Lalatendu Keshari Das,,,L HSS-304 Batch 1 DoMS LH-02 Lalatendu Keshari Das,4
+Autumn,2026-27,IV-Year,Wednesday,09:00,09:55,L,Lecture,HSS-306,1,GB-202,Manish Kumar Asthana,,,L HSS-306 Batch 1 GB-202 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,1,GB-101,Manish Kumar Asthana,,,T HSS-306 Batch 1 GB-101 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,2,GB-104,Manish Kumar Asthana,,,T HSS-306 Batch 2 GB-104 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,3,GB-106,Manish Kumar Asthana,,,T HSS-306 Batch 3 GB-106 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,4,GB-201,Manish Kumar Asthana,,,T HSS-306 Batch 4 GB-201 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Friday,09:00,09:55,T,Tutorial,HSS-306,5,GB-203,Manish Kumar Asthana,,,T HSS-306 Batch 5 GB-203 Manish Kumar Asthana,4
+Autumn,2026-27,IV-Year,Monday,10:00,10:55,L,Lecture,ECC-515,1,AKB-204,Anshul Tyagi,,,L ECC-515 Batch 1 APJ AKB-204 Anshul Tyagi,4
+Autumn,2026-27,IV-Year,Monday,10:00,10:55,L,Lecture,ECC-533,1,AKB-502,Sanjeev Manhas,,,L ECC-533 Batch 1 APJ AKB-502 Sanjeev Manhas,4
+Autumn,2026-27,IV-Year,Tuesday,10:00,10:55,L,Lecture,ECC-521,1,AKB-403,Amalendu Patnaik,,,L ECC-521 Batch 1 APJ AKB-403 Amalendu Patnaik,4
+Autumn,2026-27,IV-Year,Tuesday,10:00,10:55,L,Lecture,ECC-531,1,AKB-203,Arnab Datta,,,L ECC-531 Batch 1 APJ AKB-203 Arnab Datta,4
+Autumn,2026-27,IV-Year,Wednesday,10:00,10:55,L,Lecture,ECC-515,1,AKB-204,Anshul Tyagi,,,L ECC-515 Batch 1 APJ AKB-204 Anshul Tyagi,4
+Autumn,2026-27,IV-Year,Wednesday,10:00,10:55,L,Lecture,ECC-533,1,AKB-502,Sanjeev Manhas,,,L ECC-533 Batch 1 APJ AKB-502 Sanjeev Manhas,4
+Autumn,2026-27,IV-Year,Thursday,10:00,10:55,L,Lecture,ECC-521,1,AKB-403,Amalendu Patnaik,,,L ECC-521 Batch1 APJ AKB-403 Amalendu Patnaik,4
+Autumn,2026-27,IV-Year,Thursday,10:00,10:55,L,Lecture,ECC-531,1,AKB-203,Arnab Datta,,,L ECC-531 Batch1 APJ AKB-203 Arnab Datta,4
+Autumn,2026-27,IV-Year,Friday,10:00,10:55,L,Lecture,ECC-521,1,AKB-403,Amalendu Patnaik,,,L ECC-521 Batch 1 APJ AKB-403 Amalendu Patnaik,4
+Autumn,2026-27,IV-Year,Friday,10:00,10:55,L,Lecture,ECC-531,1,AKB-203,Arnab Datta,,,L ECC-531 Batch 1 APJ AKB-203 Arnab Datta,4
+Autumn,2026-27,IV-Year,Monday,11:05,12:00,L,Lecture,ECC-527,1,AKB-402,Darshak Bhatt,,,L ECC-527 Batch 1 APJ AKB-402 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Monday,11:05,12:00,L,Lecture,ECC-537,1,AKB-501,Bishnu Prasad Das,,,L ECC-537 Batch 1 APJ AKB-501 Bishnu Prasad Das,4
+Autumn,2026-27,IV-Year,Tuesday,11:05,12:00,L,Lecture,ECC-535,1,AKB-509,Avirup Dasgupta,,,L ECC-535 Batch 1 APJ AKB-509 Avirup Dasgupta,4
+Autumn,2026-27,IV-Year,Tuesday,11:05,12:00,T,Tutorial,HSS-304,1,GB-202,Lalatendu Keshari Das,,,T HSS-304 Batch 1 GB-202 Lalatendu Keshari Das,4
+Autumn,2026-27,IV-Year,Wednesday,11:05,12:00,L,Lecture,ECC-527,1,AKB-402,Darshak Bhatt,,,L ECC-527 Batch 1 APJ AKB-402 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Wednesday,11:05,12:00,L,Lecture,ECC-537,1,AKB-501,Bishnu Prasad Das,,,L ECC-537 Batch 1 APJ AKB-501 Bishnu Prasad Das,4
+Autumn,2026-27,IV-Year,Thursday,11:05,12:00,L,Lecture,ECC-515,1,AKB-204,Anshul Tyagi,,,L ECC-515 Batch 1 APJ AKB-204 Anshul Tyagi,4
+Autumn,2026-27,IV-Year,Thursday,11:05,12:00,L,Lecture,ECC-533,1,AKB-502,Sanjeev Manhas,,,L ECC-533 Batch 1 APJ AKB-502 Sanjeev Manhas,4
+Autumn,2026-27,IV-Year,Friday,11:05,12:00,L,Lecture,ECC-527,1,AKB-402,Darshak Bhatt,,,L ECC-527 Batch 1 APJ AKB-402 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Friday,11:05,12:00,L,Lecture,ECC-537,1,AKB-501,Bishnu Prasad Das,,,L ECC-537 Batch 1 APJ AKB-501 Bishnu Prasad Das,4
+Autumn,2026-27,IV-Year,Monday,12:05,13:00,L,Lecture,ECC-513,1,AKB-402,Abhay Kumar Sah,,,L ECC-513 Batch 1 APJ AKB-402 Abhay Kumar Sah,4
+Autumn,2026-27,IV-Year,Monday,12:05,13:00,L,Lecture,ECC-507,1,AKB-401,Bodhibrata Mukhopadhyay,,,L ECC-507 Batch 1 APJ AKB-401 Bodhibrata Mukhopadhyay,4
+Autumn,2026-27,IV-Year,Tuesday,12:05,13:00,L,Lecture,ECC-513,1,AKB-402,Abhay Kumar Sah,,,L ECC-513 Batch 1 APJ AKB-402 Abhay Kumar Sah,4
+Autumn,2026-27,IV-Year,Tuesday,12:05,13:00,L,Lecture,ECC-507,1,AKB-401,Bodhibrata Mukhopadhyay,,,L ECC-507 Batch 1 APJ AKB-401 Bodhibrata Mukhopadhyay,4
+Autumn,2026-27,IV-Year,Wednesday,12:05,13:00,L,Lecture,ECC-535,1,AKB-509,Avirup Dasgupta,,,L ECC-535 Batch 1 APJ AKB-509 Avirup Dasgupta,4
+Autumn,2026-27,IV-Year,Thursday,12:05,13:00,L,Lecture,ECC-513,1,AKB-402,Abhay Kumar Sah,,,L ECC-513 Batch 1 APJ AKB-402 Abhay Kumar Sah,4
+Autumn,2026-27,IV-Year,Thursday,12:05,13:00,L,Lecture,ECC-507,1,AKB-401,Bodhibrata Mukhopadhyay,,,L ECC-507 Batch 1 APJ AKB-401 Bodhibrata Mukhopadhyay,4
+Autumn,2026-27,IV-Year,Friday,12:05,13:00,L,Lecture,ECC-535,1,AKB-509,Avirup Dasgupta,,,L ECC-535 Batch 1 APJ AKB-509 Avirup Dasgupta,4
+Autumn,2026-27,IV-Year,Monday,14:00,14:55,P,Practical,ECC-527,,,Darshak Bhatt,,,P ECC-527 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Tuesday,14:00,14:55,T,Tutorial,ECL-525,1,GB-306,Sparsh Mittal,,,T ECL-525 Batch 1 GB-306 Sparsh Mittal,4
+Autumn,2026-27,IV-Year,Wednesday,14:00,14:55,L,Lecture,ECL-525,1,AKB-207,Sparsh Mittal,,,L ECL-525 Batch 1 APJ AKB-207 Sparsh Mittal,4
+Autumn,2026-27,IV-Year,Wednesday,14:00,14:55,P,Practical,ECC-531,,,Arnab Datta,,,P ECC-531 Arnab Datta,4
+Autumn,2026-27,IV-Year,Thursday,14:00,14:55,P,Practical,ECC-535,,,Avirup Dasgupta,,,P ECC-535 Avirup Dasgupta,4
+Autumn,2026-27,IV-Year,Friday,14:00,14:55,L,Lecture,ECL-525,1,AKB-207,Sparsh Mittal,,,L ECL-525 Batch 1 APJ AKB-207 Sparsh Mittal,4
+Autumn,2026-27,IV-Year,Monday,15:00,15:55,P,Practical,ECC-527,,,Darshak Bhatt,,,P ECC-527 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Tuesday,15:00,15:55,L,Lecture,ECL-525,1,AKB-207,Sparsh Mittal,,,L ECL-525 Batch 1 APJ AKB-207 Sparsh Mittal,4
+Autumn,2026-27,IV-Year,Wednesday,15:00,15:55,P,Practical,ECC-531,,,Arnab Datta,,,P ECC-531 Arnab Datta,4
+Autumn,2026-27,IV-Year,Thursday,15:00,15:55,P,Practical,ECC-535,,,Avirup Dasgupta,,,P ECC-535 Avirup Dasgupta,4
+Autumn,2026-27,IV-Year,Thursday,15:00,15:55,T,Tutorial,HSS-302,1,AKB-601,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-601 Anindya Jayanta Mishra,4
+Autumn,2026-27,IV-Year,Friday,15:00,15:55,T,Tutorial,ECC-513,,AKB-502,Abhay Kumar Sah,,,T ECC-513 APJ AKB-502 Abhay Kumar Sah,4
+Autumn,2026-27,IV-Year,Friday,15:00,15:55,T,Tutorial,ECC-521,,AKB-503,Amalendu Patnaik,,,T ECC-521 APJ AKB-503 Amalendu Patnaik,4
+Autumn,2026-27,IV-Year,Friday,15:00,15:55,P,Practical,ECC-533,,,Sanjeev Manhas,,,P ECC-533 Sanjeev Manhas,4
+Autumn,2026-27,IV-Year,Monday,16:05,17:00,P,Practical,ECC-527,,,Darshak Bhatt,,,P ECC-527 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Thursday,16:05,17:00,T,Tutorial,ECC-537,,AKB-203,Bishnu Prasad Das,,,T ECC-537 APJ AKB-203 Bishnu Prasad Das,4
+Autumn,2026-27,IV-Year,Thursday,16:05,17:00,T,Tutorial,HSS-302,1,AKB-603,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-603 Anindya Jayanta Mishra,4
+Autumn,2026-27,IV-Year,Friday,16:05,17:00,T,Tutorial,ECC-515,,AKB-504,Anshul Tyagi,,,T ECC-515 APJ AKB-504 Anshul Tyagi,4
+Autumn,2026-27,IV-Year,Friday,16:05,17:00,P,Practical,ECC-533,,,Sanjeev Manhas,,,P ECC-533 Sanjeev Manhas,4
+Autumn,2026-27,IV-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,1,AKB-503,Pooja Garg,,,T HSS-305 Batch 1 APJ AKB-503 Pooja Garg,4
+Autumn,2026-27,IV-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,2,AKB-502,Pooja Garg,,,T HSS-305 Batch 2 APJ AKB-502 Pooja Garg,4
+Autumn,2026-27,IV-Year,Friday,16:05,17:00,T,Tutorial,HSS-305,3,AKB-501,Pooja Garg,,,T HSS-305 Batch 3 APJ AKB-501 Pooja Garg,4
+Autumn,2026-27,IV-Year,Monday,17:05,18:00,P,Practical,ECC-527,,,Darshak Bhatt,,,P ECC-527 Darshak Bhatt,4
+Autumn,2026-27,IV-Year,Tuesday,17:05,18:00,T,Tutorial,ECC-507,,AKB-301,Bodhibrata Mukhopadhyay,,,T ECC-507 APJ AKB-301 Bodhibrata Mukhopadhyay,4
+Autumn,2026-27,IV-Year,Thursday,17:05,18:00,T,Tutorial,HSS-302,1,AKB-603,Anindya Jayanta Mishra,,,T HSS-302 Batch 1 APJ AKB-603 Anindya Jayanta Mishra,4
+Autumn,2026-27,IV-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,4,AKB-503,Pooja Garg,,,T HSS-305 Batch 4 APJ AKB-503 Pooja Garg,4
+Autumn,2026-27,IV-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,5,AKB-603,Pooja Garg,,,T HSS-305 Batch 5 APJ AKB-603 Pooja Garg,4
+Autumn,2026-27,IV-Year,Friday,17:05,18:00,T,Tutorial,HSS-305,6,AKB-601,Pooja Garg,,,T HSS-305 Batch 6 APJ AKB-601 Pooja Garg,4

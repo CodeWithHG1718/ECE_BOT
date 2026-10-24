@@ -1,0 +1,105 @@
+﻿curriculum_code,title,source_syllabus_codes,content_status,coverage,reason
+HSI-101,Soft Skills,HS-001A; HS-001B,available_partial,partial,Communication skills and presentation content supports the Soft Skills course; does not cover every possible soft-skill topic.
+MAI-101,Mathematics-I,MAN-001,available,title_topic_match,Mathematics I: calculus and foundational mathematical methods.
+PHI-101,Physics-I,PHN-005,available_partial,partial,Electrodynamics and optics provide Physics-I study material; the newer Physics-I syllabus is not supplied.
+ECC-101,Introduction to Programming,CSN-103,available_partial,partial,Programming foundations and object-oriented programming. Legacy examples use Java; the current course language is not established.
+TMI-101,Tinkering and Mentoring,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+CSE-101,Data Structures and Algorithms,CSN-102,available,title_topic_match,"Data structures and algorithms: lists, stacks, queues, trees, graphs and complexity."
+HSI-102,Indian Knowledge System,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MAI-102,Mathematics-II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ESS-102,Environmental Science and Sustainability,CEN-105,available,title_topic_match,"Environmental science, sustainability, pollution, ecosystems and resources."
+ECC-102,Semiconductor Devices and Applications,ECN-142,available,title_topic_match,"Semiconductor devices: junctions, diodes, transistors and operating principles."
+ECC-104,Digital Logic and Systems,ECN-104,available,title_topic_match,"Digital logic: Boolean algebra, combinational and sequential circuits."
+ECC-106,Signals and Systems,ECN-203,available,same_title,"Both are Signals and Systems; match is based on title and content, not course-number similarity."
+MSI-101,Fundamentals of Management,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MAB-103,Numerical Methods,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-201,Fundamentals of Communication System,ECN-311,available,title_topic_match,Communication systems and techniques provide communication-system foundations.
+ECC-203,Electromagnetics and Radiating Systems,ECN-232; ECN-331,available,combined_topic_match,Combine Engineering Electromagnetics and Antenna Theory for electromagnetics and radiating systems.
+ECC-205,Network Theory,ECN-291,available,title_topic_match,Electronic Network Theory supplies network analysis content.
+HSSEC-I,HSS Elective Course-I,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+OEC-I,Open Elective Course-I,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+DAI-101,Data Science,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+PHB-102,Quantum and Statistical Mechanics,PHN-006,available,title_topic_match,Quantum mechanics and statistical mechanics match the curriculum subject.
+EEE-101,Control System Engineering,ECN-222,available,title_topic_match,"Automatic Control Systems provides modelling, stability and control-system design."
+ECT-I,Talent Enhancement Course-I,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-202,Digital Communications,ECN-212,available,title_topic_match,Principles of Digital Communication supplies digital communication content.
+ECC-204,Analog Circuits,ECN-205,available,same_title,Both are Analog Circuits.
+OEC-II,Open Elective Course-II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-351,Fundamentals of AI/ML,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-301,Digital Signal Processing,ECN-312,available,same_title,Both are Digital Signal Processing.
+ECC-303,Microwave Engineering,ECN-333,available,title_topic_match,Microwave Techniques covers microwave engineering topics and components.
+ECC-305,Digital Electronics and Linear IC Lab,ECN-252; ECN-351,available,combined_topic_match,Digital Electronic Circuits Laboratory plus IC Applications Laboratory cover the two named lab areas.
+ECC-399,Community Outreach,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-II,Talent Enhancement Course-II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+HSSEC-II,HSS Elective Course-II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+OEC-III,Open Elective Course-III,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-I,Program Elective Course - I,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-II,Program Elective Course - II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-300,Lab Based Project/Industry oriented problem solving,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECC-302,Microwave Laboratory,ECN-354,available,title_topic_match,Microwave Lab and Microwave Laboratory.
+ECC-304,Communication Systems Lab,ECN-352,available,same_title,Both are Communication Systems Lab.
+ECC-306,Technical Communication,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-III,Talent Enhancement Course-III,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MSC/DHC-I,Minor Specialization Course - I / Departmental Honours Course - I,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECP-400A/ECL,BTP/Project/Internship/Entrepreneurship/PEC *,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-III,Program Elective Course -III,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-IV,Program Elective Course -IV,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MSC/DHC-II,Minor Specialization Course -II /Departmental Honours Course - II,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MSC/DHC-III,Minor Specialization Course -III /Departmental Honours Course - III,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECP-400B/ECL,BTP/Project/Internship/Entrepreneurship/PEC *,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-V,Program Elective Course -V,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-VI,Program Elective Course -VI,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MSC/DHC-IV,Minor Specialization Course -IV /Departmental Honours Course – IV,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+MSC/DHC-V,Minor Specialization Course - IV/Departmental Honours Course - IV,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-343,Fundamentals of Microelectronics,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-360,Introduction to Information and Communication Theory,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-347,Introduction to Microwave Semiconductor Device Modelling Techniques,ECN-347,available,same_title,Same microwave semiconductor device modelling course title; appendix pages 75-76.
+ECL-316,Digital Image processing,ECN-316,available,same_title,Both are Digital Image Processing.
+ECL-357,Electronics Subsystems,ECN-357,available,title_topic_match,Electronics Subsystems and Electronic Sub-Systems; appendix pages 77-78.
+ECL-358,Machine Learning in Semiconductor Manufacturing,ECN-358,available,same_title,Same Machine Learning in Semiconductor Manufacturing title; appendix page 79.
+ECL-514,Detection and Estimation Theory,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-614,Adaptive Signal Processing Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-618,Wireless Technologies: 5G and Beyond,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-619,Introduction to Compressed Sensing,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-620,Advanced Wireless Communication,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-577,VLSI Technology,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-584,Mixed Signal Circuits,ECN-342,available_partial,partial,"RF and Mixed Signal Circuits provides mixed-signal material, plus RF topics that may exceed the newer course."
+ECL-587,Nanoscale Devices,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-591,VLSI Physical Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-561,Compact Modelling of Semiconductor Devices,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-526,Statistical Machine Learning for Variation- Aware Electronic Device and Circuit Simulation,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-635,Magnetic Random Access Memory,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-550,Radar Signal Processing,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-631,RF Receiver Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-515,Information and Coding Theory,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-519,Wireless Communication Systems,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-525,Hardware Architecture for deep- learning,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-573,Digital VLSI Circuit Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-579,Foundations of Semiconductor Device Physics,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-581,Analog VLSI Circuit Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-542,MicrowaveIntegratedCircuits,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECL-544,AdvancedRadarEngineering,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-101,RF Simulation Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-102,Design of Passive Microwave Components,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-103,Microwave Measurement Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-104,Communication Networks,CS-341,available_partial,partial,Computer Networks provides communication-network foundations; not a verified replacement for talent-enhancement exercises.
+ECT-105,Optical Communication Technologies,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-106,Software Defined Radios,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-107,Introduction to Bio-Signal and Image Analysis,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-108,Principles and Techniques of FMCW Radar Systems,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-109,Advanced DSP,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-110,Digital System Design Using High Level Language,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-111,VLSI Circuit Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-112,Physical Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-113,Analog Circuit Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-114,Mixed Signal System Design,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-115,Measurement Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-116,Fabrication Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-117,Semiconductor Characterization,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-118,Device Modeling,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-119,Microprocessor and Computer Architecture,CSN-221,available,title_topic_match,Computer Architecture and Microprocessors matches Microprocessor and Computer Architecture topics.
+ECT-120,VLSI DSP,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-121,Embedded Systems,EC-343,available,title_topic_match,Embedded System Design supplies embedded-system study content.
+ECT-122,Emerging Materials and Devices,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-123,Memories,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
+ECT-124,Emerging Computing Techniques,,not_in_supplied_syllabus,,No supported course-content match in supplied syllabus.
