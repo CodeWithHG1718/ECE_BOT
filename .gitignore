@@ -17,7 +17,6 @@ tmp/
 # Local database journals and editor/runtime artifacts.
 datafiles/academic/vectors/*.sqlite3-wal
 datafiles/academic/vectors/*.sqlite3-shm
-/datafiles/academic/vectors/azure-text-embedding-3-small.sqlite3
 .pytest_cache/
 .idea/
 .vscode/

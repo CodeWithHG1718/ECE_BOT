@@ -147,7 +147,7 @@ On a fresh machine, add **--download** to let Hugging Face fetch BGE-M3. The vec
 
 ### Optional: use your Azure OpenAI embedding deployment
 
-The Azure adapter uses the deployment from the Azure portal and writes a separate 1,536-dimensional index, so Azure vectors never mix with the local 1,024-dimensional BGE-M3 index. The local `.env` is already initialized with your resource endpoint and deployment name. After regenerating the key you posted in chat, put the new key in **AZURE_OPENAI_API_KEY** in **D:\outreach\.env**; do not paste it into chat or commit it. Then run:
+The Azure adapter uses the deployment from the Azure portal and writes a separate 1,536-dimensional index, so Azure vectors never mix with the local 1,024-dimensional BGE-M3 index. The completed Azure index is included in the repository so a clone can reuse the document vectors without re-embedding the entire collection. Azure still needs a valid API key to embed each student's query. The local `.env` is initialized with the resource endpoint and deployment name. Keep the key in **AZURE_OPENAI_API_KEY** in **D:\outreach\.env**; do not paste it into chat or commit it. To rebuild after source changes, run:
 
     .\.venv-embeddings\Scripts\python.exe ingestion\run_pipeline.py --provider azure
 
