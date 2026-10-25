@@ -27,7 +27,6 @@ ACTIONS = {
     'related_faculty':'Related Faculty',
 }
 UNAVAILABLE = {
-    'timetable':'Verified timetables by year, section and sub-batch have not been added. I can’t provide class times or rooms yet.',
     'dates':'A verified academic calendar and exam schedule have not been added. I can’t confirm dates yet.',
     'rules':'A complete verified academic-rules catalogue has not been added. I can give course credits and semesters from the supplied curriculum.',
     'notes':'Official lecture notes have not been added. Books and NPTEL lectures are available through Find Resources, labelled as external study material.',

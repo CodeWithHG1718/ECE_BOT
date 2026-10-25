@@ -33,8 +33,17 @@ class LocalModelError(RuntimeError):
 def generation_request(text):
     return bool(re.search(
         r'\b(explain|explanation|compare|difference|roadmap|study plan|quiz|practice question)\b'
-        r'|\bwhat (?:is|are)\b|\bhow (?:does|do|can|should)\b'
+        r'|\bwhat (?:is|are|should)\b|\bhow (?:does|do|can|should)\b'
         r'|\b(?:simpler|simplify|example|chip design.*start|start.*chip design)\b',text,re.I))
+
+
+def casual_conversation_request(text):
+    """Route informal help-seeking language to the configured answer model."""
+    return bool(re.search(
+        r"\b(?:hey|hi|hello|yo|how are you|how's it going|what's up|good morning|good afternoon|"
+        r"good evening|i(?:'m| am| feel| have| want| need)|can you help(?: me)?|could you help|help me|"
+        r"please help|any advice|any tips|not sure|confused|struggling|what do you think|"
+        r"recommend me|tell me honestly)\b", text, re.I))
 
 
 class OllamaChat:
@@ -114,7 +123,8 @@ class OllamaChat:
                            'Do not add formulas, facts or prerequisites absent from that outline. Include the '
                            'syllabus record ID in source_ids. Leave book/lecture recommendations to the app.')
         elif mode=='general':
-            instructions+=('Give a useful ECE explanation, worked example, quiz or study plan as requested. '
+            instructions+=('Give a useful ECE explanation, worked example, quiz or study plan as requested; '
+                           'handle casual conversation naturally and briefly when that is what the user wants. '
                            'This is general educational guidance, not an official IIT Roorkee answer or '
                            'a quote from a textbook. Outline-only evidence identifies study resources, '
                            'not the full source of your explanation. Do not invent institute-specific facts. '
@@ -123,7 +133,8 @@ class OllamaChat:
                            'and resource list separately. For a calculation, check every output term and '
                            'show all steps needed to obtain the result. '
                            'Use [] for source_ids unless you actually discuss a supplied record. '
-                           'For unrelated non-educational requests, briefly redirect to ECE study help.')
+                           'For requests outside the assistant’s ECE study scope, briefly explain that scope and '
+                           'offer ECE study help without pretending to complete the unrelated task.')
         else:
             instructions+=('Summarize why the supplied records are useful for the question. Use ONLY '
                            'these records; include at least one of their IDs in source_ids. '

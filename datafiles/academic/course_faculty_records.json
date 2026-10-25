@@ -1,0 +1,18 @@
+[
+  {
+    "record_id": "e741b77a-8711-5c75-a2b4-f762357eecaf",
+    "course_code": "ECT-108",
+    "faculty_name": "Saurabh Khanna",
+    "faculty_id": "iitr-ece-100907",
+    "role": "Professor",
+    "provided_by": "project team",
+    "applicability": "user_supplied_unverified",
+    "evidence": {
+      "source_version_id": "cf02c2d7b5a6a97c2c642ff9341ab8a29842ad06e9c495fd5607a68ac8a0ce20",
+      "path": "datafiles/course_faculty_assignments.json",
+      "row": 1,
+      "locator": "$[0]",
+      "quote": "ECT-108 | Professor: Saurabh Khanna"
+    }
+  }
+]

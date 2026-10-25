@@ -49,7 +49,14 @@ def main():
           and not re.search(r'band.pass[^.]*require[^.]*non.uniform',a,re.I))
     check('Make it simpler',lambda a:'Syllabus study guide' in a and ('sampl' in a.lower() or 'quantiz' in a.lower())
           and not re.search(r'band.pass[^.]*require[^.]*non.uniform',a,re.I))
-    check('Show my timetable',lambda a:'not been added' in a,False)
+    check('Show my timetable',lambda a:'Which study year' in a,False)
+    check('Choose Year 2 for the timetable',lambda a:'25EC1' in a,False)
+    check('Choose section 25EC1',lambda a:'ECC-205' in a and 'OCR-extracted weekly entries' in a,False)
+    check('I am a 2nd year from ECE-3 batch; show my timetable',
+          lambda a:'Year 2 timetable' in a and '25EC3' in a and 'ECC-205' in a,False)
+    check('Who is the professor for ECT-108?',
+          lambda a:'Saurabh Khanna' in a and 'team-supplied' in a and 'not been independently verified' in a,False)
+    check("Hey, how's it going?",lambda a:bool(a.strip()))
     check('/projects VLSI',lambda a:'Related departmental project records' in a and 'not confirmed current openings' in a,False)
     chat=Conversation(assistant)
     check('only books about convolution',lambda a:'Study guidance' in a and 'Read' in a and 'Watch' not in a)

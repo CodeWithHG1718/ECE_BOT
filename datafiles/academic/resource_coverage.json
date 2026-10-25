@@ -913,5 +913,133 @@
     "books_with_contents": [],
     "nptel_courses": [],
     "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "TMI-102",
+    "title": "Tinkering and Mentoring*",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "TMI-103",
+    "title": "Basics of IP and Entrepreneurship*",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "IKS-102",
+    "title": "Indian Knowledge System",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "DAE-101",
+    "title": "Computer Architecture",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "MSC/DHC - I",
+    "title": "Minor Specialization Course - I / Departmental Honours Course - I",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECP-400A/ ECL",
+    "title": "BTP/Project/Internship/Entrepreneurship/PEC*",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECP400B/ECL",
+    "title": "BTP/Project/Internship/Entrepreneurship/PEC*",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-361",
+    "title": "Principles of Optical and Quantum Communication",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECL-362",
+    "title": "Electromagnetic Bio-sensing Devices and Techniques",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-515",
+    "title": "Information and Coding Theory",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-531",
+    "title": "Digital VLSI Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-533",
+    "title": "VLSI Technology",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-535",
+    "title": "Foundations of Semiconductor Device Physics",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECC-537",
+    "title": "Analog VLSI Circuit Design",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECO-101",
+    "title": "Industrial and Medical Applications of RF Energy",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
+  },
+  {
+    "curriculum_code": "ECO-102",
+    "title": "Fundamentals of Microelectronics",
+    "book_reference_count": 0,
+    "books_with_contents": [],
+    "nptel_courses": [],
+    "resource_status": "resource_not_collected"
   }
 ]

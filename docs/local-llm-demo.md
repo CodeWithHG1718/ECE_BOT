@@ -1,3 +1,7 @@
+# Historical transcript captured before timetable integration
+
+This transcript is retained as an earlier local-LLM run. Its “Show my timetable” response is outdated: the local chatbot now reads the supplied timetable with deterministic filters. See `embedding-evaluation.json` and `telegram-implementation.md` for current timetable behavior. Other generated answers remain examples, not correctness guarantees.
+
 # Actual local LLM walkthrough
 
 Local Qwen3 4B Instruct and BGE-M3. No Telegram or paid API calls.

@@ -11,12 +11,12 @@ This guide is the teammate handoff for the project as it stands. It distinguishe
 | Local chatbot | Implemented in **bot/local_chat.py**; course browsing and resource search run on the project computer. |
 | Embeddings and search | BAAI/bge-m3 is pinned and runs locally. Search combines dense vector similarity with BM25 keyword ranking and reciprocal-rank fusion. |
 | Vector index | A resumable SQLite index is included in the repository alongside its source chunks. |
-| Answer model | Qwen3 4B Instruct is optional and runs locally through Ollama. It is connected for explanations and study guidance; it is not a paid API. |
+| Answer model | Qwen3 4B Instruct runs locally through Ollama for explanations, study guidance and casual help-seeking chat. It is not a paid API. |
 | Academic catalogue | Structured course, syllabus, resource, faculty and department-project data is available, with citations and source metadata. |
 | Telegram adapter | Implemented in **bot/main.py**, but the project has not been connected to a BotFather token or run as a live bot. |
-| Timetable | 221 OCR-extracted Autumn 2026–27 entries and the four-year source PDF are present. Timetable lookup and sub-batch filtering are not yet implemented in the chat flow. |
+| Timetable | 221 OCR-extracted Autumn 2026–27 entries are available through deterministic year, day, course, timetable-batch and student-section lookup. OCR/source applicability still needs academic review. |
 | Website | The earlier website prototype was abandoned. It is excluded from this Telegram chatbot repository. |
-| GitHub | A local Git repository and initial commit exist on **main**. A GitHub remote has not yet been created because GitHub authentication needs to be refreshed. |
+| GitHub | The private **ECE_BOT** repository is connected as **origin**. This local update has not yet been committed or pushed. |
 
 The current product is a **local demonstration**, not a production student service. Telegram deployment, continuously available hosting, student accounts, and live timetable updates are future work.
 
@@ -40,7 +40,9 @@ Latest recorded catalogue build:
 | Dataset | Collected content |
 |---|---:|
 | Curriculum rows | 122 |
-| Curriculum course identities | 104 |
+| Combined PDF/workbook course-code identities | 120 |
+| User-supplied workbook rows / distinct codes | 127 / 111 |
+| User-supplied course instructor notes | 1 (ECT-108 / Saurabh Khanna; current offering unverified) |
 | Full syllabus course blocks | 39 |
 | Curriculum identities associated with syllabus content | 29 |
 | Faculty profiles from the linked department directory | 38 |
@@ -49,10 +51,10 @@ Latest recorded catalogue build:
 | Syllabus book recommendations | 194 |
 | Book contents | 100 chapter references from 8 selected books |
 | NPTEL outlines | 12 courses and 693 lecture references |
-| Embedding chunks | 2,094 |
+| Embedding chunks | 2,443 |
 | Timetable records | 221 rows across Years I–IV, Autumn 2026–27 |
 
-The academic dataset was last recorded as extracted on 11 October 2026. The timetable rows came from a separate four-page scanned PDF and were extracted with OCR. Treat those rows as **recurring weekly entries**, not dated class occurrences or verified student assignments. Some timetable rows lack a room, faculty member, or section, and OCR may misread codes or names. The data needs review and clear missing-value handling before the bot uses it.
+The academic dataset was last recorded as extracted on 11 October 2026. The supplied workbook is imported with sheet/cell evidence but has no stated effective cohort or publication date; its applicability still needs academic review. The timetable rows came from a separate four-page scanned PDF and were extracted with OCR. The chatbot now renders exact matching records as **recurring weekly entries**, not dated class occurrences or verified student assignments. Some timetable rows lack a room, faculty member, or section, and OCR may misread codes or names. Missing values stay explicit; section-specific answers are withheld if the source does not record a section.
 
 The timetable review notes 26 rows without faculty, 52 without a room, and 134 without student sections; the academic-data plan also flags 19 course-code strings for reconciliation. Missing values must remain unknown. In the timetable schema, a course-cell label such as “Batch 1” is separate from student cohort labels such as “26EC1”.
 
@@ -65,11 +67,11 @@ Important source limits:
 - Department-project entries are collected records, not proof that a project is currently active or accepting students.
 - The catalogue is an offline collection. General web search and automatic refresh are not connected.
 
-Original source snapshots, checksums, extracted records and coverage notes are in **datafiles/academic/**. The input PDFs are in **data/**. The OCR timetable export is in **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv**.
+Original source snapshots, checksums, extracted records and coverage notes are in **datafiles/academic/**. The course workbook is **datafiles/ECE_Course_Structure.xlsx**. The input PDFs are in **data/**. The OCR timetable export is in **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv**; normalized, source-backed records are in **datafiles/academic/timetable_records.json**.
 
 ## How the system fits together
 
-    Official curriculum/syllabus PDFs, department pages, publisher contents, NPTEL outlines
+    Curriculum/syllabus PDFs + supplied course workbook + timetable OCR + department/resource sources
                                     |
                                     v
     Source snapshots + checksums + extraction scripts + explicit course mappings
@@ -84,7 +86,7 @@ Original source snapshots, checksums, extracted records and coverage notes are i
     SQLite index + exact filters + dense similarity + BM25 keyword ranking
                                     |
                                     v
-    StudyAssistant renders exact catalogue facts and sourced resource links
+    Application renders exact catalogue facts, deterministic timetable results and sourced resource links
                                     |
                        optional local Qwen3 answer
                                     |
@@ -100,10 +102,14 @@ The current retriever uses BGE-M3 dense embeddings and BM25 keyword scores fused
 - **ingestion/** — source extraction, catalogue generation, BGE-M3 index build/search, evaluation scripts and package requirements.
 - **data/** — primary curriculum PDFs and the scanned timetable PDF.
 - **datafiles/academic/** — extracted academic catalogue, source manifests, source snapshots, embedding chunks, validation reports and SQLite vector index.
-- **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv** — OCR timetable output; not yet wired into the bot.
+- **datafiles/ECE_Course_Structure.xlsx** — supplied workbook; imported with sheet and cell evidence, pending academic applicability review.
+- **datafiles/course_faculty_assignments.json** — team-supplied course/professor note; the import and UI explicitly mark it unverified for a current offering.
+- **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv** — OCR timetable export. The bot uses normalized records from **datafiles/academic/timetable_records.json**.
+- **ingestion/import_course_workbook.py** and **ingestion/import_timetable.py** — source-aware workbook and timetable importers.
+- **bot/timetable.py** — exact timetable filtering and rendering; schedule answers bypass the LLM and semantic retrieval.
 - **docs/** — product roadmap, model and data design, prompts, validation reports, local setup and Telegram plan.
 - **Start-Signal.ps1** — Windows launcher for the local chatbot.
-- **.env.example** — template for a future Telegram token. A real **.env** file must stay private and is ignored by Git.
+- **.env.example** — placeholders for the Telegram token and optional Azure embedding configuration. A real **.env** file must stay private and is ignored by Git.
 
 The Python environment, downloaded model weights, local Ollama runtime, logs, site prototype and temporary extraction output are not included. The SQLite index is included to make a fresh clone usable without re-embedding the whole collection.
 
@@ -132,6 +138,20 @@ Install a PyTorch build that matches the computer. For NVIDIA CUDA, use the comm
 The repository includes the current SQLite index. This first command downloads the pinned BGE-M3 model into the ignored local **.cache** directory and checks or rebuilds the index using that model identity. With an unchanged source catalogue and matching dependencies, existing vectors are reused.
 
     .\.venv-embeddings\Scripts\python.exe ingestion/bge_embeddings.py build --download
+
+After changing collected files, mappings, chunking, or resource imports, use the full pipeline command instead. It rebuilds normalized source records, embeds every eligible chunk, creates the per-topic resource map, and checks source/index/map coverage:
+
+    .\.venv-embeddings\Scripts\python.exe ingestion/run_pipeline.py
+
+On a fresh machine, add **--download** to let Hugging Face fetch BGE-M3. The vector cache resumes interrupted work and reuses unchanged text. To refresh the saved book/NPTEL source snapshots, use **--reextract-resources**; **--reextract** also refreshes the saved curriculum and faculty extraction.
+
+### Optional: use your Azure OpenAI embedding deployment
+
+The Azure adapter uses the deployment from the Azure portal and writes a separate 1,536-dimensional index, so Azure vectors never mix with the local 1,024-dimensional BGE-M3 index. The local `.env` is already initialized with your resource endpoint and deployment name. After regenerating the key you posted in chat, put the new key in **AZURE_OPENAI_API_KEY** in **D:\outreach\.env**; do not paste it into chat or commit it. Then run:
+
+    .\.venv-embeddings\Scripts\python.exe ingestion\run_pipeline.py --provider azure
+
+Azure's `/openai/v1/embeddings` endpoint is used with the deployment name as the model field. The pipeline batches requests and retries temporary rate-limit/service errors. Azure usage is billed to your subscription; the deployment's TPM setting limits throughput, not spend. The chatbot selects the Azure index when **SIGNAL_EMBEDDING_PROVIDER=azure** is set in **.env**.
 
 The model is **BAAI/bge-m3**, pinned to the revision recorded in **ingestion/bge_embeddings.py**. Its model card lists the MIT licence, 1,024 output dimensions and an 8,192-token maximum sequence length: [BGE-M3 model card](https://huggingface.co/BAAI/bge-m3).
 
@@ -190,8 +210,10 @@ For the current scope, the sensible plan is to hold the ₹8,000 budget rather t
 - Seven-section menu and shared conversation flow for local chat and Telegram.
 - Course browsing grouped by year/semester and exact code/credit/semester lookup.
 - Syllabus topic selection, course filters and source-backed resource recommendations.
+- Per-course coverage map for each collected syllabus topic, with chapter/lecture candidates, syllabus reading-list references, and explicit missing-data statuses.
+- Syllabus book recommendations are returned when exact chapter contents are not available; the bot distinguishes bibliographic references from collected table-of-contents chapter matches.
 - Faculty research-interest retrieval and recorded department-project retrieval.
-- Local BGE-M3 embeddings, hybrid rank fusion, SQLite persistence, pinned model revision and resumable index building.
+- One-command source-to-chunks-to-BGE-index-to-topic-map pipeline, hybrid rank fusion, SQLite persistence, pinned model revision, resumable indexing and source-to-index checks.
 - Optional local Qwen3 answer model, bounded prompts/output, source-ID validation, local response cache and no paid-model fallback.
 - Windows launcher with optional warm-up and no-LLM mode.
 - Academic source snapshots, checksums, extracted JSON data, course mappings and retrieval/model demo reports.
@@ -199,13 +221,12 @@ For the current scope, the sensible plan is to hold the ₹8,000 budget rather t
 
 ### Next work, in order
 
-1. **Connect timetable data to the chatbot.** Build a structured timetable lookup using the OCR records and source PDF. Preserve academic term, year, weekday, start/end time, session type, course, room, faculty, timetable batch, and student section/sub-batch as separate fields. “Batch 1” in a course cell and student cohort labels such as “26EC1” must not be conflated. Ask the student for year/section/sub-batch when required. Render exact schedule rows from data, not from an LLM answer.
-2. **Review timetable OCR.** Compare every year page with the original PDF, correct OCR errors, keep unknown rooms/faculty/groups unknown, attach source page/cell evidence and term, and resolve the unmatched course-code queue. Do not imply a row applies to a student when its section is missing.
-3. **Add timetable tests and local dialogue checks.** Cover each year, all weekdays, course lookup, student group filtering, missing group clarification, overlapping entries, absent room/faculty, term scoping, and no fabricated records. Verify that **/timetable** and natural-language timetable requests bypass semantic search.
-4. **Run and extend chatbot evaluation.** Ask ECE students/teammates to prepare 20–30 representative questions and the expected source/course. Measure retrieval hit@5, incorrect recommendations, correct abstention, answer grounding, citation validity and latency. Include code mismatches, abbreviations, indirect descriptions, ambiguous year/group questions and out-of-scope questions.
-5. **Connect Telegram after the local flow is accepted.** Create the bot with [@BotFather](https://t.me/BotFather), put **TELEGRAM_BOT_TOKEN=...** in a local **.env**, and run the adapter. Never paste the token into chat or commit it. Test in a private conversation with **/start**, menu buttons, courses, search, **/clear**, long responses, invalid input and simultaneous users.
-6. **Rehearse locally before the professor presentation.** Warm up models before the first question; check the Wi-Fi and laptop power settings; keep the no-LLM path available; prepare a short sample conversation and a screenshot/recording in case the network or local model is slow.
-7. **Decide on 24/7 hosting only if the scope changes.** Benchmark memory, cold-start time, request concurrency and monthly uptime first. Select a provider only after those measurements; keep the local demo as a fallback.
+1. **Review timetable OCR and workbook applicability.** Compare each timetable year page with the source PDF and each workbook row with its owner/academic source. Correct OCR errors, keep unknown rooms/faculty/groups unknown, preserve sheet/page evidence, and establish which cohort and term these files apply to. Do not imply a timetable row applies to a student when its section is missing.
+2. **Extend timetable acceptance coverage.** The exact lookup, multi-turn year/section flow and key no-fabrication cases are implemented and tested. Add reviewed examples for every weekday, overlaps, missing room/faculty, term scoping and source-corrected OCR. Keep timetable answers out of semantic/LLM generation.
+3. **Run and extend chatbot evaluation.** Ask ECE students/teammates to prepare 20–30 representative questions and expected source/course. Measure resource, course and timetable retrieval separately, along with incorrect recommendations, correct abstention, citation validity and latency. Include code mismatches, abbreviations, indirect descriptions and out-of-scope questions.
+4. **Connect Telegram after the local flow is accepted.** Create the bot with [@BotFather](https://t.me/BotFather), put **TELEGRAM_BOT_TOKEN=...** in a local **.env**, and run the adapter. Never paste the token into chat or commit it. Test in a private conversation with **/start**, menu buttons, courses, search, **/clear**, long responses, invalid input and simultaneous users.
+5. **Rehearse locally before the professor presentation.** Warm up models before the first question; check the Wi-Fi and laptop power settings; keep the no-LLM path available; prepare a short sample conversation and a screenshot/recording in case the network or local model is slow.
+6. **Decide on 24/7 hosting only if the scope changes.** Benchmark memory, cold-start time, request concurrency and monthly uptime first. Select a provider only after those measurements; keep the local demo as a fallback.
 
 ### Later improvements
 
@@ -238,7 +259,7 @@ This loads the local BGE model, searches the indexed data, and writes the detail
 
     .\.venv-embeddings\Scripts\python.exe ingestion/evaluate_embeddings.py
 
-The latest recorded sample found the expected chapter at rank 1 for 21 of 22 positive queries (15 of 16 held-out queries) and abstained for all 7 unrelated queries. This small developer-authored set is not a general benchmark. One indirect digital-logic phrase missed the book chapter cutoff, although the chatbot returned a relevant lecture. Re-evaluate after changing mappings, chunking, embedding provider or threshold.
+The latest real-model report records book/lecture checks plus course and timetable retrieval cases separately. It is a small developer-authored smoke set, not a general benchmark; inspect **docs/embedding-evaluation.json** for the current ranks and results. Re-evaluate after changing source mappings, chunking, embedding provider or threshold.
 
 ### Local model and conversation smoke check
 
@@ -246,7 +267,7 @@ With Ollama running and **qwen3:4b-instruct** installed:
 
     .\.venv-embeddings\Scripts\python.exe -m bot.validate_local_llm
 
-The recorded run passed 10 of 10 functional checks, including course browsing, a generated explanation, a unit question, a follow-up, timetable-unavailable handling, project search and answer-cache reuse. This checks application behaviour, not the correctness of every generated educational claim. Review generated ECE answers against course sources.
+The recorded local-LLM run predates the new workbook and timetable flow. Re-run it after the timetable/navigation changes if Ollama is available. It checks application behaviour, not the correctness of every generated educational claim. Review generated ECE answers against course sources.
 
 ### Manual acceptance flow
 
@@ -257,7 +278,8 @@ The recorded run passed 10 of 10 functional checks, including course browsing, a
 5. Ask for VLSI faculty or projects and confirm they are described as research/recorded projects, not current teaching/openings.
 6. Ask an unrelated question, such as a recipe, and confirm the bot abstains.
 7. Use **/clear**, then ask a new topic and make sure old course context is gone.
-8. Ask for a timetable. Until timetable integration is complete, the correct response is the explicit “not connected” message; the bot must not invent a time or room.
+8. Ask for `/timetable`, choose a year, then a recorded student section when prompted. Verify exact rows, source-missing values, and that course-cell batches are not treated as student sub-batches. Year IV has no student-section mapping in this OCR source, so the response must say it cannot personalize those entries.
+9. Ask “I’m a second-year student from ECE-3 batch; show my timetable” and confirm it resolves to section **25EC3** from the selected year. Ask “Who is the professor for ECT-108?” and check that the answer labels the name as team-supplied and unverified for the current offering.
 
 For each change, re-run the relevant automated checks and the affected manual cases. Before a student pilot or public release, have an ECE instructor review the timetable, mappings, citations and generated-answer examples.
 
@@ -276,12 +298,12 @@ The BGE-M3 model card lists an MIT licence, and the selected Qwen model page lis
 
 ## GitHub handoff
 
-The current checkout has a local **main** branch and initial commit. It has not been pushed because the saved GitHub CLI credential is invalid and no remote is configured. After authenticating with GitHub, create a private repository and push:
+The checkout points to the private **ECE_BOT** repository through **origin**. Changes in the current working tree are local and unpushed. Once they are reviewed and committed, push the intended branch with:
 
     gh auth login -h github.com
-    gh repo create ECE_BOT --private --source . --remote origin --push
+    git push origin main
 
-If a teammate has already created the private repository, add its actual remote URL and push **main** instead. Keep the repository private until the academic source files have been reviewed for redistribution rights.
+Keep the repository private until the academic source files have been reviewed for redistribution rights.
 
 ## Project documents
 

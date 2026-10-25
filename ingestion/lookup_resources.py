@@ -4,7 +4,10 @@ import json
 import math
 import re
 from collections import Counter
-from extract_academic import OUT
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT/'datafiles/academic'
 
 STOP=set('a an the to of in for and or is are i my me we do does what where should can study learn about please how'.split())
 def tokens(text): return [t for t in re.findall(r'[a-z0-9]+',text.lower()) if t not in STOP]

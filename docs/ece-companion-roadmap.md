@@ -8,7 +8,7 @@ The user's full brief is preserved in `ece-companion-vision.txt`. This is a Tele
 - Shared conversation state for both transports: academic year, study year, selected course and recent topic.
 - Complete semester-grouped course lists with codes; syllabus topic selection; direct resource queries; faculty discovery; departmental project discovery using the existing indexed records.
 - DSP shortcut and course-to-related-faculty follow-up. Research matches do not imply teaching assignments or supervision openings.
-- Missing-data responses for timetable, notes, PYQs, notices, events, facilities and policies. These are navigation destinations, not completed data integrations.
+- Deterministic timetable lookup for the 221 supplied recurring OCR rows, including year/day/course/section filters. Missing sections, rooms and faculty remain explicitly unknown. Notes, PYQs, notices, events, facilities and policies remain navigation destinations without connected data.
 - Grounded IIT Roorkee prompt templates with separate requested academic year, source dates and course identity. No claim that a 2026 query proves a source is applicable in 2026.
 - Commands: `/start`, `/menu`, `/help`, `/courses`, `/course`, `/faculty`, `/projects`, `/resources`, `/search`, `/timetable`, `/notices`, `/clear`. `/search` currently routes supported course, resource, faculty and project requests; universal ranked search across all seven sections is not complete.
 
@@ -26,7 +26,7 @@ Use `answer`, `source_links`, `last_verified`, `actions`, and `confidence_or_lim
 
 ## Later data and feature work
 
-1. Add official timetable records by year, section and sub-batch; calendar/exam records; notes/PYQs/lab manuals with provenance and permissions.
+1. Review the supplied workbook's cohort/term applicability and verify timetable OCR rows, student sections and source corrections; then add academic calendar/exam records and notes/PYQs/lab manuals with provenance and permissions.
 2. Add verified lab/contact/facilities/policy records and current notices/events with refresh timestamps and expiry handling.
 3. Build cross-catalogue answers and universal search; add project/faculty explanations, structured plans and supported educational exercises.
 4. Implement reminders only with explicit student approval and durable scheduling. No reminders are scheduled by the current menu.

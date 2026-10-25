@@ -25,7 +25,7 @@ Qwen3 4B Instruct is connected locally through Ollama for explanations and resou
 - `/faculty VLSI`: official research-profile links; does not assert supervision availability.
 - `/projects VLSI`: matching recorded departmental projects; does not assert current openings.
 - `/resources`, `/search`: prompt for a topic; arguments and direct questions are supported. Search currently covers the supported catalogue types, not all planned data sources.
-- `/timetable`, `/notices`: explain that these data sources are not connected yet.
+- `/timetable`: browse the supplied OCR-extracted recurring timetable by year, then student section when the source contains it. Timetable batch labels remain separate from student sections; no LLM or vector search supplies schedule facts. `/notices` explains that the current official notices feed is not connected.
 - `/clear`: clear the course filter.
 - Plain text: “show me courses of 2nd year”, then a course name/code, then a topic number/name. Direct topic questions or `/ask convolution` retrieve book chapters and NPTEL lectures.
 

@@ -11,20 +11,25 @@ import hashlib
 import importlib.metadata
 import json
 import math
+import os
 from pathlib import Path
 import re
 import sqlite3
 import struct
+import time
 import urllib.error
 import urllib.request
+from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'datafiles/academic/embedding_chunks.jsonl'
 INDEX = ROOT / 'datafiles/academic/vectors/bge-m3.sqlite3'
+AZURE_INDEX = ROOT / 'datafiles/academic/vectors/azure-text-embedding-3-small.sqlite3'
 MODEL = 'bge-m3:567m'
 HF_MODEL = 'BAAI/bge-m3'
 HF_REVISION = '5617a9f61b028005a4858fdac845db406aefb181'
 DIMENSIONS = 1024
+AZURE_DIMENSIONS = 1536
 CONTEXT = 8192
 STOP = set('a an the to of in for and or is are i my me we do does what where should can study learn about please how which who find give help want books book lectures lecture resources resource chapter chapters read covers cover'.split())
 
@@ -33,17 +38,50 @@ def digest(value):
     return hashlib.sha256(value).hexdigest()
 
 
-def packed(vector):
-    if len(vector) != DIMENSIONS or not all(math.isfinite(x) for x in vector):
-        raise ValueError('Embedding must have 1024 finite dimensions')
+def packed(vector, dimensions=DIMENSIONS):
+    if len(vector) != dimensions or not all(math.isfinite(x) for x in vector):
+        raise ValueError(f'Embedding must have {dimensions} finite dimensions')
     norm = math.sqrt(sum(x*x for x in vector))
     if norm <= 0:
         raise ValueError('Zero embedding returned')
-    return struct.pack(f'<{DIMENSIONS}f', *(x/norm for x in vector))
+    return struct.pack(f'<{dimensions}f', *(x/norm for x in vector))
 
 
-def unpacked(blob):
-    return struct.unpack(f'<{DIMENSIONS}f', blob)
+def unpacked(blob, dimensions=DIMENSIONS):
+    if len(blob)!=dimensions*4:
+        raise ValueError(f'Embedding vector must contain {dimensions} float32 values')
+    return struct.unpack(f'<{dimensions}f', blob)
+
+
+def load_environment():
+    """Load ignored local .env values without overriding process environment."""
+    path=ROOT/'.env'
+    if not path.exists(): return
+    for line in path.read_text(encoding='utf-8-sig').splitlines():
+        value=line.strip()
+        if not value or value.startswith('#'): continue
+        if value.lower().startswith('export '): value=value[7:].lstrip()
+        name,separator,content=value.partition('=')
+        if not separator or not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*',name.strip()): continue
+        content=content.strip()
+        if len(content)>=2 and content[0]==content[-1] and content[0] in ('"',"'"):
+            content=content[1:-1]
+        os.environ.setdefault(name.strip(),content)
+
+
+def index_for_provider(provider):
+    if provider=='azure': return AZURE_INDEX
+    if provider in ('huggingface','ollama'): return INDEX
+    raise ValueError('Choose the huggingface, ollama or azure embedding provider.')
+
+
+def configured_embedder(provider=None, download=False):
+    load_environment()
+    selected=(provider or os.getenv('SIGNAL_EMBEDDING_PROVIDER','huggingface')).strip().lower()
+    if selected=='azure': return AzureOpenAIEmbedder()
+    if selected=='ollama': return OllamaEmbedder()
+    if selected=='huggingface': return HuggingFaceEmbedder(offline=not download)
+    raise ValueError('SIGNAL_EMBEDDING_PROVIDER must be huggingface, ollama or azure.')
 
 
 class OllamaEmbedder:
@@ -114,6 +152,77 @@ class HuggingFaceEmbedder:
         return [packed(vector.tolist()) for vector in vectors]
 
 
+class AzureOpenAIEmbedder:
+    """Azure OpenAI text-embedding-3-small via the Azure OpenAI v1 endpoint."""
+    def __init__(self, endpoint=None, api_key=None, deployment=None, timeout=90):
+        load_environment()
+        self.endpoint=(endpoint or os.getenv('AZURE_OPENAI_ENDPOINT','')).strip()
+        self.api_key=(api_key or os.getenv('AZURE_OPENAI_API_KEY','')).strip()
+        self.deployment=(deployment or os.getenv('AZURE_OPENAI_EMBEDDING_DEPLOYMENT','')).strip()
+        missing=[name for name,value in (
+            ('AZURE_OPENAI_ENDPOINT',self.endpoint),
+            ('AZURE_OPENAI_API_KEY',self.api_key),
+            ('AZURE_OPENAI_EMBEDDING_DEPLOYMENT',self.deployment)) if not value]
+        if missing:
+            raise RuntimeError('Add '+', '.join(missing)+' to the project .env file. Keep the API key out of chat and source files.')
+        parsed=urlsplit(self.endpoint)
+        if (parsed.scheme!='https' or not parsed.hostname or parsed.username or parsed.password
+                or parsed.query or parsed.fragment or parsed.port):
+            raise ValueError('AZURE_OPENAI_ENDPOINT must be the HTTPS Azure resource endpoint.')
+        path=parsed.path.rstrip('/')
+        if path not in ('','/openai/v1'):
+            raise ValueError('AZURE_OPENAI_ENDPOINT must be the resource root, optionally ending in /openai/v1.')
+        self.url=urlunsplit((parsed.scheme,parsed.netloc,'/openai/v1/embeddings','',''))
+        self.timeout=timeout
+        self.total_input_tokens=0
+        self.request_count=0
+
+    def identity(self):
+        return {'provider':'azure','model':'text-embedding-3-small',
+            'deployment':self.deployment,'model_version':'1','api_version':'v1',
+            'dimensions':AZURE_DIMENSIONS,'context':CONTEXT,'normalization':'l2',
+            'prompt':'none','truncate':False,'storage':'float32-le',
+            'pipeline_version':1}
+
+    def encode(self, texts):
+        if not isinstance(texts,(list,tuple)) or not texts:
+            raise ValueError('Azure embedding input must be a non-empty list of texts.')
+        if len(texts)>2048:
+            raise ValueError('Azure allows at most 2,048 text inputs in one embedding request.')
+        payload=json.dumps({'model':self.deployment,'input':list(texts),
+                            'encoding_format':'float'},ensure_ascii=False).encode('utf-8')
+        request=urllib.request.Request(self.url,data=payload,headers={
+            'Content-Type':'application/json','api-key':self.api_key},method='POST')
+        for attempt in range(5):
+            try:
+                with urllib.request.urlopen(request,timeout=self.timeout) as response:
+                    result=json.load(response)
+                break
+            except urllib.error.HTTPError as exc:
+                body=exc.read().decode('utf-8','replace')[:1000].replace(self.api_key,'[redacted]')
+                if exc.code in (429,500,502,503,504) and attempt<4:
+                    try: delay=min(30.0,max(1.0,float(exc.headers.get('Retry-After',''))))
+                    except (ValueError,TypeError): delay=min(2**attempt,16)
+                    time.sleep(delay)
+                    continue
+                raise RuntimeError(f'Azure embeddings request failed (HTTP {exc.code}): {body}') from None
+            except urllib.error.URLError as exc:
+                raise RuntimeError('Could not reach the Azure OpenAI embedding endpoint; check the endpoint and network.') from exc
+        else:
+            raise RuntimeError('Azure embeddings request exhausted retries.')
+        try:
+            rows=sorted(result['data'],key=lambda row:row['index'])
+            vectors=[row['embedding'] for row in rows]
+        except (KeyError,TypeError) as exc:
+            raise ValueError('Azure returned an invalid embeddings response.') from exc
+        if len(vectors)!=len(texts):
+            raise ValueError('Azure returned a different number of vectors than input texts.')
+        usage=result.get('usage',{})
+        self.total_input_tokens+=int(usage.get('prompt_tokens',usage.get('total_tokens',0)) or 0)
+        self.request_count+=1
+        return [packed(vector,AZURE_DIMENSIONS) for vector in vectors]
+
+
 def read_chunks(source):
     chunks = [json.loads(line) for line in source.read_text(encoding='utf-8').splitlines() if line.strip()]
     ids = set()
@@ -141,13 +250,16 @@ def open_store(path):
     return db
 
 
-def build(source=SOURCE, index=INDEX, batch_size=8, embedder=None):
+def build(source=SOURCE, index=None, batch_size=None, embedder=None):
+    embedder=embedder or configured_embedder()
+    identity=embedder.identity()
+    index=index or index_for_provider(identity['provider'])
+    if batch_size is None: batch_size=64 if identity['provider']=='azure' else 8
     if batch_size < 1 or batch_size > 64:
         raise ValueError('Batch size must be between 1 and 64')
     chunks = read_chunks(source)
     source_hash = digest(source.read_bytes())
-    embedder = embedder or HuggingFaceEmbedder()
-    identity = embedder.identity()
+    dimensions=identity['dimensions']
     identity_key = json.dumps(identity, sort_keys=True)
     keys = [digest((identity_key + '\n' + row['text']).encode()) for row in chunks]
     db = open_store(index)
@@ -162,7 +274,7 @@ def build(source=SOURCE, index=INDEX, batch_size=8, embedder=None):
             if len(vectors) != len(batch):
                 raise ValueError('Incomplete embedding batch')
             for vector in vectors:
-                packed(unpacked(vector))  # Validate even a replacement provider.
+                packed(unpacked(vector,dimensions),dimensions)  # Validate even a replacement provider.
             with db:
                 db.executemany('INSERT OR REPLACE INTO cache VALUES (?,?)', zip(batch, vectors))
             print(f'Embedded {min(start+batch_size,len(pending))}/{len(pending)} new texts', flush=True)
@@ -195,15 +307,18 @@ def tokens(text):
 
 
 class Retriever:
-    def __init__(self, index=INDEX, source=SOURCE, embedder=None):
+    def __init__(self, index=None, source=SOURCE, embedder=None):
+        load_environment()
+        self.embedder=embedder or configured_embedder()
+        index=index or index_for_provider(self.embedder.identity()['provider'])
         if not index.exists():
             raise RuntimeError('Build the embedding index first')
-        self.embedder = embedder or HuggingFaceEmbedder()
         with closing(sqlite3.connect(f'{index.resolve().as_uri()}?mode=ro', uri=True)) as db:
             manifest = db.execute('SELECT value FROM manifest WHERE id=1').fetchone()
             if not manifest:
                 raise RuntimeError('Index has not finished building')
             self.manifest = json.loads(manifest[0])
+            self.dimensions=self.manifest['embedding']['dimensions']
             records = list(db.execute('SELECT * FROM documents ORDER BY id'))
             self.rows = [{'chunk_id': rid, 'text': text, 'metadata': json.loads(meta),
                           'index': i, 'terms': Counter(tokens(text))}
@@ -211,10 +326,10 @@ class Retriever:
         try:
             import numpy as np
             self.np = np
-            self.matrix = np.frombuffer(b''.join(r[3] for r in records),dtype='<f4').reshape(-1,DIMENSIONS)
+            self.matrix = np.frombuffer(b''.join(r[3] for r in records),dtype='<f4').reshape(-1,self.dimensions)
         except ImportError:
             self.np = None
-            self.matrix = [unpacked(r[3]) for r in records]
+            self.matrix = [unpacked(r[3],self.dimensions) for r in records]
         self.query_cache = OrderedDict()
         self.pool_cache = OrderedDict()
         if self.manifest['source_sha256'] != digest(source.read_bytes()):
@@ -246,7 +361,7 @@ class Retriever:
             return []
         query_key = query.strip()
         if query_key not in self.query_cache:
-            self.query_cache[query_key] = unpacked(self.embedder.encode([query_key])[0])
+            self.query_cache[query_key] = unpacked(self.embedder.encode([query_key])[0],self.dimensions)
             if len(self.query_cache)>128: self.query_cache.popitem(last=False)
         self.query_cache.move_to_end(query_key)
         qvec = self.query_cache[query_key]
@@ -288,21 +403,23 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     builder = sub.add_parser('build')
-    builder.add_argument('--batch-size', type=int, default=8)
+    builder.add_argument('--batch-size', type=int)
     builder.add_argument('--download', action='store_true', help='Allow initial Hugging Face download')
-    builder.add_argument('--provider', choices=['huggingface','ollama'], default='huggingface')
+    builder.add_argument('--provider', choices=['huggingface','ollama','azure'])
     query = sub.add_parser('search')
     query.add_argument('query'); query.add_argument('--course')
     query.add_argument('--type', action='append', dest='types')
     query.add_argument('--limit', type=int, default=6)
-    query.add_argument('--provider', choices=['huggingface','ollama'], default='huggingface')
+    query.add_argument('--provider', choices=['huggingface','ollama','azure'])
     args = parser.parse_args()
+    load_environment()
+    embedder=configured_embedder(args.provider,getattr(args,'download',False))
+    index=index_for_provider(embedder.identity()['provider'])
     if args.command == 'build':
-        embedder = OllamaEmbedder() if args.provider=='ollama' else HuggingFaceEmbedder(offline=not args.download)
-        build(batch_size=args.batch_size, embedder=embedder)
+        build(index=index,batch_size=args.batch_size,embedder=embedder)
     else:
-        embedder = OllamaEmbedder() if args.provider=='ollama' else HuggingFaceEmbedder()
-        print(json.dumps(Retriever(embedder=embedder).search(args.query, args.course, args.types, args.limit), ensure_ascii=False, indent=2))
+        print(json.dumps(Retriever(index=index,embedder=embedder).search(
+            args.query,args.course,args.types,args.limit),ensure_ascii=False,indent=2))
 
 
 if __name__ == '__main__':

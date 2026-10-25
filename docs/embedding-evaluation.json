@@ -1,5 +1,5 @@
 {
-  "scope": "Developer-authored source checks: 6 development, 16 held-out chapter queries, and 7 unrelated queries. Not a benchmark or guarantee.",
+  "scope": "Developer-authored smoke set: 6 development and 16 held-out chapter queries, course/timetable/faculty examples, plus 7 unrelated queries. Not a benchmark or guarantee.",
   "model": {
     "provider": "huggingface",
     "model": "BAAI/bge-m3",
@@ -18,9 +18,12 @@
   "positive_hit_at_5": 0.9545454545454546,
   "positive_hit_at_2": 0.9545454545454546,
   "holdout_hit_at_5": 0.9375,
+  "course_search_hit_at_5": 1.0,
+  "timetable_search_hit_at_5": 1.0,
+  "course_faculty_hit_at_5": 1.0,
   "negative_abstentions": 7,
   "negative_count": 7,
-  "repeat_query_seconds": 0.0035,
+  "repeat_query_seconds": 0.0033,
   "checks": [
     {
       "split": "development",
@@ -29,7 +32,7 @@
       "expected": "oppenheim-signals-2:chapter:2",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.213,
+      "seconds": 0.272,
       "results": [
         {
           "id": "oppenheim-signals-2:chapter:2",
@@ -85,7 +88,7 @@
       "expected": "oppenheim-signals-2:chapter:3",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.022,
       "results": [
         {
           "id": "oppenheim-signals-2:chapter:3",
@@ -141,7 +144,7 @@
       "expected": "oppenheim-signals-2:chapter:9",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.021,
       "results": [
         {
           "id": "oppenheim-signals-2:chapter:9",
@@ -197,7 +200,7 @@
       "expected": "pozar-microwave-3:chapter:2",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.02,
       "results": [
         {
           "id": "pozar-microwave-3:chapter:2",
@@ -253,7 +256,7 @@
       "expected": "pozar-microwave-3:chapter:5",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.019,
       "results": [
         {
           "id": "pozar-microwave-3:chapter:5",
@@ -309,7 +312,7 @@
       "expected": "pozar-microwave-3:chapter:8",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.02,
       "results": [
         {
           "id": "pozar-microwave-3:chapter:8",
@@ -365,7 +368,7 @@
       "expected": "mano-digital-6:chapter:2",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.017,
+      "seconds": 0.016,
       "results": [
         {
           "id": "mano-digital-6:chapter:2",
@@ -421,7 +424,7 @@
       "expected": "mano-digital-6:chapter:6",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.018,
       "results": [
         {
           "id": "mano-digital-6:chapter:6",
@@ -459,7 +462,7 @@
       "expected": "mano-digital-6:chapter:4",
       "expected_rank": null,
       "passed": false,
-      "seconds": 0.015,
+      "seconds": 0.014,
       "results": []
     },
     {
@@ -469,7 +472,7 @@
       "expected": "razavi-fundamentals-2:chapter:3",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.017,
       "results": [
         {
           "id": "razavi-fundamentals-2:chapter:3",
@@ -525,7 +528,7 @@
       "expected": "razavi-fundamentals-2:chapter:6",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.014,
       "results": [
         {
           "id": "razavi-fundamentals-2:chapter:6",
@@ -581,7 +584,7 @@
       "expected": "razavi-fundamentals-2:chapter:8",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.017,
       "results": [
         {
           "id": "razavi-fundamentals-2:chapter:8",
@@ -637,7 +640,7 @@
       "expected": "razavi-fundamentals-2:chapter:10",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.021,
       "results": [
         {
           "id": "razavi-fundamentals-2:chapter:10",
@@ -693,7 +696,7 @@
       "expected": "balanis-antennas-3:chapter:6",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.021,
       "results": [
         {
           "id": "balanis-antennas-3:chapter:6",
@@ -749,7 +752,7 @@
       "expected": "balanis-antennas-3:chapter:14",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.022,
       "results": [
         {
           "id": "balanis-antennas-3:chapter:14",
@@ -805,7 +808,7 @@
       "expected": "haykin-intro-communications-2:chapter:3",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.017,
+      "seconds": 0.022,
       "results": [
         {
           "id": "haykin-intro-communications-2:chapter:3",
@@ -861,7 +864,7 @@
       "expected": "haykin-intro-communications-2:chapter:8",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.018,
       "results": [
         {
           "id": "haykin-intro-communications-2:chapter:8",
@@ -917,7 +920,7 @@
       "expected": "haykin-digital-communications-1:chapter:10",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.022,
       "results": [
         {
           "id": "haykin-digital-communications-1:chapter:10",
@@ -973,7 +976,7 @@
       "expected": "haykin-digital-communications-1:chapter:5",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.018,
       "results": [
         {
           "id": "haykin-digital-communications-1:chapter:5",
@@ -1029,7 +1032,7 @@
       "expected": "oppenheim-dsp-3:chapter:4",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.077,
+      "seconds": 0.021,
       "results": [
         {
           "id": "oppenheim-dsp-3:chapter:4",
@@ -1085,7 +1088,7 @@
       "expected": "oppenheim-dsp-3:chapter:9",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.015,
+      "seconds": 0.016,
       "results": [
         {
           "id": "oppenheim-dsp-3:chapter:9",
@@ -1141,7 +1144,7 @@
       "expected": "oppenheim-dsp-3:chapter:7",
       "expected_rank": 1,
       "passed": true,
-      "seconds": 0.016,
+      "seconds": 0.026,
       "results": [
         {
           "id": "oppenheim-dsp-3:chapter:7",
@@ -1186,6 +1189,190 @@
             "dense": 0.46636,
             "lexical": 0,
             "rrf": 0.015385
+          }
+        }
+      ]
+    }
+  ],
+  "course_checks": [
+    {
+      "query": "Which elective covers adaptive signal processing?",
+      "expected_code": "ECL-614",
+      "expected_rank": 2,
+      "passed": true,
+      "results": [
+        {
+          "code": null,
+          "text": "ECL-614 Adaptive Signal Processing Techniques\nCurriculum course: ECL-614 — Adaptive Signal Processing Techniques. Entry type: program_elective_option. Credits as printed: 4. Contact hours as printed: {'L': '3', 'T': '1', 'P': '0'}.",
+          "scores": {
+            "dense": 0.576006,
+            "lexical": 14.237878,
+            "rrf": 0.032266
+          }
+        },
+        {
+          "code": "ECL-614",
+          "text": "ECL-614 Adaptive Signal Processing Techniques\nCourse ECL-614: Adaptive Signal Processing Techniques. Category: program elective. Subject area: PEC. Credits as printed: 4. Contact hours as printed: L: 3, T: 1, P: 0. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.615715,
+            "lexical": 13.192907,
+            "rrf": 0.032018
+          }
+        },
+        {
+          "code": "ECL-614",
+          "text": "ECL-614 Adaptive Signal Processing Techniques\nCourse ECL-614: Adaptive Signal Processing Techniques. Category: departmental honours. Credits as printed: 4. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.587182,
+            "lexical": 13.750962,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "code": null,
+          "text": "ECL-614 Adaptive Signal Processing Techniques\nCurriculum course: ECL-614 — Adaptive Signal Processing Techniques. Entry type: honours_option. Credits as printed: 4. Contact hours as printed: {}.",
+          "scores": {
+            "dense": 0.561108,
+            "lexical": 14.199727,
+            "rrf": 0.031754
+          }
+        },
+        {
+          "code": "ECL-550",
+          "text": "ECL-550 Radar Signal Processing\nCourse ECL-550: Radar Signal Processing. Category: program elective. Subject area: PEC. Credits as printed: 4. Contact hours as printed: L: 3, T: 1, P: 0. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.508299,
+            "lexical": 7.994433,
+            "rrf": 0.03009
+          }
+        }
+      ]
+    },
+    {
+      "query": "Which course teaches network theory?",
+      "expected_code": "ECC-205",
+      "expected_rank": 1,
+      "passed": true,
+      "results": [
+        {
+          "code": "ECC-205",
+          "text": "ECC-205 Network Theory\nCourse ECC-205: Network Theory. Category: curriculum course. Study year 2. Semester 3 (Autumn). Subject area: PCC. Credits as printed: 2. Contact hours as printed: L: 2, T: 0, P: 0. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.623152,
+            "lexical": 9.726714,
+            "rrf": 0.032522
+          }
+        },
+        {
+          "code": null,
+          "text": "ECC-205 Network Theory\nCurriculum course: ECC-205 — Network Theory. Entry type: course. Year 2, semester 3 (Autumn). Credits as printed: 2. Contact hours as printed: {'L': '2', 'T': '0', 'P': '0'}.",
+          "scores": {
+            "dense": 0.594848,
+            "lexical": 10.634125,
+            "rrf": 0.032522
+          }
+        },
+        {
+          "code": "ECT-104",
+          "text": "ECT-104 Communication Networks\nCourse ECT-104: Communication Networks. Category: talent enhancement elective. Group: CNSP-1 (TEB-B). Subject area: TEB. Credits as printed: 2. Contact hours as printed: L: 0, T: 0, P: 4. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.544352,
+            "lexical": 5.245072,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "code": null,
+          "text": "ECT-104 Communication Networks\nCurriculum course: ECT-104 — Communication Networks. Entry type: talent_enhancement_option. Group: CNSP-1 (TEB-B). Credits as printed: 2. Contact hours as printed: {'L': '0', 'T': '0', 'P': '4'}.",
+          "scores": {
+            "dense": 0.513853,
+            "lexical": 5.686213,
+            "rrf": 0.031498
+          }
+        },
+        {
+          "code": "ECL-360",
+          "text": "ECL-360 Introduction to Information and Communication Theory\nCourse ECL-360: Introduction to Information and Communication Theory. Category: program elective. Subject area: PEC. Credits as printed: 3. Contact hours as printed: L: 3, T: 0, P: 0. This is user-supplied course information; effective cohort and current availability are unverified.",
+          "scores": {
+            "dense": 0.499438,
+            "lexical": 4.478411,
+            "rrf": 0.02967
+          }
+        }
+      ]
+    }
+  ],
+  "timetable_checks": [
+    {
+      "query": "What class is scheduled for Network Theory in the second year?",
+      "expected_code": "ECC-205",
+      "expected_rank": 1,
+      "passed": true,
+      "results": [
+        {
+          "code": "ECC-205",
+          "text": "Year 2 timetable ECC-205 Tuesday\nRecurring ECE timetable entry for study year 2, 2026-27 Autumn, Tuesday 11:05–12:00. Lecture for ECC-205. Course title: Network Theory. Timetable batch label: 1. Student sections: 25EC1, 25EC2, 25EC3, 25EC4. Room: AKB-205. Faculty: Saravana Kumar M. OCR-extracted recurring weekly data; cohort applicability and changes are unverified.",
+          "scores": {
+            "dense": 0.684001,
+            "lexical": 7.452354,
+            "rrf": 0.032522
+          }
+        },
+        {
+          "code": "ECC-205",
+          "text": "Year 2 timetable ECC-205 Wednesday\nRecurring ECE timetable entry for study year 2, 2026-27 Autumn, Wednesday 12:05–13:00. Lecture for ECC-205. Course title: Network Theory. Timetable batch label: 1. Student sections: 25EC1, 25EC2, 25EC3, 25EC4. Room: AKB-205. Faculty: Saravana Kumar M. OCR-extracted recurring weekly data; cohort applicability and changes are unverified.",
+          "scores": {
+            "dense": 0.689193,
+            "lexical": 7.452354,
+            "rrf": 0.032266
+          }
+        },
+        {
+          "code": "ECC-205",
+          "text": "Year 2 timetable ECC-205 Friday\nRecurring ECE timetable entry for study year 2, 2026-27 Autumn, Friday 12:05–13:00. Lecture for ECC-205. Course title: Network Theory. Timetable batch label: 1. Student sections: 25EC1, 25EC2, 25EC3, 25EC4. Room: AKB-205. Faculty: Saravana Kumar M. OCR-extracted recurring weekly data; cohort applicability and changes are unverified.",
+          "scores": {
+            "dense": 0.680007,
+            "lexical": 7.452354,
+            "rrf": 0.032002
+          }
+        },
+        {
+          "code": "ECC-515",
+          "text": "Year 4 timetable ECC-515 Wednesday\nRecurring ECE timetable entry for study year 4, 2026-27 Autumn, Wednesday 10:00–10:55. Lecture for ECC-515. Course title: Information and Coding Theory. Timetable batch label: 1. Student sections: student section not recorded. Room: AKB-204. Faculty: Anshul Tyagi. OCR-extracted recurring weekly data; cohort applicability and changes are unverified.",
+          "scores": {
+            "dense": 0.525801,
+            "lexical": 3.351114,
+            "rrf": 0.026042
+          }
+        },
+        {
+          "code": "OEC",
+          "text": "Year 2 timetable OEC Wednesday\nRecurring ECE timetable entry for study year 2, 2026-27 Autumn, Wednesday 08:00–08:55. Lecture for OEC. Timetable batch label: not stated. Student sections: student section not recorded. Room: not stated. Faculty: not stated. OCR-extracted recurring weekly data; cohort applicability and changes are unverified.",
+          "scores": {
+            "dense": 0.533912,
+            "lexical": 0.003181,
+            "rrf": 0.025914
+          }
+        }
+      ]
+    }
+  ],
+  "course_faculty_checks": [
+    {
+      "query": "Who is the professor for ECT-108?",
+      "expected_code": "ECT-108",
+      "expected_name": "Saurabh Khanna",
+      "expected_rank": 1,
+      "passed": true,
+      "results": [
+        {
+          "code": "ECT-108",
+          "faculty": "Saurabh Khanna",
+          "text": "ECT-108 professor Saurabh Khanna\nCourse ECT-108: Principles and Techniques of FMCW Radar Systems. Professor listed as Saurabh Khanna. This is project team information; the current teaching assignment is unverified.",
+          "scores": {
+            "dense": 0.675105,
+            "lexical": 1.186689,
+            "rrf": 0.032787
           }
         }
       ]

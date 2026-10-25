@@ -4,10 +4,10 @@ Session state is caller-owned so users never share a year, course or topic choic
 """
 from html import escape
 import re
-from bot.catalogue import link
+from bot.catalogue import link, topic_query
 from bot.prompts import academic_note, requested_academic_year, DEFAULT_ACADEMIC_YEAR
 from bot.navigation import SECTIONS, ACTIONS, UNAVAILABLE, main_menu, section_menu
-from bot.local_llm import generation_request
+from bot.local_llm import generation_request, casual_conversation_request
 
 WELCOME = main_menu()
 YEAR_PROMPT = 'Which year? Reply 1, 2, 3, or 4. For unassigned electives, type “options”.'
@@ -30,6 +30,8 @@ class Conversation:
     def welcome(self):
         self.state['pending']='menu'
         self.state.pop('section',None)
+        for key in ('timetable_year','timetable_section','timetable_batch','timetable_course','timetable_day','timetable_personal','timetable_student_batch'):
+            self.state.pop(key,None)
         return WELCOME
 
     def section(self, key):
@@ -37,6 +39,12 @@ class Conversation:
         return section_menu(key)
 
     def action(self, key):
+        if key=='timetable':
+            for name in ('timetable_year','timetable_section','timetable_batch','timetable_course','timetable_day','timetable_student_batch'):
+                self.state.pop(name,None)
+            self.state.update(pending='timetable_year',timetable_personal=True)
+            return ('Which study year is your timetable for? Reply 1, 2, 3, or 4. '
+                    'I’ll ask for your student section when the source contains section labels.')
         if key in ('explain','planner','roadmaps','interviews') and self.assistant.llm is not None:
             self.state.update(pending='generation',generation_intent=key)
             prompts={
@@ -68,6 +76,8 @@ class Conversation:
         return 'Type “menu” to see the available sections.'
 
     def choose_year(self, year, topics=False):
+        for key in ('timetable_year','timetable_section','timetable_batch','timetable_course','timetable_day','timetable_personal'):
+            self.state.pop(key,None)
         self.state.update(year=year,pending='course')
         self.state.pop('course',None)
         self.state.pop('topic_choices',None)
@@ -93,14 +103,94 @@ class Conversation:
             self.state['pending']=None
         else:
             for i,(section,syllabus) in enumerate(units,1):
-                lines.append(f"{i}. {escape(section['text'])}")
+                status=self.catalogue.topic_resource_status(course['code'],i)
+                suffix=f' · {escape(status)}' if status else ''
+                lines.append(f"{i}. {escape(section['text'])}{suffix}")
             for sid in dict.fromkeys(s['syllabus_id'] for _,s in units):
                 syllabus=self.catalogue.syllabi[sid]
                 lines.append(link(f"Related syllabus: {syllabus['source_code']}",
                     f"https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_syll_22.pdf#page={syllabus['pages'][0]}"))
+            book_count=self.catalogue.course_book_reference_count(course['code'])
+            if book_count:
+                lines.append(f'Linked syllabus reading list: {book_count} book recommendations. Ask “which books should I read?” to see them.')
             lines += ['', 'A starting point is the first listed unit above (syllabus order, not an official prerequisite sequence).',
                       'Which topic would you like resources for? Reply with its number or name.']
         return '\n'.join(lines)
+
+    def timetable_reply(self, text, *, personal=False):
+        timetable=self.catalogue.timetable
+        continuing=self.state.get('pending') in ('timetable_year','timetable_section')
+        personal=personal or bool(re.search(r'\bmy\b',text,re.I)) or (continuing and self.state.get('timetable_personal',False))
+        year=year_in(text)
+        section=timetable.match_section(text)
+        if not section:
+            unknown_section=re.search(r'\b\d{2}EC\d{1,2}\b',text,re.I)
+            section=unknown_section.group(0).upper() if unknown_section else None
+        student_batch_in_text=timetable.match_student_batch_number(text)
+        student_batch=student_batch_in_text
+        if student_batch is None:
+            student_batch=self.state.get('timetable_student_batch')
+        if not section and student_batch is not None:
+            section=timetable.resolve_student_batch(student_batch,year)
+        if section:
+            self.state.pop('timetable_student_batch',None)
+        elif student_batch is not None:
+            self.state['timetable_student_batch']=student_batch
+        batch=timetable.match_batch(text)
+        if student_batch_in_text is not None and not re.search(r'\b(?:course|timetable)\s+batch\b',text,re.I):
+            batch=None
+        course=timetable.match_course(text)
+        day=timetable.match_day(text)
+        if not year and re.fullmatch(r'\s*[1-4]\s*',text) and not batch:
+            year=text.strip()
+        explicit_year=year
+        if explicit_year and self.state.get('timetable_year') not in (None,explicit_year):
+            for key in ('timetable_section','timetable_batch','timetable_course','timetable_day','timetable_student_batch'):
+                self.state.pop(key,None)
+        if not year:
+            year=self.state.get('timetable_year')
+        if not year and section:
+            year=timetable.year_for_section(section)
+        if not year and course:
+            candidates=timetable.years_for_course(course)
+            if len(candidates)==1: year=candidates[0]
+            elif len(candidates)>1:
+                self.state.update(pending='timetable_year',timetable_personal=personal,timetable_course=course)
+                return f'{course} appears in more than one year. Which year should I show: '+', '.join(candidates)+'?'
+        if not year:
+            self.state.update(pending='timetable_year',timetable_personal=personal)
+            return 'Which study year should I show? Reply 1, 2, 3, or 4.'
+
+        self.state['timetable_year']=year
+        if section: self.state['timetable_section']=section
+        if batch is not None: self.state['timetable_batch']=batch
+        if course: self.state['timetable_course']=course
+        if day: self.state['timetable_day']=day
+        section=self.state.get('timetable_section')
+        batch=self.state.get('timetable_batch')
+        course=self.state.get('timetable_course')
+        day=self.state.get('timetable_day')
+        available=timetable.sections(year)
+        if section and section not in available:
+            self.state.update(pending='timetable_section',timetable_personal=personal)
+            if available:
+                return f'{section} is not listed under Year {year}. Choose a section from: '+', '.join(available)+'.'
+            return (f'Year {year} has no student-section labels in this extract, so I can’t confirm '
+                    f'a personalized schedule for {section}. Type “all” to inspect the year-wide OCR rows.')
+        if personal and not section and available and text.strip().casefold()!='all':
+            self.state.update(pending='timetable_section',timetable_personal=True)
+            return (f'Which student section? The extract lists: {", ".join(available)}. '
+                    'Reply with one label, such as 25EC1. A timetable batch label is a separate field.')
+        result=timetable.render(year,section=section,batch=batch,course_code=course,day=day,
+                                course_title=self.catalogue.course_title)
+        if personal and not available:
+            result=('This year has no student-section labels in the extracted source, so these rows '
+                    'cannot be confirmed as your personalized timetable.\n\n'+result)
+        if re.search(r'\b(today|tomorrow|next class|right now|currently)\b',text,re.I):
+            result=('The extract has no dated occurrences, holiday calendar, or change notices; '
+                    'I can show recurring weekday slots but cannot confirm the next calendar class.\n\n'+result)
+        self.state['pending']=None
+        return result
 
     def structured_reply(self, text):
         if not isinstance(text,str) or not text.strip() or len(text)>1000:
@@ -115,6 +205,9 @@ class Conversation:
         section=next((key for key,(label,_,_) in SECTIONS.items() if lower==label.lower()),None)
         if section: return self.section(section)
         action=next((key for key,label in ACTIONS.items() if lower==label.lower()),None)
+        if lower.startswith('/timetable'):
+            argument=text.partition(' ')[2].strip()
+            return self.timetable_reply(argument or 'my timetable',personal=True)
         commands={'/timetable':'timetable','/notices':'notices','/projects':'projects',
                   '/resources':'resources','/search':'search','/faculty':'faculty'}
         if action or lower in commands: return self.action(action or commands[lower])
@@ -132,7 +225,23 @@ class Conversation:
             return (('“optio” looks incomplete. Type “options” for electives.\n' if value=='optio' else '')+YEAR_PROMPT)
         if lower in ('options','electives','elective options'):
             return self.choose_year('options')
-        if re.search(r'\b(timetable|class timings?|class rooms?)\b',lower): return self.action('timetable')
+        if re.search(r'\b(time[\s-]*table|timetables?|schedules?|class timings?|class rooms?|my classes|when.*\bclasses?\b)\b',lower):
+            return self.timetable_reply(text,personal=bool(re.search(r'\bmy\b',lower)))
+        new_intent=bool(re.search(r'\b(courses?|subjects?|topics?|syllabus|resources?|faculty|projects?)\b',lower))
+        if self.state.get('pending')=='timetable_year' and new_intent:
+            self.state['pending']=None
+        if self.state.get('pending')=='timetable_section' and new_intent:
+            self.state['pending']=None
+        if self.state.get('pending')=='timetable_year':
+            if lower in ('1','2','3','4') or year_in(lower):
+                return self.timetable_reply(text,personal=self.state.get('timetable_personal',False))
+            return 'Choose timetable year 1, 2, 3, or 4.'
+        if self.state.get('pending')=='timetable_section':
+            if timetable_section:=self.catalogue.timetable.match_section(text):
+                return self.timetable_reply(timetable_section,personal=True)
+            if re.search(r'\b\d{2}EC\d{1,2}\b',text,re.I) or lower=='all':
+                return self.timetable_reply(text,personal=True)
+            return 'Reply with a student section listed for the selected year, or type “all” to inspect the extracted year-wide rows.'
         if re.search(r'\b(notices?|deadlines?)\b',lower): return self.action('notices')
         if re.search(r'\b(notes|pyqs?|previous[- ]year (?:papers|questions))\b',lower):
             return self.action('notes' if re.search(r'\bnotes\b',lower) else 'papers')
@@ -142,13 +251,17 @@ class Conversation:
         if re.search(r'\b(faculty|professor|researcher|mentor|supervisor)\b',lower): return None
         if re.search(r'\bprojects?\b',lower): return None
         topics=bool(re.search(r'\b(topics?|syllabus|units?|start|begin)\b|what.*study|which.*study',lower))
-        if self.assistant.llm is not None and (
+        local_answer_request=self.assistant.llm is not None and (
                 (generation_request(text) and not re.search(r'\b(topics|syllabus|units)\b',lower))
-                or re.search(r'\bexplain\b',lower) or self.state.get('pending')=='generation'):
+                or casual_conversation_request(text)
+                or re.search(r'\bexplain\b',lower) or self.state.get('pending')=='generation')
+        if local_answer_request:
             topics=False
         if re.search(r'\b(books?|chapters?|lectures?|videos?|resources?)\b',lower): topics=False
         year=year_in(lower)
-        if year: return self.choose_year(year,topics)
+        explicit_year_course_browse=bool(re.search(r'\b(courses?|subjects?)\b',lower))
+        if year and (not local_answer_request or explicit_year_course_browse):
+            return self.choose_year(year,topics)
         if lower.isdigit():
             if re.fullmatch(r'20\d{2}',lower):
                 self.state['academic_year']=lower
@@ -180,7 +293,9 @@ class Conversation:
                 self.state.pop('search_topic',None)
                 self.state.pop('syllabus_context',None)
             self.state['course']=chosen['code']
-        if re.search(r'\b(courses|subjects)\b',lower) and not chosen:
+        if re.search(r'\b(courses?|subjects?|electives?)\b',lower) and not chosen:
+            if re.search(r'\b(about|on|cover|covering|related|relevant|for|in)\b',lower) and not year_in(lower):
+                return None
             if self.state.get('year'): return self.choose_year(self.state['year'],topics)
             self.state['pending']='year'; return YEAR_PROMPT
         if topics and not chosen:
@@ -207,7 +322,9 @@ class Conversation:
         if academic_year: self.state['academic_year']=academic_year
         structured=self.structured_reply(text) if not faculty else None
         if structured is not None: return structured
-        general=self.assistant.llm is not None and (generation_request(text) or self.state.get('pending')=='generation')
+        general=self.assistant.llm is not None and (
+            generation_request(text) or casual_conversation_request(text)
+            or self.state.get('pending')=='generation')
         search_query=None
         syllabus_context=None
         if general:
@@ -220,7 +337,7 @@ class Conversation:
                 number=ordinals[unit] if unit in ordinals else int(re.match(r'\d+',unit).group())
                 units=self.catalogue.topics(selected)
                 if not 1<=number<=len(units): return f'This course has {len(units)} collected syllabus units. Choose a listed unit.'
-                search_query=units[number-1][0]['text'].split(':',1)[0][:900]
+                search_query=topic_query(units[number-1][0]['text'])
                 section,source=units[number-1]
                 syllabus_context={'text':section['text'],'source_code':source['source_code'],
                     'url':f"https://iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/static/Courses%20Offered/B.Tech/btech_ec_syll_22.pdf#page={source['pages'][0]}",
@@ -248,8 +365,7 @@ class Conversation:
                 return 'Which topic or course should I use to find relevant '+('faculty?' if faculty else 'projects?')
             text=topic
         if text.strip().isdigit():
-            text=self.state['topic_choices'][int(text.strip())-1]
-            text=text.split(':',1)[0] if ':' in text else text[:900]
+            text=topic_query(self.state['topic_choices'][int(text.strip())-1])
         if text.lower().startswith('/faculty '): faculty=True; text=text.partition(' ')[2]
         elif text.lower().startswith(('/ask ','/search ','/resources ','/projects ')): text=text.partition(' ')[2]
         self.state['pending']=None

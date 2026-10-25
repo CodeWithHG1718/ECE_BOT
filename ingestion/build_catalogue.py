@@ -5,10 +5,15 @@ import json
 import re
 import uuid
 from pathlib import Path
-from extract_academic import ROOT, OUT, clean, save, main as extract_pdfs
-from extract_faculty import extract as extract_people
-from extract_nptel import extract as extract_nptel
-from extract_book_contents import extract as extract_book_contents
+from import_course_workbook import extract_records as extract_workbook_records, curriculum_entry, course_text
+from import_timetable import extract_records as extract_timetable_records
+from import_course_faculty import extract_records as extract_course_faculty_records
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT/'datafiles/academic'
+
+def save(name,data):
+    (OUT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def load(name): return json.loads((OUT/name).read_text(encoding='utf-8'))
 def pieces(text,limit=1800):
@@ -20,8 +25,38 @@ def pieces(text,limit=1800):
         current.append(word); size+=len(word)+1
     if current: yield ' '.join(current)
 
-def build():
+def merge_workbook_courses(catalogue, records):
+    """Keep the PDF catalogue and workbook evidence together without aliasing codes."""
+    by_code={course['code']:course for course in catalogue}
+    for record in records:
+        course=by_code.get(record['code'])
+        if course is None:
+            normalized=re.sub(r'[^A-Z0-9]+','-',record['code'].upper()).strip('-')
+            course={'course_id':'curriculum-'+normalized,'code':record['code'],
+                    'title':record['title'],'curriculum_entries':[],
+                    'syllabus_ids':[],'syllabus_source_codes':[],
+                    'content_mapping':None,'content_status':'not_in_supplied_syllabus',
+                    'curriculum_is_primary':False}
+            catalogue.append(course);by_code[record['code']]=course
+        course.setdefault('workbook_records',[]).append(record)
+        categories=course.setdefault('workbook_categories',[])
+        if record['category'] not in categories: categories.append(record['category'])
+        entry=curriculum_entry(record)
+        if entry:
+            existing=course.setdefault('curriculum_entries',[])
+            same_slot=any(e.get('year')==entry['year'] and e.get('semester')==entry['semester']
+                          and e.get('title')==entry['title'] for e in existing)
+            if not same_slot: existing.append(entry)
+    return catalogue
+
+def build(refresh_resources=False):
     structure=load('course_structure.json'); syllabus=load('syllabus_courses.json'); people=load('faculty_profiles.json')
+    workbook_courses=extract_workbook_records()
+    timetable_records=extract_timetable_records()
+    course_faculty_records=extract_course_faculty_records(people)
+    save('workbook_course_records.json',workbook_courses)
+    save('timetable_records.json',timetable_records)
+    save('course_faculty_records.json',course_faculty_records)
     mapping=json.loads((ROOT/'ingestion/course_content_mappings.json').read_text(encoding='utf-8'))
     by_source={s['source_code']:s for s in syllabus}
     by_curriculum={e['code']:e for e in structure['entries']}
@@ -51,6 +86,12 @@ def build():
                         'source_syllabus_codes':'; '.join(item['syllabus_source_codes']),
                         'content_status':item['content_status'],'coverage':m['coverage'] if m else '',
                         'reason':m['reason'] if m else 'No supported course-content match in supplied syllabus.'})
+    catalogue=merge_workbook_courses(catalogue,workbook_courses)
+    for assignment in course_faculty_records:
+        course=next((item for item in catalogue if item['code']==assignment['course_code']),None)
+        if course is None:
+            raise ValueError(f"Course instructor refers to unknown course code: {assignment['course_code']}")
+        course.setdefault('faculty_assignments',[]).append(assignment)
     save('course_catalogue.json',catalogue)
     with (OUT/'course_mapping_review.csv').open('w',newline='',encoding='utf-8-sig') as f:
         writer=csv.DictWriter(f,fieldnames=list(reviews[0]));writer.writeheader();writer.writerows(reviews)
@@ -68,7 +109,12 @@ def build():
                           'table_of_contents':None,'chapter_mapping_status':'next_phase_collect_edition_specific_toc',
                           'full_text_ingested':False})
     save('book_references.json',books)
-    book_contents=extract_book_contents()
+    if refresh_resources:
+        # Refresh after rebuilding reference IDs from the current syllabus.
+        from extract_book_contents import extract as extract_book_contents
+        book_contents=extract_book_contents()
+    else:
+        book_contents=load('book_contents.json')
     for book_reference in books:
         related=[b['book_id'] for b in book_contents if book_reference['resource_id'] in b['related_syllabus_reference_ids']]
         book_reference['related_contents_ids']=related
@@ -93,6 +139,25 @@ def build():
         if e['group']: text+=f"Group: {e['group']}. "
         text+=f"Credits as printed: {e['credits_raw']}. Contact hours as printed: {e['contact_hours_raw']}."
         add('curriculum_entry',e['entry_id'],e['code']+' '+e['title'],text,[e['evidence']]+e.get('continuation_evidence',[]),curriculum_codes=[e['code']],applicability='project_primary_curriculum')
+    for record in workbook_courses:
+        add('workbook_course',record['record_id'],record['code']+' '+record['title'],
+            course_text(record),record['evidence'],curriculum_codes=[record['code']],
+            course_code=record['code'],course_title=record['title'],
+            course_category=record['category'],study_year=record['year'],
+            semester=record['semester'],term=record['term'],source_sheet=record['evidence']['sheet'],
+            applicability=record['applicability'])
+    for assignment in course_faculty_records:
+        course=next(item for item in catalogue if item['code']==assignment['course_code'])
+        applicability=assignment['applicability']
+        text=(f"Course {assignment['course_code']}: {course['title']}. "
+              f"{assignment['role']} listed as {assignment['faculty_name']}. "
+              f"This is {assignment['provided_by']} information; the current teaching assignment is unverified.")
+        add('course_faculty_assignment',assignment['record_id'],
+            assignment['course_code']+' professor '+assignment['faculty_name'],text,
+            assignment['evidence'],curriculum_codes=[assignment['course_code']],
+            course_code=assignment['course_code'],course_title=course['title'],
+            faculty_name=assignment['faculty_name'],faculty_id=assignment['faculty_id'],
+            role=assignment['role'],applicability=applicability)
     for rule in structure['curriculum_rules']:
         add('curriculum_rule',f"page-{rule['page']}",'ECE curriculum requirements',rule['text'],rule['evidence'],applicability='project_primary_curriculum')
     for s in syllabus:
@@ -137,7 +202,35 @@ def build():
     for i,r in enumerate(load('department_research.json')):
         if any(s in r['url'] for s in ['Research%20Groups','Network%20','Microwave%20Group','Microelectronics','Terahertz','Smart%20Electronic','C-DoT']):
             add('research_group',str(i),'ECE research group','\n'.join(r['sections']),r['evidence'])
-    nptel=extract_nptel()
+    for record in timetable_records:
+        code=str(record.get('course_code') or '')
+        course=next((c for c in catalogue if c['code']==code),None)
+        sections=', '.join(record['student_sections']) or 'student section not recorded'
+        course_title=f" Course title: {course['title']}." if course else ''
+        text=(f"Recurring ECE timetable entry for study year {record['study_year']}, "
+              f"{record.get('academic_year') or 'academic year not stated'} {record.get('term') or 'term not stated'}, "
+              f"{record.get('day') or 'day not stated'} {record.get('start_time') or 'time unknown'}–"
+              f"{record.get('end_time') or 'time unknown'}. "
+              f"{record.get('session_type') or 'Session type not stated'} for {code or 'course not identified'}."
+              f"{course_title} "
+              f"Timetable batch label: {record['course_batch'] or 'not stated'}. "
+              f"Student sections: {sections}. "
+              f"Room: {record.get('room') or 'not stated'}. Faculty: {record.get('faculty') or 'not stated'}. "
+              "OCR-extracted recurring weekly data; cohort applicability and changes are unverified.")
+        add('timetable_record',record['record_id'],
+            f"Year {record['study_year']} timetable {code} {record.get('day') or ''}",text,
+            record['evidence'],curriculum_codes=[code] if course else [],
+            course_code=code or None,course_title=course['title'] if course else None,
+            study_year=record['study_year'],academic_year=record['academic_year'],term=record['term'],
+            day=record['day'],start_time=record['start_time'],end_time=record['end_time'],
+            session_type=record['session_type'],course_batch=record['course_batch'],
+            student_sections=record['student_sections'],room=record['room'],faculty=record['faculty'],
+            applicability=record['applicability'])
+    if refresh_resources:
+        from extract_nptel import extract as extract_nptel
+        nptel=extract_nptel()
+    else:
+        nptel=load('nptel_references.json')
     for r in nptel:
         for lesson in r['lessons']:
             text=f"{lesson['unit_title']}. {lesson['title']}."
@@ -161,7 +254,14 @@ def build():
     assert len({c['chunk_id'] for c in chunks})==len(chunks)
     (OUT/'embedding_chunks.jsonl').write_text(''.join(json.dumps(c,ensure_ascii=False)+'\n' for c in chunks),encoding='utf-8')
     (OUT/'embedding_texts.jsonl').write_text(''.join(json.dumps({'id':c['chunk_id'],'input':c['text']},ensure_ascii=False)+'\n' for c in chunks),encoding='utf-8')
-    stats={'curriculum_entries':len(structure['entries']),'curriculum_codes':len(catalogue),'syllabus_course_blocks':len(syllabus),
+    stats={'curriculum_entries':len(structure['entries']),
+           'workbook_curriculum_rows':sum(1 for r in workbook_courses if r['category']=='curriculum_course'),
+           'merged_course_entries':sum(len(c['curriculum_entries']) for c in catalogue),
+           'pdf_curriculum_entries':len(structure['entries']),'curriculum_codes':len(catalogue),
+           'workbook_course_records':len(workbook_courses),
+           'workbook_course_codes':len({r['code'] for r in workbook_courses}),
+           'course_faculty_assignments':len(course_faculty_records),
+           'timetable_records':len(timetable_records),'syllabus_course_blocks':len(syllabus),
            'curriculum_codes_with_content':len(links),'book_references':len(books),'faculty_profiles':len(people),
            'faculty_profile_projects':sum(len(f['profile_projects']) for f in people),
            'department_project_entries':len(load('department_projects.json')),'embedding_chunks':len(chunks),
@@ -173,6 +273,16 @@ def build():
 
 if __name__=='__main__':
     import argparse
-    parser=argparse.ArgumentParser();parser.add_argument('--reextract',action='store_true');args=parser.parse_args()
-    if args.reextract: extract_pdfs(); extract_people()
-    build()
+    parser=argparse.ArgumentParser(description='Rebuild the local ECE catalogue and embedding inputs.')
+    parser.add_argument('--reextract',action='store_true',
+        help='Re-extract curriculum PDFs, faculty and cached book/NPTEL sources before rebuilding (requires ingestion dependencies).')
+    parser.add_argument('--reextract-resources',action='store_true',
+        help='Re-extract book contents and NPTEL outlines from saved HTML snapshots before rebuilding.')
+    args=parser.parse_args()
+    if args.reextract:
+        from extract_academic import main as extract_pdfs
+        from extract_faculty import extract as extract_people
+        extract_pdfs(); extract_people()
+    # Resource extraction runs from inside build, after current syllabus book
+    # reference IDs have been regenerated.
+    build(refresh_resources=args.reextract or args.reextract_resources)

@@ -123,6 +123,33 @@ class ConversationTests(unittest.TestCase):
         self.assertNotIn('applicability to 2026',reply)
         self.assertEqual(self.retriever.calls,[])
 
+    def test_ect108_professor_query_uses_user_supplied_assignment(self):
+        reply=self.chat.reply('Who is the professor for ECT-108?')
+        self.assertIn('Saurabh Khanna',reply)
+        self.assertIn('team-supplied',reply)
+        self.assertIn('not been independently verified',reply)
+        self.assertEqual(self.retriever.calls,[])
+
+    def test_informal_student_timetable_request_does_not_reach_retriever(self):
+        reply=self.chat.reply('I am a 2nd year from ECE-3 batch, please show my timetable')
+        self.assertIn('Year 2 timetable · 25EC3',reply)
+        self.assertIn('ECC-205',reply)
+        self.assertEqual(self.retriever.calls,[])
+
+    def test_casual_help_seeking_routes_to_local_answer_model(self):
+        class FriendlyLLM:
+            def __init__(self): self.calls=[]
+            def generate(self,text,hits,**kwargs):
+                self.calls.append((text,kwargs))
+                return 'That sounds stressful. Let’s make a small study plan.'
+        llm=FriendlyLLM()
+        chat=Conversation(StudyAssistant(self.retriever,self.catalogue,llm=llm))
+        reply=chat.reply("I'm worried about my exam and don't know what to study.")
+        self.assertIn('small study plan',reply)
+        self.assertEqual(len(llm.calls),1)
+        self.assertEqual([call[2] for call in self.retriever.calls],
+                         [['book_chapter'],['nptel_lecture']])
+
     def test_seven_section_menu_and_unavailable_features_do_not_search(self):
         menu=self.chat.welcome()
         self.assertEqual(len(SECTIONS),7)

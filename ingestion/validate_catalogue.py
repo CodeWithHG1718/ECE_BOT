@@ -3,10 +3,16 @@ import hashlib
 import json
 import re
 from pathlib import Path
-from extract_academic import ROOT, OUT, clean, save
 from lxml import html
 from lookup_resources import search
 
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT/'datafiles/academic'
+OUT.mkdir(parents=True, exist_ok=True)
+
+def clean(value): return re.sub(r'\s+', ' ', value or '').strip()
+def save(name, data):
+    (OUT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def load(name): return json.loads((OUT/name).read_text(encoding='utf-8'))
 def norm(value): return re.sub(r'\W+','',value.lower())
 def validate():
@@ -15,6 +21,13 @@ def validate():
         checks.append({'check':name,'passed':bool(condition),'detail':detail})
     manifest=load('local_source_manifest.json')+load('web_source_manifest.json')
     source_ids={m['sha256'] for m in manifest}
+    workbook_path=ROOT/'datafiles/ECE_Course_Structure.xlsx'
+    timetable_path=ROOT/'datafiles/master_timetable_by_year.json'
+    course_faculty_path=ROOT/'datafiles/course_faculty_assignments.json'
+    workbook_hash=hashlib.sha256(workbook_path.read_bytes()).hexdigest()
+    timetable_hash=hashlib.sha256(timetable_path.read_bytes()).hexdigest()
+    course_faculty_hash=hashlib.sha256(course_faculty_path.read_bytes()).hexdigest()
+    source_ids.update((workbook_hash,timetable_hash,course_faculty_hash))
     bad=[]
     for m in manifest:
         file=ROOT/m.get('snapshot',m.get('path',''))
@@ -25,6 +38,17 @@ def validate():
         check('Local PDF matches current official linked download: '+local['path'],any(m['sha256']==local['sha256'] for m in remote))
     structure=load('course_structure.json'); courses=load('syllabus_courses.json'); faculty=load('faculty_profiles.json')
     check('All 122 source curriculum rows, including elective options and minor/honours lists',len(structure['entries'])==122)
+    workbook=load('workbook_course_records.json')
+    timetable=load('timetable_records.json')
+    course_faculty=load('course_faculty_records.json')
+    check('Course workbook rows are extracted with sheet and cell evidence',
+          len(workbook)==127 and all(r['evidence']['source_version_id']==workbook_hash and r['evidence']['locator'] for r in workbook))
+    check('All 221 timetable rows are normalized with OCR source evidence',
+          len(timetable)==221 and all(r['evidence']['source_version_id']==timetable_hash and r['evidence']['page'] for r in timetable))
+    check('Course instructor notes retain source hash and resolve to a known course',
+          all(r['evidence']['source_version_id']==course_faculty_hash
+              and any(c['code']==r['course_code'] for c in load('course_catalogue.json'))
+              for r in course_faculty))
     check('Eight semester tables have total rows',len(structure['semester_totals'])==8)
     credit_review=[]
     for semester in range(1,9):
@@ -88,6 +112,11 @@ def validate():
           {'source_headings':source_headings,'omitted_blocks':omitted})
     chunks=[json.loads(line) for line in (OUT/'embedding_chunks.jsonl').read_text(encoding='utf-8').splitlines()]
     check('Embedding IDs are unique',len(chunks)==len({c['chunk_id'] for c in chunks}))
+    check('Workbook courses and timetable rows are present in embedding input',
+          sum(c['metadata']['document_type']=='workbook_course' for c in chunks)==len(workbook)
+          and sum(c['metadata']['document_type']=='timetable_record' for c in chunks)==len(timetable))
+    check('Course professor notes are present in embedding input',
+          sum(c['metadata']['document_type']=='course_faculty_assignment' for c in chunks)==len(course_faculty))
     check('Every embedding has source evidence resolving to saved sources',all(c['text'].strip() and c['metadata']['evidence'] and set(c['metadata']['source_version_ids'])<=source_ids for c in chunks))
     texts=[json.loads(line) for line in (OUT/'embedding_texts.jsonl').read_text(encoding='utf-8').splitlines()]
     check('API input text and metadata stay in exact ID alignment',[(c['chunk_id'],c['text']) for c in chunks]==[(t['id'],t['input']) for t in texts])
@@ -123,6 +152,8 @@ def validate():
     report={'validation_type':'extraction_integrity_and_coverage','all_passed':all(c['passed'] for c in checks),'checks':checks,
         'not_certified':['cohort applicability','official cross-code equivalence','current project availability','human approval for publication'],
         'known_gaps':['Unmatched curriculum courses have no detailed syllabus in the supplied file.',
+          'The user-supplied course workbook has no stated effective cohort or publication date; its course rows need academic review.',
+          'The timetable is OCR-extracted recurring weekly data; section applicability and source accuracy need review.',
           'Book contents cover eight selected books, not all 194 bibliography entries. Alternate editions are explicitly labelled.',
           'NPTEL collection covers twelve selected courses; coverage of every curriculum entry is listed in resource_coverage.json.',
           'The site homepage advertises 40/41 faculty while its linked directory lists 38. Coverage here is the linked directory.',
