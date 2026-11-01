@@ -10,7 +10,7 @@ from .faculty_context import resolve_faculty
 DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 
 def normalize(text):
-    text = text.casefold()
+    text = re.sub(r'\btime\s+table\b', 'timetable', text.casefold())
     for wrong, right in {'timetabel':'timetable','timetble':'timetable','shedule':'schedule','syllbus':'syllabus','profesor':'professor'}.items():
         text = text.replace(wrong, right)
     return re.sub(r'\b([a-z]{2,4})[ -]?(\d{3})\b', r'\1-\2', text)

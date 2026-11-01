@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 import json
+import os
 import re
 import secrets
 import uuid
@@ -95,7 +96,9 @@ class RequestSizeLimitMiddleware:
 
 
 def startup():
-    load_dataset(ENGINE)
+    # Production schema/data setup runs once per build, not in every cold function.
+    if not os.environ.get('VERCEL'):
+        load_dataset(ENGINE)
 
 
 @asynccontextmanager
@@ -697,8 +700,8 @@ async def _responses_answer(text: str, profile: dict | None, history: list[dict]
             'For general ECE learning requests, teach the concept plainly; do not search institutional passages just because the user mentions a course or subject. Use academic '
             'tools only for IIT Roorkee records or when the user asks for institutional details, curriculum, schedules, exams, '
             'resources, or sources. Never invent institute records, course details, dates, assignments, or citations. If source '
-            'records do not support an institutional answer, say briefly what cannot be verified. Distinguish draft exams and '
-            'unverified applicability when relevant. Do not ask for names, roll numbers, or other student identifiers.')
+            'records do not support an institutional answer, state the missing fact briefly. Do not add generic verification, applicability, '
+            'source-status, or course-equivalence disclaimers. Include useful study-resource links when requested. Do not ask for names, roll numbers, or other student identifiers.')
         conversation_input = [{'role': row['role'], 'content': row['content']} for row in (history or [])[-12:]]
         conversation_input.append({'role':'user','content':text})
         tools_enabled = _needs_academic_tools(text) or any(

@@ -9,9 +9,11 @@ import type {
   Presentation,
   ProfileOptions,
   SessionCredentials,
-  SourceCitation,
   StudyProfile,
 } from "@/lib/types";
+
+import ChatContent from "./chat-content";
+import ScheduleTable from "./schedule-table";
 
 type Screen = "landing" | "setup" | "workspace";
 type IconName = "plus" | "message" | "send" | "arrow" | "close" | "chevron" | "copy" | "check" | "menu" | "book" | "calendar" | "clock" | "library" | "users" | "spark" | "external" | "retry";
@@ -161,6 +163,8 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 const hiddenRecordFields = [
   "evidence", "metadata", "score", "content_mapping", "course_id", "syllabus_source_codes",
   "faculty_id", "project_id", "profile_url", "url", "official_contact_fields", "raw_cells", "fields", "sections",
+  "applicability", "source_status", "verification_status", "review_status", "source_path", "source_url",
+  "source", "profile_extraction_status", "content_status", "projects_status", "chapter_mapping_status",
 ];
 
 function visibleRecordEntries(record: Record<string, unknown>): Array<[string, unknown]> {
@@ -205,6 +209,7 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
   if (data === null || data === undefined) return null;
   const records = Array.isArray(data) ? data.filter(isRecord) : isRecord(data) ? [data] : [];
   if (records.length === 0) return null;
+  if (presentation === "timetable" || presentation === "exam_schedule") return <ScheduleTable records={records} exams={presentation === "exam_schedule"} />;
 
   if (presentation === "faculty" && records.some((record) => Array.isArray(record.profile_sections))) {
     return <>{records.map((record, index) => <section className="structured-block faculty-profile" key={String(record.faculty_id || index)} aria-label="Faculty profile">
@@ -228,9 +233,9 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
     const topics = Array.isArray(course.syllabus) ? course.syllabus.filter(isRecord) : [];
     return (
       <section className="structured-block" aria-label="Structured course records">
-        <div className="structured-heading"><span>STRUCTURED RECORD</span><span>{presentationNames[presentation]}</span></div>
+        <div className="structured-heading"><span>COURSE</span><span>{presentationNames[presentation]}</span></div>
         <div className="course-record-title"><strong>{formatValue(course.code)}</strong><span>{formatValue(course.title)}</span></div>
-        {entries.length > 0 && <div className="facts-table-wrap"><table className="facts-table"><thead><tr>{["year", "semester", "term", "credits", "applicability"].map((field) => <th key={field}>{humanize(field)}</th>)}</tr></thead><tbody>{entries.map((entry, index) => <tr key={index}>{["year", "semester", "term", "credits", "applicability"].map((field) => <td key={field}>{formatValue(entry[field])}</td>)}</tr>)}</tbody></table></div>}
+        {entries.length > 0 && <div className="facts-table-wrap"><table className="facts-table"><thead><tr>{["year", "semester", "term", "credits"].map((field) => <th key={field}>{humanize(field)}</th>)}</tr></thead><tbody>{entries.map((entry, index) => <tr key={index}>{["year", "semester", "term", "credits"].map((field) => <td key={field}>{formatValue(entry[field])}</td>)}</tr>)}</tbody></table></div>}
         {topics.length > 0 && <div className="topic-list"><div className="topic-list-label">SYLLABUS SECTIONS</div>{topics.map((topic, index) => <p key={index}><span>{formatValue(topic.ordinal)}</span>{formatValue(topic.text)}</p>)}</div>}
         {!entries.length && !topics.length && <FactRows record={course} exclude={["evidence", "content_mapping", "course_id", "syllabus_source_codes"]} />}
       </section>
@@ -240,9 +245,9 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
   const preferred: Partial<Record<Presentation, string[]>> = {
     timetable: ["day", "start_time", "end_time", "course_code", "course_title", "date", "room", "faculty", "session_type", "course_batch", "clashes_with"],
     exam_schedule: ["course_code", "exam_date", "day", "start_time", "end_time", "timezone", "slot", "room", "exam_type", "applicability"],
-    answer: ["title", "date_text", "dates", "event_type", "day", "programme_scope", "source_status", "name", "department", "research_interests", "project_title", "description", "text"],
-    resources: ["title", "text", "source", "resource_type", "course_code"],
-    faculty: ["course_code", "title", "faculty", "name", "designation", "academic_year", "term", "source", "research_interests_directory", "research_interests"],
+    answer: ["title", "date_text", "dates", "event_type", "day", "programme_scope", "name", "department", "research_interests", "project_title", "description", "text"],
+    resources: ["title", "text", "resource_type", "course_code"],
+    faculty: ["course_code", "title", "faculty", "name", "designation", "academic_year", "term", "research_interests_directory", "research_interests"],
     projects: ["fields.Scheme/Title", "project_title", "title", "fields.Faculty", "fields.Year", "fields.Funding Agency"],
   };
   const columns = (preferred[presentation] || []).filter((field) => records.some((record) => recordValue(record, field) !== undefined && recordValue(record, field) !== null));
@@ -251,11 +256,10 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
 
   return (
     <section className="structured-block" aria-label={`Structured ${presentationNames[presentation].toLowerCase()}`}>
-      <div className="structured-heading"><span>STRUCTURED RECORDS</span><span>{presentationNames[presentation]}{records.length > 1 ? ` · ${records.length}` : ""}</span></div>
+      <div className="structured-heading"><span>DETAILS</span><span>{presentationNames[presentation]}{records.length > 1 ? ` · ${records.length}` : ""}</span></div>
       {selectedColumns.length > 0 ? (
         <div className="facts-table-wrap" tabIndex={0} role="region" aria-label={`${presentationNames[presentation]} table`}><table className="facts-table"><thead><tr>{selectedColumns.map((field) => <th key={field}>{field === "clashes_with" ? "Clash" : humanize(field)}</th>)}</tr></thead><tbody>{records.map((record, index) => <tr key={index} className={Array.isArray(record.clashes_with) && record.clashes_with.length ? "timetable-clash" : undefined}>{selectedColumns.map((field) => <td key={field}>{field === "clashes_with" ? Array.isArray(record.clashes_with) && record.clashes_with.length ? formatValue(record.clashes_with) : "—" : formatValue(recordValue(record, field))}</td>)}</tr>)}</tbody></table></div>
       ) : records.map((record, index) => <FactRows key={index} record={record} exclude={hiddenRecordFields} />)}
-      {presentation === "resources" && records.length > 0 && records.some((record) => typeof record.text === "string") && <p className="record-note">Passages are shown as retrieved; use the cited source for context.</p>}
     </section>
   );
 }
@@ -264,23 +268,6 @@ function FactRows({ record, exclude = [] }: { record: Record<string, unknown>; e
   const visible = visibleRecordEntries(record).filter(([key]) => !exclude.includes(key)).slice(0, 8);
   if (!visible.length) return null;
   return <dl className="fact-rows">{visible.map(([key, value]) => <div key={key}><dt>{humanize(key)}</dt><dd>{formatValue(value)}</dd></div>)}</dl>;
-}
-
-function CitationList({ sources }: { sources: SourceCitation[] }) {
-  if (!sources.length) return null;
-  return (
-    <section className="citation-list" aria-label="Sources">
-      <div className="citation-title">SOURCES <span>{String(sources.length).padStart(2, "0")}</span></div>
-      <ul>{sources.map((source, index) => {
-        const safeUrl = typeof source.url === "string" && /^https?:\/\//i.test(source.url) ? source.url : undefined;
-        const title = source.title || "Source record";
-        return <li key={`${source.url || title}-${index}`}>
-          {safeUrl ? <a href={safeUrl} target="_blank" rel="noreferrer">{title}<Icon name="external" size={13} /></a> : <span className="citation-text">{title}</span>}
-          <span className="citation-meta">{source.page ? `p. ${source.page} · ` : ""}{source.status || source.verification_status || "Source"}</span>
-        </li>;
-      })}</ul>
-    </section>
-  );
 }
 
 function ErrorNotice({ message, onDismiss }: { message: string; onDismiss?: () => void }) {
@@ -720,10 +707,9 @@ export default function Home() {
                   {messages.map((message) => <article className={`message message-${message.role}`} key={message.id}>
                     <div className="message-meta"><span className={`message-avatar${message.role === "assistant" ? " assistant-avatar" : ""}`}>{message.role === "assistant" ? <SignalMark /> : "Y"}</span><span className="message-author">{message.role === "assistant" ? "SIGNAL" : "YOU"}</span>{message.role === "assistant" && message.presentation && message.presentation !== "answer" && <span className="message-kind">{presentationNames[message.presentation]}</span>}<time>{displayDate(message.created_at)}</time></div>
                     <div className="message-content">
-                      <p className="message-text">{message.content}</p>
+                      <>{message.role === "assistant" ? <ChatContent text={message.content} /> : <p className="message-text">{message.content}</p>}</>
                       {message.role === "assistant" && message.presentation && <Records presentation={message.presentation} data={message.data} />}
-                      {message.role === "assistant" && Array.isArray(message.warnings) && message.warnings.length > 0 && <div className="message-warnings" aria-label="Source notes"><div className="warning-heading"><span>!</span> SOURCE NOTES</div><ul>{message.warnings.map((warning, index) => <li key={index}>{warning}</li>)}</ul></div>}
-                      {message.role === "assistant" && <CitationList sources={Array.isArray(message.sources) ? message.sources : []} />}
+                      {message.role === "assistant" && message.warnings?.filter((note) => /unavailable|AI unavailable/i.test(note)).map((note, index) => <p className="schedule-notice" key={index}>{note}</p>)}
                       {message.role === "assistant" && <button className="copy-button" type="button" onClick={() => void copyMessage(message)}><Icon name={copied === message.id ? "check" : "copy"} size={13} />{copied === message.id ? "Copied" : "Copy answer"}</button>}
                     </div>
                   </article>)}

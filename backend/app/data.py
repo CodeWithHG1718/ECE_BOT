@@ -2,19 +2,21 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from functools import lru_cache
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import delete, exists, insert, select, update
+from sqlalchemy import bindparam, delete, exists, insert, select, update
 from sqlalchemy.engine import Engine
 
 from .db import (courses, faculty, index_versions, ingestion_runs, metadata, now_kolkata,
                  offerings, projects, resources, schedule_events, source_chunks,
                  source_chunk_documents, source_documents, syllabus_topics)
 
-DATA = Path(__file__).resolve().parents[2] / 'datafiles' / 'academic'
+_BUNDLED_DATA = Path(__file__).resolve().parents[1] / 'datafiles' / 'academic'
+DATA = _BUNDLED_DATA if os.environ.get('VERCEL') and _BUNDLED_DATA.is_dir() else Path(__file__).resolve().parents[2] / 'datafiles' / 'academic'
 FILES = {
     'courses': 'course_catalogue.json', 'syllabus': 'syllabus_courses.json',
     'timetable': 'timetable_records.json', 'calendar': 'academic_calendar_events.json',
@@ -181,8 +183,11 @@ def load_dataset(engine: Engine) -> None:
             ~exists(select(source_chunks.c.id).where(source_chunks.c.document_id == source_documents.c.id)),
             ~exists(select(source_chunk_documents.c.chunk_id).where(source_chunk_documents.c.document_id == source_documents.c.id))))
         _insert_missing(conn, source_documents, list(source_rows_by_id.values()))
-        for source in source_rows_by_id.values():
-            conn.execute(update(source_documents).where(source_documents.c.id == source['id']).values(**source))
+        if source_rows_by_id:
+            fields = ('path', 'url', 'checksum', 'academic_session', 'applicability', 'verification_status', 'imported_at')
+            statement = update(source_documents).where(source_documents.c.id == bindparam('_source_key')).values(
+                {field: bindparam(field) for field in fields})
+            conn.execute(statement, [dict(source, _source_key=source['id']) for source in source_rows_by_id.values()])
         chunks_path = DATA / 'embedding_chunks.jsonl'
         chunk_rows = []
         chunk_links = []

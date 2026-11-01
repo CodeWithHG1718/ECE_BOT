@@ -386,3 +386,45 @@ a { color: inherit; }
 .faculty-section p { margin: 0; font-size: 12px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
 .timetable-clash { background: var(--warn-bg); }
 .timetable-clash td:last-child { color: var(--warn); font-weight: 600; }
+
+.markdown-content { white-space: normal; }
+.markdown-content > :first-child { margin-top: 0; }
+.markdown-content > :last-child { margin-bottom: 0; }
+.markdown-content p { margin: 0 0 12px; }
+.markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4 { margin: 22px 0 10px; font-family: var(--sans); font-size: 17px; font-weight: 600; line-height: 1.4; }
+.markdown-content ul, .markdown-content ol { margin: 10px 0 16px; padding-left: 23px; }
+.markdown-content ul { list-style: disc; }
+.markdown-content ol { list-style: decimal; }
+.markdown-content li { padding-left: 3px; margin: 6px 0; }
+.markdown-content li > p { margin: 0; }
+.markdown-content a { color: var(--blue-deep); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.markdown-content strong { font-weight: 650; }
+.markdown-content code { padding: 2px 5px; background: var(--paper-deep); border-radius: 3px; font: .9em var(--mono); }
+.markdown-content pre { overflow-x: auto; padding: 14px; background: var(--paper-deep); }
+.markdown-content pre code { padding: 0; background: none; }
+.markdown-content blockquote { margin: 14px 0; padding-left: 16px; border-left: 2px solid var(--line-strong); color: var(--muted); }
+.markdown-table-wrap { max-width: 100%; overflow-x: auto; margin: 16px 0; }
+.markdown-content table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.markdown-content th, .markdown-content td { border-bottom: 1px solid var(--line); padding: 10px 13px; min-width: 100px; text-align: left; vertical-align: top; }
+.markdown-content th { background: var(--paper-deep); font-weight: 600; }
+.schedule-block { margin-top: 18px; min-width: 0; }
+.schedule-day + .schedule-day { margin-top: 24px; }
+.schedule-day h3 { margin: 0; padding: 10px 14px; background: var(--paper-deep); border: 1px solid var(--line); border-bottom: 0; font: 600 13px var(--sans); }
+.schedule-scroll { width: 100%; overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+.schedule-table { width: 100%; min-width: 570px; table-layout: fixed; border-collapse: collapse; text-align: left; font-size: 12px; line-height: 1.5; }
+.schedule-table th { padding: 9px 13px; color: var(--muted); background: #f8f9f6; font-size: 11px; font-weight: 500; }
+.schedule-table td { padding: 13px; border-top: 1px solid var(--line); vertical-align: top; overflow-wrap: break-word; }
+.schedule-table th:first-child { width: 21%; }
+.schedule-table th:nth-last-child(2) { width: 17%; }
+.schedule-table th:last-child { width: 16%; }
+.schedule-exams .schedule-table th:first-child { width: 25%; }
+.schedule-exams .schedule-table th:nth-child(2) { width: 30%; }
+.schedule-exams .schedule-table th:nth-child(3) { width: 25%; }
+.schedule-exams .schedule-table th:last-child { width: 20%; }
+.schedule-table small { display: block; margin-top: 4px; color: var(--muted); font-size: 11px; font-weight: 400; }
+.schedule-time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.schedule-time > span { display: block; }
+.schedule-course > strong { display: block; font-weight: 600; }
+.schedule-course > span { display: block; margin-top: 2px; }
+.schedule-table small.schedule-conflict { color: var(--warn); }
+.schedule-notice { margin: 14px 0 0; color: var(--muted); font-size: 12px; }

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -82,6 +83,8 @@ feedback = Table('feedback', metadata,
 def make_engine(url: str | None = None) -> Engine:
     default_path = (Path(__file__).resolve().parents[2] / 'backend' / 'signal.db').as_posix()
     url = url or get_settings().database_url or f"sqlite:///{default_path}"
+    if os.environ.get('VERCEL') and not url.startswith(('postgres://', 'postgresql://', 'postgresql+psycopg://')):
+        raise RuntimeError('Vercel requires a persistent PostgreSQL DATABASE_URL; local SQLite is not supported for deployed sessions.')
     if url.startswith('postgres://'):
         url = 'postgresql+psycopg://' + url.removeprefix('postgres://')
     if url.startswith('postgresql://'):

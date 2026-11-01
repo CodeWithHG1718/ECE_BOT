@@ -25,7 +25,7 @@ const assert = require('node:assert/strict');
    return answer;
   }
   assert.equal((await send('3rd year timetable')).data.length,59);
-  assert.equal(await page.locator('.facts-table tbody tr').count(),59);
+  assert.equal(await page.locator('.schedule-table tbody tr').count(),59);
   assert.equal((await send('my timetable')).data.length,13);
   const exam=await send('ETE schedule');assert(exam.data.length>0 && exam.data.length<808);
   const faculty=await send('Who teaches it?');assert(faculty.data.length>0);
@@ -47,7 +47,7 @@ const assert = require('node:assert/strict');
   await page.reload();await page.locator('.conversation-link').nth(32).waitFor();
   // Open the populated conversation, rather than the newly created empty chats.
   await page.locator('.conversation-link').last().click();
-  await page.locator('.facts-table').first().waitFor();
+  await page.locator('.schedule-table').first().waitFor();
   await page.waitForTimeout(600);
   const scrollState=()=>page.evaluate(()=>({window:scrollY,main:document.querySelector('.conversation-body').scrollTop,side:document.querySelector('.conversation-list').scrollTop}));
   await page.evaluate(()=>{document.querySelector('.conversation-list').scrollTop=0});

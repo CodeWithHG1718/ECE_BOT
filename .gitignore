@@ -4,6 +4,8 @@ __pycache__/
 *.pyc
 ~$*.xlsx
 tmp/
+.vercel/
+/backend/datafiles/
 .env
 .env.*
 !.env.example
@@ -28,3 +30,6 @@ datafiles/academic/vectors/*.sqlite3-shm
 # This source PDF includes student enrollment rosters on pages 31-33.
 # Keep it local; the importer only reads timetable pages 1-30.
 /data/Draft_Schedule_ETE_Autumn_2026-27.pdf
+
+.vercel
+.env*
