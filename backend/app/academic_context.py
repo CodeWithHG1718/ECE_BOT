@@ -8,6 +8,7 @@ from .electives import selected_codes, annotate_clashes
 from .faculty_context import resolve_faculty
 from .study_resources import resolve_resources
 from .web_search import requested as web_requested
+from .generation_context import needs_generation
 
 DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 
@@ -75,14 +76,14 @@ def resolve(text, profile, prior, timetable_records=None):
     q = normalize(text)
     if web_requested(q):
         return dict(content='No matching source record. Live search requested.', presentation='answer', data=None, evidence=[], warnings=[])
+    if needs_generation(q):
+        return dict(content='No matching source record. Generate a task-specific answer.', presentation='answer', data=None, evidence=[], warnings=[])
     resources = resolve_resources(q, profile, prior, course_matches, timetable_context(profile)[1])
     if resources is not None:
         return resources
     faculty_answer = resolve_faculty(q, profile, prior)
     if faculty_answer is not None:
         return faculty_answer
-    if re.search(r'\b(learn|explain|understand|solve|prepare)\b',q) and not re.search(r'\b(timetable|schedule)\b',q):
-        return dict(content='No matching source record. General guidance is unavailable until the chat model is configured.', presentation='answer', data=None, evidence=[], warnings=[])
     broad = bool(re.search(r'\b(all years|entire institute|institute-wide|all courses|whole department)\b',q))
     explicit_year = bool(re.search(r'\b(?:[1-4](?:st|nd|rd|th)?|first|second|third|fourth)\s*year|\byear\s*[1-4]|\bece[- ]?[1-4]',q))
     year = year_of(q,profile)
@@ -157,7 +158,12 @@ def resolve(text, profile, prior, timetable_records=None):
     if re.search(r'\b(my courses|my subjects|core subjects)\b',q):
         found=[c for c in read_records('courses') if c['code'] in personal]
         return result('Courses linked to your timetable and curriculum.' if found else 'Select your study year and section first.','course_list',found,found)
-    if matches and not re.search(r'\b(learn|teach|explain|understand|solve)\b',q):
+    lookup = bool(re.fullmatch(r'(?:[a-z]{2,4}-\d{3})(?:\s*(?:and|,)\s*[a-z]{2,4}-\d{3})*', q.strip()))
+    lookup = lookup or bool(re.search(r'\b(syllabus|curriculum|credits?|prerequisites?|course details|course information)\b', q))
+    lookup = lookup or any(q.strip(' .?') in (c['title'].casefold(), c['title'].casefold() + ' course') for c in matches)
+    lookup = lookup or bool(re.fullmatch(r'[a-z]+ course', q.strip()))
+    lookup = lookup or bool(re.fullmatch(r'(?:what|which) (?:is|are) my (?:hss|oec)(?: course)?', q.strip(' .?')))
+    if matches and lookup:
         if len(matches)>1 and not re.search(r'\b(and|courses|subjects)\b',q): return result('Which course: '+', '.join(c['code']+' '+c['title'] for c in matches[:6])+'?')
         if 'syllabus' in q or 'curriculum' in q:
             data=[]

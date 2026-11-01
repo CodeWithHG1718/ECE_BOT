@@ -246,3 +246,38 @@ def test_web_request_keeps_timetable_and_contact_local():
     assert WEB_TOOL['filters']['allowed_domains']==['iitr.ac.in','nptel.ac.in']
     response=Obj(output_text='A course.',output=[Obj(content=[Obj(annotations=[Obj(type='url_citation',url='https://nptel.ac.in/courses/108103141',title='Microwave Engineering')])])])
     assert '[Microwave Engineering](https://nptel.ac.in/courses/108103141)' in linked_answer(response)
+
+
+@pytest.mark.parametrize('query',[
+    'i want to study dsp course tell me what to do',
+    'make me a planner for next 4 hours for dsp covering all topics of this course',
+    'What should I study in DSP?',
+    'Turn that into a checklist',
+    'Draft an email to Meenakshi Rawat asking for help with DSP',
+    'Write Python code for convolution',
+    'Now give it in Hindi instead',
+])
+def test_generated_tasks_are_not_replaced_with_course_records(chat,query):
+    chat('ECC-301')
+    result=chat(query)
+    assert result['presentation']=='answer' and result['data'] is None
+    assert 'Generate a task-specific answer' in result['content'] or 'No matching source record' in result['content']
+
+
+def test_generation_receives_complete_relevant_syllabus_and_follows_topic_changes():
+    from backend.app.generation_context import model_context
+    profile={'study_year':3,'section':'24EC2','semester':5}
+    context_data=model_context('Make me a four hour study plan for DSP',profile,[],context.course_matches)
+    assert len(context_data['courses'])==1 and context_data['courses'][0]['code']=='ECC-301'
+    expected=[sec['text'] for s in read_records('syllabus') if s['source_code']=='ECN-312' for sec in s['sections']]
+    assert context_data['courses'][0]['syllabus_topics']==expected and len(expected)==6
+    assert context_data['courses'][0]['study_links']
+    history=[{'role':'user','content':'make a plan for DSP'}]
+    assert model_context('Make it shorter instead',profile,history,context.course_matches)['courses'][0]['code']=='ECC-301'
+    history.append({'role':'user','content':'Write a Python function to sum a list'})
+    assert 'courses' not in model_context('Summarize that in two bullets',profile,history,context.course_matches)
+    email=model_context('Draft an email to Meenakshi Rawat about DSP',profile,[],context.course_matches)
+    assert email['faculty'][0]['name']=='Meenakshi Rawat' and 'sections' not in email['faculty'][0]
+    history=[{'role':'assistant','content':'A timetable.', 'presentation':'timetable', 'data':[{'course_code':'ECC-301','day':'Monday','start_time':'15:00','evidence':'private metadata'}]}]
+    grounded=model_context('Turn that into a checklist',profile,history,context.course_matches)
+    assert grounded['previous_result'][0]['start_time']=='15:00' and 'evidence' not in grounded['previous_result'][0]
