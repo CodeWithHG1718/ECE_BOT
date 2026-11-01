@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 from lxml import html
 from lookup_resources import search
+from import_academic_calendar import load_ete_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'datafiles/academic'
@@ -24,15 +25,28 @@ def validate():
     workbook_path=ROOT/'datafiles/ECE_Course_Structure.xlsx'
     timetable_path=ROOT/'datafiles/master_timetable_by_year.json'
     course_faculty_path=ROOT/'datafiles/course_faculty_assignments.json'
+    ete_path=ROOT/'data/Draft_Schedule_ETE_Autumn_2026-27.pdf'
+    calendar_path=ROOT/'data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf'
     workbook_hash=hashlib.sha256(workbook_path.read_bytes()).hexdigest()
     timetable_hash=hashlib.sha256(timetable_path.read_bytes()).hexdigest()
     course_faculty_hash=hashlib.sha256(course_faculty_path.read_bytes()).hexdigest()
-    source_ids.update((workbook_hash,timetable_hash,course_faculty_hash))
+    try:
+        ete_snapshot=load_ete_snapshot()
+        ete_hash=ete_snapshot['source']['sha256']
+        ete_snapshot_error=None
+    except (OSError,ValueError,KeyError) as exc:
+        ete_snapshot={}
+        ete_hash=''
+        ete_snapshot_error=str(exc)
+    calendar_hash=hashlib.sha256(calendar_path.read_bytes()).hexdigest()
+    source_ids.update((workbook_hash,timetable_hash,course_faculty_hash,ete_hash,calendar_hash))
     bad=[]
     for m in manifest:
         file=ROOT/m.get('snapshot',m.get('path',''))
         if hashlib.sha256(file.read_bytes()).hexdigest()!=m['sha256']: bad.append(str(file))
     check('Every recorded source hash matches its saved bytes',not bad,bad)
+    check('Roster-free ETE JSON snapshot checksum and original PDF provenance are valid',
+          bool(ete_snapshot),ete_snapshot_error)
     for local in load('local_source_manifest.json'):
         remote=[m for m in manifest if m.get('url','').endswith(Path(local['path']).name)]
         check('Local PDF matches current official linked download: '+local['path'],any(m['sha256']==local['sha256'] for m in remote))
@@ -41,6 +55,8 @@ def validate():
     workbook=load('workbook_course_records.json')
     timetable=load('timetable_records.json')
     course_faculty=load('course_faculty_records.json')
+    ete=load('ete_schedule_records.json')
+    calendar=load('academic_calendar_events.json')
     check('Course workbook rows are extracted with sheet and cell evidence',
           len(workbook)==127 and all(r['evidence']['source_version_id']==workbook_hash and r['evidence']['locator'] for r in workbook))
     check('All 221 timetable rows are normalized with OCR source evidence',
@@ -49,6 +65,18 @@ def validate():
           all(r['evidence']['source_version_id']==course_faculty_hash
               and any(c['code']==r['course_code'] for c in load('course_catalogue.json'))
               for r in course_faculty))
+    check('ETE schedule entries retain source hash, page, and draft status',
+          len(ete)>0 and all(r['evidence']['source_version_id']==ete_hash
+              and r['evidence']['page'] in range(5,31)
+              and r['source_status']=='draft_unreviewed' for r in ete))
+    check('Extracted ETE catalogue equals the checksummed safe snapshot',
+          bool(ete_snapshot) and ete==ete_snapshot.get('records'))
+    check('Calendar entries retain source hash and page provenance',
+          len(calendar)>=45 and all(r['evidence']['source_version_id']==calendar_hash
+              and r['evidence']['page'] in (1,2) for r in calendar))
+    check('Calendar preserves its stated program scope and tentative dates',
+          all(r.get('programme_scope')=='All programs other than MBA' for r in calendar)
+          and any(r['source_status']=='tentative_source_provided' for r in calendar))
     check('Eight semester tables have total rows',len(structure['semester_totals'])==8)
     credit_review=[]
     for semester in range(1,9):
@@ -117,6 +145,13 @@ def validate():
           and sum(c['metadata']['document_type']=='timetable_record' for c in chunks)==len(timetable))
     check('Course professor notes are present in embedding input',
           sum(c['metadata']['document_type']=='course_faculty_assignment' for c in chunks)==len(course_faculty))
+    check('ETE schedule records are present in embedding input',
+          sum(c['metadata']['document_type']=='ete_exam_record' for c in chunks)==len(ete))
+    check('Calendar events are present in embedding input',
+          sum(c['metadata']['document_type']=='academic_calendar_event' for c in chunks)>=len(calendar))
+    check('ETE student enrollment rosters are excluded from embeddings',
+          not any(re.search(r'\bEnrollment\s*No\b|\b\d{8}\b',c['text'],re.I)
+                  for c in chunks if c['metadata']['document_type']=='ete_exam_record'))
     check('Every embedding has source evidence resolving to saved sources',all(c['text'].strip() and c['metadata']['evidence'] and set(c['metadata']['source_version_ids'])<=source_ids for c in chunks))
     texts=[json.loads(line) for line in (OUT/'embedding_texts.jsonl').read_text(encoding='utf-8').splitlines()]
     check('API input text and metadata stay in exact ID alignment',[(c['chunk_id'],c['text']) for c in chunks]==[(t['id'],t['input']) for t in texts])

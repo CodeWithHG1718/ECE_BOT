@@ -161,13 +161,14 @@ def make_application(token, catalogue, retriever, llm=None):
             ('start','Meet ECE Companion'),('menu','Main catalogue'),('courses','Browse courses by year'),
             ('course','Select a course code'),('faculty','Find faculty research'),
             ('projects','Explore recorded research projects'),('resources','Find course resources'),
-            ('timetable','Timetable availability'),('notices','Notices availability'),('search','Search the collected catalogue'),
+            ('timetable','Timetable availability'),('dates','Academic dates'),('calendar','Academic calendar'),
+            ('notices','Notices availability'),('search','Search the collected catalogue'),
             ('clear','Clear course filter'),('help','How to use Signal')]])
 
     app = Application.builder().token(token).concurrent_updates(4).post_init(post_init).build()
     for names, handler in [(['start','help','menu'],start),(['courses'],courses),(['course'],course_command),
                            (['clear'],clear),(['faculty'],faculty_command),
-                           (['ask','projects','resources','search','timetable','notices'],query)]:
+                           (['ask','projects','resources','search','timetable','notices','dates','calendar'],query)]:
         app.add_handler(CommandHandler(names,handler))
     app.add_handler(CallbackQueryHandler(callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND,query))

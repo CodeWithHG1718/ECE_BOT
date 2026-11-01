@@ -27,7 +27,7 @@ ACTIONS = {
     'related_faculty':'Related Faculty',
 }
 UNAVAILABLE = {
-    'dates':'A verified academic calendar and exam schedule have not been added. I can’t confirm dates yet.',
+    'dates':'The supplied Autumn 2026–27 calendar and draft ETE schedule are available. Course-specific exam assignments remain unverified for an individual student.',
     'rules':'A complete verified academic-rules catalogue has not been added. I can give course credits and semesters from the supplied curriculum.',
     'notes':'Official lecture notes have not been added. Books and NPTEL lectures are available through Find Resources, labelled as external study material.',
     'papers':'Previous-year question papers have not been added. I won’t invent papers or download links.',

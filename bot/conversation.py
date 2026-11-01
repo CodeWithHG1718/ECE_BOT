@@ -45,6 +45,9 @@ class Conversation:
             self.state.update(pending='timetable_year',timetable_personal=True)
             return ('Which study year is your timetable for? Reply 1, 2, 3, or 4. '
                     'I’ll ask for your student section when the source contains section labels.')
+        if key=='dates':
+            self.state['pending']=None
+            return self.catalogue.academic_schedule.render_calendar_overview()
         if key in ('explain','planner','roadmaps','interviews') and self.assistant.llm is not None:
             self.state.update(pending='generation',generation_intent=key)
             prompts={
@@ -210,6 +213,8 @@ class Conversation:
             return self.timetable_reply(argument or 'my timetable',personal=True)
         commands={'/timetable':'timetable','/notices':'notices','/projects':'projects',
                   '/resources':'resources','/search':'search','/faculty':'faculty'}
+        if lower in ('/dates','/calendar'):
+            return self.action('dates')
         if action or lower in commands: return self.action(action or commands[lower])
         if lower in ('/clear','clear','reset','start over'):
             self.state.clear()
@@ -225,6 +230,8 @@ class Conversation:
             return (('“optio” looks incomplete. Type “options” for electives.\n' if value=='optio' else '')+YEAR_PROMPT)
         if lower in ('options','electives','elective options'):
             return self.choose_year('options')
+        if self.catalogue.academic_schedule.is_query(text):
+            return self.catalogue.academic_schedule.reply(text,selected_course=self.state.get('course'))
         if re.search(r'\b(time[\s-]*table|timetables?|schedules?|class timings?|class rooms?|my classes|when.*\bclasses?\b)\b',lower):
             return self.timetable_reply(text,personal=bool(re.search(r'\bmy\b',lower)))
         new_intent=bool(re.search(r'\b(courses?|subjects?|topics?|syllabus|resources?|faculty|projects?)\b',lower))

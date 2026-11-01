@@ -20,3 +20,11 @@ datafiles/academic/vectors/*.sqlite3-shm
 .pytest_cache/
 .idea/
 .vscode/
+
+# Signal backend local database and SQLite journals.
+/backend/*.db
+/backend/*.db-*
+
+# This source PDF includes student enrollment rosters on pages 31-33.
+# Keep it local; the importer only reads timetable pages 1-30.
+/data/Draft_Schedule_ETE_Autumn_2026-27.pdf

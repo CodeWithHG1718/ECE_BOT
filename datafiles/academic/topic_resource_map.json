@@ -15,8 +15,8 @@
       "storage": "float32-le",
       "pipeline_version": 1
     },
-    "chunk_source_sha256": "23970221147d86277ec6dc62eff6aa5147ef688b79b2d789f1e68f7ed3a1d66c",
-    "chunk_count": 2443,
+    "chunk_source_sha256": "905c1fcfe498c6d376d51b252315c593e67cde546545a741324885703d4175f5",
+    "chunk_count": 3312,
     "course_count": 120,
     "course_topic_pair_count": 180,
     "source_syllabus_topic_count": 232,
@@ -5115,7 +5115,7 @@
                 "chapter_number": 6,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.534032,
+                  "dense": 0.534001,
                   "lexical": 3.661759,
                   "rrf": 0.032266
                 },
@@ -5190,7 +5190,7 @@
                 "chapter_number": 3,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.516616,
+                  "dense": 0.516586,
                   "lexical": 4.194536,
                   "rrf": 0.032258
                 },
@@ -5293,7 +5293,7 @@
                 "chapter_number": 1,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.506244,
+                  "dense": 0.506221,
                   "lexical": 4.620994,
                   "rrf": 0.032018
                 },
@@ -5362,7 +5362,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.604556,
+                  "dense": 0.604569,
                   "lexical": 4.924199,
                   "rrf": 0.032002
                 },
@@ -5387,7 +5387,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.581228,
+                  "dense": 0.581234,
                   "lexical": 6.600872,
                   "rrf": 0.030478
                 },
@@ -5412,7 +5412,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.582346,
+                  "dense": 0.582343,
                   "lexical": 5.394455,
                   "rrf": 0.030415
                 },
@@ -5662,7 +5662,7 @@
                 "chapter_number": 9,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.522509,
+                  "dense": 0.522539,
                   "lexical": 10.948171,
                   "rrf": 0.032787
                 },
@@ -5751,7 +5751,7 @@
                 "chapter_number": 4,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.495263,
+                  "dense": 0.495277,
                   "lexical": 5.266349,
                   "rrf": 0.031258
                 },
@@ -5826,7 +5826,7 @@
                 "chapter_number": 5,
                 "edition": "2nd edition",
                 "scores": {
-                  "dense": 0.470908,
+                  "dense": 0.470917,
                   "lexical": 5.276815,
                   "rrf": 0.03125
                 },
@@ -5909,7 +5909,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.595062,
+                  "dense": 0.5951,
                   "lexical": 10.976686,
                   "rrf": 0.032522
                 },
@@ -5934,7 +5934,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.589785,
+                  "dense": 0.589805,
                   "lexical": 10.142734,
                   "rrf": 0.031281
                 },
@@ -5959,7 +5959,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104100",
                 "scores": {
-                  "dense": 0.612967,
+                  "dense": 0.613006,
                   "lexical": 7.47433,
                   "rrf": 0.030886
                 },
@@ -8056,7 +8056,7 @@
                 "chapter_number": 10,
                 "edition": "3rd edition",
                 "scores": {
-                  "dense": 0.45494,
+                  "dense": 0.454979,
                   "lexical": 2.381736,
                   "rrf": 0.032522
                 },
@@ -8082,7 +8082,7 @@
                 "chapter_number": 8,
                 "edition": "3rd edition",
                 "scores": {
-                  "dense": 0.453508,
+                  "dense": 0.453556,
                   "lexical": 0.030138,
                   "rrf": 0.029462
                 },
@@ -8109,7 +8109,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.589669,
+                  "dense": 0.589632,
                   "lexical": 12.259005,
                   "rrf": 0.032522
                 },
@@ -8134,7 +8134,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.58861,
+                  "dense": 0.588573,
                   "lexical": 12.454469,
                   "rrf": 0.032522
                 },
@@ -8159,7 +8159,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.534737,
+                  "dense": 0.534687,
                   "lexical": 8.458378,
                   "rrf": 0.031258
                 },
@@ -8327,7 +8327,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.490492,
+                  "dense": 0.490533,
                   "lexical": 4.086229,
                   "rrf": 0.032002
                 },
@@ -8352,7 +8352,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.489569,
+                  "dense": 0.489609,
                   "lexical": 4.022098,
                   "rrf": 0.031498
                 },
@@ -8377,7 +8377,7 @@
                 ],
                 "course_url": "https://nptel.ac.in/courses/108104130",
                 "scores": {
-                  "dense": 0.468195,
+                  "dense": 0.468215,
                   "lexical": 3.305066,
                   "rrf": 0.029199
                 },
@@ -21368,7 +21368,7 @@
             "chapter_number": 3,
             "edition": "3rd edition",
             "scores": {
-              "dense": 0.477018,
+              "dense": 0.477002,
               "lexical": 12.656484,
               "rrf": 0.032522
             },
@@ -21398,7 +21398,7 @@
             "chapter_number": 2,
             "edition": "3rd edition",
             "scores": {
-              "dense": 0.475769,
+              "dense": 0.475762,
               "lexical": 12.656484,
               "rrf": 0.032002
             },
@@ -21429,7 +21429,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108103141",
             "scores": {
-              "dense": 0.500976,
+              "dense": 0.500974,
               "lexical": 15.636936,
               "rrf": 0.032258
             },
@@ -21454,7 +21454,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108104130",
             "scores": {
-              "dense": 0.530418,
+              "dense": 0.530386,
               "lexical": 13.196101,
               "rrf": 0.031778
             },
@@ -21483,7 +21483,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108103141",
             "scores": {
-              "dense": 0.497575,
+              "dense": 0.497577,
               "lexical": 16.598368,
               "rrf": 0.031778
             },
@@ -21609,7 +21609,7 @@
             "chapter_number": 2,
             "edition": "2nd edition",
             "scores": {
-              "dense": 0.456605,
+              "dense": 0.456642,
               "lexical": 4.470774,
               "rrf": 0.032787
             },
@@ -21638,7 +21638,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108107142",
             "scores": {
-              "dense": 0.460946,
+              "dense": 0.460971,
               "lexical": 2.469594,
               "rrf": 0.02753
             },
@@ -21665,7 +21665,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108107142",
             "scores": {
-              "dense": 0.465436,
+              "dense": 0.465503,
               "lexical": 0,
               "rrf": 0.016393
             },
@@ -21692,7 +21692,7 @@
             ],
             "course_url": "https://nptel.ac.in/courses/108107142",
             "scores": {
-              "dense": 0.462131,
+              "dense": 0.462187,
               "lexical": 0,
               "rrf": 0.016129
             },

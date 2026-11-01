@@ -4,6 +4,7 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import re
 import sqlite3
 import subprocess
 import sys
@@ -36,6 +37,8 @@ def verify_pipeline(index_path=None):
     structure=load('course_structure.json')
     workbook=load('workbook_course_records.json')
     timetable=load('timetable_records.json')
+    ete=load('ete_schedule_records.json')
+    calendar=load('academic_calendar_events.json')
     faculty_assignments=load('course_faculty_records.json')
     people=load('faculty_profiles.json')
     projects=load('department_projects.json')
@@ -73,6 +76,8 @@ def verify_pipeline(index_path=None):
         if any(s in row['url'] for s in ['Research%20Groups','Network%20','Microwave%20Group',
             'Microelectronics','Terahertz','Smart%20Electronic','C-DoT'])))
     expect('timetable_record',(row['record_id'] for row in timetable))
+    expect('ete_exam_record',(row['record_id'] for row in ete))
+    expect('academic_calendar_event',(row['record_id'] for row in calendar))
     expect('nptel_lecture',(f"{item['resource_id']}:{lesson['unit_id']}:{lesson['lesson_id']}"
         for item in lectures for lesson in item['lessons']))
     actual={kind:set() for kind in counts}
@@ -90,6 +95,9 @@ def verify_pipeline(index_path=None):
         raise RuntimeError('Embedding text inputs do not match source chunk IDs and text.')
     if any(not row['metadata'].get('evidence') for row in chunks):
         raise RuntimeError('A chunk is missing source evidence.')
+    schedule_chunks=[row for row in chunks if row['metadata']['document_type']=='ete_exam_record']
+    if any(re.search(r'\bEnrollment\s*No\b|\b\d{8}\b',row['text'],re.I) for row in schedule_chunks):
+        raise RuntimeError('ETE embedding input contains enrollment roster identifiers; remove them before indexing.')
 
     chunk_hash=hashlib.sha256((OUT/'embedding_chunks.jsonl').read_bytes()).hexdigest()
     index_path=index_path or bge_embeddings.INDEX
@@ -157,6 +165,8 @@ def verify_pipeline(index_path=None):
         'all_source_syllabus_topics':map_manifest.get('source_syllabus_topic_count'),
         'unmapped_legacy_syllabus_topics':len(topic_map.get('unmapped_syllabus_topics',[])),
         'embedding_chunks':len(chunks),'embedding_chunk_types':dict(sorted(counts.items())),
+        'ete_schedule_records':len(ete),'academic_calendar_events':len(calendar),
+        'ete_course_codes':len({row['course_code'] for row in ete if row.get('course_code')}),
         'indexed_documents':len(indexed_ids),'resource_map_summary':topic_map['summary'],
         'embedding_provider':manifest['embedding']['provider'],'embedding_model':manifest['embedding']['model']}
 

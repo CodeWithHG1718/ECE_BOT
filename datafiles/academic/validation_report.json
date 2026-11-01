@@ -8,6 +8,11 @@
       "detail": []
     },
     {
+      "check": "Roster-free ETE JSON snapshot checksum and original PDF provenance are valid",
+      "passed": true,
+      "detail": null
+    },
+    {
       "check": "Local PDF matches current official linked download: data/btech_ec_str_24.pdf",
       "passed": true,
       "detail": null
@@ -19,6 +24,41 @@
     },
     {
       "check": "All 122 source curriculum rows, including elective options and minor/honours lists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Course workbook rows are extracted with sheet and cell evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All 221 timetable rows are normalized with OCR source evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Course instructor notes retain source hash and resolve to a known course",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ETE schedule entries retain source hash, page, and draft status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Extracted ETE catalogue equals the checksummed safe snapshot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Calendar entries retain source hash and page provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Calendar preserves its stated program scope and tentative dates",
       "passed": true,
       "detail": null
     },
@@ -194,6 +234,31 @@
       "detail": null
     },
     {
+      "check": "Workbook courses and timetable rows are present in embedding input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Course professor notes are present in embedding input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ETE schedule records are present in embedding input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Calendar events are present in embedding input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ETE student enrollment rosters are excluded from embeddings",
+      "passed": true,
+      "detail": null
+    },
+    {
       "check": "Every embedding has source evidence resolving to saved sources",
       "passed": true,
       "detail": null
@@ -287,6 +352,8 @@
   ],
   "known_gaps": [
     "Unmatched curriculum courses have no detailed syllabus in the supplied file.",
+    "The user-supplied course workbook has no stated effective cohort or publication date; its course rows need academic review.",
+    "The timetable is OCR-extracted recurring weekly data; section applicability and source accuracy need review.",
     "Book contents cover eight selected books, not all 194 bibliography entries. Alternate editions are explicitly labelled.",
     "NPTEL collection covers twelve selected courses; coverage of every curriculum entry is listed in resource_coverage.json.",
     "The site homepage advertises 40/41 faculty while its linked directory lists 38. Coverage here is the linked directory.",

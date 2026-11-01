@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import sqlite3
 from urllib.parse import urlparse
+from bot.academic_schedule import AcademicSchedule
 from bot.prompts import academic_note, DEFAULT_ACADEMIC_YEAR
 from bot.timetable import Timetable
 from ingestion.bge_embeddings import index_for_provider, load_environment
@@ -31,6 +32,7 @@ class Catalogue:
     def __init__(self):
         self.courses = json.loads((DATA/'course_catalogue.json').read_text(encoding='utf-8'))
         self.timetable = Timetable()
+        self.academic_schedule = AcademicSchedule()
         self.syllabi = {s['syllabus_id']:s for s in json.loads((DATA/'syllabus_courses.json').read_text(encoding='utf-8'))}
         self.faculty = {f['faculty_id']:f for f in json.loads((DATA/'faculty_profiles.json').read_text(encoding='utf-8'))}
         self.projects = {p['project_id']:p for p in json.loads((DATA/'department_projects.json').read_text(encoding='utf-8'))}

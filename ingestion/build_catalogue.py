@@ -8,6 +8,7 @@ from pathlib import Path
 from import_course_workbook import extract_records as extract_workbook_records, curriculum_entry, course_text
 from import_timetable import extract_records as extract_timetable_records
 from import_course_faculty import extract_records as extract_course_faculty_records
+from import_academic_calendar import extract_ete_records, extract_calendar_records
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'datafiles/academic'
@@ -54,9 +55,13 @@ def build(refresh_resources=False):
     workbook_courses=extract_workbook_records()
     timetable_records=extract_timetable_records()
     course_faculty_records=extract_course_faculty_records(people)
+    ete_records=extract_ete_records()
+    calendar_events=extract_calendar_records()
     save('workbook_course_records.json',workbook_courses)
     save('timetable_records.json',timetable_records)
     save('course_faculty_records.json',course_faculty_records)
+    save('ete_schedule_records.json',ete_records)
+    save('academic_calendar_events.json',calendar_events)
     mapping=json.loads((ROOT/'ingestion/course_content_mappings.json').read_text(encoding='utf-8'))
     by_source={s['source_code']:s for s in syllabus}
     by_curriculum={e['code']:e for e in structure['entries']}
@@ -226,6 +231,50 @@ def build(refresh_resources=False):
             session_type=record['session_type'],course_batch=record['course_batch'],
             student_sections=record['student_sections'],room=record['room'],faculty=record['faculty'],
             applicability=record['applicability'])
+    for record in ete_records:
+        if record['record_type']=='course_exam':
+            title=f"{record['course_code']} ETE {record['exam_date']} {record['start_time']}"
+            text=(f"Draft End Term Examination schedule for Autumn 2026-27. Course {record['course_code']}. "
+                  f"Date {record['exam_date']} ({record['day']}); time {record['start_time']} to {record['end_time']} "
+                  f"Asia/Kolkata; examination slot {record['slot'] or 'not stated'}; room {record['room']}. "
+                  f"Programme/enrollment-range allocation as printed: {record['programme_allocation'] or 'not stated'}. "
+                  "This is a draft source assignment, not a verified match to an individual student's registration or section.")
+        else:
+            title=f"ETE venue {record['department_name']} {record['exam_date']} {record['start_time']}"
+            text=(f"Draft End Term Examination venue schedule for Autumn 2026-27. "
+                  f"Department/center/school {record['department_name']}; date {record['exam_date']} ({record['day']}); "
+                  f"time {record['start_time']} to {record['end_time']} Asia/Kolkata; "
+                  f"examination slot {record['slot'] or 'not stated'}; venue listed as {record['room']}. "
+                  "The source labels these as department-hosted examinations; this is not a student-specific assignment.")
+        add('ete_exam_record',record['record_id'],title,text,record['evidence'],
+            record_type=record['record_type'],course_code=record.get('course_code'),
+            department_name=record.get('department_name'),exam_type=record['exam_type'],
+            exam_date=record['exam_date'],day=record['day'],start_time=record['start_time'],
+            end_time=record['end_time'],timezone='Asia/Kolkata',slot=record.get('slot'),
+            room=record.get('room'),programme_allocation=record.get('programme_allocation'),
+            academic_session=record['academic_session'],source_status=record['source_status'],
+            applicability=record['applicability'])
+    for record in calendar_events:
+        dates=', '.join(record.get('dates',[])) or 'not stated'
+        date_range='; '.join(' to '.join(pair) for pair in record.get('date_ranges',[]))
+        text=(f"IIT Roorkee Academic Calendar, Autumn 2026-27, {record.get('programme_scope','All programs other than MBA')}. "
+              f"{record['title']}. Printed date(s): {record.get('date_text') or dates}. "
+              f"Day(s): {record.get('day_text') or 'not stated'}. "
+              f"Event type: {record.get('event_type')}. "
+              f"Date relationship: {record.get('date_relation')}. "
+              +(f"Normalized date range(s): {date_range}. " if date_range else '')
+              +f"Source status: {record.get('source_status')}. "
+              +f"Applicability: {record.get('applicability')}. ")
+        if record.get('source_note'): text+=record['source_note']+' '
+        if record.get('summary_text'): text+=record['summary_text']
+        if record.get('timetable_action'): text+=f"Class timetable action: {record['timetable_action']}."
+        add('academic_calendar_event',record['record_id'],
+            f"Autumn 2026-27 calendar · {record['title']}",text,record['evidence'],
+            event_type=record.get('event_type'),date_text=record.get('date_text'),
+            dates=record.get('dates',[]),date_ranges=record.get('date_ranges',[]),
+            date_relation=record.get('date_relation'),day_text=record.get('day_text'),
+            academic_session=record.get('academic_session'),programme_scope=record.get('programme_scope'),
+            source_status=record.get('source_status'),applicability=record.get('applicability'))
     if refresh_resources:
         from extract_nptel import extract as extract_nptel
         nptel=extract_nptel()
@@ -261,7 +310,8 @@ def build(refresh_resources=False):
            'workbook_course_records':len(workbook_courses),
            'workbook_course_codes':len({r['code'] for r in workbook_courses}),
            'course_faculty_assignments':len(course_faculty_records),
-           'timetable_records':len(timetable_records),'syllabus_course_blocks':len(syllabus),
+           'timetable_records':len(timetable_records),'ete_schedule_records':len(ete_records),
+           'academic_calendar_events':len(calendar_events),'syllabus_course_blocks':len(syllabus),
            'curriculum_codes_with_content':len(links),'book_references':len(books),'faculty_profiles':len(people),
            'faculty_profile_projects':sum(len(f['profile_projects']) for f in people),
            'department_project_entries':len(load('department_projects.json')),'embedding_chunks':len(chunks),

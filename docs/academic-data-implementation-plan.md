@@ -1,5 +1,7 @@
 # Academic data implementation plan
 
+Implementation update, 1 November 2026: the Autumn 2026–27 calendar and draft ETE schedule are now parsed, source-cited and embedded. The current catalogue has 3,312 chunks, including 808 ETE rows across 639 distinct course codes and 61 calendar records. The calendar's broad end-term window runs November 13–24, while detailed course entries currently cover November 13–21; November 23–24 assignments remain unresolved. A checksummed, roster-free ETE JSON snapshot supports clean clones because the original 38-page PDF is kept local-only (its pages 31–33 contain enrollment rosters). Azure `text-embedding-3-small` is selected for embeddings; the separate BGE-M3 index remains an offline alternative. Exact ETE and calendar replies use deterministic lookup, with the schedule explicitly labelled draft and not student-specific.
+
 Prepared 30 September 2026 for the ECE WhatsApp academic assistant.
 
 Implementation direction, 18 October 2026: the user has replaced the website/WhatsApp interface with a Telegram chatbot and selected local `BAAI/bge-m3` embeddings. Complete and evaluate local retrieval/chatbot logic first; Telegram credentials, establishment and deployment are deferred. See `bge-m3-embeddings.md` and `telegram-implementation.md`. The original larger PostgreSQL/Qdrant architecture below is a future-scale plan, not a prerequisite for the single-laptop project demonstration.

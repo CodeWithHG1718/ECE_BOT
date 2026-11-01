@@ -1,6 +1,6 @@
 # ECE_BOT — Signal, IIT Roorkee ECE Companion
 
-ECE_BOT is a student-facing study assistant for the Electronics and Communication Engineering (ECE) department at IIT Roorkee. The project is being built as a Telegram chatbot, but the current development and presentation interface is local chat on a Windows computer. The goal is a dependable academic guide: show the right course, point to useful topics and resources, and explain what the sources do and do not support.
+ECE_BOT is a student-facing study assistant for the Electronics and Communication Engineering (ECE) department at IIT Roorkee. The current development and presentation interface is local chat on a Windows computer. Signal 2.0 is planned as a web frontend and API backend that can be developed in parallel; the existing Python local/Telegram bot remains the working reference. The goal is a dependable academic guide: show the right course, point to useful topics and resources, and explain what the sources do and do not support.
 
 This guide is the teammate handoff for the project as it stands. It distinguishes working features from extracted data that has not yet been connected to the chatbot.
 
@@ -9,16 +9,17 @@ This guide is the teammate handoff for the project as it stands. It distinguishe
 | Area | Status |
 |---|---|
 | Local chatbot | Implemented in **bot/local_chat.py**; course browsing and resource search run on the project computer. |
-| Embeddings and search | BAAI/bge-m3 is pinned and runs locally. Search combines dense vector similarity with BM25 keyword ranking and reciprocal-rank fusion. |
+| Embeddings and search | Azure text-embedding-3-small is selected in the current local configuration; BAAI/bge-m3 remains an offline option. Search combines dense vector similarity with BM25 keyword ranking and reciprocal-rank fusion. |
 | Vector index | A resumable SQLite index is included in the repository alongside its source chunks. |
 | Answer model | Qwen3 4B Instruct runs locally through Ollama for explanations, study guidance and casual help-seeking chat. It is not a paid API. |
 | Academic catalogue | Structured course, syllabus, resource, faculty and department-project data is available, with citations and source metadata. |
 | Telegram adapter | Implemented in **bot/main.py**, but the project has not been connected to a BotFather token or run as a live bot. |
 | Timetable | 221 OCR-extracted Autumn 2026–27 entries are available through deterministic year, day, course, timetable-batch and student-section lookup. OCR/source applicability still needs academic review. |
-| Website | The earlier website prototype was abandoned. It is excluded from this Telegram chatbot repository. |
+| Calendar and exams | The Autumn 2026–27 calendar and a draft ETE schedule are indexed. Exact course-code lookups are deterministic; individual student assignments are not confirmed. |
+| Signal 2.0 web app/API | Planned. Parallel implementation briefs and the shared API contract are in **docs/frontend/README.md** and **docs/backend/README.md**. The earlier `frontend/` prototype remains discarded and ignored. |
 | GitHub | The private **ECE_BOT** repository is connected as **origin**. This local update has not yet been committed or pushed. |
 
-The current product is a **local demonstration**, not a production student service. Telegram deployment, continuously available hosting, student accounts, and live timetable updates are future work.
+The current product is a **local demonstration**, not a production student service. The Signal 2.0 website and API, Telegram deployment, continuously available hosting, student accounts, and live timetable updates are future work.
 
 ## What the chatbot can do today
 
@@ -27,6 +28,7 @@ The current product is a **local demonstration**, not a production student servi
 - Search the local catalogue for study resources and return book chapter contents and NPTEL lecture links.
 - Find faculty by recorded research interests and find recorded department projects.
 - Answer exact curriculum-code, semester and credit questions from structured data.
+- Look up broad Autumn 2026–27 milestones and holidays, or retrieve a draft ETE entry by exact course code. The chatbot states the date/room and draft status, and does not infer a personal student assignment.
 - Generate optional general explanations and study guidance using the local Qwen model.
 - Abstain when the local catalogue does not contain a sufficiently close resource match.
 - Use the same conversation logic from local chat and the Telegram adapter.
@@ -51,10 +53,14 @@ Latest recorded catalogue build:
 | Syllabus book recommendations | 194 |
 | Book contents | 100 chapter references from 8 selected books |
 | NPTEL outlines | 12 courses and 693 lecture references |
-| Embedding chunks | 2,443 |
+| Embedding chunks | 3,312 |
+| ETE schedule rows / distinct course codes | 808 / 639 (31 department venue rows included) |
+| Autumn calendar records | 61 (page 1 milestones and page 2 schedule changes, events, teaching-day chart and holidays) |
 | Timetable records | 221 rows across Years I–IV, Autumn 2026–27 |
 
-The academic dataset was last recorded as extracted on 11 October 2026. The supplied workbook is imported with sheet/cell evidence but has no stated effective cohort or publication date; its applicability still needs academic review. The timetable rows came from a separate four-page scanned PDF and were extracted with OCR. The chatbot now renders exact matching records as **recurring weekly entries**, not dated class occurrences or verified student assignments. Some timetable rows lack a room, faculty member, or section, and OCR may misread codes or names. Missing values stay explicit; section-specific answers are withheld if the source does not record a section.
+The original academic collection predates the latest source additions. The supplied workbook is imported with sheet/cell evidence but has no stated effective cohort or publication date; its applicability still needs academic review. The timetable rows came from a separate four-page scanned PDF and were extracted with OCR. The chatbot now renders exact matching records as **recurring weekly entries**, not dated class occurrences or verified student assignments. Some timetable rows lack a room, faculty member, or section, and OCR may misread codes or names. Missing values stay explicit; section-specific answers are withheld if the source does not record a section.
+
+The supplied Autumn 2026–27 calendar is scoped to programs other than MBA. The separate ETE schedule is labelled draft and is not a verified student-specific assignment. Its detailed course assignments cover November 13–21, while the calendar gives a broad ETE period through November 24; the November 23–24 course assignments remain unresolved. Page 2 calendar entries include timetable rescheduling, UG-I compensatory dates, holidays, event/non-teaching entries, and the teaching-day chart. The original ETE PDF includes enrollment rosters on pages 31–33 and is ignored by Git. A checksummed JSON snapshot containing only schedule records is included for clean-clone rebuilds; retain the original locally only if you need to regenerate that snapshot.
 
 The timetable review notes 26 rows without faculty, 52 without a room, and 134 without student sections; the academic-data plan also flags 19 course-code strings for reconciliation. Missing values must remain unknown. In the timetable schema, a course-cell label such as “Batch 1” is separate from student cohort labels such as “26EC1”.
 
@@ -67,7 +73,7 @@ Important source limits:
 - Department-project entries are collected records, not proof that a project is currently active or accepting students.
 - The catalogue is an offline collection. General web search and automatic refresh are not connected.
 
-Original source snapshots, checksums, extracted records and coverage notes are in **datafiles/academic/**. The course workbook is **datafiles/ECE_Course_Structure.xlsx**. The input PDFs are in **data/**. The OCR timetable export is in **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv**; normalized, source-backed records are in **datafiles/academic/timetable_records.json**.
+Original source snapshots, checksums, extracted records and coverage notes are in **datafiles/academic/**. The course workbook is **datafiles/ECE_Course_Structure.xlsx**. Source PDFs are in **data/**; the ETE PDF with roster pages is local-only and ignored by Git. The OCR timetable export is in **datafiles/master_timetable_by_year.json** and **datafiles/master_timetable.csv**; normalized, source-backed records are in **datafiles/academic/timetable_records.json**.
 
 ## How the system fits together
 
@@ -80,7 +86,7 @@ Original source snapshots, checksums, extracted records and coverage notes are i
     Structured JSON catalogue and source-backed embedding chunks
                                     |
                                     v
-    Pinned local BGE-M3 model creates 1,024-dimensional document/query vectors
+    Selected Azure text-embedding-3-small (1,536 dimensions) or local BGE-M3 (1,024 dimensions)
                                     |
                                     v
     SQLite index + exact filters + dense similarity + BM25 keyword ranking
@@ -92,15 +98,15 @@ Original source snapshots, checksums, extracted records and coverage notes are i
                                     |
                   local chat now; Telegram later
 
-Exact facts such as course codes, credits, semesters, menu navigation, and missing-data messages are handled by application code. The embedding model finds relevant passages; it does not decide official course facts. Qwen is used for limited conversational explanations and study advice. The application validates the generated response and attaches source links itself. There is no automatic fallback to a paid or remote model.
+Exact facts such as course codes, credits, semesters, exam dates, menu navigation, and missing-data messages are handled by application code. The embedding model finds relevant passages; it does not decide official course facts. Qwen is used for limited conversational explanations and study advice. The application validates the generated response and attaches source links itself. There is no automatic fallback for chat generation; semantic retrieval uses the embedding provider selected in `.env`.
 
-The current retriever uses BGE-M3 dense embeddings and BM25 keyword scores fused with reciprocal-rank fusion. It filters by institute, course and source type, then deduplicates resources. The SQLite index is small enough for this project and does not need PostgreSQL, Qdrant, or another hosted database.
+The current retriever uses Azure text-embedding-3-small dense embeddings and BM25 keyword scores fused with reciprocal-rank fusion. BGE-M3 uses a separate local index. Retrieval filters by institute, course and source type, then deduplicates resources. The SQLite index is small enough for this project and does not need PostgreSQL, Qdrant, or another hosted database.
 
 ## Repository layout
 
 - **bot/** — catalogue renderer, conversation flow, study assistant, local Qwen client, local chat, Telegram adapter, and automated checks.
 - **ingestion/** — source extraction, catalogue generation, BGE-M3 index build/search, evaluation scripts and package requirements.
-- **data/** — primary curriculum PDFs and the scanned timetable PDF.
+- **data/** — primary curriculum PDFs, the scanned timetable PDF, and the roster-free ETE record snapshot plus checksum. The original 38-page ETE PDF is local-only and ignored by Git because it contains enrollment rosters.
 - **datafiles/academic/** — extracted academic catalogue, source manifests, source snapshots, embedding chunks, validation reports and SQLite vector index.
 - **datafiles/ECE_Course_Structure.xlsx** — supplied workbook; imported with sheet and cell evidence, pending academic applicability review.
 - **datafiles/course_faculty_assignments.json** — team-supplied course/professor note; the import and UI explicitly mark it unverified for a current offering.
@@ -108,6 +114,7 @@ The current retriever uses BGE-M3 dense embeddings and BM25 keyword scores fused
 - **ingestion/import_course_workbook.py** and **ingestion/import_timetable.py** — source-aware workbook and timetable importers.
 - **bot/timetable.py** — exact timetable filtering and rendering; schedule answers bypass the LLM and semantic retrieval.
 - **docs/** — product roadmap, model and data design, prompts, validation reports, local setup and Telegram plan.
+- **docs/frontend/README.md** and **docs/backend/README.md** — separate parallel-work briefs, ownership boundaries, acceptance criteria and the shared `/api/v1` contract for Signal 2.0.
 - **Start-Signal.ps1** — Windows launcher for the local chatbot.
 - **.env.example** — placeholders for the Telegram token and optional Azure embedding configuration. A real **.env** file must stay private and is ignored by Git.
 
@@ -189,9 +196,10 @@ Other useful inputs include **DSP**, **convolution**, **/courses 1-4**, **/facul
 
 | Item | Needed now? | Current planned cost | Notes |
 |---|---:|---:|---|
-| BGE-M3 embeddings | Yes, model download | ₹0 API spend | Runs locally; download the model once. |
+| Azure text-embedding-3-small | Selected in the current configuration | Metered Azure API usage | Existing document vectors are stored locally; new source text and chat queries are sent for embedding. Check the Azure cost page before rebuilding. |
+| BGE-M3 embeddings | Local fallback | ₹0 API spend | Runs locally; download the model once. |
 | Qwen3 4B Instruct | Optional | ₹0 per local inference | Local Ollama model; download once. |
-| OpenAI or other hosted LLM API | No | ₹0 | GPT-6 Luna and paid embeddings are not connected. Do not buy API credits for the current local stack. |
+| Hosted answer-model API | No | ₹0 | Chat answers use local Qwen. Azure embeddings are separate and metered, as described above. |
 | Telegram bot token | Later | ₹0 | Create it with BotFather when local behaviour is accepted; keep the token in **.env**. |
 | Telegram Bot Platform | Later | ₹0 for ordinary bot use | Telegram describes its bot platform as free for developers. A bot process still needs an always-on computer or host to answer at all times. See [Telegram bot platform](https://core.telegram.org/bots). |
 | SQLite / vector database | Yes, SQLite | ₹0 | The local SQLite index is already part of the project. No hosted database is needed for the demo. |
@@ -199,9 +207,9 @@ Other useful inputs include **DSP**, **convolution**, **/courses 1-4**, **/facul
 | New hardware | No, if using an existing computer | ₹0 assumed | The tested laptop has an 8 GB NVIDIA GPU. CPU works more slowly; test the actual presentation computer. |
 | Claude Code subscriptions | Optional developer tooling | Not a chatbot runtime cost | The team previously quoted ₹4,800 for two subscriptions. If that remains in the budget, it leaves ₹3,200 from the ₹8,000 cap. These subscriptions do not run Signal and are not required to build or present the current local demo. |
 
-The earlier plan to spend roughly ₹3,000 on GPT-6 Luna and ₹300 on an embedding API has been superseded by local Qwen and BGE-M3. Do not treat those older API estimates in **docs/one-month-cost-plan.md** as the active purchase list. If the team later chooses a hosted model, verify its live model price, enable usage limits/alerts and record the provider and monthly cap before using it.
+The earlier plan to spend roughly ₹3,000 on GPT-6 Luna has been superseded by local Qwen for chat answers. Azure text-embedding-3-small is currently selected for embeddings, so embedding requests are metered by Azure; BGE-M3 is the local zero-API-cost fallback. Do not treat the older estimates in **docs/one-month-cost-plan.md** as the active purchase list. Check Azure usage and current rates before rebuilding the index or doing large embedding runs.
 
-For the current scope, the sensible plan is to hold the ₹8,000 budget rather than preload API balances. If two Claude Code subscriptions are still approved at the team’s quoted ₹4,800 total, keep the remaining ₹3,200 uncommitted until a measured need for hosting or a paid model appears. No cloud spend is required to complete the local demo.
+For the current scope, keep the unused part of the ₹8,000 budget uncommitted. The local answer model and BGE fallback do not require paid API credits; Azure embeddings can incur usage charges when new text or queries are embedded. No hosting spend is required for the laptop presentation.
 
 ## What is complete and what remains
 
@@ -213,7 +221,7 @@ For the current scope, the sensible plan is to hold the ₹8,000 budget rather t
 - Per-course coverage map for each collected syllabus topic, with chapter/lecture candidates, syllabus reading-list references, and explicit missing-data statuses.
 - Syllabus book recommendations are returned when exact chapter contents are not available; the bot distinguishes bibliographic references from collected table-of-contents chapter matches.
 - Faculty research-interest retrieval and recorded department-project retrieval.
-- One-command source-to-chunks-to-BGE-index-to-topic-map pipeline, hybrid rank fusion, SQLite persistence, pinned model revision, resumable indexing and source-to-index checks.
+- One-command source-to-chunks-to-embedding-index-to-topic-map pipeline, hybrid rank fusion, SQLite persistence, resumable indexing and source-to-index checks. Azure text-embedding-3-small is active in the current local configuration; BGE-M3 remains available offline.
 - Optional local Qwen3 answer model, bounded prompts/output, source-ID validation, local response cache and no paid-model fallback.
 - Windows launcher with optional warm-up and no-LLM mode.
 - Academic source snapshots, checksums, extracted JSON data, course mappings and retrieval/model demo reports.
@@ -230,7 +238,7 @@ For the current scope, the sensible plan is to hold the ₹8,000 budget rather t
 
 ### Later improvements
 
-- Add verified academic calendar/exam dates, current notices, official notes/PYQs, lab manuals and lab/contact/policy data with source and date tracking.
+- Confirm draft ETE assignments against the final official notice and student/course registrations. Add current notices, official notes/PYQs, lab manuals and lab/contact/policy data with source and date tracking.
 - Add supported cross-catalogue queries and a genuinely unified search. Current natural-language search does not cover every one of the seven menu sections.
 - Improve the course-to-syllabus mappings with academic review where code, title, cohort or course scope differs.
 - Add review/expiry dates for timetable and notice records and a clear way to refresh or correct them.
@@ -246,6 +254,8 @@ Run these commands from the project root after setting up the Python environment
     .\.venv-embeddings\Scripts\python.exe -m unittest discover -s ingestion -p test_bge_embeddings.py
 
     .\.venv-embeddings\Scripts\python.exe -m unittest bot.test_bot bot.test_catalogue bot.test_conversation bot.test_local_llm
+
+    .\.venv-embeddings\Scripts\python.exe -m unittest ingestion.test_import_academic_calendar bot.test_academic_schedule
 
 The checks cover index integrity and cache behaviour, exact curriculum lookup, conversational navigation, missing-data responses, Telegram adapter behaviour with mocks, local model request validation and source citation handling. They do not call Telegram or a paid API.
 

@@ -1,0 +1,1583 @@
+[
+  {
+    "record_id": "6cd46ccb-9be6-5fd4-9cc0-fdcdc26a1188",
+    "title": "Admission cum Academic Registration for new Ph.D. and Masters' students",
+    "event_type": "registration",
+    "date_text": "14.07.2026",
+    "dates": [
+      "2026-07-14"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 1",
+      "quote": "Admission cum Academic Registration for new Ph.D. and Masters' students | 14.07.2026 | Tuesday"
+    }
+  },
+  {
+    "record_id": "18c14a49-45a0-5e21-a709-52ca15b2a7eb",
+    "title": "Academic Registration for existing students in physical mode",
+    "event_type": "registration",
+    "date_text": "14.07.2026 15.07.2026",
+    "dates": [
+      "2026-07-14",
+      "2026-07-15"
+    ],
+    "date_ranges": [],
+    "date_relation": "multiple_dates_source_format_preserved",
+    "day_text": "Tuesday - Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 2",
+      "quote": "Academic Registration for existing students in physical mode | 14.07.2026 15.07.2026 | Tuesday - Wednesday"
+    }
+  },
+  {
+    "record_id": "c2f7425d-c7c7-51cf-b738-f097b4a1eb5c",
+    "title": "Orientation Program for new Ph.D. and Masters' students",
+    "event_type": "registration",
+    "date_text": "15.07.2026",
+    "dates": [
+      "2026-07-15"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 3",
+      "quote": "Orientation Program for new Ph.D. and Masters' students | 15.07.2026 | Wednesday"
+    }
+  },
+  {
+    "record_id": "bf735ab0-9f24-5234-aadf-b51a2de4e121",
+    "title": "Commencement of Classes (except UG I year)",
+    "event_type": "teaching",
+    "date_text": "16.07.2026",
+    "dates": [
+      "2026-07-16"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 4",
+      "quote": "Commencement of Classes (except UG I year) | 16.07.2026 | Thursday"
+    }
+  },
+  {
+    "record_id": "2aa31d34-f2c2-571f-a09e-a3f8ebfef901",
+    "title": "Re-examination and second examination (for Spring Semester 2025- 26)",
+    "event_type": "examination",
+    "date_text": "16.07.2026 -18.07.2026",
+    "dates": [
+      "2026-07-16",
+      "2026-07-18"
+    ],
+    "date_ranges": [
+      [
+        "2026-07-16",
+        "2026-07-18"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Thursday - Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 5",
+      "quote": "Re-examination and second examination (for Spring Semester 2025- 26) | 16.07.2026 -18.07.2026 | Thursday - Saturday"
+    }
+  },
+  {
+    "record_id": "0602b0e0-d181-5367-a318-b9110b362dc2",
+    "title": "Academic Registration for new UG students *",
+    "event_type": "registration",
+    "date_text": "24.07.2026",
+    "dates": [
+      "2026-07-24"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": "The calendar marks this event as subject to JoSAA counseling.",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 6",
+      "quote": "Academic Registration for new UG students * | 24.07.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "f4899d44-0ee3-56e8-9c23-53b5ba467ada",
+    "title": "Orientation Program – Newly Admitted UG Students",
+    "event_type": "registration",
+    "date_text": "25.07.2026 -26.07.2026 01.08.2026 -02.08.2026",
+    "dates": [
+      "2026-07-25",
+      "2026-07-26",
+      "2026-08-01",
+      "2026-08-02"
+    ],
+    "date_ranges": [
+      [
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      [
+        "2026-08-01",
+        "2026-08-02"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Saturday - Sunday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 7",
+      "quote": "Orientation Program – Newly Admitted UG Students | 25.07.2026 -26.07.2026 01.08.2026 -02.08.2026 | Saturday - Sunday"
+    }
+  },
+  {
+    "record_id": "cab7d058-f775-5cc7-a346-602199a8b336",
+    "title": "Commencement of Classes for UG I year *",
+    "event_type": "teaching",
+    "date_text": "27.07.2026",
+    "dates": [
+      "2026-07-27"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": "The calendar marks this event as subject to JoSAA counseling.",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 8",
+      "quote": "Commencement of Classes for UG I year * | 27.07.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "4e7eeaa9-63e4-56d2-9a76-8a10f262ab48",
+    "title": "Last date for Academic Registration with a late fine",
+    "event_type": "deadline",
+    "date_text": "31.07.2026",
+    "dates": [
+      "2026-07-31"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 9",
+      "quote": "Last date for Academic Registration with a late fine | 31.07.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "4f26ec31-804e-567a-a2f0-26fa711486e0",
+    "title": "Last date for adding/changing courses for all programs",
+    "event_type": "deadline",
+    "date_text": "03.08.2026",
+    "dates": [
+      "2026-08-03"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 10",
+      "quote": "Last date for adding/changing courses for all programs | 03.08.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "ee075e43-1d99-5cb8-a0a0-3093e35f4a22",
+    "title": "Last date for submission of mandatory documents for newly admitted students",
+    "event_type": "deadline",
+    "date_text": "27.08.2026",
+    "dates": [
+      "2026-08-27"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 11",
+      "quote": "Last date for submission of mandatory documents for newly admitted students | 27.08.2026 | Thursday"
+    }
+  },
+  {
+    "record_id": "1d57f4c9-1180-549d-af0f-aacb11c59e6f",
+    "title": "Convocation 2026 #",
+    "event_type": "institute_event",
+    "date_text": "19.09.2026 OR 26.09.2026",
+    "dates": [
+      "2026-09-19",
+      "2026-09-26"
+    ],
+    "date_ranges": [],
+    "date_relation": "tentative_alternatives",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "tentative_source_provided",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": "The calendar footnote says the final Convocation date will be notified in due course.",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 12",
+      "quote": "Convocation 2026 # | 19.09.2026 OR 26.09.2026 | Saturday"
+    }
+  },
+  {
+    "record_id": "489115b8-5f8c-52c4-b7c8-734281387654",
+    "title": "Mid-Term Examinations (except Sunday)",
+    "event_type": "examination",
+    "date_text": "10.09.2026 -15.09.2026",
+    "dates": [
+      "2026-09-10",
+      "2026-09-15"
+    ],
+    "date_ranges": [
+      [
+        "2026-09-10",
+        "2026-09-15"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Thursday - Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 13",
+      "quote": "Mid-Term Examinations (except Sunday) | 10.09.2026 -15.09.2026 | Thursday - Tuesday"
+    }
+  },
+  {
+    "record_id": "43aadb0a-7132-5b4d-b6e2-2a6224b38695",
+    "title": "Last date for informing the students about performance in MTE and internal assessment",
+    "event_type": "deadline",
+    "date_text": "28.09.2026",
+    "dates": [
+      "2026-09-28"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 14",
+      "quote": "Last date for informing the students about performance in MTE and internal assessment | 28.09.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "444a5f51-c1f6-5cec-a888-70a3cb928bf9",
+    "title": "Submission of the feedback/response form - I on the online portal",
+    "event_type": "academic_milestone",
+    "date_text": "28.09.2026 -01.10.2026",
+    "dates": [
+      "2026-09-28",
+      "2026-10-01"
+    ],
+    "date_ranges": [
+      [
+        "2026-09-28",
+        "2026-10-01"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Monday - Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 15",
+      "quote": "Submission of the feedback/response form - I on the online portal | 28.09.2026 -01.10.2026 | Monday - Thursday"
+    }
+  },
+  {
+    "record_id": "0b8c612d-d3de-5517-b43f-56649d56bde4",
+    "title": "Sangram 2026",
+    "event_type": "institute_event",
+    "date_text": "03.10.2026 -04.10.2026",
+    "dates": [
+      "2026-10-03",
+      "2026-10-04"
+    ],
+    "date_ranges": [
+      [
+        "2026-10-03",
+        "2026-10-04"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Saturday - Sunday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 16",
+      "quote": "Sangram 2026 | 03.10.2026 -04.10.2026 | Saturday - Sunday"
+    }
+  },
+  {
+    "record_id": "641c6804-245e-5dbf-b26b-eb8a06010811",
+    "title": "Last date for withdrawal of courses",
+    "event_type": "deadline",
+    "date_text": "05.10.2026",
+    "dates": [
+      "2026-10-05"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 17",
+      "quote": "Last date for withdrawal of courses | 05.10.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "d44bc3e0-946f-5d4c-ad43-3a321e740158",
+    "title": "Thomso 2026",
+    "event_type": "institute_event",
+    "date_text": "09.10.2026- 11.10.2026",
+    "dates": [
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "date_ranges": [
+      [
+        "2026-10-09",
+        "2026-10-11"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Friday- Sunday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 18",
+      "quote": "Thomso 2026 | 09.10.2026- 11.10.2026 | Friday- Sunday"
+    }
+  },
+  {
+    "record_id": "b401e3fa-6fe9-50ea-af07-d0de53d2800a",
+    "title": "Submission of the feedback/response form - II on the online portal",
+    "event_type": "academic_milestone",
+    "date_text": "05.11.2026 -11.11.2026",
+    "dates": [
+      "2026-11-05",
+      "2026-11-11"
+    ],
+    "date_ranges": [
+      [
+        "2026-11-05",
+        "2026-11-11"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Thursday- Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 19",
+      "quote": "Submission of the feedback/response form - II on the online portal | 05.11.2026 -11.11.2026 | Thursday- Wednesday"
+    }
+  },
+  {
+    "record_id": "55bf39ba-c477-5de3-9c5c-6df30ea55f1e",
+    "title": "Last date of teaching",
+    "event_type": "deadline",
+    "date_text": "11.11.2026",
+    "dates": [
+      "2026-11-11"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 20",
+      "quote": "Last date of teaching | 11.11.2026 | Wednesday"
+    }
+  },
+  {
+    "record_id": "2acaa043-db0b-5dea-a3e8-1602f8429b92",
+    "title": "End Term Examinations (excluding Sunday and declared holidays)",
+    "event_type": "examination",
+    "date_text": "13.11.2026 -24.11.2026",
+    "dates": [
+      "2026-11-13",
+      "2026-11-24"
+    ],
+    "date_ranges": [
+      [
+        "2026-11-13",
+        "2026-11-24"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Friday - Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 21",
+      "quote": "End Term Examinations (excluding Sunday and declared holidays) | 13.11.2026 -24.11.2026 | Friday - Tuesday"
+    }
+  },
+  {
+    "record_id": "aeb48226-88a1-502b-ab26-3951d540b8f8",
+    "title": "Institute Foundation Day",
+    "event_type": "institute_event",
+    "date_text": "25.11.2026",
+    "dates": [
+      "2026-11-25"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 22",
+      "quote": "Institute Foundation Day | 25.11.2026 | Wednesday"
+    }
+  },
+  {
+    "record_id": "86f570ac-c7f6-5125-9a3d-d44080fec242",
+    "title": "Last date of showing the End Term Examinations answer scripts",
+    "event_type": "examination",
+    "date_text": "01.12.2026",
+    "dates": [
+      "2026-12-01"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 23",
+      "quote": "Last date of showing the End Term Examinations answer scripts | 01.12.2026 | Tuesday"
+    }
+  },
+  {
+    "record_id": "dfc93a61-f7a4-56ca-adeb-76e80f09f4ed",
+    "title": "Last date of electronic communication of grades to students",
+    "event_type": "deadline",
+    "date_text": "03.12.2026",
+    "dates": [
+      "2026-12-03"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 24",
+      "quote": "Last date of electronic communication of grades to students | 03.12.2026 | Thursday"
+    }
+  },
+  {
+    "record_id": "a12334e4-f0ed-56c7-9f09-d03b357e8802",
+    "title": "Last date for students to apply for grade revision, if any",
+    "event_type": "deadline",
+    "date_text": "04.12.2026",
+    "dates": [
+      "2026-12-04"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 25",
+      "quote": "Last date for students to apply for grade revision, if any | 04.12.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "7fcd3ca4-6fe2-5e79-882f-eaa8efab10b6",
+    "title": "Winter vacation for UG students (except IDD final Year)",
+    "event_type": "holiday_or_break",
+    "date_text": "05.12.2026 -06.01.2027",
+    "dates": [
+      "2026-12-05",
+      "2027-01-06"
+    ],
+    "date_ranges": [
+      [
+        "2026-12-05",
+        "2027-01-06"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Saturday - Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 26",
+      "quote": "Winter vacation for UG students (except IDD final Year) | 05.12.2026 -06.01.2027 | Saturday - Wednesday"
+    }
+  },
+  {
+    "record_id": "6217f152-17b6-584f-b1c5-82819c1c46c0",
+    "title": "Last date for the evaluation of Project/Thesis/Seminar for all programs",
+    "event_type": "deadline",
+    "date_text": "03.12.2026",
+    "dates": [
+      "2026-12-03"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 27",
+      "quote": "Last date for the evaluation of Project/Thesis/Seminar for all programs | 03.12.2026 | Thursday"
+    }
+  },
+  {
+    "record_id": "22dad3ff-0b52-52f0-8132-52025e188dc0",
+    "title": "Last date for sending final grades to AAO",
+    "event_type": "deadline",
+    "date_text": "08.12.2026",
+    "dates": [
+      "2026-12-08"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 28",
+      "quote": "Last date for sending final grades to AAO | 08.12.2026 | Tuesday"
+    }
+  },
+  {
+    "record_id": "c14e321f-ca35-5aed-8249-90439173e5d5",
+    "title": "Last date for the submission of Progress Reports (Ph.D. students) to the AAO",
+    "event_type": "deadline",
+    "date_text": "09.12.2026",
+    "dates": [
+      "2026-12-09"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 29",
+      "quote": "Last date for the submission of Progress Reports (Ph.D. students) to the AAO | 09.12.2026 | Wednesday"
+    }
+  },
+  {
+    "record_id": "2df11b7c-1ea4-5bee-8134-93d54dcbf98c",
+    "title": "Online Choices for branch change",
+    "event_type": "academic_milestone",
+    "date_text": "10.12.2026 -14.12.2026",
+    "dates": [
+      "2026-12-10",
+      "2026-12-14"
+    ],
+    "date_ranges": [
+      [
+        "2026-12-10",
+        "2026-12-14"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Thursday - Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 30",
+      "quote": "Online Choices for branch change | 10.12.2026 -14.12.2026 | Thursday - Monday"
+    }
+  },
+  {
+    "record_id": "8859db80-1dd9-5760-829b-60f3fb06b2ed",
+    "title": "Declaration of the final list of branch change (Tentative Date)",
+    "event_type": "academic_milestone",
+    "date_text": "31.12.2026",
+    "dates": [
+      "2026-12-31"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "tentative_source_provided",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 31",
+      "quote": "Declaration of the final list of branch change (Tentative Date) | 31.12.2026 | Thursday"
+    }
+  },
+  {
+    "record_id": "0dfbbae5-4070-5453-b7a7-7bc0cfce4b51",
+    "title": "Admission cum Academic Registration for New Ph.D. Students",
+    "event_type": "registration",
+    "date_text": "07.01.2027",
+    "dates": [
+      "2027-01-07"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Thursday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 32",
+      "quote": "Admission cum Academic Registration for New Ph.D. Students | 07.01.2027 | Thursday"
+    }
+  },
+  {
+    "record_id": "69586489-11cc-50bf-bc6c-1d80a7ed6a26",
+    "title": "Academic registration of all existing students for Spring Semester 2026-27 in physical mode",
+    "event_type": "registration",
+    "date_text": "07.01.2027 -08.01.2027",
+    "dates": [
+      "2027-01-07",
+      "2027-01-08"
+    ],
+    "date_ranges": [
+      [
+        "2027-01-07",
+        "2027-01-08"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Thursday – Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 33",
+      "quote": "Academic registration of all existing students for Spring Semester 2026-27 in physical mode | 07.01.2027 -08.01.2027 | Thursday – Friday"
+    }
+  },
+  {
+    "record_id": "d525eeb2-ecf8-5241-8e15-02fc897e4cea",
+    "title": "Commencement of classes for Spring Semester 2026-27",
+    "event_type": "teaching",
+    "date_text": "11.01.2027",
+    "dates": [
+      "2027-01-11"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 34",
+      "quote": "Commencement of classes for Spring Semester 2026-27 | 11.01.2027 | Monday"
+    }
+  },
+  {
+    "record_id": "e0e1aff3-5bac-556f-9179-ce6d797f8b90",
+    "title": "Re-examination and Second examination (for Autumn Semester 2026- 27)",
+    "event_type": "examination",
+    "date_text": "11.01.2027 -13.01.2027",
+    "dates": [
+      "2027-01-11",
+      "2027-01-13"
+    ],
+    "date_ranges": [
+      [
+        "2027-01-11",
+        "2027-01-13"
+      ]
+    ],
+    "date_relation": "date_ranges",
+    "day_text": "Monday – Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 1,
+      "locator": "calendar item 35",
+      "quote": "Re-examination and Second examination (for Autumn Semester 2026- 27) | 11.01.2027 -13.01.2027 | Monday – Wednesday"
+    }
+  },
+  {
+    "record_id": "627eda73-7859-546e-966f-39b25071ff70",
+    "title": "Convocation 2026",
+    "event_type": "calendar_chart_entry",
+    "date_text": "September 19/26, 2026",
+    "dates": [],
+    "date_ranges": [],
+    "date_relation": "tentative_alternatives",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "tentative_source_provided",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 2",
+      "quote": "Convocation 2026 | September 19/26, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "9a066ac9-622c-5f2c-9dc5-e2e0b3535e89",
+    "title": "Mid Term Examination",
+    "event_type": "calendar_chart_entry",
+    "date_text": "September 10 – 15, 2026",
+    "dates": [
+      "2026-09-10",
+      "2026-09-15"
+    ],
+    "date_ranges": [
+      [
+        "2026-09-10",
+        "2026-09-15"
+      ]
+    ],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 3",
+      "quote": "Mid Term Examination | September 10 – 15, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "6d86d718-30d5-5327-ada4-ed68e66e5821",
+    "title": "Sangram 2026",
+    "event_type": "calendar_chart_entry",
+    "date_text": "October 3 – 4, 2026",
+    "dates": [
+      "2026-10-03",
+      "2026-10-04"
+    ],
+    "date_ranges": [
+      [
+        "2026-10-03",
+        "2026-10-04"
+      ]
+    ],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 4",
+      "quote": "Sangram 2026 | October 3 – 4, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "416b4c63-44bf-5d46-a3c3-de87d6755811",
+    "title": "Thomso 2026",
+    "event_type": "calendar_chart_entry",
+    "date_text": "October 9 – 11, 2026",
+    "dates": [
+      "2026-10-09",
+      "2026-10-11"
+    ],
+    "date_ranges": [
+      [
+        "2026-10-09",
+        "2026-10-11"
+      ]
+    ],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 5",
+      "quote": "Thomso 2026 | October 9 – 11, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "7097fac4-20e9-58c2-a4bc-7f4c7e7bb03d",
+    "title": "Feedback/Response Form - II",
+    "event_type": "calendar_chart_entry",
+    "date_text": "November 5 – 11, 2026",
+    "dates": [
+      "2026-11-05",
+      "2026-11-11"
+    ],
+    "date_ranges": [
+      [
+        "2026-11-05",
+        "2026-11-11"
+      ]
+    ],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 6",
+      "quote": "Feedback/Response Form - II | November 5 – 11, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "b9cae86e-ed7d-51db-98cc-eb9b8591886c",
+    "title": "Last Date of Teaching",
+    "event_type": "calendar_chart_entry",
+    "date_text": "November 11, 2026",
+    "dates": [
+      "2026-11-11"
+    ],
+    "date_ranges": [],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 7",
+      "quote": "Last Date of Teaching | November 11, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "9a834138-21fb-56a9-987e-e378007fd435",
+    "title": "End Term Examination",
+    "event_type": "calendar_chart_entry",
+    "date_text": "November 13 – 24, 2026",
+    "dates": [
+      "2026-11-13",
+      "2026-11-24"
+    ],
+    "date_ranges": [
+      [
+        "2026-11-13",
+        "2026-11-24"
+      ]
+    ],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching list row 8",
+      "quote": "End Term Examination | November 13 – 24, 2026 |"
+    },
+    "source_relation": "duplicate_calendar_chart_listing"
+  },
+  {
+    "record_id": "3c9c3be7-420a-5a81-9576-cef4ec96c33c",
+    "title": "Autumn 2026-27 events and non-teaching days list",
+    "event_type": "events_non_teaching_summary",
+    "date_text": null,
+    "dates": [],
+    "date_ranges": [],
+    "date_relation": "source_text_preserved",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "summary_text": "Feedback/Response Form - I  September 28 – October 01, 2026\nConvocation 2026 September 19/26, 2026\nMid Term Examination September 10 – 15, 2026\nSangram 2026 October 3 – 4, 2026\nThomso 2026 October 9 – 11, 2026\nFeedback/Response Form - II November 5 – 11, 2026\nLast Date of Teaching November 11, 2026\nEnd Term Examination November 13 – 24, 2026\n",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "events and non-teaching days list",
+      "quote": "Feedback/Response Form - I September 28 – October 01, 2026 Convocation 2026 September 19/26, 2026 Mid Term Examination September 10 – 15, 2026 Sangram 2026 October 3 – 4, 2026 Thomso 2026 October 9 – 11, 2026 Feedback/Response Form - II November 5 – 11, 2026 Last Date of Teaching November 11, 2026 End Term Examination November 13 – 24, 2026"
+    }
+  },
+  {
+    "record_id": "f324584a-f5cb-58a0-8084-8d6eb2639bf2",
+    "title": "Timetable rescheduled: Fridays’ Time Table",
+    "event_type": "class_timetable_rescheduling",
+    "date_text": "September 23, 2026",
+    "dates": [
+      "2026-09-23"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "class_timetable_rescheduling row 2",
+      "quote": "Timetable rescheduled: Fridays’ Time Table | September 23, 2026 | Wednesday"
+    },
+    "timetable_action": "Fridays’ Time Table"
+  },
+  {
+    "record_id": "9e8cb586-ad2a-5186-bc42-96c9046b7125",
+    "title": "Timetable rescheduled: Fridays’ Time Table",
+    "event_type": "class_timetable_rescheduling",
+    "date_text": "October 28, 2026",
+    "dates": [
+      "2026-10-28"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "class_timetable_rescheduling row 3",
+      "quote": "Timetable rescheduled: Fridays’ Time Table | October 28, 2026 | Wednesday"
+    },
+    "timetable_action": "Fridays’ Time Table"
+  },
+  {
+    "record_id": "d3990765-bf6d-5a8b-90bf-23e6bf73f716",
+    "title": "Compensatory UG Year I class: Monday’s Time Table",
+    "event_type": "ug_first_year_compensatory_class",
+    "date_text": "August 1, 2026",
+    "dates": [
+      "2026-08-01"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "ug_first_year_compensatory_class row 2",
+      "quote": "Compensatory UG Year I class: Monday’s Time Table | August 1, 2026 | Saturday"
+    },
+    "timetable_action": "Monday’s Time Table"
+  },
+  {
+    "record_id": "5de8e85e-92b5-5d7a-8b30-56ace5f9fbce",
+    "title": "Compensatory UG Year I class: Thursdays’ Timetable",
+    "event_type": "ug_first_year_compensatory_class",
+    "date_text": "August 8, 2026",
+    "dates": [
+      "2026-08-08"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "ug_first_year_compensatory_class row 3",
+      "quote": "Compensatory UG Year I class: Thursdays’ Timetable | August 8, 2026 | Saturday"
+    },
+    "timetable_action": "Thursdays’ Timetable"
+  },
+  {
+    "record_id": "784a68a8-4fc6-5336-b93a-6632c7092ede",
+    "title": "Compensatory UG Year I class: Fridays’ Time Table",
+    "event_type": "ug_first_year_compensatory_class",
+    "date_text": "August 22, 2026",
+    "dates": [
+      "2026-08-22"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "ug_first_year_compensatory_class row 4",
+      "quote": "Compensatory UG Year I class: Fridays’ Time Table | August 22, 2026 | Saturday"
+    },
+    "timetable_action": "Fridays’ Time Table"
+  },
+  {
+    "record_id": "0d7d176a-491b-59e9-a885-9e4ef864a079",
+    "title": "Compensatory UG Year I class: Fridays’ Time Table",
+    "event_type": "ug_first_year_compensatory_class",
+    "date_text": "October 24, 2026",
+    "dates": [
+      "2026-10-24"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "ug_first_year_compensatory_class row 5",
+      "quote": "Compensatory UG Year I class: Fridays’ Time Table | October 24, 2026 | Saturday"
+    },
+    "timetable_action": "Fridays’ Time Table"
+  },
+  {
+    "record_id": "39e9cd86-9bb0-57a1-bd3f-8c2b88ed8219",
+    "title": "Independence Day",
+    "event_type": "holiday",
+    "date_text": "15.08.2026",
+    "dates": [
+      "2026-08-15"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Saturday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 2",
+      "quote": "Independence Day | 15.08.2026 | Saturday"
+    }
+  },
+  {
+    "record_id": "2856dd9e-d076-5710-ad1a-376203f2405f",
+    "title": "Id-e-Milad (Prophet Mohammad’s Birthday)",
+    "event_type": "holiday",
+    "date_text": "26.08.2026",
+    "dates": [
+      "2026-08-26"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Wednesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": "Source marks this holiday date subject to change with moon visibility.",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 3",
+      "quote": "Id-e-Milad (Prophet Mohammad’s Birthday) | 26.08.2026 | Wednesday"
+    }
+  },
+  {
+    "record_id": "d4412d16-0c01-5441-a9d7-2b9da1de4dec",
+    "title": "Raksha Bandhan",
+    "event_type": "holiday",
+    "date_text": "28.08.2026",
+    "dates": [
+      "2026-08-28"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 4",
+      "quote": "Raksha Bandhan | 28.08.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "05f113c5-e44f-5e90-8886-2d8f0c5065d7",
+    "title": "Janamashtami",
+    "event_type": "holiday",
+    "date_text": "04.09.2026",
+    "dates": [
+      "2026-09-04"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 5",
+      "quote": "Janamashtami | 04.09.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "b9a8077c-2502-57f2-ad88-b50c5eab7c92",
+    "title": "Mahatma Gandhi’s Birthday",
+    "event_type": "holiday",
+    "date_text": "02.10.2026",
+    "dates": [
+      "2026-10-02"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 6",
+      "quote": "Mahatma Gandhi’s Birthday | 02.10.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "dc5207f8-3cb9-5a14-8cb1-f18e5489b89e",
+    "title": "Mahashtami",
+    "event_type": "holiday",
+    "date_text": "19.10.2026",
+    "dates": [
+      "2026-10-19"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 7",
+      "quote": "Mahashtami | 19.10.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "0b45d8dd-03f4-5022-82c7-6bd265c0e8c8",
+    "title": "Mahanavmi/Dussehra (Vijaydashmi)",
+    "event_type": "holiday",
+    "date_text": "20.10.2026",
+    "dates": [
+      "2026-10-20"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 8",
+      "quote": "Mahanavmi/Dussehra (Vijaydashmi) | 20.10.2026 | Tuesday"
+    }
+  },
+  {
+    "record_id": "2f08d1bf-4c78-51d9-bd7d-17120d928f81",
+    "title": "Diwali (Deepavali)",
+    "event_type": "holiday",
+    "date_text": "08.11.2026",
+    "dates": [
+      "2026-11-08"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Sunday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 9",
+      "quote": "Diwali (Deepavali) | 08.11.2026 | Sunday"
+    }
+  },
+  {
+    "record_id": "d0dc6b24-38b4-5fc7-b416-a0a3f5d857fc",
+    "title": "Govardhan Puja",
+    "event_type": "holiday",
+    "date_text": "09.11.2026",
+    "dates": [
+      "2026-11-09"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Monday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 10",
+      "quote": "Govardhan Puja | 09.11.2026 | Monday"
+    }
+  },
+  {
+    "record_id": "e624c47b-762b-5c86-9bdf-6b7e78abe5bf",
+    "title": "Guru Nanak’s Birthday",
+    "event_type": "holiday",
+    "date_text": "24.11.2026",
+    "dates": [
+      "2026-11-24"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Tuesday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 11",
+      "quote": "Guru Nanak’s Birthday | 24.11.2026 | Tuesday"
+    }
+  },
+  {
+    "record_id": "f962b485-2698-5fa3-8fe1-8c66b2c1e715",
+    "title": "Christmas Day",
+    "event_type": "holiday",
+    "date_text": "25.12.2026",
+    "dates": [
+      "2026-12-25"
+    ],
+    "date_ranges": [],
+    "date_relation": "single_date",
+    "day_text": "Friday",
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "source_note": null,
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "holiday row 12",
+      "quote": "Christmas Day | 25.12.2026 | Friday"
+    }
+  },
+  {
+    "record_id": "f26c90ec-f997-5295-b5ec-d2360acbe4ec",
+    "title": "Autumn 2026-27 teaching-days chart",
+    "event_type": "teaching_days_summary",
+    "date_text": null,
+    "dates": [],
+    "date_ranges": [],
+    "date_relation": "not_applicable",
+    "day_text": null,
+    "academic_session": "Autumn 2026-27",
+    "programme_scope": "All programs other than MBA",
+    "source_status": "source_provided_unreviewed",
+    "applicability": "source_calendar_all_programmes_except_MBA_not_cohort_specific",
+    "summary_text": "Teaching days for Autumn Semester 2026-27\nAll Programs (Other than MBA)\nMonths\n/\nD F o s g\nDays y lu J August September October November\nI/\nE\nT E / E T M\nro f\ns s e\nm\no\nh T / n o ita c\no v n\no C\nn\nih\nc a e T la\nt o\nT\ns y a d\nL\nMon 20 27 3 10 17 24 31 7 14 21 28 5 12 - 26 2 - 16 23 3 14\nTue 21 28 4 11 18 25 1 8 15 22 29 6 13 - 27 3 10 17 24 3 15\nWed 22 29 5 12 19 - 2 9 16 23* 30 7 14 21 28* 4 11 18 25 2 16-2*=14\nThu 16 23 30 6 13 20 27 3 10 17 24 1 8 15 22 29 5 - 19 2 15\nFri 17 24 31 7 14 21 - - 11 18 25 - 9 16 23 30 6 13 20 3 12+2*=14\nSat 1 8 - 22 12 19 3 10 24 14 21 -\n12 for others 72 for others\nTotal 18 for others 18 for others\n5 for UG I 17 07 69 for UG I\ndays 21 for UG I year 19 for UG I year\nyear year\nEve nt / Non-Teaching day Examinations",
+    "evidence": {
+      "source_version_id": "68f07e29a57ed81fd62c353573ca21df894b88504fd1a98a12baeee812f04a81",
+      "path": "data/Autumn_Calander_2026-27_All_Programme_other_than_MBA.pdf",
+      "page": 2,
+      "locator": "teaching-days chart",
+      "quote": "Teaching days for Autumn Semester 2026-27 All Programs (Other than MBA) Months / D F o s g Days y lu J August September October November I/ E T E / E T M ro f s s e m o h T / n o ita c o v n o C n ih c a e T la t o T s y a d L Mon 20 27 3 10 17 24 31 7 14 21 28 5 12 - 26 2 - 16 23 3 14 Tue 21 28 4 11 18 25 1 8 15 22 29 6 13 - 27 3 10 17 24 3 15 Wed 22 29 5 12 19 - 2 9 16 23* 30 7 14 21 28* 4 11 18 25 2 16-2*=14 Thu 16 23 30 6 13 20 27 3 10 17 24 1 8 15 22 29 5 - 19 2 15 Fri 17 24 31 7 14 21 - - 11 18 25 - 9 16 23 30 6 13 20 3 12+2*=14 Sat 1 8 - 22 12 19 3 10 24 14 21 - 12 for others 72 for others Total 18 for others 18 for others 5 for UG I 17 07 69 for UG I days 21 for UG I year 19 for UG I year year year Eve nt / Non-Teaching day Examinations"
+    }
+  }
+]
