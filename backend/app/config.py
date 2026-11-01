@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     azure_openai_api_key: str | None = None
     azure_openai_embedding_deployment: str | None = None
     azure_openai_api_version: str | None = None
+    openai_chat_base_url: str | None = None
     max_request_bytes: int = 32768
 
     model_config = SettingsConfigDict(env_file=ROOT / '.env', extra='ignore', case_sensitive=False)

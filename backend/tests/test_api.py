@@ -4,7 +4,7 @@ import hashlib
 import uuid
 from datetime import date
 
-from sqlalchemy import insert, select
+from sqlalchemy import func, insert, select
 from fastapi import HTTPException
 
 from backend.app import main
@@ -14,6 +14,17 @@ from backend.app.db import conversations, make_engine, messages, sessions
 def reset_database():
     main.ENGINE = make_engine('sqlite:///:memory:')
     main.startup()
+
+
+def test_startup_can_repeat_on_the_same_seeded_database():
+    main.ENGINE = make_engine('sqlite:///:memory:')
+    main.startup()
+    with main.ENGINE.connect() as conn:
+        before = conn.execute(select(func.count()).select_from(main.courses)).scalar_one()
+    main.startup()
+    with main.ENGINE.connect() as conn:
+        after = conn.execute(select(func.count()).select_from(main.courses)).scalar_one()
+    assert after == before
 
 
 def new_session():
@@ -285,7 +296,9 @@ def test_version_scoped_index_build_query_and_provider_isolation():
     dense2, status2 = dense_search(engine, 'course search', 3, azure, embedder=never_called)
     assert dense2 == [] and status2 == 'index_incomplete'
     assert reciprocal_rank_fusion([{'chunk_id':'a','score':1}], [{'chunk_id':'b','score':0.9}], 2)[0]['score'] > 0
-    no_key = Settings(embedding_provider='openai', openai_api_key=None, openai_embedding_model='text-embedding-3-small')
+    no_key = Settings(_env_file=None, embedding_provider='openai', openai_embedding_api_key=None,
+                      openai_chat_api_key=None, openai_api_key=None,
+                      openai_embedding_model='text-embedding-3-small')
     assert dense_search(engine, 'query', 1, no_key)[1] == 'credentials_missing'
 
 

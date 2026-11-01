@@ -1,0 +1,66 @@
+[
+  {
+    "course_id": "curriculum-HSS-302",
+    "code": "HSS-302",
+    "title": "Social Studies of Science",
+    "curriculum_entries": [],
+    "optional_category": "hss",
+    "evidence": [
+      {
+        "source_version_id": "4c1388b988e493d81f0b370fca11f1f52bdfd15989cba237da09e6075326f4d5",
+        "url": "https://iitr.ac.in/Academics/static/Notifications/UG%20Notifications/151.2.8_2_HSS.pdf",
+        "page": 1,
+        "locator": "IAPC-151 item 151.2.8 (2), approved course list",
+        "quote": "HSS-302: Social Studies of Science"
+      }
+    ]
+  },
+  {
+    "course_id": "curriculum-HSS-304",
+    "code": "HSS-304",
+    "title": "Urban Political Ecology",
+    "curriculum_entries": [],
+    "optional_category": "hss",
+    "evidence": [
+      {
+        "source_version_id": "4c1388b988e493d81f0b370fca11f1f52bdfd15989cba237da09e6075326f4d5",
+        "url": "https://iitr.ac.in/Academics/static/Notifications/UG%20Notifications/151.2.8_2_HSS.pdf",
+        "page": 1,
+        "locator": "IAPC-151 item 151.2.8 (2), approved course list",
+        "quote": "HSS-304: Urban Political Ecology"
+      }
+    ]
+  },
+  {
+    "course_id": "curriculum-HSS-305",
+    "code": "HSS-305",
+    "title": "Group Dynamics",
+    "curriculum_entries": [],
+    "optional_category": "hss",
+    "evidence": [
+      {
+        "source_version_id": "4c1388b988e493d81f0b370fca11f1f52bdfd15989cba237da09e6075326f4d5",
+        "url": "https://iitr.ac.in/Academics/static/Notifications/UG%20Notifications/151.2.8_2_HSS.pdf",
+        "page": 1,
+        "locator": "IAPC-151 item 151.2.8 (2), approved course list",
+        "quote": "HSS-305: Group Dynamics"
+      }
+    ]
+  },
+  {
+    "course_id": "curriculum-HSS-306",
+    "code": "HSS-306",
+    "title": "Introduction to Cyberpsychology",
+    "curriculum_entries": [],
+    "optional_category": "hss",
+    "evidence": [
+      {
+        "source_version_id": "4c1388b988e493d81f0b370fca11f1f52bdfd15989cba237da09e6075326f4d5",
+        "url": "https://iitr.ac.in/Academics/static/Notifications/UG%20Notifications/151.2.8_2_HSS.pdf",
+        "page": 1,
+        "locator": "IAPC-151 item 151.2.8 (2), approved course list",
+        "quote": "HSS-306: Introduction to Cyberpsychology"
+      }
+    ]
+  }
+]

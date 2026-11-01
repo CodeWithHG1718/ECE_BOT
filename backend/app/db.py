@@ -18,7 +18,8 @@ sessions = Table('anonymous_sessions', metadata,
 profiles = Table('profiles', metadata,
     Column('session_id', String(64), ForeignKey('anonymous_sessions.id', ondelete='CASCADE'), primary_key=True),
     Column('study_year', Integer, nullable=False), Column('section', String(32), nullable=False),
-    Column('academic_cohort', String(32)), Column('semester', Integer))
+    Column('academic_cohort', String(32)), Column('semester', Integer),
+    Column('hss_course', String(32)), Column('oec_course', String(32)))
 conversations = Table('conversations', metadata,
     Column('id', String(64), primary_key=True), Column('session_id', String(64), ForeignKey('anonymous_sessions.id', ondelete='CASCADE'), nullable=False, index=True),
     Column('title', String(160), nullable=False), Column('created_at', DateTime(timezone=True), nullable=False), Column('updated_at', DateTime(timezone=True), nullable=False))
@@ -107,6 +108,12 @@ def now_kolkata() -> datetime:
 def ensure_compat_schema(engine: Engine) -> None:
     """Apply additive local/online compatibility changes before importing records."""
     inspector = inspect(engine)
+    if 'profiles' in inspector.get_table_names():
+        profile_columns = {c['name'] for c in inspector.get_columns('profiles')}
+        with engine.begin() as conn:
+            for name in ('hss_course', 'oec_course'):
+                if name not in profile_columns:
+                    conn.exec_driver_sql(f'ALTER TABLE profiles ADD COLUMN {name} VARCHAR(32)')
     if 'messages' not in inspector.get_table_names():
         return
     columns = {c['name'] for c in inspector.get_columns('messages')}

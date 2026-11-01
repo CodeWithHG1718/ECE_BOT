@@ -206,6 +206,22 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
   const records = Array.isArray(data) ? data.filter(isRecord) : isRecord(data) ? [data] : [];
   if (records.length === 0) return null;
 
+  if (presentation === "faculty" && records.some((record) => Array.isArray(record.profile_sections))) {
+    return <>{records.map((record, index) => <section className="structured-block faculty-profile" key={String(record.faculty_id || index)} aria-label="Faculty profile">
+      <div className="structured-heading"><span>{formatValue(record.name)}</span><span>{formatValue(record.designation)}</span></div>
+      {Array.isArray(record.profile_sections) && record.profile_sections.filter(isRecord).map((section, sectionIndex) => <div className="faculty-section" key={sectionIndex}>
+        <h3>{formatValue(section.heading)}</h3><p>{formatValue(section.text)}</p>
+      </div>)}
+      {Array.isArray(record.teaching_assignments) && record.teaching_assignments.length > 0 && <div className="faculty-section"><h3>Teaching assignments in uploaded records</h3><Records presentation="faculty" data={record.teaching_assignments} /></div>}
+      {Array.isArray(record.projects) && record.projects.length > 0 && <div className="faculty-section"><h3>Projects</h3><Records presentation="projects" data={record.projects} /></div>}
+      {Array.isArray(record.official_contact_fields) && record.official_contact_fields.length > 0 && <div className="faculty-section"><h3>Official contact</h3><p>{formatValue(record.official_contact_fields)}</p></div>}
+    </section>)}</>;
+  }
+
+  if (presentation === "course_list" && records.length > 1) {
+    return <>{records.map((course, index) => <Records key={String(course.code || index)} presentation="course_list" data={course} />)}</>;
+  }
+
   if (presentation === "course_list") {
     const course = records[0];
     const entries = Array.isArray(course.curriculum_entries) ? course.curriculum_entries.filter(isRecord) : [];
@@ -222,14 +238,14 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
   }
 
   const preferred: Partial<Record<Presentation, string[]>> = {
-    timetable: ["course_code", "course_title", "day", "start_time", "end_time", "timezone", "room", "faculty", "session_type", "applicability"],
+    timetable: ["day", "start_time", "end_time", "course_code", "course_title", "date", "room", "faculty", "session_type", "course_batch", "clashes_with"],
     exam_schedule: ["course_code", "exam_date", "day", "start_time", "end_time", "timezone", "slot", "room", "exam_type", "applicability"],
     answer: ["title", "date_text", "dates", "event_type", "day", "programme_scope", "source_status", "name", "department", "research_interests", "project_title", "description", "text"],
     resources: ["title", "text", "source", "resource_type", "course_code"],
-    faculty: ["name", "designation", "research_interests_directory", "research_interests", "sections.Research Interests", "profile_extraction_status", "supervision_availability"],
+    faculty: ["course_code", "title", "faculty", "name", "designation", "academic_year", "term", "source", "research_interests_directory", "research_interests"],
     projects: ["fields.Scheme/Title", "project_title", "title", "fields.Faculty", "fields.Year", "fields.Funding Agency"],
   };
-  const columns = (preferred[presentation] || []).filter((field) => records.some((record) => recordValue(record, field) !== undefined));
+  const columns = (preferred[presentation] || []).filter((field) => records.some((record) => recordValue(record, field) !== undefined && recordValue(record, field) !== null));
   const availableColumns = [...new Set(records.flatMap((record) => visibleRecordEntries(record).map(([field]) => field)))];
   const selectedColumns = columns.length ? columns : availableColumns.slice(0, 5);
 
@@ -237,7 +253,7 @@ function Records({ presentation, data }: { presentation: Presentation; data: unk
     <section className="structured-block" aria-label={`Structured ${presentationNames[presentation].toLowerCase()}`}>
       <div className="structured-heading"><span>STRUCTURED RECORDS</span><span>{presentationNames[presentation]}{records.length > 1 ? ` · ${records.length}` : ""}</span></div>
       {selectedColumns.length > 0 ? (
-        <div className="facts-table-wrap"><table className="facts-table"><thead><tr>{selectedColumns.map((field) => <th key={field}>{humanize(field)}</th>)}</tr></thead><tbody>{records.map((record, index) => <tr key={index}>{selectedColumns.map((field) => <td key={field}>{formatValue(recordValue(record, field))}</td>)}</tr>)}</tbody></table></div>
+        <div className="facts-table-wrap" tabIndex={0} role="region" aria-label={`${presentationNames[presentation]} table`}><table className="facts-table"><thead><tr>{selectedColumns.map((field) => <th key={field}>{field === "clashes_with" ? "Clash" : humanize(field)}</th>)}</tr></thead><tbody>{records.map((record, index) => <tr key={index} className={Array.isArray(record.clashes_with) && record.clashes_with.length ? "timetable-clash" : undefined}>{selectedColumns.map((field) => <td key={field}>{field === "clashes_with" ? Array.isArray(record.clashes_with) && record.clashes_with.length ? formatValue(record.clashes_with) : "—" : formatValue(recordValue(record, field))}</td>)}</tr>)}</tbody></table></div>
       ) : records.map((record, index) => <FactRows key={index} record={record} exclude={hiddenRecordFields} />)}
       {presentation === "resources" && records.length > 0 && records.some((record) => typeof record.text === "string") && <p className="record-note">Passages are shown as retrieved; use the cited source for context.</p>}
     </section>
@@ -286,6 +302,11 @@ export default function Home() {
   const [profileOptions, setProfileOptions] = useState<ProfileOptions | null>(null);
   const [year, setYear] = useState("");
   const [section, setSection] = useState("");
+  const [semester, setSemester] = useState("");
+  const [hssCourse, setHssCourse] = useState("");
+  const [oecCourse, setOecCourse] = useState("");
+  const [electiveOptions, setElectiveOptions] = useState<ProfileOptions["optional_courses"]>({ hss: [], oec: [] });
+  const [optionsLoading, setOptionsLoading] = useState(false);
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -374,6 +395,18 @@ export default function Home() {
   const availableYears = profileOptions?.study_years || [];
   const availableSections = profileOptions?.sections_by_year[year] || [];
 
+  useEffect(() => {
+    if (screen !== "setup" || !year) return;
+    let current = true;
+    setOptionsLoading(true);
+    void api.profileOptions(year, semester).then((result) => {
+      if (current) setElectiveOptions(result.optional_courses);
+    }).catch((caught) => {
+      if (current) { setElectiveOptions({ hss: [], oec: [] }); report(caught); }
+    }).finally(() => { if (current) setOptionsLoading(false); });
+    return () => { current = false; };
+  }, [screen, year, semester, report]);
+
   async function launch() {
     setScreen("setup");
     setError("");
@@ -402,6 +435,9 @@ export default function Home() {
       setProfileOptions(options);
       setYear(profile ? String(profile.study_year) : "");
       setSection(profile?.section || "");
+      setSemester(profile?.semester ? String(profile.semester) : "");
+      setHssCourse(profile?.hss_course || "");
+      setOecCourse(profile?.oec_course || "");
     } catch (caught) {
       setError(getErrorMessage(caught));
     } finally {
@@ -425,10 +461,10 @@ export default function Home() {
     }
     setBusy("profile");
     setError("");
-    const nextProfile: StudyProfile = { study_year: Number(year), section, academic_cohort: null, semester: null };
+    const nextProfile: StudyProfile = { study_year: Number(year), section, academic_cohort: null, semester: semester ? Number(semester) : null, hss_course: hssCourse || null, oec_course: oecCourse || null };
     try {
-      await api.saveProfile(session, nextProfile);
-      setProfile(nextProfile);
+      const saved = await api.saveProfile(session, nextProfile);
+      setProfile(saved.profile);
       if (!conversationId) {
         const created = await api.createConversation(session);
         setConversationId(created.conversation_id);
@@ -605,12 +641,19 @@ export default function Home() {
               ) : (
                 <>
                   <label className="field-label" htmlFor="study-year">STUDY YEAR</label>
-                  <div className="select-wrap"><select id="study-year" value={year} onChange={(event) => { setYear(event.target.value); setSection(""); clearError(); }} required><option value="" disabled>Select your year</option>{availableYears.map((item) => <option value={item.value} key={item.value}>{item.label}</option>)}</select><Icon name="chevron" size={16} /></div>
+                  <div className="select-wrap"><select id="study-year" value={year} onChange={(event) => { setYear(event.target.value); setSection(""); setSemester(""); setHssCourse(""); setOecCourse(""); setElectiveOptions({ hss: [], oec: [] }); clearError(); }} required><option value="" disabled>Select your year</option>{availableYears.map((item) => <option value={item.value} key={item.value}>{item.label}</option>)}</select><Icon name="chevron" size={16} /></div>
                   <label className="field-label field-label-spaced" htmlFor="study-section">SECTION</label>
                   <div className={`select-wrap${!year ? " select-disabled" : ""}`}><select id="study-section" value={section} onChange={(event) => { setSection(event.target.value); clearError(); }} required disabled={!year || availableSections.length === 0}><option value="" disabled>{!year ? "Choose a year first" : availableSections.length ? "Select your section" : "No supported section listed"}</option>{availableSections.map((item) => <option value={item} key={item}>{item}</option>)}</select><Icon name="chevron" size={16} /></div>
                   {year && availableSections.length === 0 && <p className="field-hint">No source-supported sections were returned for this year. Please check back later.</p>}
-                  <p className="form-footnote">Cohort and semester are left unspecified until Signal has reviewed values for them.</p>
-                  <button className="button button-primary button-full" type="submit" disabled={!year || !section || busy !== null}>{busy === "profile" ? "Saving profile…" : "Continue to Signal"}<Icon name="arrow" size={17} /></button>
+                  <label className="field-label field-label-spaced" htmlFor="study-semester">SEMESTER <span>OPTIONAL</span></label>
+                  <div className="select-wrap"><select id="study-semester" value={semester} disabled={!year} onChange={(event) => { setSemester(event.target.value); setHssCourse(""); setOecCourse(""); clearError(); }}><option value="">Current uploaded timetable</option>{year && [Number(year) * 2 - 1, Number(year) * 2].map((value) => <option key={value} value={value}>Semester {value} · {value % 2 ? "Autumn" : "Spring"}</option>)}</select><Icon name="chevron" size={16} /></div>
+                  <div className="optional-course-heading">OPTIONAL COURSE SELECTION</div>
+                  <label className="field-label" htmlFor="hss-course">HSS COURSE</label>
+                  <div className="select-wrap"><select id="hss-course" value={hssCourse} disabled={!year || optionsLoading} onChange={(event) => setHssCourse(event.target.value)}><option value="">None</option>{electiveOptions.hss.map((course) => <option value={course.code} key={course.code}>{course.code} : {course.title}</option>)}</select><Icon name="chevron" size={16} /></div>
+                  <label className="field-label field-label-spaced" htmlFor="oec-course">OEC COURSE</label>
+                  <div className="select-wrap"><select id="oec-course" value={oecCourse} disabled={!year || optionsLoading} onChange={(event) => setOecCourse(event.target.value)}><option value="">None</option>{electiveOptions.oec.map((course) => <option value={course.code} key={course.code}>{course.code} : {course.title}</option>)}</select><Icon name="chevron" size={16} /></div>
+                  <p className="form-footnote">Both selections are optional. None shows compulsory courses only. {optionsLoading ? "Loading course options…" : year && !electiveOptions.hss.length ? "No named HSS offerings are available for this year and semester. " : ""}{oecCourse && !electiveOptions.oec.find((course) => course.code === oecCourse)?.schedule_available ? `${oecCourse}: schedule unavailable in the uploaded records.` : ""}</p>
+                  <button className="button button-primary button-full" type="submit" disabled={!year || !section || optionsLoading || busy !== null}>{busy === "profile" ? "Saving profile…" : "Continue to Signal"}<Icon name="arrow" size={17} /></button>
                 </>
               )}
               <div className="form-privacy"><span className="privacy-line" /> NO STUDENT LOGIN REQUIRED</div>
@@ -633,6 +676,8 @@ export default function Home() {
             <div className="profile-card">
               <span className="profile-card-label">CURRENT PROFILE</span>
               <strong>{profile ? `Year ${profile.study_year} · ${profile.section}` : "Not set"}</strong>
+              <p className="profile-electives">HSS: {profile?.hss_course || "None"}<br />OEC: {profile?.oec_course || "None"}</p>
+              <button type="button" onClick={() => void (conversationId ? sendMessage("My timetable") : startConversation("My timetable"))} disabled={busy !== null}>View my timetable <Icon name="calendar" size={14} /></button>
               <button type="button" onClick={() => void changeProfile()} disabled={busy !== null}>Change academic profile <Icon name="arrow" size={14} /></button>
             </div>
             <div className="sidebar-footer"><SignalMark /><span>SOURCE-LED STUDY<br />INDEPENDENT PROJECT</span></div>
@@ -693,7 +738,7 @@ export default function Home() {
                 <textarea ref={textareaRef} rows={1} maxLength={4000} value={draft} onChange={(event) => setDraft(event.target.value)} onKeyDown={handleComposerKeyDown} placeholder="Ask about a course, timetable, exam, or topic…" aria-label="Your message" disabled={busy !== null} />
                 <div className="composer-bottom"><span className="composer-hint"><kbd>Enter</kbd> to send <span>·</span> <kbd>Shift + Enter</kbd> for a new line</span><span className="composer-right"><span className="character-count">{draft.length}/4000</span><button className="send-button" type="button" onClick={() => void sendMessage()} disabled={!draft.trim() || busy !== null} aria-label="Send message"><Icon name="send" size={17} /></button></span></div>
               </div>
-              <p className="composer-disclaimer">Signal can only answer from available records. Check each source and note its coverage.</p>
+              <p className="composer-disclaimer">IIT Roorkee ECE · Timetable, courses, and study help.</p>
             </div>}
           </div>
         </section>

@@ -21,6 +21,7 @@ FILES = {
     'exams': 'ete_schedule_records.json', 'books': 'book_references.json',
     'book_contents': 'book_contents.json', 'nptel': 'nptel_references.json',
     'faculty': 'faculty_profiles.json', 'projects': 'department_projects.json',
+    'course_faculty': 'course_faculty_records.json',
 }
 
 
@@ -31,7 +32,13 @@ def read_records(name: str) -> list[dict[str, Any]]:
     data = json.loads(path.read_text(encoding='utf-8'))
     if isinstance(data, dict):
         return data.get('records', [])
-    return data if isinstance(data, list) else []
+    records = data if isinstance(data, list) else []
+    if name == 'courses':
+        supplement = DATA / 'optional_course_catalogue.json'
+        if supplement.exists():
+            existing = {r['code'] for r in records}
+            records += [r for r in json.loads(supplement.read_text(encoding='utf-8')) if r['code'] not in existing]
+    return records
 
 
 @lru_cache(maxsize=128)
@@ -98,7 +105,9 @@ def _insert_missing(conn, table, rows, key='id'):
         return
     keys = (key,) if isinstance(key, str) else tuple(key)
     existing = {tuple(row) for row in conn.execute(select(*(table.c[k] for k in keys))).all()}
-    conn.execute(insert(table), [r for r in rows if tuple(r.get(k) for k in keys) not in existing])
+    missing = [r for r in rows if tuple(r.get(k) for k in keys) not in existing]
+    if missing:
+        conn.execute(insert(table), missing)
 
 
 def load_dataset(engine: Engine) -> None:

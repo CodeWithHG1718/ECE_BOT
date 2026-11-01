@@ -78,7 +78,8 @@ function sessionPath(sessionId: string) {
 
 export const api = {
   health: () => request<HealthStatus>("/health"),
-  profileOptions: () => request<ProfileOptions>("/profile-options"),
+  profileOptions: (year?: string, semester?: string) => request<ProfileOptions>(
+    `/profile-options${year ? `?study_year=${encodeURIComponent(year)}${semester ? `&semester=${encodeURIComponent(semester)}` : ""}` : ""}`),
   createSession: () => request<SessionCredentials & { profile: null }>("/sessions", { method: "POST" }),
   getProfile: (session: SessionCredentials) =>
     request<{ profile: StudyProfile | null }>(`${sessionPath(session.session_id)}/profile`, {}, session.session_token),
@@ -116,20 +117,23 @@ export const api = {
 
 export function readStoredSession(): SessionCredentials | null {
   try {
-    const value = sessionStorage.getItem("signal.session.v1");
+    const value = localStorage.getItem("signal.session.v1") || sessionStorage.getItem("signal.session.v1");
     if (!value) return null;
     const parsed = JSON.parse(value) as Partial<SessionCredentials>;
     if (typeof parsed.session_id !== "string" || typeof parsed.session_token !== "string") return null;
-    return { session_id: parsed.session_id, session_token: parsed.session_token };
+    const credentials = { session_id: parsed.session_id, session_token: parsed.session_token };
+    storeSession(credentials);
+    return credentials;
   } catch {
     return null;
   }
 }
 
 export function storeSession(session: SessionCredentials) {
-  sessionStorage.setItem("signal.session.v1", JSON.stringify(session));
+  localStorage.setItem("signal.session.v1", JSON.stringify({session_id: session.session_id, session_token: session.session_token}));
 }
 
 export function clearStoredSession() {
   sessionStorage.removeItem("signal.session.v1");
+  localStorage.removeItem("signal.session.v1");
 }

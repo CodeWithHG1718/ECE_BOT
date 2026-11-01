@@ -195,7 +195,7 @@ def build(refresh_resources=False):
         add('faculty_expertise',f['faculty_id'],f['name']+' — '+f['designation'],f['research_interests_directory'],f['evidence'],faculty_id=f['faculty_id'],supervision_availability='not_stated')
         for i,section in enumerate(f['sections']):
             heading=section['heading'].lower()
-            if heading not in ('research interests','projects','collaborations','publications','patents','research'): continue
+            if not section.get('text') and not section.get('tables'): continue
             if heading=='projects' and section['tables']:
                 for j,project in enumerate(f['profile_projects']):
                     add('faculty_project',f['faculty_id']+':project:'+str(j),f['name']+' — project',

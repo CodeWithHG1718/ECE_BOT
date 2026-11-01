@@ -8,7 +8,7 @@ import secrets
 import uuid
 from contextlib import asynccontextmanager
 from datetime import date, datetime
-from typing import Any, Literal
+from typing import Any, Literal, Annotated
 from zoneinfo import ZoneInfo
 
 from fastapi import FastAPI, HTTPException, Query, Request, Security
@@ -20,6 +20,8 @@ from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy import delete, func, insert, select, text as sql_text, update
 from sqlalchemy.engine import Engine
 
+from .academic_context import resolve as resolve_academic, timetable_context, year_of, normalize
+from .electives import course_options
 from .config import get_settings
 from .data import load_dataset, options, read_records
 from .db import (conversations, courses, faculty, make_engine, messages, now_kolkata,
@@ -116,6 +118,8 @@ class ProfileUpdate(StrictModel):
     section: str = Field(min_length=1, max_length=32)
     academic_cohort: str | None = Field(default=None, max_length=32)
     semester: int | None = Field(default=None, ge=1, le=12)
+    hss_course: str | None = Field(default=None, max_length=32)
+    oec_course: str | None = Field(default=None, max_length=32)
 
 
 class MessageInput(StrictModel):
@@ -185,6 +189,10 @@ class ProfileData(StrictModel):
     section: str
     academic_cohort: str | None = None
     semester: int | None = None
+    hss_course: str | None = None
+    oec_course: str | None = None
+    hss_course_name: str | None = None
+    oec_course_name: str | None = None
 
 
 class ProfileEnvelope(StrictModel):
@@ -226,6 +234,8 @@ class ProfileOptions(StrictModel):
     sections_by_year: dict[str, list[str]]
     academic_sessions: list[dict]
     warnings: list[str] = Field(default_factory=list)
+    optional_courses: dict[str, list[dict]] = Field(default_factory=dict)
+    semesters: list[int] = Field(default_factory=list)
 
 
 class ErrorItem(StrictModel):
@@ -351,17 +361,19 @@ def _warning(item: dict, kind: str) -> list[str]:
     warnings = []
     status = str(item.get('source_status') or item.get('applicability') or '')
     if kind == 'exams' or 'draft' in status:
-        warnings.append('The ETE schedule is draft; its program and range assignments do not confirm an individual student’s registration. Course assignments for November 23–24 are unresolved.')
+        warnings.append('Draft exam schedule; assignments do not confirm your registration.')
+        if item.get('source_note'):
+            warnings.append(item['source_note'])
     if kind == 'calendar':
-        warnings.append('This calendar applies to programs other than MBA; tentative and conditional dates remain as printed in the source.')
+        warnings.append('Non-MBA calendar; tentative dates remain tentative.')
         if item.get('source_note'):
             warnings.append(item['source_note'])
     if kind == 'timetable' or 'ocr_recurring' in status:
-        warnings.append('Recurring weekly OCR timetable entry; it does not confirm a dated occurrence or live change.')
+        warnings.append('Recurring OCR timetable; not a dated class or live change.')
     if kind in ('books','book_contents','nptel'):
-        warnings.append('Collected study guide data; it is not full textbook content or proof of current availability.')
+        warnings.append('Study guide only; availability is unverified.')
     if item.get('applicability') and 'unverified' in item['applicability'] and not warnings:
-        warnings.append('Applicability is unverified in the source record.')
+        warnings.append('Applicability is unverified.')
     return warnings
 
 
@@ -390,10 +402,17 @@ def _course_data(course: dict) -> dict:
 
 def _timetable(year: int | None = None, code: str | None = None, section: str | None = None, day: str | None = None):
     out = []
-    for row in read_records('timetable'):
+    statement = select(schedule_events.c.payload).where(schedule_events.c.event_type == 'timetable')
+    if year is not None:
+        statement = statement.where(schedule_events.c.payload['study_year'].as_integer() == year)
+    if code:
+        statement = statement.where(func.upper(schedule_events.c.course_code) == code.upper())
+    with ENGINE.connect() as conn:
+        records = conn.execute(statement).scalars().all()
+    for row in records:
         if year is not None and row.get('study_year') != year: continue
         if code and (row.get('course_code') or '').casefold() != code.casefold(): continue
-        if section and section not in (row.get('student_sections') or []): continue
+        if section and row.get('student_sections') and section not in row['student_sections']: continue
         if day and (row.get('day') or '').casefold() != day.casefold(): continue
         out.append(row)
     return sorted(out, key=lambda x: (x.get('day',''),x.get('start_time',''),x.get('course_code','')))
@@ -441,9 +460,24 @@ def _keyword_search(q: str, limit: int = 8) -> list[dict]:
     return [dict(x[1], score=round(x[0], 3)) for x in scored[:limit]]
 
 
-def _hybrid_search(q: str, limit: int = 8) -> tuple[list[dict], str]:
-    keyword_rows = _keyword_search(q, max(limit * 2, limit))
-    dense_rows, dense_status = dense_search(ENGINE, q, limit * 2, SETTINGS)
+def _hybrid_search(q: str, limit: int = 8, profile: dict | None = None) -> tuple[list[dict], str]:
+    candidate_limit = max(limit * 2, 100 if profile else limit)
+    keyword_rows = _keyword_search(q, candidate_limit)
+    dense_rows, dense_status = dense_search(ENGINE, q, candidate_limit, SETTINGS)
+    if profile:
+        _, allowed = timetable_context(profile)
+        explicit_codes = {code.upper() for code in re.findall(r'\b[A-Z]{2,4}[- ]?\d{3}\b', q, re.I)}
+        allowed |= {re.sub(r'([A-Z]) ?(\d)', r'\1-\2', code) if '-' not in code else code for code in explicit_codes}
+        broad = bool(re.search(r'\b(all years|entire institute|institute-wide|all courses|whole department)\b', q, re.I))
+        def relevant(row):
+            if broad: return True
+            meta = row.get('metadata') or {}
+            codes = set(meta.get('curriculum_codes') or [])
+            if meta.get('course_code'): codes.add(meta['course_code'])
+            if not explicit_codes and meta.get('study_year') and meta['study_year'] != profile.get('study_year'): return False
+            return not codes or bool(codes & allowed)
+        keyword_rows = [r for r in keyword_rows if relevant(r)]
+        dense_rows = [r for r in dense_rows if relevant(r)]
     if dense_status != 'ready':
         return keyword_rows[:limit], dense_status
     return reciprocal_rank_fusion(keyword_rows, dense_rows, limit), dense_status
@@ -454,7 +488,25 @@ def _assistant(content: str, presentation: str = 'answer', data: Any = None, sou
             'data': data, 'sources': sources or [], 'warnings': warnings or [], 'created_at': _iso(now_kolkata())}
 
 
+def _explicit_resource_request(text: str) -> bool:
+    return bool(re.search(r'\b(?:sources?|resources?|books?|nptel|references?|reading lists?|study materials?)\b', text, re.I))
+
+
+def _needs_academic_tools(text: str) -> bool:
+    return bool(re.search(
+        r'\b(?:iit\s+roorkee|iitr|timetable|class schedule|exam|ete|mte|academic calendar|syllabus|curriculum|'
+        r'course code|credits?|prerequisites?|faculty|professors?|research projects?|official records?)\b',
+        text,
+        re.I,
+    ) or _explicit_resource_request(text))
+
+
 def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: list[str]):
+    year = None if re.search(r'\b(all years|entire institute|institute-wide|whole department)\b', text, re.I) else year_of(normalize(text), profile)
+    resolved = resolve_academic(text, profile, prior_user_texts, timetable_records=_timetable(year))
+    if resolved is not None:
+        evidence = resolved.pop('evidence')
+        return _assistant(**resolved, sources=_sources_in_result(evidence))
     query = text.strip()
     code_match = re.search(r'\b[A-Z]{2,4}-\d{3}\b', query, re.I)
     code = code_match.group(0).upper() if code_match else None
@@ -478,11 +530,11 @@ def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: lis
             data = [{'course_code': r.get('course_code'), 'course_title': titles.get(r.get('course_code')), 'day': r.get('day'),
                 'start_time': r.get('start_time'), 'end_time': r.get('end_time'), 'timezone': 'Asia/Kolkata',
                 'session_type': r.get('session_type'), 'course_batch': r.get('course_batch'), 'student_sections': r.get('student_sections') or [],
-                'room': r.get('room'), 'faculty': r.get('faculty'), 'applicability': r.get('applicability')} for r in rows[:80]]
-            src = [s for r in rows[:80] for s in _citations(r, 'Timetable')]
+                'room': r.get('room'), 'faculty': r.get('faculty'), 'applicability': r.get('applicability')} for r in rows]
+            src = [s for r in rows for s in _citations(r, 'Timetable')]
             warning = list(dict.fromkeys(w for r in rows for w in _warning(r, 'timetable')))
-            return _assistant(f'Found {len(rows)} matching recurring timetable record(s). These are not dated class occurrences.', 'timetable', data, src, warning)
-        return _assistant('No timetable entry matching those filters was found in the collected source records. Missing room, section, or faculty information is not inferred.')
+            return _assistant(f'Found {len(rows)} recurring timetable record(s); dates are not confirmed.', 'timetable', data, src, warning)
+        return _assistant('No matching timetable record found.')
     if 'calendar' in lower or re.search(r'\b(?:september|sep)\s+\d{1,2}\b', lower):
         day_match = re.search(r'\b(?:september|sep)\s+(\d{1,2})\b', lower)
         wanted = f'2026-09-{int(day_match.group(1)):02d}' if day_match else None
@@ -492,7 +544,7 @@ def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: lis
             src = [s for r in records for s in _citations(r, 'Academic calendar')]
             warning = list(dict.fromkeys(w for r in records for w in _warning(r, 'calendar')))
             return _assistant(f'Found {len(records)} academic calendar record(s).', 'answer', data, src, warning)
-        return _assistant('No matching academic calendar entry was found in the imported calendar source.')
+        return _assistant('No matching calendar record found.')
     if 'exam' in lower or re.search(r'\b(?:mte|ete|mid[- ]term|end[- ]term)\b', lower):
         mte_only = bool(re.search(r'\bmte\b|mid[- ]term', lower)) and not bool(re.search(r'\bete\b|end[- ]term', lower))
         if code and not mte_only:
@@ -503,12 +555,12 @@ def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: lis
             data = [{'course_code': r.get('course_code'), 'exam_date': r.get('exam_date'), 'day': r.get('day'),
                 'start_time': r.get('start_time'), 'end_time': r.get('end_time'), 'timezone': 'Asia/Kolkata', 'slot': r.get('slot'),
                 'room': r.get('room'), 'exam_type': r.get('exam_type'), 'source_status': r.get('source_status'),
-                'applicability': r.get('applicability')} for r in rows[:30]]
-            src = [s for r in rows[:30] for s in _citations(r, 'Draft ETE schedule')]
+                'applicability': r.get('applicability')} for r in rows]
+            src = [s for r in rows for s in _citations(r, 'Draft ETE schedule')]
             warning = list(dict.fromkeys(w for r in rows for w in _warning(r, 'exams')))
-            return _assistant(f'Found {len(rows)} matching draft exam schedule record(s).', 'exam_schedule', data, src, warning)
+            return _assistant(f'Found {len(rows)} draft exam record(s).', 'exam_schedule', data, src, warning)
         label = 'MTE' if 'mte' in lower else 'exam'
-        return _assistant(f'No {label} schedule record matching the request is present in the imported official source data. I will not infer dates or assignments.')
+        return _assistant(f'No {label} schedule record found.')
     if code:
         found = _course_list(code=code)
         if found:
@@ -519,9 +571,11 @@ def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: lis
             if syllabus and ('syllabus' in lower or 'topic' in lower or 'about' in lower):
                 data['syllabus'] = [{'ordinal': sec.get('ordinal'), 'text': sec.get('text')} for sec in syllabus.get('sections', [])]
                 sources.extend(_citations({'evidence': [ev for sec in syllabus.get('sections', []) for ev in sec.get('evidence', [])]}, 'Syllabus'))
-            return _assistant(f"{item.get('code')}: {item.get('title')}. Curriculum and syllabus records may have different applicability; see the source evidence.", 'course_list', data, sources,
-                ['Curriculum and syllabus source files do not establish applicability to every current cohort.'])
-    results, dense_status = _hybrid_search(query, 5)
+            return _assistant(f"{item.get('code')}: {item.get('title')}.", 'course_list', data, sources,
+                ['Syllabus applicability may vary; check the cited source.'])
+    if not _explicit_resource_request(query):
+        return _assistant('No matching source record. General guidance is unavailable until the chat model is configured.')
+    results, dense_status = _hybrid_search(query, 5, profile)
     if results:
         snippets = [{'text': r.get('text'), 'metadata': r.get('metadata'), 'score': r.get('score')} for r in results]
         citations = []
@@ -529,9 +583,9 @@ def _deterministic_answer(text: str, profile: dict | None, prior_user_texts: lis
             meta = r.get('metadata') or {}
             for ev in meta.get('evidence', []):
                 citations.extend(_citations({'evidence': ev if isinstance(ev, list) else [ev]}, 'Retrieved source'))
-        warning = [] if dense_status == 'ready' else [f'Keyword retrieval only; dense search unavailable ({dense_status}).']
-        return _assistant('I found related source passages. These records do not confirm facts beyond their source text.', 'resources', snippets, citations, warning)
-    return _assistant('I could not find a matching source-backed record. General guidance is unavailable until the chat model is configured.')
+        warning = [] if dense_status == 'ready' else ['Keyword-only search; dense index unavailable.']
+        return _assistant('Related source passages found.', 'resources', snippets, citations, warning)
+    return _assistant('No matching source record. General guidance is unavailable until the chat model is configured.')
 
 
 _MODEL_TOOLS = [
@@ -551,10 +605,13 @@ _MODEL_TOOLS = [
 def _tool_data(name: str, raw_args: dict, profile: dict | None) -> dict:
     if name == 'get_profile':
         if raw_args: raise ValueError('unexpected arguments')
-        return {'profile': profile}
+        return {'profile': profile, 'institution': 'IIT Roorkee ECE', 'course_codes': sorted(timetable_context(profile)[1])}
     if name == 'list_courses':
         args = CourseArgs.model_validate(raw_args)
-        rows = _course_list(args.query, args.year, args.course_code)[:20]
+        rows = _course_list(args.query, args.year, args.course_code)
+        if not args.course_code and not args.query and not args.year:
+            _, allowed = timetable_context(profile)
+            rows = [r for r in rows if r['code'] in allowed]
         return {'courses': [_course_data(x) for x in rows]}
     if name == 'course_details':
         args = CourseArgs.model_validate(raw_args)
@@ -567,19 +624,27 @@ def _tool_data(name: str, raw_args: dict, profile: dict | None) -> dict:
         return {'course': out}
     if name == 'get_timetable':
         args = TimetableArgs.model_validate(raw_args)
-        return {'timezone':'Asia/Kolkata','recurrence':'weekly','records':_timetable(args.study_year,args.course_code,args.section,args.day)[:80]}
+        effective = {**(profile or {}), 'study_year': args.study_year or (profile or {}).get('study_year'),
+                     'section': args.section or (profile or {}).get('section')}
+        rows, _ = timetable_context(effective, records=_timetable(effective['study_year']))
+        if args.course_code: rows = [r for r in rows if r.get('course_code') == args.course_code.upper()]
+        if args.day: rows = [r for r in rows if r.get('day', '').casefold() == args.day.casefold()]
+        return {'timezone':'Asia/Kolkata','recurrence':'weekly','records':rows}
     if name == 'get_calendar':
         args = DateArgs.model_validate(raw_args)
         return {'events':[x for x in _events('calendar') if args.on is None or args.on.isoformat() in (x.get('dates') or [])]}
     if name == 'get_exams':
         args = ExamArgs.model_validate(raw_args); rows = _events('exams')
         if args.course_code: rows = [x for x in rows if (x.get('course_code') or '').casefold() == args.course_code.casefold()]
+        if not args.course_code:
+            _, course_codes = timetable_context(profile)
+            rows = [x for x in rows if x.get('course_code') in course_codes]
         if args.exam_type: rows = [x for x in rows if args.exam_type.casefold() in (x.get('exam_type') or '').casefold()]
         if args.on: rows = [x for x in rows if x.get('exam_date') == args.on.isoformat()]
-        return {'exams':rows[:30]}
+        return {'exams':rows}
     if name == 'search_sources':
         args = SearchArgs.model_validate(raw_args)
-        results, dense_status = _hybrid_search(args.query,args.limit)
+        results, dense_status = _hybrid_search(args.query,args.limit,profile)
         return {'results':results, 'dense_status':dense_status}
     if name == 'find_resources':
         args = FilterArgs.model_validate(raw_args); out = []
@@ -620,16 +685,30 @@ async def _responses_answer(text: str, profile: dict | None, history: list[dict]
     if not chat_api_key:
         return None
     from openai import AsyncOpenAI
-    client = AsyncOpenAI(api_key=chat_api_key)
+    client_options = {'api_key': chat_api_key}
+    if SETTINGS.openai_chat_base_url:
+        client_options['base_url'] = SETTINGS.openai_chat_base_url
+    client = AsyncOpenAI(**client_options)
     try:
-        instructions = ('You are Signal, an ECE study assistant. Use the supplied academic lookup tools for institutional facts. '
-            'Never invent institute records, source links, exam dates, timetable assignments, course details, or citations. '
-            'If the tools do not support an answer, say so. You may explain general ECE concepts, but prefix those sentences '
-            'with “General guidance (not an IIT Roorkee record):”. Distinguish draft exams, recurring OCR timetables, and '
-            'unverified applicability. Keep answers concise. Do not ask for names, roll numbers, or other student identifiers.')
+        instructions = ('You are Signal, the IIT Roorkee ECE student assistant. Academic questions always refer to this configured institution; never ask which university. Use the stored timetable and profile to resolve courses and faculty, and ask only about genuinely ambiguous records. For every request, give the shortest useful answer, usually one to three '
+            'sentences. Answer first; omit preambles, sign-offs, restatements, and generic source notes. Use compact bullets only when '
+            'they make steps or choices clearer. Preserve citations and brief caveats only when needed for accuracy. For broad learning requests, give a useful '
+            'starting explanation or short learning path before asking one focused follow-up; do not reply with a list of options alone. '
+            'For general ECE learning requests, teach the concept plainly; do not search institutional passages just because the user mentions a course or subject. Use academic '
+            'tools only for IIT Roorkee records or when the user asks for institutional details, curriculum, schedules, exams, '
+            'resources, or sources. Never invent institute records, course details, dates, assignments, or citations. If source '
+            'records do not support an institutional answer, say briefly what cannot be verified. Distinguish draft exams and '
+            'unverified applicability when relevant. Do not ask for names, roll numbers, or other student identifiers.')
         conversation_input = [{'role': row['role'], 'content': row['content']} for row in (history or [])[-12:]]
         conversation_input.append({'role':'user','content':text})
-        response = await client.responses.create(model=SETTINGS.openai_chat_model, instructions=instructions, input=conversation_input, tools=_MODEL_TOOLS)
+        tools_enabled = _needs_academic_tools(text) or any(
+            row.get('role') == 'user' and _needs_academic_tools(row.get('content', ''))
+            for row in (history or [])[-6:]
+        )
+        request = {'model': SETTINGS.openai_chat_model, 'instructions': instructions, 'input': conversation_input}
+        if tools_enabled:
+            request['tools'] = _MODEL_TOOLS
+        response = await client.responses.create(**request)
         source_rows: list[dict] = []
         for _ in range(4):
             calls = [item for item in (response.output or []) if getattr(item, 'type', None) == 'function_call']
@@ -649,8 +728,7 @@ async def _responses_answer(text: str, profile: dict | None, history: list[dict]
         if not answer: return None
         unique = {(s.get('url'),s.get('path'),s.get('page')): s for s in source_rows}
         citations = list(unique.values())
-        warning = [] if citations else ['No source-backed institutional record was used for this response.']
-        return _assistant(answer, 'answer', None, citations, warning)
+        return _assistant(answer, 'answer', None, citations)
     except Exception:
         # Provider errors can include request details; never log or return them.
         return None
@@ -680,8 +758,20 @@ def health():
 
 
 @app.get('/api/v1/profile-options', response_model=ProfileOptions, responses=ERROR_RESPONSES)
-def profile_options():
-    return options()
+def profile_options(study_year: Annotated[int | None, Query(ge=1, le=4)] = None, semester: Annotated[int | None, Query(ge=1, le=8)] = None):
+    result = options()
+    result['optional_courses'] = course_options(study_year, semester) if study_year else {'hss': [], 'oec': []}
+    result['semesters'] = [study_year * 2 - 1, study_year * 2] if study_year else []
+    return result
+
+
+def _profile_data(row):
+    if row is None: return None
+    result = dict(row)
+    titles = {c['code']: c['title'] for c in read_records('courses')}
+    for kind in ('hss', 'oec'):
+        result[kind + '_course_name'] = titles.get(result.get(kind + '_course'))
+    return result
 
 
 @app.post('/api/v1/sessions', status_code=201, response_model=SessionCreated, responses=ERROR_RESPONSES)
@@ -697,7 +787,7 @@ def get_profile(session_id: str, x_session_token: str | None = Security(SESSION_
     with ENGINE.connect() as conn:
         _session_for_path(conn, session_id, x_session_token)
         row = conn.execute(select(profiles).where(profiles.c.session_id == session_id)).mappings().first()
-    return {'profile': dict(row) if row else None}
+    return {'profile': _profile_data(row)}
 
 
 @app.put('/api/v1/sessions/{session_id}/profile', response_model=ProfileEnvelope, responses=ERROR_RESPONSES)
@@ -708,10 +798,26 @@ def put_profile(session_id: str, body: ProfileUpdate, x_session_token: str | Non
         if body.section not in supported:
             raise HTTPException(422, 'Section is not supported by the collected records.')
         values = body.model_dump()
+        if body.semester is not None and body.semester not in (body.study_year * 2 - 1, body.study_year * 2):
+            raise HTTPException(422, 'Semester does not belong to the selected study year.')
+        valid = course_options(body.study_year, body.semester)
+        for kind in ('hss', 'oec'):
+            code = values[kind + '_course']
+            if code is not None and code not in {c['code'] for c in valid[kind]}:
+                raise HTTPException(422, f'Invalid {kind.upper()} selection for this year and semester.')
+        if body.hss_course and body.hss_course == body.oec_course:
+            raise HTTPException(422, 'HSS and OEC selections must be different courses.')
         exists = conn.execute(select(profiles.c.session_id).where(profiles.c.session_id == session_id)).first()
         if exists: conn.execute(update(profiles).where(profiles.c.session_id == session_id).values(**values))
         else: conn.execute(insert(profiles).values(session_id=session_id, **values))
-    return {'profile': {'session_id': session_id, **values}}
+    return {'profile': _profile_data({'session_id': session_id, **values})}
+
+
+@app.get('/api/v1/sessions/{session_id}/timetable', responses=ERROR_RESPONSES)
+def personal_timetable(session_id: str, x_session_token: str | None = Security(SESSION_TOKEN_HEADER)):
+    profile = get_profile(session_id, x_session_token)['profile']
+    answer = _deterministic_answer('my timetable', profile, [])
+    return {'records': answer['data'] or [], 'warnings': answer['warnings'], 'timezone': 'Asia/Kolkata'}
 
 
 @app.get('/api/v1/sessions/{session_id}/conversations', response_model=ConversationList, responses=ERROR_RESPONSES)
@@ -750,12 +856,12 @@ async def post_message(conversation_id: str, body: MessageInput, x_session_token
         previous = [r.content for r in prior_rows if r.role == 'user']
         history = [{'role':r.role,'content':r.content} for r in prior_rows]
         answer = _deterministic_answer(text, dict(profile_row) if profile_row else None, previous)
-    if answer['content'].startswith('I could not find a matching source-backed record.') and SETTINGS.resolved_openai_chat_api_key:
+    if answer['content'].startswith('No matching source record.') and SETTINGS.resolved_openai_chat_api_key:
         model_answer = await _responses_answer(text, dict(profile_row) if profile_row else None, history)
         if model_answer:
             answer = model_answer
         else:
-            answer['warnings'].append('The chat model is configured but unavailable; deterministic lookups remain active.')
+            answer['warnings'].append('AI unavailable; source lookups remain active.')
     now = now_kolkata(); user = {'id': str(uuid.uuid4()), 'role': 'user', 'content': text, 'presentation': 'answer', 'data': None, 'sources': [], 'warnings': [], 'created_at': _iso(now)}
     with ENGINE.begin() as conn:
         owner = _session_from_token(conn, x_session_token); conv = _conversation(conn, conversation_id, owner, lock=True)

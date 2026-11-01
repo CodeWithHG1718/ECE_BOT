@@ -8,12 +8,18 @@ export interface StudyProfile {
   section: string;
   academic_cohort: string | null;
   semester: number | null;
+  hss_course?: string | null;
+  oec_course?: string | null;
+  hss_course_name?: string | null;
+  oec_course_name?: string | null;
 }
 
 export interface ProfileOptions {
   study_years: Array<{ value: number; label: string }>;
   sections_by_year: Record<string, string[]>;
   academic_sessions: Array<{ value: string; label: string }>;
+  optional_courses: Record<"hss" | "oec", Array<{ code: string; title: string; schedule_available: boolean }>>;
+  semesters: number[];
 }
 
 export interface HealthStatus {
