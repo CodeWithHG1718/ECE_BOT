@@ -202,7 +202,8 @@ def test_openai_chat_and_embedding_keys_are_isolated_with_legacy_fallback(monkey
             return SimpleNamespace(id='mock-response', output=[], output_text='Mock answer')
 
     class FakeAsyncOpenAI:
-        def __init__(self, api_key):
+        def __init__(self, api_key, **options):
+            assert options['timeout']==40 and options['max_retries']==0
             chat_keys.append(api_key)
             self.responses = FakeResponses()
 
@@ -212,13 +213,8 @@ def test_openai_chat_and_embedding_keys_are_isolated_with_legacy_fallback(monkey
     monkeypatch.setattr(openai, 'AsyncOpenAI', FakeAsyncOpenAI)
     monkeypatch.setattr(main, 'SETTINGS', selected)
     monkeypatch.setattr(main, 'ENGINE', make_engine('sqlite:///:memory:'))
-    response = main._responses_answer('Explain a concept', None)
-    try:
-        response.send(None)
-    except StopIteration as completed:
-        answer = completed.value
-    else:
-        raise AssertionError('Mock Responses call unexpectedly needed an event loop.')
+    import asyncio
+    answer = asyncio.run(main._responses_answer('Explain a concept', None))
     assert answer['content'] == 'Mock answer'
     assert chat_keys == ['chat-dummy']
     assert main.health()['dependencies']['chat_model'] == 'configured'

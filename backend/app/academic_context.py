@@ -6,6 +6,8 @@ from .data import read_records
 from .db import now_kolkata
 from .electives import selected_codes, annotate_clashes
 from .faculty_context import resolve_faculty
+from .study_resources import resolve_resources
+from .web_search import requested as web_requested
 
 DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 
@@ -54,7 +56,7 @@ def course_matches(text, profile):
     for kind in ('hss', 'oec'):
         if re.search(r'\b' + kind + r'\b', q) and (profile or {}).get(kind + '_course'):
             return [c for c in courses if c['code'] == profile[kind + '_course']]
-    ignore = {'help','learn','course','subject','my','the','about','syllabus','faculty','who','teaches','curriculum','details','show','me','engineering','professor','professors','projects','project','details','show','what','is','are','for','in'}
+    ignore = {'help','learn','course','subject','my','the','about','syllabus','faculty','who','teaches','curriculum','details','show','me','engineering','professor','professors','projects','project','what','is','are','for','in','give','study','resources','resource','sources','source','books','book','textbooks','notes','videos','reading','materials','links','please','references','find','nptel'}
     words = set(re.findall(r'[a-z]+', q)) - ignore
     matches = []
     for c in courses:
@@ -71,6 +73,11 @@ def course_matches(text, profile):
 
 def resolve(text, profile, prior, timetable_records=None):
     q = normalize(text)
+    if web_requested(q):
+        return dict(content='No matching source record. Live search requested.', presentation='answer', data=None, evidence=[], warnings=[])
+    resources = resolve_resources(q, profile, prior, course_matches, timetable_context(profile)[1])
+    if resources is not None:
+        return resources
     faculty_answer = resolve_faculty(q, profile, prior)
     if faculty_answer is not None:
         return faculty_answer

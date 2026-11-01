@@ -20,7 +20,7 @@ async function proxy(request: NextRequest, context: { params: Promise<{ path: st
   try {
     const body = request.method === "GET" ? undefined : await request.arrayBuffer();
     if (body && body.byteLength > 32768) return Response.json({ error: { code: "request_too_large", message: "Request body exceeds the configured limit." } }, { status: 413 });
-    const upstream = await fetch(target, { method: request.method, headers, body, cache: "no-store", redirect: "manual", signal: AbortSignal.timeout(22_000) });
+    const upstream = await fetch(target, { method: request.method, headers, body, cache: "no-store", redirect: "manual", signal: AbortSignal.timeout(55_000) });
     return new Response(upstream.body, { status: upstream.status, headers: {
       "Content-Type": upstream.headers.get("content-type") || "application/json",
       "Cache-Control": "no-store",

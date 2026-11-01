@@ -63,6 +63,22 @@ def teaching_records(faculty):
 
 
 def faculty_result(faculty, query):
+    if re.search(r'\b(contact|email|e-mail|phone|telephone|reach|office|room)\b', query):
+        contacts = faculty.get('official_contact_fields', [])
+        details = []
+        email_only = bool(re.search(r'\b(e-?mail)\b', query)) and not re.search(r'\b(contact|phone|office)\b', query)
+        phone_only = bool(re.search(r'\b(phone|telephone)\b', query)) and 'contact' not in query
+        office_only = bool(re.search(r'\b(office|room)\b', query)) and not re.search(r'\b(contact|email|e-mail|phone|telephone)\b', query)
+        for raw in contacts:
+            value = raw.replace('[at]', '@').replace('[dot]', '.')
+            if '@' in value:
+                if not phone_only and not office_only: details.append(f'- Email: [{value}](mailto:{value})')
+            elif len(re.sub(r'\D', '', value)) >= 7 and 'room' not in value.casefold():
+                if not email_only and not office_only: details.append(f'- Phone: [{value}](tel:{re.sub(r"[^+0-9]", "", value)})')
+            elif not email_only and not phone_only:
+                details.append(f'- Office: {value}')
+        content = f"**{faculty['name']}**\n" + ('\n'.join(details) if details else 'No matching contact detail is recorded.')
+        return dict(content=content, presentation='answer', data=None, evidence=[faculty], warnings=[])
     sections = [s for s in faculty.get('sections', []) if s.get('text') or s.get('tables')]
     projects = faculty_projects(faculty)
     teaching = teaching_records(faculty)
@@ -106,7 +122,7 @@ def faculty_result(faculty, query):
 def resolve_faculty(text, profile, prior):
     query = text.casefold()
     named = faculty_matches(text)
-    reference = bool(re.search(r'\b(he|she|his|her|their|they|that professor|this professor|that faculty)\b', query))
+    reference = bool(re.search(r'\b(he|she|his|her|their|they|that professor|this professor|that faculty|contact|email|e-mail|phone|office|room)\b', query))
     if not named and reference:
         for previous in reversed(prior):
             named = faculty_matches(previous)

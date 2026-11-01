@@ -40,7 +40,7 @@ async function request<T>(
       ...init,
       headers,
       cache: "no-store",
-      signal: init.signal ?? AbortSignal.timeout(25_000),
+      signal: init.signal ?? AbortSignal.timeout(65_000),
     });
   } catch (error) {
     if (error instanceof DOMException && error.name === "TimeoutError") {

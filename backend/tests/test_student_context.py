@@ -10,7 +10,7 @@ from backend.app.data import read_records
 @pytest.fixture
 def chat(monkeypatch):
     monkeypatch.setattr(main,'ENGINE',make_engine('sqlite:///:memory:'))
-    monkeypatch.setattr(main,'SETTINGS',Settings(_env_file=None))
+    monkeypatch.setattr(main,'SETTINGS',Settings(_env_file=None,openai_chat_api_key=None,openai_api_key=None))
     with TestClient(main.app) as client:
         session=client.post('/api/v1/sessions').json()
         headers={'X-Session-Token':session['session_token']}
@@ -207,3 +207,42 @@ def test_additive_profile_migration_preserves_existing_rows():
     with engine.connect() as conn:
         row=conn.exec_driver_sql('SELECT * FROM profiles').mappings().one()
         assert row['session_id']=='old-session' and row['hss_course'] is None and row['oec_course'] is None
+
+
+def test_contact_reply_is_scoped_and_contextual(chat):
+    chat('Who teaches ECC301?')
+    result=chat('I want to contact her regarding some coursework. Could I get her point of contact?')
+    assert result['presentation']=='answer' and result['data'] is None
+    assert 'mailto:meenakshi.rawat@ece.iitr.ac.in' in result['content']
+    assert 'S-113' in result['content'] and '8979879044' in result['content']
+    assert 'Research Interests' not in result['content']
+    email=chat('Meenakshi Rawat email only')['content']
+    assert 'mailto:' in email and 'Phone:' not in email and 'Office:' not in email
+    phone=chat('her phone number')['content']
+    assert 'tel:' in phone and 'Email:' not in phone
+    office=chat('her office room only')['content']
+    assert 'S-113' in office and 'Phone:' not in office and 'Email:' not in office
+
+
+def test_resources_return_course_links_and_descriptions(chat):
+    result=chat('Give me resources for ECC301')
+    assert result['presentation']=='answer' and result['data'] is None
+    assert 'https://nptel.ac.in/courses/108106151' in result['content']
+    assert 'youtube.com/watch' in result['content'] and 'pearson.com' in result['content']
+    assert 'Digital Signal Processing' in result['content']
+    chat('ECC303')
+    result=chat('give me the sources')
+    assert 'https://nptel.ac.in/courses/108103141' in result['content']
+    assert 'Microwave Engineering' in result['content'] and 'Digital Signal Processing' not in result['content']
+    assert 'Find course resources with live search' in chat('resources for quantum gravity')['content']
+
+
+def test_web_request_keeps_timetable_and_contact_local():
+    from backend.app.web_search import requested, linked_answer, WEB_TOOL
+    from types import SimpleNamespace as Obj
+    assert requested('Search NPTEL for antenna courses online')
+    assert requested('Look up IIT Roorkee admission information')
+    assert not requested('search my timetable')
+    assert WEB_TOOL['filters']['allowed_domains']==['iitr.ac.in','nptel.ac.in']
+    response=Obj(output_text='A course.',output=[Obj(content=[Obj(annotations=[Obj(type='url_citation',url='https://nptel.ac.in/courses/108103141',title='Microwave Engineering')])])])
+    assert '[Microwave Engineering](https://nptel.ac.in/courses/108103141)' in linked_answer(response)

@@ -111,6 +111,11 @@ def now_kolkata() -> datetime:
 def ensure_compat_schema(engine: Engine) -> None:
     """Apply additive local/online compatibility changes before importing records."""
     inspector = inspect(engine)
+    if engine.dialect.name == 'postgresql' and 'source_chunks' in inspector.get_table_names():
+        with engine.begin() as conn:
+            conn.exec_driver_sql("""ALTER TABLE source_chunks ADD COLUMN IF NOT EXISTS search_document
+                tsvector GENERATED ALWAYS AS (to_tsvector('simple', coalesce(text, ''))) STORED""")
+            conn.exec_driver_sql('CREATE INDEX IF NOT EXISTS source_chunks_search_document_gin ON source_chunks USING GIN(search_document)')
     if 'profiles' in inspector.get_table_names():
         profile_columns = {c['name'] for c in inspector.get_columns('profiles')}
         with engine.begin() as conn:
